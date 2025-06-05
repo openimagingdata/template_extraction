@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="MR Bladder" name="dcterms.title"/>
+<meta content="MR Bladder template :: Authored by Mitchell DG, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000043" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-16" name="dcterms.date"/>
+<meta content="Mitchell DG, et al." name="dcterms.creator"/>
+<meta content="Bozkurt S [coder]" name="dcterms.contributor"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="American College of Radiology (ACR)" name="dcterms.contributor"/>
+<meta content="International Society for Magnetic Resonance in Medicine (ISMRM)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="magnetic resonance imaging" value="RID10312" scheme="RadLex">
+</term>
+<term>
+ <code meaning="pelvis" value="RID2507" scheme="RadLex">
+</term>
+<term>
+ <code meaning="urinary bladder" value="RID237" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T43_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_14">
+ <term>
+  <code meaning="contrast agent" value="RID11582" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_19">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_21">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_41">
+ <term>
+  <code meaning="anatomic sub-part" value="RID5945" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="anatomical structure" value="RID13390" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_46">
+ <term>
+  <code meaning="none" value="RID28454" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_47">
+ <term>
+  <code meaning="partial" value="RID5687" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_48">
+ <term>
+  <code meaning="complete" value="RID5689" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_49">
+ <term>
+  <code meaning="muscularis" value="RID5990" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_69">
+ <term>
+  <code meaning="lymphadenopathy" value="RID3798" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_75">
+ <term>
+  <code meaning="liver" value="RID58" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T43_107">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR Bladder</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR Bladder</header>
+<p>
+<textarea id="T43_2" name="Procedure"> </textarea>
+</p>
+<p>
+<label for="T43_14">Contrast media:</label>
+<input type="text" id="T43_14" name="Contrast media" value="None."/>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T43_19" name="Clinical information">Bladder lesion. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T43_21" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Bladder mass">
+<header class="level2">Bladder mass</header>
+<p>
+<label for="T43_41">Location and size:</label>
+<input type="text" id="T43_41" name="Location and size" value=""/>
+</p>
+<p>
+<label for="T43_45">Mural involvement:</label>
+<select id="T43_45" name="Mural involvement">
+<option id="T43_46" name="None" value="None">None.</option>
+<option id="T43_47" name="Partial" value="Partial">Partial.</option>
+<option id="T43_48" name="Complete" value="Complete">Complete.</option>
+</select>
+</p>
+<p>
+<label for="T43_49">Muscularis disruption:</label>
+<select id="T43_49" name="Muscularis disruption">
+<option id="T43_49_50" name="Absent" value="Absent">Absent</option>
+<option id="T43_49_51" name="Present" value="Present">Present</option>
+<option id="T43_49_52" name="Uncertain" value="Uncertain">Uncertain</option>
+</select>
+</p>
+<p>
+<label for="T43_998">Local extension:</label>
+<input type="text" id="T43_998" name="Local extension" value="None." />
+</p>
+<p>
+<label for="T43_69">Adenopathy:</label>
+<input type="text" id="T43_69" name="Adenopathy" value="None." />
+</p>
+<p>
+<label for="T43_75">Metastasis:</label>
+<input type="text" id="T43_75" name="Metastasis" value="None." />
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<textarea id="T43_999" name="Other findings">None.</textarea>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T43_107" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

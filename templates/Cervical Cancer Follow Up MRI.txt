@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cervical Cancer Follow-up MRI</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="85d92797-7739-4686-9221-87df9eacfb2f" />
+        <meta name="dcterms.title" content="Cervical Cancer Follow-up MRI" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="ESR" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2017-10-06" />
+        <meta name="dcterms.creator" content="Teresa Margarida Cunha, MD" />
+        <meta name="dcterms.contributor" content="Rita Lucas, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="SELECTION_LIST_1475788411744">
+                        <term>
+                            <code meaning="procedure" value="RID1559" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="impression section" value="RID13170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisonsText">
+                        <term>
+                            <code meaning="comparison" value="RID28483" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1475788411758">
+                        <term>
+                            <code meaning="endometrium" value="RID30958" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformationText">
+                        <term>
+                            <code meaning="clinical information section" value="RID13166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1475788411750">
+                        <term>
+                            <code meaning="uterus" value="RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1475788411744">Procedure Description:</label>
+                <select id="SELECTION_LIST_1475788411744" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Enhanced MRI Pelvis">
+                    <option id="SELECTION_LIST_1475788411744_0" value="Enhanced MRI Pelvis" name="SELECTION_LIST_1475788411744" selected="">Enhanced MRI Pelvis</option>
+                    <option id="SELECTION_LIST_1475788411744_1" value="Unenhanced MRI Pelvis" name="SELECTION_LIST_1475788411744">Unenhanced MRI Pelvis</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1507311964437">Technique:</label>
+                <textarea rows="3" cols="100" id="TEXT_1507311964437" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="clinicalInformationText">Clinical Indication:</label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXT" data-field-completion-action="NONE">Cervical cancer follow-up</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText">Comparison study:</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE">none available</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <section id="SECTION_HEADER_1475788411749" class="level2" data-section-name="If not operated:">
+                <header class="level2">
+                    If not operated:
+                </header>
+            </section>
+            <p title="">
+                <label for="SELECTION_LIST_1475788411750">Uterus:</label>
+                <select id="SELECTION_LIST_1475788411750" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Anteverted">
+                    <option id="SELECTION_LIST_1475788411750_0" value="Anteverted" name="SELECTION_LIST_1475788411750" selected="">Anteverted</option>
+                    <option id="SELECTION_LIST_1475788411750_1" value="Retroverted" name="SELECTION_LIST_1475788411750">Retroverted</option>
+                    <option id="SELECTION_LIST_1475788411750_2" value="Retroflexed" name="SELECTION_LIST_1475788411750">Retroflexed</option>
+                    <option id="SELECTION_LIST_1475788411750_3" value="Displaced to left" name="SELECTION_LIST_1475788411750">Displaced to left</option>
+                    <option id="SELECTION_LIST_1475788411750_4" value="Displaced to right" name="SELECTION_LIST_1475788411750">Displaced to right</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1475788411756">Size:</label>
+                <textarea rows="3" cols="100" id="TEXT_1475788411756" name="" data-field-type="TEXT" data-field-completion-action="NONE">normal</textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1475788411757">Measuring:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1475788411757" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1475788411758">Endometrium:</label>
+                <select id="SELECTION_LIST_1475788411758" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal">
+                    <option id="SELECTION_LIST_1475788411758_0" value="Normal" name="SELECTION_LIST_1475788411758" selected="">Normal</option>
+                    <option id="SELECTION_LIST_1475788411758_1" value="Abnormal" name="SELECTION_LIST_1475788411758">Abnormal</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1475788411761">Maximum width:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1475788411761" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1475788411762">Location of tumor recurrence:</label>
+                <textarea rows="3" cols="100" id="TEXT_1475788411762" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1475788411763">Measuring:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1475788411763" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1475788411764">Lymph nodes:</label>
+                <select id="SELECTION_LIST_1475788411764" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal in size">
+                    <option id="SELECTION_LIST_1475788411764_0" value="Normal in size" name="SELECTION_LIST_1475788411764" selected="">Normal in size</option>
+                    <option id="SELECTION_LIST_1475788411764_1" value="Enlarged; probably reactive" name="SELECTION_LIST_1475788411764">Enlarged; probably reactive</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1475788411767">Distant metastasis:</label>
+                <textarea rows="3" cols="100" id="TEXT_1475788411767" name="" data-field-type="TEXT" data-field-completion-action="NONE">none</textarea>
+            </p>
+            <section id="SECTION_HEADER_1475788411768" class="level2" data-section-name="Right Ovary">
+                <header class="level2">
+                    Right Ovary
+                </header>
+                <p title="">
+                    <label for="NUMBER_1475788411769">Size:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1475788411769" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        cm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="TEXT_1475788411770">Image location (series #, image #):</label>
+                    <textarea rows="3" cols="100" id="TEXT_1475788411770" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1475788411771" class="level2" data-section-name="Left Ovary">
+                <header class="level2">
+                    Left Ovary
+                </header>
+                <p title="">
+                    <label for="NUMBER_1475788411773">Size:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1475788411773" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        cm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="TEXT_1475788411772">Image location (series #, image #):</label>
+                    <textarea rows="3" cols="100" id="TEXT_1475788411772" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+                </p>
+            </section>
+            <p title="">
+                <label for="TEXT_1475788411774">Physiologic pelvic fluid:</label>
+                <textarea rows="3" cols="100" id="TEXT_1475788411774" name="" data-field-type="TEXT" data-field-completion-action="NONE">none</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476396790673">Other findings:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476396790673" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText">Impression:</label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Pediatric Voiding Cystourethragram" name="dcterms.title"/>
+<meta content="Pediatric Voiding Cystourethragram template :: Authored by Meyer JS, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000110" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-17" name="dcterms.date"/>
+<meta content="Meyer JS, et al." name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Society for Pediatric Radiology (SPR)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="child" value="RID5641" scheme="RadLex">
+</term>
+<term>
+ <code meaning="fluoroscopy" value="RID10361" scheme="RadLex">
+</term>
+<term>
+ <code meaning="urinary bladder" value="RID237" scheme="RadLex">
+</term>
+<term>
+ <code meaning="voiding urethrography" value="RID34433" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T110_6">
+ <term>
+  <code meaning="projection radiography" value="RID10345" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_7">
+ <term>
+  <code meaning="urinary bladder" value="RID237" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_10">
+ <term>
+  <code meaning="contrast agent" value="RID11582" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_13">
+ <term>
+  <code meaning="volume" value="RID28668" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_15">
+ <term>
+  <code meaning="imaging technique" value="RID28482" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="imaging technique modifier" value="RID28642" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_16">
+ <term>
+  <code meaning="fluoroscopy" value="RID10361" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="fluoroscopy" value="RID10361" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_17">
+ <term>
+  <code meaning="radiation exposure measure" value="RID10544" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_18">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_20">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_26">
+ <term>
+  <code meaning="atypical" value="RID27" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="calcification" value="RID5196" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_28">
+ <term>
+  <code meaning="mass" value="RID3874" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="soft tissue administration" value="RID11185" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_30">
+ <term>
+  <code meaning="set of bones" value="RID28569" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_33">
+ <term>
+  <code meaning="ureterocele" value="RID34640" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_35">
+ <term>
+  <code meaning="contour" value="RID5957" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_39">
+ <term>
+  <code meaning="vesicoureteral reflux" value="RID5261" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_45">
+ <term>
+  <code meaning="urethra" value="RID34890" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_48">
+ <term>
+  <code meaning="residual" value="RID5727" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="volume" value="RID28668" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T110_54">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Pediatric Voiding Cystourethragram</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Pediatric Voiding Cystourethragram</header>
+<p>
+<textarea id="T110_6" name="Prelim">A preliminary radiograph of the abdomen was obtained. </textarea>
+</p>
+<p>
+<textarea id="T110_7" name="Bladder access">The urinary bladder was catheterized using sterile technique. </textarea>
+</p>
+<p>
+<label for="T110_10">Contrast material:</label>
+<input type="text" id="T110_10" name="Contrast name" value=""/>
+<input type="number" id="T110_13" name="Volume" data-field-units="ml" min="" max=""/> <label for="T110_13">ml</label>
+</p>
+<p>
+<label for="T110_14">Number of filling cycles:</label>
+<input type="number" id="T110_14" name="Number of filling cycles" data-field-units="" min="" max=""/> 
+</p>
+<p>
+<textarea id="T110_15" name="Procedure">Contrast was instilled by gravity under fluoroscopic guidance and fluoroscopic evaluation of the urinary tract was performed during bladder filling and voiding. The examination was recorded on digital spot images.</textarea>
+</p>
+<p>
+<label for="T110_16">Fluoroscopy time:</label>
+<input type="number" id="T110_16" name="Fluoroscopy time" data-field-units="minutes" min="" max="" step="0.1"/> <label for="T110_16">minutes</label>
+</p>
+<p>
+<label for="T110_17">Radiation exposure:</label>
+<input type="number" id="T110_17" name="Radiation exposure" data-field-units="dGy cm2" min="" max=""/> <label for="T110_17">dGy cm2</label>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T110_18" name="Clinical information">UTI. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T110_20" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Preliminary radiograph">
+<header class="level2">Preliminary radiograph</header>
+<p>
+<label for="T110_24">Bowel gas pattern:</label>
+<input type="text" id="T110_24" name="Bowel gas pattern" value="Normal."/>
+</p>
+<p>
+<label for="T110_26">Atypical calcification:</label>
+<input type="text" id="T110_26" name="Atypical calcification" value="None."/>
+</p>
+<p>
+<label for="T110_28">Soft-tissue mass:</label>
+<input type="text" id="T110_28" name="Soft-tissue mass" value="None."/>
+</p>
+<p>
+<label for="T110_30">Bones:</label>
+<input type="text" id="T110_30" name="Bones" value="Normal."/>
+</p>
+</section>
+<section data-section-name="Urinary bladder">
+<header class="level2">Urinary bladder</header>
+<p>
+<label for="T110_33">Ureterocele:</label>
+<input type="text" id="T110_33" name="Ureterocele" value="Early filling of the urinary bladder demonstrates no filling defect to suggest a ureterocele."/>
+</p>
+<p>
+<label for="T110_35">Contour:</label>
+<input type="text" id="T110_35" name="Contour" value="Normal."/>
+</p>
+<p>
+<label for="T110_37">Capacity:</label>
+<input type="text" id="T110_37" name="Capacity" value="Normal."/>
+</p>
+<p>
+<label for="T110_39">Vesicoureteral reflux:</label>
+<input type="text" id="T110_39" name="Vesicoureteral reflux" value="There is no vesicoureteral reflux with bladder filling or voiding."/>
+</p>
+<p>
+<label for="T110_45">Urethra:</label>
+<input type="text" id="T110_45" name="Urethra" value="Voiding delineates a normal urethra. "/>
+</p>
+<p>
+<label for="T110_48">Post-void residual volume:</label>
+<input type="text" id="T110_48" name="Post-void residual volume" value="Insignificant. "/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T110_54" name="Impression">Normal. </textarea>
+</p>
+</section>
+</body>
+</html>

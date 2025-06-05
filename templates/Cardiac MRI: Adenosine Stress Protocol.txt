@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Cardiac MRI: Adenosine Stress Protocol" name="dcterms.title"/>
+<meta content="Cardiac MRI: Adenosine Stress Protocol template :: Authored by Kazerooni EA, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000048" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-19" name="dcterms.date"/>
+<meta content="Kazerooni EA, et al." name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="adenosine stress" value="RID10490" scheme="RadLex">
+</term>
+<term>
+ <code meaning="heart" value="RID1385" scheme="RadLex">
+</term>
+<term>
+ <code meaning="magnetic resonance imaging" value="RID10312" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T48_5">
+ <term>
+  <code meaning="adenosine stress" value="RID10490" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_6">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_7">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_10">
+ <term>
+  <code meaning="perfusion" value="RID10376" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="imaging procedure" value="RID13060" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="under stress" value="RID28658" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_12">
+ <term>
+  <code meaning="perfusion" value="RID10376" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="at rest" value="RID12535" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="imaging procedure" value="RID13060" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_14">
+ <term>
+  <code meaning="cine loop" value="RID10928" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_67">
+ <term>
+  <code meaning="volume" value="RID28668" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_68">
+ <term>
+  <code meaning="volume" value="RID28668" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_69">
+ <term>
+  <code meaning="stroke" value="RID5178" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="volume" value="RID28668" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_70">
+  <term>
+  <code meaning="Right ventricular Ejection fraction by MRI" value="8818-7" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T48_71">
+ <term>
+  <code meaning="mass" value="RID3874" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_73">
+ <term>
+  <code meaning="cardiac chamber" value="RID1386" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_74">
+ <term>
+  <code meaning="wall of lateral ventricle" value="RID13822" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_75">
+ <term>
+  <code meaning="left ventricle" value="RID1392" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="diameter" value="RID13432" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_78">
+ <term>
+  <code meaning="(unspecified)" value="RID38772" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T48_80">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Cardiac MRI: Adenosine Stress Protocol</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Cardiac MRI: Adenosine Stress Protocol</header>
+<p>
+<label for="T48_3">Field strength:</label>
+<input type="number" id="T48_3" name="Field strength" data-field-units="T" min="" max="" value="1.5"/> <label for="T48_3">T</label>
+</p>
+<p>
+<label for="T48_5">Adenosine stress protocol:</label>
+<textarea id="T48_5" name="Adenosine stress protocol">0.14 mg/kg/min adenosine infused over 4 minutes with stress perfusion imaging performed during the last minute of the adenosine infusion using an FGRE-ET sequence and a gadolinium dose of 0.1 mmol/kg. Rest perfusion imaging was performed was then performed after appropriate delay using additional gadolinium dose of 0.1 mmol/kg. Cine white blood imaging including short axis and two, three and four chamber long axis views was performed using a FIESTA sequence to evaluate cardiac morphology and function. Delayed enhanced imaging was performed using an Inversion recovery prepared gradient echo sequence. Images were postprocessed on a computer workstation to assess cardiac anatomy and ventricular function. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T48_6" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T48_7" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T48_10">Stress perfusion imaging:</label>
+<input type="text" id="T48_10" name="Stress perfusion imaging" value="Normal."/>
+</p>
+<p>
+<label for="T48_12">Rest perfusion imaging:</label>
+<input type="text" id="T48_12" name="Rest perfusion imaging" value="Normal."/>
+</p>
+<p>
+<label for="T48_14">Cine images:</label>
+<textarea id="T48_14" name="Cine images">Normal cardiac anatomy and normal cardiac chamber size. Normal left ventricular wall motion and function. </textarea>
+</p>
+<section data-section-name="Left ventricle">
+<header class="level2">Left ventricle</header>
+<p>
+<label for="T48_67">End-diastole volume:</label>
+<input type="number" id="T48_67" name="End-diastole volume" data-field-units="mL" min="0" max=""/> <label for="T48_67">mL</label>
+</p>
+<p>
+<label for="T48_68">End-systolic volume:</label>
+<input type="number" id="T48_68" name="End-systolic volume" data-field-units="mL" min="0" max=""/> <label for="T48_68">mL</label>
+</p>
+<p>
+<label for="T48_69">Stroke volume:</label>
+<input type="number" id="T48_69" name="Stroke volume" data-field-units="mL" min="0" max=""/> <label for="T48_69">mL</label>
+</p>
+<p>
+<label for="T48_70">Ejection fraction:</label>
+<input type="number" id="T48_70" name="Ejection fraction" value="" data-field-units="%" /> <label for="T48_70">%</label>
+</p>
+<p>
+<label for="T48_71">Mass:</label>
+<input type="number" id="T48_71" name="Mass" data-field-units="g" min="0" max=""/> <label for="T48_71">g</label>
+</p>
+<p>
+<label for="T48_73">Antero-septal wall (end-diastole):</label>
+<input type="number" id="T48_73" name="Antero-septal wall" data-field-units="cm" min="0" max=""/> <label for="T48_73">cm</label>
+</p>
+<p>
+<label for="T48_74">Infero-lateral wall (end-diastole):</label>
+<input type="number" id="T48_74" name="Infero-lateral wall" data-field-units="cm" min="0" max=""/> <label for="T48_74">cm</label>
+</p>
+<p>
+<label for="T48_75">Left ventricular diameter measured at the base (end-diastole):</label>
+<input type="number" id="T48_75" name="Left ventricular diameter end-diastole" value=""/> <label for="T48_75">cm</label>
+</p>
+<p>
+<label for="T48_999">Left ventricular diameter measured at the base (end-systole):</label>
+<input type="number" id="T48_999" name="Left ventricular diameter end-systole" value=""/> <label for="T48_999">cm</label>
+</p>
+<p>
+<label for="T48_78">Delayed enhancement:</label>
+<input type="text" id="T48_78" name="Delayed enhancement" value="There is no delayed enhancement of the myocardium or pericardium"/>
+</p>
+</section>
+<section data-section-name="Reference">
+<header class="level2">Reference</header>
+<p>
+Reference values from: Maceira et al., Normalized left ventricular systolic and diastolic function by steady state free precession cardiovascular magnetic resonance. J Cardiovascular Magn Reson 2006; 8:417-426.
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T48_80" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

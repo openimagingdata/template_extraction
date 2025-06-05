@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uterine Malformations MRI</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="db2215aa-8d8b-41d0-821d-6f53d52cb110" />
+        <meta name="dcterms.title" content="Uterine Malformations MRI" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="ESR" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2017-10-06" />
+        <meta name="dcterms.creator" content="Teresa Margarida Cunha, MD" />
+        <meta name="dcterms.contributor" content="Rita Lucas, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="TEXT_1476403918957">
+                        <term>
+                            <code meaning="vagina" value="RID325" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476403918958">
+                        <term>
+                            <code meaning="urinary bladder" value="RID237" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476403918941">
+                        <term>
+                            <code meaning="endometrium" value="RID30958" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisonsText">
+                        <term>
+                            <code meaning="comparison image" value="RID13169" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476403918965">
+                        <term>
+                            <code meaning="impression section" value="RID13170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476403918963">
+                        <term>
+                            <code meaning="ascites" value="RID1541" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476403918902">
+                        <term>
+                            <code meaning="clinical information section" value="RID13166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476403918919">
+                        <term>
+                            <code meaning="uterus" value="RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476403918899">Procedure Type:</label>
+                <select id="SELECTION_LIST_1476403918899" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Enhanced MRI pelvis">
+                    <option id="SELECTION_LIST_1476403918899_0" value="Enhanced MRI pelvis" name="SELECTION_LIST_1476403918899" selected="">Enhanced MRI pelvis</option>
+                    <option id="SELECTION_LIST_1476403918899_1" value="Unenhanced MRI pelvis" name="SELECTION_LIST_1476403918899">Unenhanced MRI pelvis</option>
+                </select>
+            </p>
+ <p title="">
+                <label for="SELECTION_LIST_1476403918903">Technique:</label>
+                <select id="SELECTION_LIST_1476403918903" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="T2-weighted images of the pelvis in axial, sagittal and coronal planes.">
+                    <option id="SELECTION_LIST_1476403918903_0" value="T2-weighted images of the pelvis in axial, sagittal and coronal planes." name="SELECTION_LIST_1476403918903" selected="">T2-weighted images of the pelvis in axial, sagittal and coronal planes.</option>
+                    <option id="SELECTION_LIST_1476403918903_1" value="T1-weighted images of the pelvis in axial plane." name="SELECTION_LIST_1476403918903">T1-weighted images of the pelvis in axial plane.</option>
+                    <option id="SELECTION_LIST_1476403918903_2" value="Coronal T2-weighted images of the abdomen." name="SELECTION_LIST_1476403918903">Coronal T2-weighted images of the abdomen.</option>
+                    <option id="SELECTION_LIST_1476403918903_3" value="T2-weighted images in oblique planes were obtained in long and short axis relative to the uterine body." name="SELECTION_LIST_1476403918903">T2-weighted images in oblique planes were obtained in long and short axis relative to the uterine body.</option>
+                    <option id="SELECTION_LIST_1476403918903_4" value="Survey images that include the region of the kidneys were also abtained." name="SELECTION_LIST_1476403918903">Survey images that include the region of the kidneys were also abtained.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403918915">Strength of Tesla scanner:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="" id="NUMBER_1476403918915" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403918913">Contrast type:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918913" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403918914">Contrast dose administered before and after fat suppressed T1-weighted imaging:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mL" id="NUMBER_1476403918914" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mL
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403918916">Image quality:</label>
+                <select id="SELECTION_LIST_1476403918916" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Satisfactory">
+                    <option id="SELECTION_LIST_1476403918916_0" value="Satisfactory" name="SELECTION_LIST_1476403918916" selected="">Satisfactory</option>
+                    <option id="SELECTION_LIST_1476403918916_1" value="Degraded by motion/etc" name="SELECTION_LIST_1476403918916">Degraded by motion/etc</option>
+                </select>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1476403918902">Clinical Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918902" name="" data-field-type="TEXT" data-field-completion-action="NONE">Suspected gynecological anomaly</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText">Comparison study:</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE">None available</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476403918919">Uterus:</label>
+                <select id="SELECTION_LIST_1476403918919" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Anteverted">
+                    <option id="SELECTION_LIST_1476403918919_0" value="Anteverted" name="SELECTION_LIST_1476403918919" selected="">Anteverted</option>
+                    <option id="SELECTION_LIST_1476403918919_1" value="Retroverted" name="SELECTION_LIST_1476403918919">Retroverted</option>
+                    <option id="SELECTION_LIST_1476403918919_2" value="Retroflexed" name="SELECTION_LIST_1476403918919">Retroflexed</option>
+                    <option id="SELECTION_LIST_1476403918919_3" value="Displaced to left" name="SELECTION_LIST_1476403918919">Displaced to left</option>
+                    <option id="SELECTION_LIST_1476403918919_4" value="Displaced to right" name="SELECTION_LIST_1476403918919">Displaced to right</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403918925">Size:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918925" name="" data-field-type="TEXT" data-field-completion-action="NONE">Normal in size</textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403918926">Measuring:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1476403918926" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403918927">The external uterine fundal contour is:</label>
+                <select id="SELECTION_LIST_1476403918927" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Convex">
+                    <option id="SELECTION_LIST_1476403918927_0" value="Convex" name="SELECTION_LIST_1476403918927" selected="">Convex</option>
+                    <option id="SELECTION_LIST_1476403918927_1" value="Flat" name="SELECTION_LIST_1476403918927">Flat</option>
+                    <option id="SELECTION_LIST_1476403918927_2" value="Concave" name="SELECTION_LIST_1476403918927">Concave</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403918931">The uterine cavity width measuring between the interstitial portion of both fallopian tubes is:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1476403918931" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403918932">The thickness of the fundal endometrial indentation as measured from the midpoint of the line joining the interstitial portion of both fallopian tubes to the apex of the fundal indentation is:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1476403918932" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403918933">The angle of the apex of the fundal indentation is:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="" id="NUMBER_1476403918933" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403918934">Uterine Configuration:</label>
+                <select id="SELECTION_LIST_1476403918934" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal">
+                    <option id="SELECTION_LIST_1476403918934_0" value="Normal" name="SELECTION_LIST_1476403918934" selected="">Normal</option>
+                    <option id="SELECTION_LIST_1476403918934_1" value="Arcuate" name="SELECTION_LIST_1476403918934">Arcuate</option>
+                    <option id="SELECTION_LIST_1476403918934_2" value="Septate" name="SELECTION_LIST_1476403918934">Septate</option>
+                    <option id="SELECTION_LIST_1476403918934_3" value="Bicornuate" name="SELECTION_LIST_1476403918934">Bicornuate</option>
+                    <option id="SELECTION_LIST_1476403918934_4" value="Unicornuate" name="SELECTION_LIST_1476403918934">Unicornuate</option>
+                    <option id="SELECTION_LIST_1476403918934_5" value="Didephysis" name="SELECTION_LIST_1476403918934">Didephysis</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403918941">Endometrium:</label>
+                <select id="SELECTION_LIST_1476403918941" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal">
+                    <option id="SELECTION_LIST_1476403918941_0" value="Normal" name="SELECTION_LIST_1476403918941" selected="">Normal</option>
+                    <option id="SELECTION_LIST_1476403918941_1" value="Abnormal" name="SELECTION_LIST_1476403918941">Abnormal</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403918944">The maximum width of the endometrium is:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1476403918944" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403918945">Junctional zone:</label>
+                <select id="SELECTION_LIST_1476403918945" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="There is no adenomyosis.">
+                    <option id="SELECTION_LIST_1476403918945_0" value="There is no adenomyosis." name="SELECTION_LIST_1476403918945" selected="">There is no adenomyosis.</option>
+                    <option id="SELECTION_LIST_1476403918945_1" value="There is mild adenomyosis." name="SELECTION_LIST_1476403918945">There is mild adenomyosis.</option>
+                    <option id="SELECTION_LIST_1476403918945_2" value="There is moderate adenomyosis." name="SELECTION_LIST_1476403918945">There is moderate adenomyosis.</option>
+                    <option id="SELECTION_LIST_1476403918945_3" value="There is severe adenomyosis" name="SELECTION_LIST_1476403918945">There is severe adenomyosis</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403918950">The maximum Junctional zone thickness is:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1476403918950" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403918951">Outer myometrium:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918951" name="" data-field-type="TEXT" data-field-completion-action="NONE">There are no leiomyomas.</textarea>
+            </p>
+            <section id="SECTION_HEADER_1476403918952" class="level2" data-section-name="Right Ovary:">
+                <header class="level2">
+                    Right Ovary:
+                </header>
+                <p title="">
+                    <label for="NUMBER_1476403918953">Size:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1476403918953" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        cm
+                    </span>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1476403918954" class="level2" data-section-name="Left Ovary:">
+                <header class="level2">
+                    Left Ovary:
+                </header>
+                <p title="">
+                    <label for="NUMBER_1476403918955">Size:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1476403918955" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        cm
+                    </span>
+                </p>
+            </section>
+            <p title="">
+                <label for="TEXT_1476403918956">Cervix:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918956" name="" data-field-type="TEXT" data-field-completion-action="NONE">Unremarkable</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403918957">Vagina:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918957" name="" data-field-type="TEXT" data-field-completion-action="NONE">Unremarkable</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403918958">Bladder:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918958" name="" data-field-type="TEXT" data-field-completion-action="NONE">Unremarkable</textarea>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403918959">Lymph nodes:</label>
+                <select id="SELECTION_LIST_1476403918959" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal in size">
+                    <option id="SELECTION_LIST_1476403918959_0" value="Normal in size" name="SELECTION_LIST_1476403918959" selected="">Normal in size</option>
+                    <option id="SELECTION_LIST_1476403918959_1" value="Enlarged; probably reactive" name="SELECTION_LIST_1476403918959">Enlarged; probably reactive</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403918962">Physiologic pelvic fluid:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918962" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no physiologic pelvic fluid.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403918963">Ascites:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918963" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no ascites.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403918964">Kidneys:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403918964" name="" data-field-type="TEXT" data-field-completion-action="NONE">On survey images, the kidneys are normally positioned bilaterally without hydronephrosis.]</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1506699322694">Other Findings:</label>
+                <input type="text" id="TEXT_1506699322694" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476403918965">Impression:</label>
+                <input list="SELECTION_LIST_1476403918965_LIST" id="SELECTION_LIST_1476403918965" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal appearing uterus" />
+                <datalist id="SELECTION_LIST_1476403918965_LIST">
+                    <option id="SELECTION_LIST_1476403918965_0" value="Bicoruate uterus" name="SELECTION_LIST_1476403918965">Bicoruate uterus</option>
+                    <option id="SELECTION_LIST_1476403918965_1" value="Septate uterus" name="SELECTION_LIST_1476403918965">Septate uterus</option>
+                    <option id="SELECTION_LIST_1476403918965_2" value="Subseptate uterus" name="SELECTION_LIST_1476403918965">Subseptate uterus</option>
+                    <option id="SELECTION_LIST_1476403918965_3" value="Arcuate uterus" name="SELECTION_LIST_1476403918965">Arcuate uterus</option>
+                    <option id="SELECTION_LIST_1476403918965_4" value="Uterine didelphis" name="SELECTION_LIST_1476403918965">Uterine didelphis</option>
+                    <option id="SELECTION_LIST_1476403918965_5" value="Normal appearing uterus" name="SELECTION_LIST_1476403918965" selected="">Normal appearing uterus</option>
+                    <option id="SELECTION_LIST_1476403918965_6" value="Otherwise normal exam" name="SELECTION_LIST_1476403918965">Otherwise normal exam</option>
+                </datalist>
+            </p>
+        </section>
+    </body>
+</html>

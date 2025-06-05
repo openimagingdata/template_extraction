@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CDE: BI-RADS Mammography Assessment Category TEST</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="5cf8df06-4c65-48e5-b078-676ff259019c" />
+        <meta name="dcterms.title" content="CDE: BI-RADS Mammography Assessment Category" />
+        <meta name="dcterms.description" content="Sickles, EA, D&acirc;Â€Â™Orsi CJ, Bassett LW, et al. ACR BI-RADS&reg; Mammography. In: ACR BI-RADS&reg; Atlas, Breast Imaging Reporting and Data System. Reston, VA, American College of Radiology; 2013." />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="ACR" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2018-11-20" />
+        <meta name="dcterms.creator" content="ACR" />
+        <meta name="dcterms.contributor" content="Editors: Marquette University: Peter Dobbs, Alex Kikos; Teri Sippel Schmidt" />
+       <meta name="top-level-flag" content="FALSE" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+			<coding_scheme name="RADELEMENT" designator="oid.xxxxxxx"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="RADIO_1519757620630">
+                        <term>
+                            <code meaning="BI-RADS Assessment CDE" value="RDExxxxxxx" scheme="RADELEMENT"></code>
+                        </term>
+                    <entry origtxt="DATE_1519874421146">
+                        <term>
+                            <code meaning="patient date of birth" value="RID13162" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087">
+                        <term>
+                            <code meaning="BI-RADS assessment" value="RID36027" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087_0">
+                        <term>
+                            <code meaning="BI-RADS 0" value="RID36036" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087_1">
+                        <term>
+                            <code meaning="BI-RADS 1" value="RID36028" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087_2">
+                        <term>
+                            <code meaning="BI-RADS 2" value="RID36029" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087_3">
+                        <term>
+                            <code meaning="BI-RADS 3" value="RID36041" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087_4">
+                        <term>
+                            <code meaning="BI-RADS 4A" value="RID36031" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087_5">
+                        <term>
+                            <code meaning="BI-RADS 4B" value="RID36032" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087_6">
+                        <term>
+                            <code meaning="BI-RADS 4C" value="RID36033" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087_7">
+                        <term>
+                            <code meaning="BI-RADS 5" value="RID36034" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421087_8">
+                        <term>
+                            <code meaning="BI-RADS 6" value="RID36035" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519929518146">
+                        <term>
+                            <code meaning="breast tissue" value="RID49902" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519929518146_0">
+                        <term>
+                            <code meaning="almost entirely fat" value="RID49694" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519929518146_1">
+                        <term>
+                            <code meaning="scattered fibroglandular densities" value="RID34274" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519929518146_2">
+                        <term>
+                            <code meaning="heterogeneously dense" value="RID34275" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519929518146_3">
+                        <term>
+                            <code meaning="extremely dense" value="RID34276" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformationText">
+                        <term>
+                            <code meaning="medical record number" value="RID13161" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1519874421154">
+                        <term>
+                            <code meaning="patient name" value="RID13160" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630">
+                        <term>
+                            <code meaning="BI-RADS assessment" value="RID36027" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630_0">
+                        <term>
+                            <code meaning="BI-RADS 0" value="RID36036" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630_1">
+                        <term>
+                            <code meaning="BI-RADS 1" value="RID36028" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630_2">
+                        <term>
+                            <code meaning="BI-RADS 2" value="RID36029" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630_3">
+                        <term>
+                            <code meaning="BI-RADS 3" value="RID36041" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630_4">
+                        <term>
+                            <code meaning="BI-RADS 4A" value="RID36031" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630_5">
+                        <term>
+                            <code meaning="BI-RADS 4B" value="RID36032" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630_6">
+                        <term>
+                            <code meaning="BI-RADS 4C" value="RID36033" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630_7">
+                        <term>
+                            <code meaning="BI-RADS 5" value="RID36034" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519757620630_8">
+                        <term>
+                            <code meaning="BI-RADS 6" value="RID36035" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1519874421156">
+                        <term>
+                            <code meaning="patient age" value="RID13163" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1519929518135">
+                        <term>
+                            <code meaning="symptom" value="RID39050" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421170">
+                        <term>
+                            <code meaning="patient descriptor" value="RID5638" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421170_0">
+                        <term>
+                            <code meaning="patient ethnicity" value="RID13165" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421170_1">
+                        <term>
+                            <code meaning="patient ethnicity" value="RID13165" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421170_2">
+                        <term>
+                            <code meaning="patient ethnicity" value="RID13165" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421150">
+                        <term>
+                            <code meaning="patient identifier" value="RID13159" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421150_0">
+                        <term>
+                            <code meaning="patient gender" value="RID13164" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421150_1">
+                        <term>
+                            <code meaning="patient gender" value="RID13164" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519874421150_2">
+                        <term>
+                            <code meaning="patient gender" value="RID13164" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+ 	    
+             <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="Standardized numerical code typically assigned by a radiologist after interpreting a study">
+                <label for="RADIO_1519757620630">BI-RADS Assessment Category</label>
+                <span id="RADIO_1519757620630" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1519757620630_0" type="radio" name="RADIO_1519757620630" value="BI-RADS 0: Mammography incomplete">BI-RADS 0: mammography incomplete</input>
+                    <br />
+                    <input id="RADIO_1519757620630_1" type="radio" name="RADIO_1519757620630" value="BI-RADS 1: Negative" checked="">BI-RADS 1: negative</input>
+                    <br />
+                    <input id="RADIO_1519757620630_2" type="radio" name="RADIO_1519757620630" value="BI-RADS 2: Benign">BI-RADS 2: benign</input>
+                    <br />
+                    <input id="RADIO_1519757620630_3" type="radio" name="RADIO_1519757620630" value="BI-RADS 3: Probably benign">BI-RADS 3: probably benign</input>
+                    <br />
+                    <input id="RADIO_1519757620630_4" type="radio" name="RADIO_1519757620630" value="BI-RADS 4A: ~2%, Low suspicion for malignancy">BI-RADS 4A: ~2%, low suspicion for malignancy</input>
+                    <br />
+                    <input id="RADIO_1519757620630_5" type="radio" name="RADIO_1519757620630" value="BI-RADS 4B: ~10%, Intermediate suspicion of malignancy">BI-RADS 4B: ~10%, intermediate suspicion of malignancy</input>
+                    <br />
+                    <input id="RADIO_1519757620630_6" type="radio" name="RADIO_1519757620630" value="BI-RADS 4C: ~50%, Moderate concern, but not classic for malignancy">BI-RADS 4C: ~50%, moderate concern, but not classic for malignancy</input>
+                    <br />
+                    <input id="RADIO_1519757620630_7" type="radio" name="RADIO_1519757620630" value="BI-RADS 5: Highly suggestive of malignancy">BI-RADS 5: highly suggestive of malignancy</input>
+                    <br />
+                    <input id="RADIO_1519757620630_8" type="radio" name="RADIO_1519757620630" value="BI-RADS 6: Known biopsy - proven malignancy">BI-RADS 6: known biopsy - proven malignancy</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1519874421184">Journal Reference:</label>
+                <textarea rows="3" cols="100" id="TEXT_1519874421184" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">https://www.acr.org/-/media/ACR/Files/RADS/BI-RADS/Mammography-Reporting.pdf</textarea>
+            </p>
+        </section>
+    </body>
+</html>

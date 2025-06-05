@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Parathyroid SPECT" name="dcterms.title"/>
+<meta content="Parathyroid SPECT template :: Authored by Imani F" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000246" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-09-17" name="dcterms.date"/>
+<meta content="Imani F" name="dcterms.creator"/>
+
+<meta content="Chadalavada SC [editor]" name="dcterms.contributor"/>
+<meta content="UCLA Health System (UCLA)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="adenoma" value="RID4211" scheme="RadLex">
+</term>
+<term>
+ <code meaning="parathyroid gland" value="RID7587" scheme="RadLex">
+</term>
+<term>
+ <code meaning="Tc-99m sestamibi" value="RID11749" scheme="RadLex">
+</term>
+<term>
+ <code meaning="technetium" value="RID11846" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T246_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T246_5">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T246_7">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T246_18">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Parathyroid SPECT</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Parathyroid SPECT</header>
+<p>
+<textarea id="T246_2" name="Procedure">Following injection of 99mTc sestamibi and approximately 10 minute delay, anterior projection images of the neck and chest were obtained. After a two-hour delay, repeat anterior projection images of the neck were acquired. SPECT images of the neck and chest were obtained and reconstructed in three axes.</textarea>
+</p>
+
+<p>
+<label for="T246_4">Dose</label>
+<input type="number" id="T246_4" name="Dose" value="22"/> <label for="T246_4">mCi</label>
+</p>
+
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T246_5" name="Clinical information">Hyperparathyroidism. Evaluate for parathyroid adenoma.</textarea>
+</p>
+
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T246_7" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T246_10">Thyroid tracer washout:</label>
+<input type="text" id="T246_10" name="Thyroid tracer washout" value="Delayed images demonstrate near-complete tracer washout from the thyroid."/>
+</p>
+<p>
+<label for="T246_11">Parathyroid uptake:</label>
+<input type="text" id="T246_11" name="Parathyroid uptake" value="None. The two-hour delayed images do not demonstrate any focal abnormal persistent uptake in the region of the parathyroid glands to suggest parathyroid adenoma."/>
+</p>
+<p>
+<label for="T246_17">Normal uptake:</label>
+<input type="text" id="T246_17" name="Normal uptake" value="There is physiological tracer uptake in the myocardium, liver, salivary glands, and thyroid gland."/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression:</header>
+<p>
+<textarea id="T246_18" name="Impression">Normal parathyroid imaging study. No evidence for mediastinal uptake to suggest mediastinal parathyroid adenoma.</textarea>
+</p>
+</section>
+</body>
+</html>

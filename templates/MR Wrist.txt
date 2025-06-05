@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="MR Wrist" name="dcterms.title"/>
+<meta content="MR Wrist template :: Authored by Carrino JA, Fatehi M" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000073" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-17" name="dcterms.date"/>
+<meta content="Carrino JA, Fatehi M" name="dcterms.creator"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="magnetic resonance imaging" value="RID10312" scheme="RadLex">
+</term>
+<term>
+ <code meaning="wrist" value="RID2177" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T73_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_4">
+ <term>
+  <code meaning="wrist" value="RID2177" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_5">
+ <term>
+  <code meaning="right" value="RID5825" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_6">
+ <term>
+  <code meaning="left" value="RID5824" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_7">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_8">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_14">
+ <term>
+  <code meaning="ulnar deviation position" value="RID10447" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_15">
+ <term>
+  <code meaning="none" value="RID28454" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_16">
+ <term>
+  <code meaning="positive ulnar variance" value="RID4784" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_17">
+ <term>
+  <code meaning="negative ulnar variance" value="RID4783" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_18">
+ <term>
+  <code meaning="distal radioulnar joint" value="RID2203" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_20">
+ <term>
+  <code meaning="wrist" value="RID2177" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="instability" value="RID4809" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_21">
+ <term>
+  <code meaning="none" value="RID28454" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_22">
+ <term>
+  <code meaning="ventral" value="RID5848" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="instability" value="RID4809" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_23">
+ <term>
+  <code meaning="dorsal" value="RID5847" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="instability" value="RID4809" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_24">
+ <term>
+  <code meaning="effusion" value="RID4872" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_25">
+ <term>
+  <code meaning="none" value="RID28454" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_26">
+ <term>
+  <code meaning="mild" value="RID5671" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_27">
+ <term>
+  <code meaning="moderate" value="RID5672" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_28">
+ <term>
+  <code meaning="severe" value="RID5673" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_29">
+ <term>
+  <code meaning="effusion" value="RID4872" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="distal radioulnar joint" value="RID2203" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_35">
+ <term>
+  <code meaning="scapholunate ligament" value="RID2259" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_40">
+ <term>
+  <code meaning="lunotriquetral ligament" value="RID2260" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_45">
+ <term>
+  <code meaning="triangular fibrocartilage" value="RID2223" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_52">
+ <term>
+  <code meaning="facet" value="RID6118" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_109">
+ <term>
+  <code meaning="carpal tunnel" value="RID2314" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_110">
+ <term>
+  <code meaning="median nerve" value="RID7246" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_125">
+ <term>
+  <code meaning="Guyon canal" value="RID2316" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_148">
+ <term>
+  <code meaning="set of bones" value="RID28569" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_150">
+ <term>
+  <code meaning="muscle organ" value="RID13196" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_152">
+ <term>
+  <code meaning="vasculature of organ" value="RID15990" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T73_310">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR Wrist</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR Wrist</header>
+<p>
+<textarea id="T73_2" name="Procedure">Axial proton density and T2, coronal proton density, and sagittal T1 and proton density images of the wrist were obtained. </textarea>
+</p>
+<p>
+<label>Field strength:</label>
+<input id="T73_998" name="Field strength" type="number" value="1.5" data-field-units="T"/> T
+</p>
+<p>
+<label for="T73_4">Site:</label>
+<select id="T73_4" name="Site">
+<option id="T73_5" name="Right wrist" value="Right wrist">Right wrist</option>
+<option id="T73_6" name="Left wrist" value="Left wrist">Left wrist</option>
+</select>
+</p>
+<p>
+<label>IV contrast (agent and volume):</label>
+<input id="T73_999" name="IV contrast" type="text" value="None." />
+</p>
+
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T73_7" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T73_8" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Alignment">
+<header class="level2">Alignment</header>
+<p>
+<label for="T73_14">Ulnar variance:</label>
+<select id="T73_14" name="Ulnar variance">
+<option id="T73_15" name="None" value="None">None.</option>
+<option id="T73_16" name="Positive" value="Positive">Positive ulnar variance.</option>
+<option id="T73_17" name="Negative" value="Negative">Negative ulnar variance.</option>
+</select>
+</p>
+<p>
+<label for="T73_18">Distal radioulnar joint</label>
+<input type="text" id="T73_18" name="Distal radioulnar joint" value="Congruent."/>
+</p>
+<p>
+<label for="T73_20">Carpal instability:</label>
+<select id="T73_20" name="Carpal instability">
+<option id="T73_21" name="None" value="None">None</option>
+<option id="T73_22" name="VISI" value="VISI">VISI</option>
+<option id="T73_23" name="DISI" value="DISI">DISI</option>
+</select>
+</p>
+</section>
+<section data-section-name="Fluid">
+<header class="level2">Fluid</header>
+<p>
+<label for="T73_24">Carpus effusion:</label>
+<select id="T73_24" name="Carpus effusion">
+<option id="T73_25" name="None" value="None">None</option>
+<option id="T73_26" name="Mild" value="Mild">Mild</option>
+<option id="T73_27" name="Moderate" value="Moderate">Moderate</option>
+<option id="T73_28" name="Severe" value="Severe">Severe</option>
+</select>
+</p>
+<p>
+<label for="T73_29">Distal radioulnar joint effusion:</label>
+<select id="T73_29" name="Distal radioulnar joint effusion">
+<option id="T73_29_30" name="None" value="None">None</option>
+<option id="T73_29_31" name="Mild" value="Mild">Mild</option>
+<option id="T73_29_32" name="Moderate" value="Moderate">Moderate</option>
+<option id="T73_29_33" name="Severe" value="Severe">Severe</option>
+</select>
+</p>
+</section>
+<section data-section-name="Intrinsic ligaments">
+<header class="level2">Intrinsic ligaments</header>
+<p>
+<label for="T73_35">Scapholunate ligament:</label>
+<input type="text" id="T73_35" name="Scapholunate ligament" value="Intact."/>
+</p>
+<p>
+<label for="T73_40">Lunotriquetral ligament:</label>
+<input type="text" id="T73_40" name="Lunotriquetral ligament" value="Intact."/>
+</p>
+<p>
+<label for="T73_45">Triangular fibrocartilage:</label>
+<input type="text" id="T73_45" name="Triangular fibrocartilage" value="Intact."/>
+</p>
+<p>
+<label for="T73_52">Lunate facet:</label>
+<select id="T73_52" name="Lunate facet">
+<option id="T73_52_53" name="Yes" value="Yes">Yes</option>
+<option id="T73_52_54" name="No" value="No">No</option>
+</select>
+</p>
+<p>
+<label for="T73_55">Hamate-lunate facet:</label>
+<input type="text" id="T73_55" name="Hamate-lunate facet" value="Normal."/>
+</p>
+</section>
+<section data-section-name="Extensor compartment">
+<header class="level2">Extensor compartment</header>
+<p>
+<label for="T73_67">I:</label>
+<select id="T73_69_69" name="I">
+<option id="T73_69_70" name="Normal" value="Normal">Normal.</option>
+<option id="T73_69_71" name="Mild" value="Mild">Mild tendinosis.</option>
+<option id="T73_69_72" name="Moderate" value="Moderate">Moderate tendinosis.</option>
+<option id="T73_69_73" name="Severe" value="Severe">Severe tendinosis.</option>
+</select>
+</p>
+<p>
+<label for="T73_74">II:</label>
+<select id="T73_69_169" name="II">
+<option id="T73_69_170" name="Normal" value="Normal">Normal.</option>
+<option id="T73_69_171" name="Mild" value="Mild">Mild tendinosis.</option>
+<option id="T73_69_172" name="Moderate" value="Moderate">Moderate tendinosis.</option>
+<option id="T73_69_173" name="Severe" value="Severe">Severe tendinosis.</option>
+</select>
+</p>
+<p>
+<label for="T73_81">III:</label>
+<select id="T73_69_269" name="III">
+<option id="T73_69_270" name="Normal" value="Normal">Normal.</option>
+<option id="T73_69_271" name="Mild" value="Mild">Mild tendinosis.</option>
+<option id="T73_69_272" name="Moderate" value="Moderate">Moderate tendinosis.</option>
+<option id="T73_69_273" name="Severe" value="Severe">Severe tendinosis.</option>
+</select>
+</p>
+<p>
+<label for="T73_88">IV:</label>
+<select id="T73_69_369" name="IV">
+<option id="T73_69_370" name="Normal" value="Normal">Normal.</option>
+<option id="T73_69_371" name="Mild" value="Mild">Mild tendinosis.</option>
+<option id="T73_69_372" name="Moderate" value="Moderate">Moderate tendinosis.</option>
+<option id="T73_69_373" name="Severe" value="Severe">Severe tendinosis.</option>
+</select>
+</p>
+<p>
+<label for="T73_95">V:</label>
+<select id="T73_69_469" name="V">
+<option id="T73_69_470" name="Normal" value="Normal">Normal.</option>
+<option id="T73_69_471" name="Mild" value="Mild">Mild tendinosis.</option>
+<option id="T73_69_472" name="Moderate" value="Moderate">Moderate tendinosis.</option>
+<option id="T73_69_473" name="Severe" value="Severe">Severe tendinosis.</option>
+</select>
+</p>
+<p>
+<label for="T73_102">VI:</label>
+<select id="T73_69_569" name="VI">
+<option id="T73_69_570" name="Normal" value="Normal">Normal.</option>
+<option id="T73_69_571" name="Mild" value="Mild">Mild tendinosis.</option>
+<option id="T73_69_572" name="Moderate" value="Moderate">Moderate tendinosis.</option>
+<option id="T73_69_573" name="Severe" value="Severe">Severe tendinosis.</option>
+</select>
+</p>
+</section>
+<section data-section-name="Flexor compartment">
+<header class="level2">Flexor compartment</header>
+<p>
+<label for="T73_109">Carpal tunnel:</label>
+<input type="text" id="T73_109" name="Carpal tunnel" value="Normal."/>
+</p>
+<p>
+<label for="T73_110">Median nerve:</label>
+<input type="text" id="T73_110" name="Median nerve" value="Normal."/>
+</p>
+<p>
+<label for="T73_997">Flexor retinaculum:</label>
+<input type="text" id="T73_997" name="Flexor retinaculum" value="Normal."/>
+</p>
+<p>
+<label for="T73_996">Flexor tendons:</label>
+<input type="text" id="T73_996" name="Flexor tendons" value="Normal."/>
+</p>
+<p>
+<label for="T73_125">Guyon canal:</label>
+<input type="text" id="T73_125" name="Guyon canal" value="Normal."/>
+</p>
+</section>
+<section data-section-name="Articulations">
+<header class="level2">Articulations</header>
+<p>
+<label for="T73_127">Thumb carpometacarpal joint:</label>
+<select id="T73_129_129" name="Thumb carpometacarpal joint">
+<option id="T73_129_130" name="Normal" value="Normal">Normal.</option>
+<option id="T73_129_131" name="Mild" value="Mild">Mild osteoarthritis.</option>
+<option id="T73_129_132" name="Moderate" value="Moderate">Moderate osteoarthritis.</option>
+<option id="T73_129_133" name="Severe" value="Severe">Severe osteoarthritis.</option>
+</select>
+</p>
+<p>
+<label for="T73_134">Scaphotrapezotrapezoidal joint:</label>
+<select id="T73_129_229" name="Scaphotrapezotrapezoidal joint">
+<option id="T73_129_230" name="Normal" value="Normal">Normal.</option>
+<option id="T73_129_231" name="Mild" value="Mild">Mild osteoarthritis.</option>
+<option id="T73_129_232" name="Moderate" value="Moderate">Moderate osteoarthritis.</option>
+<option id="T73_129_233" name="Severe" value="Severe">Severe osteoarthritis.</option>
+</select>
+</p>
+<p>
+<label for="T73_141">Pisiform-triquetral joint:</label>
+<select id="T73_129_329" name="Pisiform-triquetral joint">
+<option id="T73_129_330" name="Normal" value="Normal">Normal.</option>
+<option id="T73_129_331" name="Mild" value="Mild">Mild osteoarthritis.</option>
+<option id="T73_129_332" name="Moderate" value="Moderate">Moderate osteoarthritis.</option>
+<option id="T73_129_333" name="Severe" value="Severe">Severe osteoarthritis.</option>
+</select>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+
+<p>
+<label for="T73_148">Bones:</label>
+<input type="text" id="T73_148" name="Bones" value="Normal."/>
+</p>
+<p>
+<label for="T73_150">Muscles:</label>
+<input type="text" id="T73_150" name="Muscles" value="Normal."/>
+</p>
+<p>
+<label for="T73_152">Vessels:</label>
+<input type="text" id="T73_152" name="Vessels" value="Normal."/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T73_310" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

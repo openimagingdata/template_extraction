@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="CT biopsy" name="dcterms.title"/>
+<meta content="CT biopsy report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000285" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2013-12-20" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>CT biopsy</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">CT biopsy</header>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T285_1" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T285_2" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T285_3">Consent</label>
+<select id="T285_3" name="Consent">
+<option id="T285_4" name="yes" value="yes">The risks, benefits, and alternatives of the procedure were discussed with the patient. Verbal and written consent was obtained. 
+</option>
+<option id="T285_5" name="POA" value="POA">The risks, benefits, and alternatives of the procedure were discussed with the patient's Power of Attorney. Verbal and written consent was obtained. 
+</option>
+<option id="T285_6" name="no" value="no">Consent was not obtained.</option>
+</select>
+</p>
+<p>
+<label for="T285_7">Time-Out</label>
+<select id="T285_7" name="Time-Out">
+<option id="T285_8" name="yes" value="yes">Time-out performed to confirm the correct patient, procedure, and site. </option>
+<option id="T285_9" name="no" value="no">Not performed. </option>
+</select>
+</p>
+<p>
+<label for="T285_10">Biopsy device:</label>
+<input type="text" id="T285_10" name="Biopsy device" value="" />
+</p>
+<p>
+<label for="T285_11">Biopsy site:</label>
+<input type="text" id="T285_11" name="Biopsy site" value="" />
+</p>
+<p>
+<label for="T285_12">Number of samples:</label>
+<input type="number" id="T285_12" name="Number of samples" value="" />
+</p>
+<p>
+<label for="T285_13">Medium:</label>
+<input type="text" id="T285_13" name="Medium" value="Formalin. " />
+</p>
+<p>
+<label for="T285_14">Complications:</label>
+<input type="text" id="T285_14" name="Complications" value="None." />
+</p>
+<p>
+<label for="T285_15">Patient disposition:</label>
+<input type="text" id="T285_15" name="Patient disposition" value="Discharged from the department in stable condition." />
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T285_16" name="Impression">CT-guided biopsy. </textarea>
+</p>
+</section>
+</body>
+</html>

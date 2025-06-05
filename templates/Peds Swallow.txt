@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Pediatric Swallow Study" name="dcterms.title"/>
+<meta content="Pediatric Swallow Study template :: Authored by Meyer JS, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000108" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-12" name="dcterms.date"/>
+<meta content="Meyer JS, et al." name="dcterms.creator"/>
+<meta content="Society for Pediatric Radiology (SPR)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="child" value="RID5641" scheme="RadLex">
+</term>
+<term>
+ <code meaning="fluoroscopy" value="RID10361" scheme="RadLex">
+</term>
+<term>
+ <code meaning="pharynx" value="RID13211" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T108_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_10">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_13">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_20">
+ <term>
+  <code meaning="thorax" value="RID1243" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_23">
+ <term>
+  <code meaning="oral contrast" value="RID35817" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_28">
+ <term>
+  <code meaning="deployment technique" value="RID12917" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_36">
+ <term>
+  <code meaning="function" value="RID28812" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_39">
+ <term>
+  <code meaning="volume" value="RID28668" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="oral contrast" value="RID35817" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_49">
+ <term>
+  <code meaning="glottis" value="RID7672" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_66">
+ <term>
+  <code meaning="residual" value="RID5727" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_70">
+ <term>
+  <code meaning="cricopharyngeus" value="RID7558" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_73">
+ <term>
+  <code meaning="reflux" value="RID5259" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_78">
+ <term>
+  <code meaning="esophagus" value="RID95" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T108_182">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Pediatric Swallow Study</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Pediatric Swallow Study</header>
+<p>
+<textarea id="T108_2" name="Procedure"> </textarea>
+</p>
+<!--Modified barium swallow-->
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T108_10" name="Clinical information">Dysphagia. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T108_13" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+
+<section data-section-name="Chest">
+<header class="level2">Chest</header>
+<p>
+<textarea id="T108_20" name="Chest">Normal. </textarea>
+</p>
+</section>
+<section data-section-name="Contrast">
+<header class="level2">Contrast</header>
+<p>
+<label for="T108_23">Contrast material(s):</label>
+<select id="T108_23" name="Contrast material" multiple="multiple">
+<option id="T108_23.1" name="Thin liquid" value="Thin liquid">Thin liquid</option>
+<option id="T108_23.2" name="Nectar consistency" value="Nectar consistency">Nectar consistency</option>
+<option id="T108_23.3" name="Honey consistency" value="Honey consistency">Honey consistency</option>
+<option id="T108_23.4" name="Pudding consistency" value="Pudding consistency">Pudding consistency</option>
+</select>
+</p>
+<p>
+<label for="T108_28">Source(s):</label>
+<select id="T108_28" name="Source">
+<option id="T108_28.1" name="Standard nipple" value="Standard nipple">Standard nipple</option>
+<option id="T108_28.2" name="Low-flow nipple" value="Low-flow nipple">Low-flow nipple</option>
+<option id="T108_28.3" name="High-flow nipple" value="High-flow nipple">High-flow nipple</option>
+<option id="T108_28.4" name="Spoon" value="Spoon">Spoon</option>
+<option id="T108_28.5" name="Straw" value="Straw">Straw</option>
+<option id="T108_28.6" name="Cup" value="Cup">Cup</option>
+</select>
+</p>
+</section>
+<section data-section-name="Oropharynx">
+<header class="level2">Oropharynx</header>
+<p>
+<label for="T108_36">Motor function:</label>
+<input type="text" id="T108_36" name="Motor function" value="Well organized."/>
+</p>
+<p>
+<label for="T108_39">Bolus size:</label>
+<input type="text" id="T108_39" name="Bolus size" value="Adequate. "/>
+</p>
+<p>
+<label for="T108_42">Triggering of swallowing reflex:</label>
+<input type="text" id="T108_42" name="Triggering of swallowing reflex" value="Prompt. "/>
+</p>
+<p>
+<label for="T108_45">Coordination:</label>
+<input type="text" id="T108_45" name="Coordination" value="Normal. "/>
+</p>
+<p>
+<label for="T108_73">Nasopharyngeal reflux:</label>
+<input type="text" id="T108_73" name="Nasopharyngeal reflux" value="None."/>
+</p>
+</section>
+<section data-section-name="Hypopharynx">
+<header class="level2">Hypopharynx</header>
+<p>
+<label for="T108_49">Glottic penetration or aspiration:</label>
+<input type="text" id="T108_49" name="Glottic penetration or aspiration" value="None."/>
+</p>
+<p>
+<label for="T108_66">Residual:</label>
+<input type="text" id="T108_66" name="Residual" value="None."/>
+</p>
+<p>
+<label for="T108_70">Cricopharyngeal muscle relaxation:</label>
+<input type="text" id="T108_70" name="Cricopharyngeal muscle relaxation" value="Normal."/>
+</p>
+<p>
+<label for="T108_78">Upper esophageal motility:</label>
+<input type="text" id="T108_78" name="Upper esophageal motility" value="Normal"/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T108_182" name="Impression">No penetration or aspiration. </textarea>
+</p>
+</section>
+</body>
+</html>

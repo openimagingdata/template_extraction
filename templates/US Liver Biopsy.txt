@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="US liver biopsy" name="dcterms.title"/>
+<meta content="US liver biopsy report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000288" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2014-02-12" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>US liver biopsy</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Ultrasound-guided liver biopsy</header>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T288_01" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T288_02" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Procedure">
+<header class="level1">Procedure</header>
+<p>
+<label for="T288_03">Informed consent:</label>
+<select id="T288_03" name="Consent">
+<option id="T288_04" name="yes" value="yes">The risks, benefits, and alternatives of the procedure were discussed with the patient. Verbal and written consent was obtained. </option>
+<option id="T288_05" name="POA" value="POA">The risks, benefits, and alternatives of the procedure were discussed with the patient's Power of Attorney. Verbal and written consent was obtained. </option>
+<option id="T288_06" name="no" value="no">Consent was not obtained.</option>
+</select>
+</p>
+<p>
+<label for="T288_07">Time-out</label>
+<select id="T288_07" name="Time-Out">
+<option id="T288_08" name="yes" value="yes">Time-out performed to confirm the correct patient, procedure, and site. </option>
+<option id="T288_09" name="no" value="no">Not performed. </option>
+</select>
+</p>
+<p>
+<label for="T288_10">Preparation:</label>
+<input id="T288_10" name="Preparation" type="text" value="A suitable skin site was identified. The patient was prepped and draped in usual sterile fashion.">
+</p>
+<p>
+<label for="T288_11">Local anesthesia:</label>
+<input id="T288_11" name="Local anesthesia" type="text" value="Lidocaine 1%.">
+</p>
+<p>
+<label for="T288_12">Biopsy device:</label>
+<input id="T288_12" name="Biopsy device" type="text" value="">
+</p>
+<p>
+<label for="T288_13">Site:</label>
+<input id="T288_13" type="text" name="Biopsy site"/>
+</p>
+<p>
+<label for="T288_14">Number of samples:</label>
+<input id="T288_14" type="number" name="Number of samples" value="" />
+</p>
+<p>
+<label for="T288_15">Medium:</label>
+<input id="T288_15" name="Medium" type="text" value="Samples were placed in formalin. ">
+</p>
+<p>
+<label for="T288_16">Complications:</label>
+<input id="T288_16" name="Complications" type="text" value="None. ">
+</p>
+<p>
+<label for="T288_17">Patient disposition:</label>
+<input id="T288_17" name="Patient disposition" type="text" value="Discharged from the department in stable condition. Will be held for observation for 3 hours. ">
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T288_18" name="Impression">Ultrasound-guided liver biopsy.</textarea>
+</p>
+</section>
+</body>
+</html>

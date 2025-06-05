@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head><meta content="Jan Bosmans [translator]" name="dcterms.contributor"/>
+<meta charset="UTF-8"/>
+<meta content="Vesico-ureteraal reflux" name="dcterms.title"/>
+<meta content="Bladder Reflux template :: Authored by Imani F" name="dcterms.description"/>
+<meta content="http://open.radreport.org/template/0050216" name="dcterms.identifier"/>
+<meta content="nl" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2016-11-21" name="dcterms.date"/>
+<meta content="Imani F" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="UCLA Health System (UCLA)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="urinary bladder" value="RID237" scheme="RadLex">
+</term>
+<term>
+ <code meaning="vesicoureteral reflux" value="RID5261" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T168_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T168_5">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T168_7">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T168_19">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Vesico-ureteraal reflux</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1" data-english="Bladder Reflux Study">Onderzoek vesico-ureteraal reflux</header>
+<p>
+<textarea id="T168_2" name="Procedure" data-english-name="Procedure" data-english-innertext="After sterile washing of the external genitalia, a Foley catheter was inserted into the urinary bladder through the urethra. Tc-99m DTPA was injected into the Foley irrigation tubing and sterile saline was instilled into the bladder. Posterior projection images were obtained during the filling, voiding, and postvoiding periods. ">Na ontsmetting van de externe genitaliën, werd een foleykatheter ingebracht in de urineblaas via de urethra. Tc-99m DTPA werd geïnjecteerd in de foleykatheter, waarna steriel fysiologisch vocht werd geïnstilleerd in de blaas. AP-beelden werden verkregen tijdens het vullen, en tijdens en na de mictie.</textarea>
+</p>
+<p>
+<label for="T168_4" data-english="Dose:">Dosis:</label>
+<input type="number" id="T168_4" name="Dosis" value="1,0" data-english-value="1.0" data-english-name="Dose"/> mCi </p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1" data-english="Clinical information">Klinische informatie</header>
+<p>
+<textarea id="T168_5" name="Klinische informatie" data-english-name="Clinical information" data-english-innertext="Vesicoureteral reflux. ">Vesico-ureteraal reflux.</textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1" data-english="Comparison">Vergelijking</header>
+<p>
+<textarea id="T168_7" name="Vergelijking" data-english-name="Comparison" data-english-innertext="None. ">Geen.</textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1" data-english="Findings">Bevindingen</header>
+<p>
+<label for="T168_10" data-english="Mid-filling phase: ">Tijdens het vullen:</label>
+<input type="text" id="T168_10" name="Tijdens het vullen:" value="Normaal." data-english-value="Normal. " data-english-name="Mid-filling phase"/>
+</p>
+<p>
+<label for="T168_13" data-english="Voiding phase: ">Tijdens de mictie:</label>
+<input type="text" id="T168_13" name="Tijdens de mictie:" value="Normaal." data-english-value="Normal. " data-english-name="Voiding phase"/>
+</p>
+<p>
+<label for="T168_16" data-english="Post-void phase: ">Na de mictie:</label>
+<input type="text" id="T168_16" name="Na de mictie:" value="Normaal." data-english-value="Normal. " data-english-name="Post-void phase"/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1" data-english="Impression">Conclusie</header>
+<p>
+<textarea id="T168_19" name="Conclusie" data-english-name="Impression" data-english-innertext="Normal. ">Normaal.</textarea>
+</p>
+</section>
+</body>
+</html>

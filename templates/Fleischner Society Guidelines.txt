@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta content="Fleischner Society Guidelines" name="dcterms.title" />
+		<meta content="Fleischner Society Guidelines module :: Authored by Kahn CE Jr" name="dcterms.description" />
+		<meta content="http://www.radreport.org/template/0000032" name="dcterms.identifier" />
+		<meta content="en" name="dcterms.language" />
+		<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type" />
+		<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher" />
+		<meta content="May be used gratis, subject to license agreement" name="dcterms.rights" />
+		<meta content="http://www.radreport.org/license.pdf" name="dcterms.license" />
+		<meta content="2013-12-08" name="dcterms.date" />
+		<meta content="Kahn CE Jr" name="dcterms.creator" />
+		<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+		<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+		<style>
+			select
+				{ height:60px; line-break:loose; word-wrap:normal;}
+			option
+				{ height:60px; line-break:loose; }
+		</style>
+		<script type="text/xml">
+			<!--
+			<template_attributes>
+				<top-level-flag>false</top-level-flag>
+				<status>ACTIVE</status>			
+			</template_attributes>
+			<coded_content>
+</coded_content>
+			-->
+		</script>
+		<title>Fleischner Society Guidelines</title>
+	</head>
+	<body>
+		<section data-section-name="Impression">
+			<header class="level1">Fleischner Society Guidelines</header>
+			<p>
+				Fleischner Society guidelines for follow-up and management of incidental pulmonary nodule (Radiology 2005; 237:395-400): 
+				<select name="Nodule">
+					<option name="4" value="4">Nodule &lt;= 4 mm: 
+
+LOW-RISK patient (minimal or absent history of smoking and other known risk factors):
+    No follow-up needed. 
+
+HIGH-RISK patient (history of smoking or other known risk factors):
+    Follow-up CT at 12 months; if unchanged, no further follow-up.</option>
+					<option name="6" value="6">Nodule 5 - 6 mm:
+
+LOW-RISK patient (minimal or absent history of smoking and other known risk factors):
+    Follow-up CT at 12 months; if unchanged, no further follow-up.
+
+HIGH-RISK patient (history of smoking or other known risk factors):
+    Initial follow-up CT at 6-12 months, then at 18-24 months if no change.</option>
+					<option name="8" value="8">Nodule 7 - 8 mm:
+
+LOW-RISK patient (minimal or absent history of smoking and other known risk factors):
+    Initial follow-up CT at 6-12 months then at 18-24 months if no change.
+
+HIGH-RISK patient (history of smoking or other known risk factors): 
+    Initial follow-up CT at 3-6 months, then at 9-12 months and 24 months if no change.</option>
+					<option name="big" value="big">Nodule &gt; 8 mm:
+
+ALL patients:  Follow-up CT at around 3, 9, and 24 months, dynamic contrast-enhanced CT, PET, and/or biopsy.</option>
+</select>
+			</p>
+		</section>
+	</body>
+</html>

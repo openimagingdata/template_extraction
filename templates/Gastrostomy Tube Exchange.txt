@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Gastrostomy tube exchange" name="dcterms.title"/>
+<meta content="Gastrostomy tube exchange report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000269" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2013-12-27" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Gastrostomy tube exchange</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Fluoroscopically-guided gastrostomy tube replacement</header>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T269_1" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T269_2" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T269_3">The patient was placed supine on the fluoroscopy table. The balloon of the </label>
+<input type="number" id="T269_3" name="Old tube size" value="" />
+<label for="T269_3">French gastrostomy tube was deflated and the tube was removed.</label>
+</p>
+<p>
+<label for="T269_4">A new </label>
+<input type="number" id="T269_4" name="New tube size" value="" />
+<label for="T269_4">French gastrostomy tube was inserted to the percutaneous tract. The new gastrostomy tube balloon was inflated with dilute contrast material and pulled firmly up against the anterior abdominal wall. Contrast was then injected through the tube to confirm tube placement within the stomach. The external rubber bumper was then adjusted to approximately 3 mm from the skin surface and secured with a cable tie. The tube was flushed with water.</label> 
+</p>
+<p>
+<label for="T269_5">Fluoroscopy time:</label>
+<input type="number" id="T269_5" name="Fluoro time" value="" min="0" max="99" step="0.1"/> minutes
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T269_6" name="Impression">Fluoroscopically-guided exchange of percutaneous gastrostomy tube. The tube is ready for immediate use.</textarea>
+</p>
+</section>
+</body>
+</html>

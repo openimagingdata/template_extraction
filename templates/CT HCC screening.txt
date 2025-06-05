@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CT HCC Screening</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="T1425224589795" />
+        <meta name="dcterms.title" content="CT HCC Screening" />
+        <meta name="dcterms.description" content="CT for HCC Screening" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="Radiological Society of North America (RSNA)" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2015-03-01" />
+        <meta name="dcterms.creator" content="Parag P. Tolat" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content></coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p>
+                <label for="procedureInformationText"></label>
+                <textarea rows="3" cols="100" id="procedureInformationText" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value=""></textarea>
+            </p>
+            <section id="SECTION_HEADER_1425225239703" class="level2" data-section-name="Technique">
+                <header class="level2">
+                    Technique
+                </header>
+                <p>
+                    <label for="SELECTION_LIST_1425225239719">IV contrast type</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1425225239719" name="" data-field-type="SELECTION_LIST" title="" data-field-completion-action="ALERT" value="Visipaque-320">
+                        <option id="SELECTION_LIST_1425225239719_0" value="Omnipaque-350" name="SELECTION_LIST_1425225239719">Omnipaque-350</option>
+                        <option id="SELECTION_LIST_1425225239719_1" value="Visipaque-320" name="SELECTION_LIST_1425225239719" selected="">Visipaque-320</option>
+                        <option id="SELECTION_LIST_1425225239719_2" value="Isovue-370" name="SELECTION_LIST_1425225239719">Isovue-370</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="NUMBER_1425225239726">IV Contrast Dose</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mL" id="NUMBER_1425225239726" name="" data-field-type="NUMBER" title="" data-field-completion-action="NONE" value="125" />
+                        mL
+                    </span>
+                </p>
+                <p>
+                    <label for="SELECTION_LIST_1425225239727">Oral Contrast</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1425225239727" name="" data-field-type="SELECTION_LIST" title="" data-field-completion-action="ALERT" value="Water">
+                        <option id="SELECTION_LIST_1425225239727_0" value="None" name="SELECTION_LIST_1425225239727">None</option>
+                        <option id="SELECTION_LIST_1425225239727_1" value="Water" name="SELECTION_LIST_1425225239727" selected="">Water</option>
+                        <option id="SELECTION_LIST_1425225239727_2" value="Volumen" name="SELECTION_LIST_1425225239727">Volumen</option>
+                        <option id="SELECTION_LIST_1425225239727_3" value="Positive (iodinated)" name="SELECTION_LIST_1425225239727">Positive (iodinated)</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="SELECTION_LIST_1425225239733">Technical Comments</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1425225239733" name="" data-field-type="SELECTION_LIST" title="" data-field-completion-action="NONE" value="Dual-phase with equilibrium">
+                        <option id="SELECTION_LIST_1425225239733_0" value="Standard single phase" name="SELECTION_LIST_1425225239733">Standard single phase</option>
+                        <option id="SELECTION_LIST_1425225239733_1" value="Dual-phase" name="SELECTION_LIST_1425225239733">Dual-phase</option>
+                        <option id="SELECTION_LIST_1425225239733_2" value="Dual-phase with equilibrium" name="SELECTION_LIST_1425225239733" selected="">Dual-phase with equilibrium</option>
+                        <option id="SELECTION_LIST_1425225239733_3" value="Dual-phase, dual-energy" name="SELECTION_LIST_1425225239733">Dual-phase, dual-energy</option>
+                    </select>
+                </p>
+            </section>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p>
+                <label for="clinicalInformationText"></label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value=""></textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p>
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value=""></textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p>
+                <label for="findingsText"></label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value=""></textarea>
+            </p>
+            <section id="SECTION_HEADER_1425225239738" class="level2" data-section-name="HEPATOBILIARY SYSTEM">
+                <header class="level2">
+                    HEPATOBILIARY SYSTEM
+                </header>
+                <section id="SECTION_HEADER_1425225239765" class="level2" data-section-name="Liver Morphology:">
+                    <header class="level2">
+                        Liver Morphology:
+                    </header>
+                    <p>
+                        <label for="SELECTION_LIST_1425225239767"></label>
+                        <select multiple="multiple" id="SELECTION_LIST_1425225239767" name="" data-field-type="SELECTION_LIST" title="" data-field-completion-action="NONE" value="Cirrhosis evidenced by heterogeneous appearance, surface nodularity, and/or hypertrophy of the left/caudate lobes">
+                            <option id="SELECTION_LIST_1425225239767_0" value="Normal" name="SELECTION_LIST_1425225239767">Normal</option>
+                            <option id="SELECTION_LIST_1425225239767_1" value="Cirrhosis evidenced by heterogeneous appearance, surface nodularity, and/or hypertrophy of the left/caudate lobes" name="SELECTION_LIST_1425225239767" selected="">Cirrhosis evidenced by heterogeneous appearance, surface nodularity, and/or hypertrophy of the left/caudate lobes</option>
+                        </select>
+                    </p>
+                </section>
+                <section id="SECTION_HEADER_1425225239772" class="level2" data-section-name="Portal Hypertension:">
+                    <header class="level2">
+                        Portal Hypertension:
+                    </header>
+                    <p>
+                        <label for="TEXT_1425225239773">Described the presence/absence of portal hypertension. If present, described the portosystemic varices.</label>
+                        <textarea rows="3" cols="100" id="TEXT_1425225239773" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value=""></textarea>
+                    </p>
+                    <p>
+                        <label for="SELECTION_LIST_1425225239775">Spleen</label>
+                        <select multiple="multiple" id="SELECTION_LIST_1425225239775" name="" data-field-type="SELECTION_LIST" title="" data-field-completion-action="NONE" value="Splenomegaly">
+                            <option id="SELECTION_LIST_1425225239775_0" value="Normal" name="SELECTION_LIST_1425225239775">Normal</option>
+                            <option id="SELECTION_LIST_1425225239775_1" value="Splenomegaly" name="SELECTION_LIST_1425225239775" selected="">Splenomegaly</option>
+                            <option id="SELECTION_LIST_1425225239775_2" value="" name="SELECTION_LIST_1425225239775"></option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="NUMBER_1425225239779">Spleen Size</label>
+                        <span>
+                            <input type="number" step="0.1" data-field-units="cm" id="NUMBER_1425225239779" name="" data-field-type="NUMBER" title="" data-field-completion-action="NONE" value="" />
+                            cm
+                        </span>
+                    </p>
+                    <p>
+                        <label for="SELECTION_LIST_1425225239780">Ascites</label>
+                        <select multiple="multiple" id="SELECTION_LIST_1425225239780" name="" data-field-type="SELECTION_LIST" title="" data-field-completion-action="NONE" value="Mild">
+                            <option id="SELECTION_LIST_1425225239780_0" value="None" name="SELECTION_LIST_1425225239780">None</option>
+                            <option id="SELECTION_LIST_1425225239780_1" value="Mild" name="SELECTION_LIST_1425225239780" selected="">Mild</option>
+                            <option id="SELECTION_LIST_1425225239780_2" value="Moderate" name="SELECTION_LIST_1425225239780">Moderate</option>
+                            <option id="SELECTION_LIST_1425225239780_3" value="Severe" name="SELECTION_LIST_1425225239780">Severe</option>
+                        </select>
+                    </p>
+                </section>
+                <section id="SECTION_HEADER_1425225239785" class="level2" data-section-name="Focal Liver Lesions:">
+                    <header class="level2">
+                        Focal Liver Lesions:
+                    </header>
+                    <section id="SECTION_HEADER_1425225239817" class="level2" data-section-name="   Lesions compatible with hepatocellular carcinoma by OPTN class 5 criteria:">
+                        <header class="level2">
+                             Lesions compatible with hepatocellular carcinoma by OPTN class 5 criteria:
+                        </header>
+                    </section>
+                    <p>
+                        <label for="TEXT_1425225239836"></label>
+                        <textarea rows="3" cols="100" id="TEXT_1425225239836" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="None or describe lesion(s)"></textarea>
+                    </p>
+                    <p>
+                        <label for="NUMBER_1425225239818">Lesion number:</label>
+                        <span>
+                            <input type="number" step="1.0" data-field-units="" id="NUMBER_1425225239818" name="" data-field-type="NUMBER" title="" data-field-completion-action="NONE" value="1" />
+                        </span>
+                    </p>
+                    <p>
+                        <label for="NUMBER_1425225239819">Lesion size:</label>
+                        <span>
+                            <input type="number" step="0.1" data-field-units="cm" id="NUMBER_1425225239819" name="" data-field-type="NUMBER" title="" data-field-completion-action="NONE" value="" />
+                            cm
+                        </span>
+                    </p>
+                    <p>
+                        <label for="NUMBER_1425225239821">Lesion segment location:</label>
+                        <span>
+                            <input type="number" step="1.0" data-field-units="" id="NUMBER_1425225239821" name="" data-field-type="NUMBER" title="" data-field-completion-action="NONE" value="" />
+                        </span>
+                    </p>
+                    <p>
+                        <label for="SELECTION_LIST_1425225239822">Hypervascularity:</label>
+                        <select multiple="multiple" id="SELECTION_LIST_1425225239822" name="" data-field-type="SELECTION_LIST" title="" data-field-completion-action="NONE" value="Yes">
+                            <option id="SELECTION_LIST_1425225239822_0" value="Yes" name="SELECTION_LIST_1425225239822" selected="">Yes</option>
+                            <option id="SELECTION_LIST_1425225239822_1" value="No" name="SELECTION_LIST_1425225239822">No</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="SELECTION_LIST_1425225239825">Washout:</label>
+                        <select multiple="multiple" id="SELECTION_LIST_1425225239825" name="" data-field-type="SELECTION_LIST" title="" data-field-completion-action="NONE" value="No">
+                            <option id="SELECTION_LIST_1425225239825_0" value="Yes" name="SELECTION_LIST_1425225239825">Yes</option>
+                            <option id="SELECTION_LIST_1425225239825_1" value="No" name="SELECTION_LIST_1425225239825" selected="">No</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="SELECTION_LIST_1425225239829">Capsule/pseudocapsule:</label>
+                        <select multiple="multiple" id="SELECTION_LIST_1425225239829" name="" data-field-type="SELECTION_LIST" title="" data-field-completion-action="NONE" value="Yes">
+                            <option id="SELECTION_LIST_1425225239829_0" value="Yes" name="SELECTION_LIST_1425225239829" selected="">Yes</option>
+                            <option id="SELECTION_LIST_1425225239829_1" value="No" name="SELECTION_LIST_1425225239829">No</option>
+                        </select>
+                    </p>
+                    <section id="SECTION_HEADER_1425225239834" class="level2" data-section-name="Indeterminate liver lesions:">
+                        <header class="level2">
+                            Indeterminate liver lesions:
+                        </header>
+                        <p>
+                            <label for="TEXT_1425225239835"></label>
+                            <textarea rows="3" cols="100" id="TEXT_1425225239835" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="None."></textarea>
+                        </p>
+                    </section>
+                    <section id="SECTION_HEADER_1425225239837" class="level2" data-section-name="Benign liver lesions:">
+                        <header class="level2">
+                            Benign liver lesions:
+                        </header>
+                        <p>
+                            <label for="TEXT_1425225239838"></label>
+                            <textarea rows="3" cols="100" id="TEXT_1425225239838" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="None."></textarea>
+                        </p>
+                    </section>
+                </section>
+                <section id="SECTION_HEADER_1425225239793" class="level2" data-section-name="Hepatic vasculature:">
+                    <header class="level2">
+                        Hepatic vasculature:
+                    </header>
+                    <p>
+                        <label for="TEXT_1425225239794">Portal and hepatic veins:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1425225239794" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="Normally patent."></textarea>
+                    </p>
+                    <p>
+                        <label for="TEXT_1425225239795">Arterial anatomy:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1425225239795" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="Normal (type 1)."></textarea>
+                    </p>
+                </section>
+                <section id="SECTION_HEADER_1425225239796" class="level2" data-section-name="Gallbladder and bile ducts:">
+                    <header class="level2">
+                        Gallbladder and bile ducts:
+                    </header>
+                    <p>
+                        <label for="TEXT_1425225239797">Gallbladder:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1425225239797" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="Gallbladder in situ. No gallbladder wall thickening or pericholecystic fluid."></textarea>
+                    </p>
+                    <p>
+                        <label for="TEXT_1425225239798">Bile ducts:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1425225239798" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="No intra-or extrahepatic biliary dilatation."></textarea>
+                    </p>
+                </section>
+            </section>
+            <section id="SECTION_HEADER_1425225239799" class="level2" data-section-name="RETROPERITONEUM">
+                <header class="level2">
+                    RETROPERITONEUM
+                </header>
+                <p>
+                    <label for="TEXT_1425225239800">Pancreas:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1425225239800" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="Normal"></textarea>
+                </p>
+                <p>
+                    <label for="TEXT_1425225239801">Adrenals glands:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1425225239801" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="Normal"></textarea>
+                </p>
+                <p>
+                    <label for="TEXT_1425225239802">Kidneys:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1425225239802" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="Normal."></textarea>
+                </p>
+                <p>
+                    <label for="TEXT_1425225239803">Lymph nodes:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1425225239803" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="No lymphadenopathy in the abdomen or pelvis."></textarea>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1425225239804" class="level2" data-section-name="GASTROINTESTINAL">
+                <header class="level2">
+                    GASTROINTESTINAL
+                </header>
+                <p>
+                    <label for="TEXT_1425225239806"></label>
+                    <textarea rows="3" cols="100" id="TEXT_1425225239806" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="Imaged bowel and mesentery are normal."></textarea>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1425225239807" class="level2" data-section-name="LOWER CHEST">
+                <header class="level2">
+                    LOWER CHEST
+                </header>
+                <p>
+                    <label for="TEXT_1425225239809">Heart:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1425225239809" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="Normal size."></textarea>
+                </p>
+                <p>
+                    <label for="TEXT_1425225239810">Lungs:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1425225239810" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="Lung bases are clear."></textarea>
+                </p>
+                <p>
+                    <label for="TEXT_1425225239811">Fluid:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1425225239811" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="No pleural or pericardial effusions."></textarea>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1425225239812" class="level2" data-section-name="BONES">
+                <header class="level2">
+                    BONES
+                </header>
+                <p>
+                    <label for="TEXT_1425225239813"></label>
+                    <textarea rows="3" cols="100" id="TEXT_1425225239813" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="No significant lesion."></textarea>
+                </p>
+            </section>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p>
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value=""></textarea>
+            </p>
+            <p>
+                <label for="TEXT_1425225239814">OPTN class 5 criteria:</label>
+                <textarea rows="3" cols="100" id="TEXT_1425225239814" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value=" The following OPTN class 5 criteria are used to determine if liver lesions are compatible with hepatocellular carcinoma by imaging, as follows:  OPTN Class 5A - Must meet ALL criteria:    1. Nodule measuring between 1 and 1.9 cm.    2. Increased contrast enhancement on late arterial phase (&quot;hypervascularity&quot;), relative to hepatic parenchyma.    3. BOTH &quot;washout&quot; on later contrast phase AND delayed peripheral rim enhancement (capsule/pseudocapsule).  OPTN Class 5A-g - Must meet ALL criteria:    1. Nodule measuring between 1 and 1.9 cm.    2. Increased contrast enhancement on late arterial phase (hypervascularity relative to hepatic parenchyma).    3. Growth (maximum diameter) by 50% or more on serial MR/CT obtained at least 6 months apart. Growth criteria does not apply to previously ablated lesions.  OPTN Class 5B - Must meet ALL criteria:    1. Nodule measuring between 2 and 5 cm.    2. Increased contrast enhancement on late arterial phase (&quot;hypervascularity&quot;), relative to hepatic parenchyma.    3. One of the following:        a. &quot;Washout&quot; on portal venous/delayed phase.        b. Delayed peripheral rim enhancement (capsule/pseudocapsule).        c. Growth (maximum diameter) by 50% or more on serial MR/CT obtained at least 6 months apart. Growth criteria does not apply to previously ablated lesions        d. Biopsy proven.  http://optn.transplant.hrsa.gov/resources/by-organ/liver-intestine/"></textarea>
+            </p>
+            <p>
+                <label for="TEXT_1425225239815">Milan Criteria:</label>
+                <textarea rows="3" cols="100" id="TEXT_1425225239815" name="" data-field-type="TEXT" title="" data-field-completion-action="NONE" value="   -  one lesion smaller than 5 cm     -  up to 3 lesions smaller than 3 cm    -  no extrahepatic manifestations     -  no vascular invasion"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

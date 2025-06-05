@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="AAST Liver Injury Grade" name="dcterms.title"/>
+<meta content="AAST Liver Injury Grade report module" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000265" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2013-12-27" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>false</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>AAST Liver Injury Grade</title>
+</head>
+<body>
+<section data-section-name="AAST Liver Injury Grade">
+<header class="level1">+ AAST Liver Injury Grade</header>
+<p>
+<select id="T265_1" name="AAST Liver Injury Grade">
+<option id="T265_2" name="AAST Liver Injury Grade" value="0">0.
+    No liver injury. </option>
+<option id="T265_3" name="AAST Liver Injury Grade" value="1">1.
+    Subcapsular hematoma (&lt;10% surface area) or Capsular tear (&lt;1cm parenchymal depth).</option>
+<option id="T265_4" name="AAST Liver Injury Grade" value="2">2.
+    Subcapsular hematoma (10% to 50% surface area), Intraparenchymal hematoma (&lt;10 cm in diameter), Capsular tear (1-3 cm parenchymal depth, &lt;10 cm in length), or Multiple "Grade 1" injuries.</option>
+<option id="T265_5" name="AAST Liver Injury Grade" value="3">3.
+    Subcapsular hematoma (&gt;50% surface area of ruptured subcapsular or parenchymal hematoma), Intraparenchymal hematoma (&gt; 10 cm or expanding), Laceration (&gt;3 cm parenchymal depth), or Multiple "Grade 2" injuries. </option>
+<option id="T265_6" name="AAST Liver Injury Grade" value="4">4.
+    Parenchymal disruption involving 25% to 75% hepatic lobe or 1-3 Couinaud segments.
+</option>
+<option id="T265_7" name="AAST Liver Injury Grade" value="5">5.
+    Parenchymal disruption (involving &gt;75% of hepatic lobe or &gt;3 Couinaud segments within a single lobe), or Juxtahepatic venous injuries (retrohepatic vena cava/central major hepatic veins).</option>
+<option id="T265_8" name="AAST Liver Injury Grade" value="6">6.
+    Hepatic avulsion.</option>
+</select>
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="US Carotids" name="dcterms.title"/>
+<meta content="US Carotids report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000274" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2013-12-15" name="dcterms.date"/>
+<meta content="Tolat P" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>US Carotids</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Carotid Ultrasound Examination</header>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T274_1" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T274_2" name="Comparison">None.</textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p><label>Grayscale and color Doppler ultrasound examination of the carotid and vertebral artery systems bilaterally. Maximum peak systolic velocity (PSV) / end diastolic velocity (EDV) measurements were obtained.</label></p>
+<section data-section-name="Right">
+<header class="level2">Right Carotid System</header>
+
+<p>
+<label>Right Common Carotid Artery (RCCA): </label>
+<input type="number" name="Right Common systolic" data-field-units="cm/s" /> <label>/</label>
+<input type="number" name="Right Common diastolic" data-field-units="cm/s" /> <label>cm/s</label>
+<select id="T274_3" name="Right Common plaque">
+<option id="T274_4" name="none" value="none">No plaque</option>
+<option id="T274_5" name="wall thickening" value="wall thickening">Wall thickening is present</option>
+<option id="T274_6" name="less than 50%" value="less than 50%">Plaque causes &lt; 50% narrowing of lumen diameter</option>
+<option id="T274_7" name="at least 50%" value="at least 50%">Plaque causes at least 50% narrowing of lumen diameter</option>
+<option id="T274_8" name="near occlusion" value="near occlusion">Near-occlusive plaque is present</option>
+<option id="T274_9" name="total occlusion" value="total occlusion">Total occlusion; lumen not identified</option>
+</select>
+<input type="text" id="T274_10" name="Right Common comments"/>
+</p>
+
+<p>
+<label>Right Internal Carotid Artery (RICA): </label>
+<input type="number" id="T274_11" name="Right Internal systolic" data-field-units="cm/s" /> <label>/</label>
+<input type="number" id="T274_12" name="Right Internal diastolic" data-field-units="cm/s" /> <label>cm/s</label>
+<select id="T274_13" name="Right Internal plaque">
+<option id="T274_14" name="none" value="none">No plaque</option>
+<option id="T274_15" name="wall thickening" value="wall thickening">Wall thickening is present</option>
+<option id="T274_16" name="less than 50%" value="less than 50%">Plaque causes &lt; 50% narrowing of lumen diameter</option>
+<option id="T274_17" name="at least 50%" value="at least 50%">Plaque causes at least 50% narrowing of lumen diameter</option>
+<option id="T274_18" name="near occlusion" value="near occlusion">Near-occlusive plaque is present</option>
+<option id="T274_19" name="total occlusion" value="total occlusion">Total occlusion; lumen not identified</option>
+</select>
+<input type="text" id="T274_20" name="Right Internal comments"/>
+</p>
+
+<p>
+<label>Right External Carotid Artery (RECA): </label>
+<input type="number" id="T274_21" name="Right External systolic" data-field-units="cm/s" /> <label>cm/s</label>
+<select id="T274_22" name="Right External plaque">
+<option id="T274_23" name="none" value="none">No plaque</option>
+<option id="T274_24" name="wall thickening" value="wall thickening">Wall thickening is present</option>
+<option id="T274_25" name="less than 50%" value="less than 50%">Plaque causes &lt; 50% narrowing of lumen diameter</option>
+<option id="T274_26" name="at least 50%" value="at least 50%">Plaque causes at least 50% narrowing of lumen diameter</option>
+<option id="T274_27" name="near occlusion" value="near occlusion">Near-occlusive plaque is present</option>
+<option id="T274_28" name="total occlusion" value="total occlusion">Total occlusion; lumen not identified</option>
+</select>
+<input type="text" id="T274_29" name="Right External comments"/>
+</p>
+
+<p>
+<label>Right Vertebral Artery (RVA): </label>
+<input type="number" id="T274_30" name="Right Vertebral systolic" data-field-units="cm/s" /> <label>cm/s</label>
+<input type="text" id="T274_31" name="Right Vertebral flow" value="Antegrade flow with normal waveform." />
+</p>
+
+</section>
+
+<section data-section-name="Left">
+<header class="level2">Left Carotid System</header>
+
+<p>
+<label>Left Common Carotid Artery (LCCA): </label>
+<input type="number" id="T274_32" name="Left Common systolic" data-field-units="cm/s" /> <label>/</label>
+<input type="number" id="T274_33" name="Left Common diastolic" data-field-units="cm/s" /> <label>cm/s</label>
+<select id="T274_34" name="Left Common plaque">
+<option id="T274_35" name="none" value="none">No plaque</option>
+<option id="T274_36" name="wall thickening" value="wall thickening">Wall thickening is present</option>
+<option id="T274_37" name="less than 50%" value="less than 50%">Plaque causes &lt; 50% narrowing of lumen diameter</option>
+<option id="T274_38" name="at least 50%" value="at least 50%">Plaque causes at least 50% narrowing of lumen diameter</option>
+<option id="T274_39" name="near occlusion" value="near occlusion">Near-occlusive plaque is present</option>
+<option id="T274_40" name="total occlusion" value="total occlusion">Total occlusion; lumen not identified</option>
+</select>
+<input type="text" id="T274_41" name="Left Common comments"/>
+</p>
+
+<p>
+<label>Left Internal Carotid Artery (LICA): </label>
+<input type="number" id="T274_42" name="Left Internal systolic" data-field-units="cm/s" /> <label>/</label>
+<input type="number" id="T274_43" name="Left Internal diastolic" data-field-units="cm/s" /> <label>cm/s</label>
+<select id="T274_44" name="Left Internal plaque">
+<option id="T274_45" name="none" value="none">No plaque</option>
+<option id="T274_46" name="wall thickening" value="wall thickening">Wall thickening is present</option>
+<option id="T274_47" name="less than 50%" value="less than 50%">Plaque causes &lt; 50% narrowing of lumen diameter</option>
+<option id="T274_48" name="at least 50%" value="at least 50%">Plaque causes at least 50% narrowing of lumen diameter</option>
+<option id="T274_49" name="near occlusion" value="near occlusion">Near-occlusive plaque is present</option>
+<option id="T274_50" name="total occlusion" value="total occlusion">Total occlusion; lumen not identified</option>
+</select>
+<input type="text" id="T274_51" name="Left Internal comments"/>
+</p>
+
+<p>
+<label>Left External Carotid Artery (LECA): </label>
+<input type="number" id="T274_52" name="Left External systolic" data-field-units="cm/s" /> <label>cm/s</label>
+<select id="T274_53" name="Left External plaque">
+<option id="T274_54" name="" value="none">No plaque</option>
+<option id="T274_55" name="" value="wall thickening">Wall thickening is present</option>
+<option id="T274_56" name="" value="less than 50%">Plaque causes &lt; 50% narrowing of lumen diameter</option>
+<option id="T274_57" name="" value="at least 50%">Plaque causes at least 50% narrowing of lumen diameter</option>
+<option id="T274_58" name="" value="near occlusion">Near-occlusive plaque is present</option>
+<option id="T274_59" name="" value="total occlusion">Total occlusion; lumen not identified</option>
+</select>
+<input type="text" id="T274_60" name="Left External comments"/>
+</p>
+
+<p>
+<label>Left Vertebral Artery (LVA): </label>
+<input type="number" id="T274_61" name="Left Vertebral systolic" data-field-units="cm/s" /> <label>cm/s</label>
+<input type="text" id="T274_62" name="Left Vertebral flow" value="Antegrade flow with normal waveform." />
+</p>
+
+</section>
+</section>
+
+<section data-section-name="Other">
+<header class="level2">Other findings</header>
+<p>
+<textarea id="T274_63" name="Other findings">None. </textarea>
+</p>
+</section>
+
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p><label>Society of Radiologists in Ultrasound (SRU) consensus statement (Radiology 2003; 229:340-346.  DOI 10.1148/radiol.2292030516) was used to estimate internal carotid artery stenosis.</label></p>
+<p>
+<label>Right internal carotid artery:</label>
+<select id="T274_64" name="Right Internal Carotid">
+<option id="T274_65" name="Normal" value="Normal">Normal (no stenosis)</option>
+<option id="T274_66" name="less than 50" value="less than 50">&lt;50% stenosis</option>
+<option id="T274_67" name="50 to 69" value="50 to 69">50% to 69% stenosis</option>
+<option id="T274_68" name="at least 70" value="at least 70">70% stenosis to near occlusion</option>
+<option id="T274_69" name="Near occlusion" value="Near occlusion">Near occlusion</option>
+<option id="T274_70" name="Total occlusion" value="Total occlusion">Total occlusion</option>
+</select>
+</p>
+<p>
+<label>Left internal carotid artery:</label>
+<select id="T274_71" name="Left Internal Carotid">
+<option id="T274_72" name="Normal" value="Normal">Normal (no stenosis).</option>
+<option id="T274_73" name="less than 50" value="less than 50">&lt;50% stenosis</option>
+<option id="T274_74" name="50 to 69" value="50 to 69">50% to 69% stenosis</option>
+<option id="T274_75" name="at least 70" value="at least 70">70% stenosis to near occlusion</option>
+<option id="T274_76" name="Near occlusion" value="Near occlusion">Near occlusion</option>
+<option id="T274_77" name="Total occlusion" value="Total occlusion">Total occlusion</option>
+</select>
+</p>
+<p>
+<label>Vertebral arteries:</label>
+<input type="text" id="T274_78" name="Vertebrals" value="Antegrade flow with normal waveforms bilaterally." />
+</p>
+<p>
+<textarea id="T274_79" name="Impression"></textarea>
+</p>
+</section>
+</body>
+</html>

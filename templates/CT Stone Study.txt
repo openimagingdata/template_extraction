@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CT Stone </title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="50e930ea-38d9-45e0-aa35-9c9df57bf488" />
+        <meta name="dcterms.title" content="CT Stone " />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="University of Utah" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2018-11-01" />
+        <meta name="dcterms.creator" content="Marta E. Heilbrun, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459555208450">
+                        <term>
+                            <code meaning="pancreas" value="RID170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459555208452">
+                        <term>
+                            <code meaning="pelvic lymph node group" value="RID28855" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459555208451">
+                        <term>
+                            <code meaning="adrenal region" value="RID28722" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459555208453">
+                        <term>
+                            <code meaning="small intestine" value="RID132" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208517">
+                        <term>
+                            <code meaning="genital system" value="RID39057" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208517_3">
+                        <term>
+                            <code meaning="hysterectomy" value="RID1826" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208526">
+                        <term>
+                            <code meaning="musculoskeletal system" value="RID13209" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208526_1">
+                        <term>
+                            <code meaning="melanoma" value="RID34617" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208503">
+                        <term>
+                            <code meaning="urinary bladder" value="RID237" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208503_0">
+                        <term>
+                            <code meaning="none" value="RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459554442185">
+                        <term>
+                            <code meaning="gallbladder" value="RID187" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459554442185_0">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459554442185_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208523">
+                        <term>
+                            <code meaning="vasculature" value="RID15989" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208523_1">
+                        <term>
+                            <code meaning="atherosclerosis" value="RID39049" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208488">
+                        <term>
+                            <code meaning="left kidney" value="RID29663" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208488_0">
+                        <term>
+                            <code meaning="none" value="RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208461">
+                        <term>
+                            <code meaning="right kidney" value="RID29662" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459554442181">
+                        <term>
+                            <code meaning="liver" value="RID58" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459554442181_1">
+                        <term>
+                            <code meaning="steatosis" value="RID5217" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459554442189">
+                        <term>
+                            <code meaning="spleen" value="RID86" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208478">
+                        <term>
+                            <code meaning="hydronephrosis" value="RID34393" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208478_0">
+                        <term>
+                            <code meaning="none" value="RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208478_1">
+                        <term>
+                            <code meaning="mild" value="RID5671" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208478_2">
+                        <term>
+                            <code meaning="moderate" value="RID5672" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208478_3">
+                        <term>
+                            <code meaning="severe" value="RID5673" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459554442176">
+                        <term>
+                            <code meaning="lung" value="RID1301" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459554442176_0">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459554442176_1">
+                        <term>
+                            <code meaning="report" value="RID28487" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208510">
+                        <term>
+                            <code meaning="urinary bladder" value="RID237" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208510_0">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208510_1">
+                        <term>
+                            <code meaning="limited evaluation" value="RID10386" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208510_2">
+                        <term>
+                            <code meaning="thin" value="RID28673" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208510_3">
+                        <term>
+                            <code meaning="irregular" value="RID5809" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208454">
+                        <term>
+                            <code meaning="appendix" value="RID168" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208454_0">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208454_2">
+                        <term>
+                            <code meaning="appendectomy" value="RID1711" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208497">
+                        <term>
+                            <code meaning="hydronephrosis" value="RID34393" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208497_0">
+                        <term>
+                            <code meaning="none" value="RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208497_1">
+                        <term>
+                            <code meaning="mild" value="RID5671" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208497_2">
+                        <term>
+                            <code meaning="moderate" value="RID5672" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208497_3">
+                        <term>
+                            <code meaning="severe" value="RID5673" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208494">
+                        <term>
+                            <code meaning="left ureter" value="RID30845" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208494_0">
+                        <term>
+                            <code meaning="none" value="RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208494_1">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208471">
+                        <term>
+                            <code meaning="right ureter" value="RID30844" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208471_0">
+                        <term>
+                            <code meaning="none" value="RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459555208471_1">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476917486402">
+                        <term>
+                            <code meaning="indication" value="RID49442" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="TEXT_1459554442168">Technique:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459554442168" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Helical scan mode axial images were obtained from the lung bases through the pubic symphysis without oral or intravenous contrast.  Coronal and sagittal images were created at the CT scanner.</textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476917486402">Indication:</label>
+                <select id="SELECTION_LIST_1476917486402" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Abdominal pain.">
+                    <option id="SELECTION_LIST_1476917486402_0" value="Abdominal pain." name="SELECTION_LIST_1476917486402" selected="">Abdominal pain.</option>
+                    <option id="SELECTION_LIST_1476917486402_1" value="Right flank pain." name="SELECTION_LIST_1476917486402">Right flank pain.</option>
+                    <option id="SELECTION_LIST_1476917486402_2" value="Left flank pain." name="SELECTION_LIST_1476917486402">Left flank pain.</option>
+                    <option id="SELECTION_LIST_1476917486402_3" value="Back pain." name="SELECTION_LIST_1476917486402">Back pain.</option>
+                </select>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1459554442176">Lung Bases:</label>
+                <select id="SELECTION_LIST_1459554442176" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Clear, without airspace disease.">
+                    <option id="SELECTION_LIST_1459554442176_0" value="Clear, without airspace disease." name="SELECTION_LIST_1459554442176" selected="">Clear, without airspace disease.</option>
+                    <option id="SELECTION_LIST_1459554442176_1" value="For findings in the chest please see separately dictated report." name="SELECTION_LIST_1459554442176">For findings in the chest please see separately dictated report.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1459554442181">Liver:</label>
+                <select id="SELECTION_LIST_1459554442181" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="No focal mass lesions on this noncontrast study. No intrahepatic biliary ductal dilatation. ">
+                    <option id="SELECTION_LIST_1459554442181_0" value="No focal mass lesions on this noncontrast study. No intrahepatic biliary ductal dilatation." name="SELECTION_LIST_1459554442181">No focal mass lesions on this noncontrast study. No intrahepatic biliary ductal dilatation.</option>
+                    <option id="SELECTION_LIST_1459554442181_1" value="Diffuse low attenuation of hepatic parenchyma. No definite oslid hepatic lesions. No intrahepatic biliary ductal dilatation." name="SELECTION_LIST_1459554442181">Diffuse low attenuation of hepatic parenchyma. No definite oslid hepatic lesions. No intrahepatic biliary ductal dilatation.</option>
+                    <option id="SELECTION_LIST_1459554442181_2" value="Hypoattenuation adjacent to the falciform ligament is likely pseduomass/focal fat. No definite solid hepatic lesions. No intrahepatic biliary ductal dilatation." name="SELECTION_LIST_1459554442181">Hypoattenuation adjacent to the falciform ligament is likely pseduomass/focal fat. No definite solid hepatic lesions. No intrahepatic biliary ductal dilatation.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1459554442185">Gallbladder:</label>
+                <select id="SELECTION_LIST_1459554442185" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="The CT appearance is normal.">
+                    <option id="SELECTION_LIST_1459554442185_0" value="The CT appearance is normal." name="SELECTION_LIST_1459554442185" selected="">The CT appearance is normal.</option>
+                    <option id="SELECTION_LIST_1459554442185_1" value="Surgically absent." name="SELECTION_LIST_1459554442185">Surgically absent.</option>
+                    <option id="SELECTION_LIST_1459554442185_2" value="Cholelithiasis with cholecystitis." name="SELECTION_LIST_1459554442185">Cholelithiasis with cholecystitis.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1459554442189">Spleen:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459554442189" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459555208450">Pancreas:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459555208450" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal CT appearance.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459555208451">Adrenals:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459555208451" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459555208452">Nodes:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459555208452" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No enlarged retroperitoneal lymph nodes. No enlarged pelvic lymph nodes. No enlarged inguinal lymph nodes.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459555208453">Bowel:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459555208453" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Nondilated.</textarea>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1459555208454">Appendix:</label>
+                <select id="SELECTION_LIST_1459555208454" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="A normal appendix is indentified.">
+                    <option id="SELECTION_LIST_1459555208454_0" value="A normal appendix is indentified." name="SELECTION_LIST_1459555208454" selected="">A normal appendix is indentified.</option>
+                    <option id="SELECTION_LIST_1459555208454_1" value="The appendix is not identified, but there is no free fluid or stranding in the right lower quadrant." name="SELECTION_LIST_1459555208454">The appendix is not identified, but there is no free fluid or stranding in the right lower quadrant.</option>
+                    <option id="SELECTION_LIST_1459555208454_2" value="Postoperative changes from appendectomy." name="SELECTION_LIST_1459555208454">Postoperative changes from appendectomy.</option>
+                </select>
+            </p>
+            <section id="SECTION_HEADER_1459555208458" class="level2" data-section-name="Right Genitourinary">
+                <header class="level2">
+                    Right Genitourinary
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1459555208461">Kidney:</label>
+                    <select id="SELECTION_LIST_1459555208461" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="No renal calculi.">
+                        <option id="SELECTION_LIST_1459555208461_0" value="No renal calculi." name="SELECTION_LIST_1459555208461" selected="">No renal calculi.</option>
+                        <option id="SELECTION_LIST_1459555208461_1" value="One renal calculus located" name="SELECTION_LIST_1459555208461">One renal calculus located</option>
+                        <option id="SELECTION_LIST_1459555208461_2" value="Multiple renal calculi." name="SELECTION_LIST_1459555208461">Multiple renal calculi.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1459555208471">Ureter:</label>
+                    <select id="SELECTION_LIST_1459555208471" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="No ureteral calculi.">
+                        <option id="SELECTION_LIST_1459555208471_0" value="No ureteral calculi." name="SELECTION_LIST_1459555208471" selected="">No ureteral calculi.</option>
+                        <option id="SELECTION_LIST_1459555208471_1" value="Present." name="SELECTION_LIST_1459555208471">Present.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1459555208478">Obstruction/Hydronephrosis:</label>
+                    <select id="SELECTION_LIST_1459555208478" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="None.">
+                        <option id="SELECTION_LIST_1459555208478_0" value="None." name="SELECTION_LIST_1459555208478" selected="">None.</option>
+                        <option id="SELECTION_LIST_1459555208478_1" value="Mild." name="SELECTION_LIST_1459555208478">Mild.</option>
+                        <option id="SELECTION_LIST_1459555208478_2" value="Moderate." name="SELECTION_LIST_1459555208478">Moderate.</option>
+                        <option id="SELECTION_LIST_1459555208478_3" value="Severe." name="SELECTION_LIST_1459555208478">Severe.</option>
+                    </select>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1459555208483" class="level2" data-section-name="Left Genitourinary">
+                <header class="level2">
+                    Left Genitourinary
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1459555208488">Kidney:</label>
+                    <select id="SELECTION_LIST_1459555208488" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="No renal calculi.">
+                        <option id="SELECTION_LIST_1459555208488_0" value="No renal calculi." name="SELECTION_LIST_1459555208488" selected="">No renal calculi.</option>
+                        <option id="SELECTION_LIST_1459555208488_1" value="One renal calculus located." name="SELECTION_LIST_1459555208488">One renal calculus located.</option>
+                        <option id="SELECTION_LIST_1459555208488_2" value="Multiple renal calculi." name="SELECTION_LIST_1459555208488">Multiple renal calculi.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1459555208494">Ureter:</label>
+                    <select id="SELECTION_LIST_1459555208494" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="No ureteral calculi">
+                        <option id="SELECTION_LIST_1459555208494_0" value="No ureteral calculi" name="SELECTION_LIST_1459555208494" selected="">No ureteral calculi</option>
+                        <option id="SELECTION_LIST_1459555208494_1" value="Present." name="SELECTION_LIST_1459555208494">Present.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1459555208497">Obstruction/Hydronephrosis:</label>
+                    <select id="SELECTION_LIST_1459555208497" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="None.">
+                        <option id="SELECTION_LIST_1459555208497_0" value="None." name="SELECTION_LIST_1459555208497" selected="">None.</option>
+                        <option id="SELECTION_LIST_1459555208497_1" value="Mild." name="SELECTION_LIST_1459555208497">Mild.</option>
+                        <option id="SELECTION_LIST_1459555208497_2" value="Moderate." name="SELECTION_LIST_1459555208497">Moderate.</option>
+                        <option id="SELECTION_LIST_1459555208497_3" value="Severe." name="SELECTION_LIST_1459555208497">Severe.</option>
+                    </select>
+                </p>
+            </section>
+            <p title="">
+                <label for="SELECTION_LIST_1459555208503">Urinary Bladder:</label>
+                <input list="SELECTION_LIST_1459555208503_LIST" id="SELECTION_LIST_1459555208503" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="No calculi." />
+                <datalist id="SELECTION_LIST_1459555208503_LIST">
+                    <option id="SELECTION_LIST_1459555208503_0" value="No calculi." name="SELECTION_LIST_1459555208503" selected="">No calculi.</option>
+                    <option id="SELECTION_LIST_1459555208503_1" value="" name="SELECTION_LIST_1459555208503"></option>
+                </datalist>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1459555208510"></label>
+                <select id="SELECTION_LIST_1459555208510" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="The bladder is distended adequately and the wall is thin.">
+                    <option id="SELECTION_LIST_1459555208510_0" value="The bladder is distended adequately and the wall is thin." name="SELECTION_LIST_1459555208510" selected="">The bladder is distended adequately and the wall is thin.</option>
+                    <option id="SELECTION_LIST_1459555208510_1" value="The bladder wall is incompletely distended, limiting evaluation." name="SELECTION_LIST_1459555208510">The bladder wall is incompletely distended, limiting evaluation.</option>
+                    <option id="SELECTION_LIST_1459555208510_2" value="The bladder wall is thin." name="SELECTION_LIST_1459555208510">The bladder wall is thin.</option>
+                    <option id="SELECTION_LIST_1459555208510_3" value="The bladder wall is asymmetrically thickened." name="SELECTION_LIST_1459555208510">The bladder wall is asymmetrically thickened.</option>
+                    <option id="SELECTION_LIST_1459555208510_4" value="Bladder wall appears trabeculated." name="SELECTION_LIST_1459555208510">Bladder wall appears trabeculated.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1459555208517">Reproductive Organs:</label>
+                <select id="SELECTION_LIST_1459555208517" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="The prostate and seminal vesicles are unremarkable.">
+                    <option id="SELECTION_LIST_1459555208517_0" value="The prostate and seminal vesicles are unremarkable." name="SELECTION_LIST_1459555208517" selected="">The prostate and seminal vesicles are unremarkable.</option>
+                    <option id="SELECTION_LIST_1459555208517_1" value="The uterus is unremarkable. No abnormal adnexal masses." name="SELECTION_LIST_1459555208517">The uterus is unremarkable. No abnormal adnexal masses.</option>
+                    <option id="SELECTION_LIST_1459555208517_2" value="The prostate is enlarged, a nonspecific finding but one that is typically secondary to BPH." name="SELECTION_LIST_1459555208517">The prostate is enlarged, a nonspecific finding but one that is typically secondary to BPH.</option>
+                    <option id="SELECTION_LIST_1459555208517_3" value="The uterus is not visualized, consistent with a hysterectomy. No abnormal adnexal masses." name="SELECTION_LIST_1459555208517">The uterus is not visualized, consistent with a hysterectomy. No abnormal adnexal masses.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1459555208523">Vasculature:</label>
+                <input list="SELECTION_LIST_1459555208523_LIST" id="SELECTION_LIST_1459555208523" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal." />
+                <datalist id="SELECTION_LIST_1459555208523_LIST">
+                    <option id="SELECTION_LIST_1459555208523_0" value="Normal." name="SELECTION_LIST_1459555208523" selected="">Normal.</option>
+                    <option id="SELECTION_LIST_1459555208523_1" value="Scattered atherosclerotic vasculature changes." name="SELECTION_LIST_1459555208523">Scattered atherosclerotic vasculature changes.</option>
+                </datalist>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1459555208526">Soft Tissues:</label>
+                <select id="SELECTION_LIST_1459555208526" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal.">
+                    <option id="SELECTION_LIST_1459555208526_0" value="Normal." name="SELECTION_LIST_1459555208526" selected="">Normal.</option>
+                    <option id="SELECTION_LIST_1459555208526_1" value="No subcutaneous or intramuscular enhancing mass lesions." name="SELECTION_LIST_1459555208526">No subcutaneous or intramuscular enhancing mass lesions.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1459555208502">Additional findings:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459555208502" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No other significant abnormalities of the upper urinary tract.</textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No urinary tract calculi.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

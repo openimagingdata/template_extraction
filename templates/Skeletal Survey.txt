@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Skeletal Survey" name="dcterms.title"/>
+<meta content="Skeletal Survey template :: Authored by Meyer JS, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000111" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-16" name="dcterms.date"/>
+<meta content="Meyer JS, et al." name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Society for Pediatric Radiology (SPR)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="child abuse" value="RID4643" scheme="RadLex">
+</term>
+<term>
+ <code meaning="fracture" value="RID4650" scheme="RadLex">
+</term>
+<term>
+ <code meaning="projection radiography" value="RID10345" scheme="RadLex">
+</term>
+<term>
+ <code meaning="skeletal survey" value="RID28819" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T111_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T111_6">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T111_13">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T111_15">
+ <term>
+  <code meaning="observations section" value="RID28486" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T111_16">
+ <term>
+  <code meaning="fracture" value="RID4650" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T111_113">
+ <term>
+  <code meaning="soft tissue administration" value="RID11185" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T111_115">
+ <term>
+  <code meaning="bone organ" value="RID13197" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="density characteristic" value="RID6041" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T111_139">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Skeletal Survey</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Skeletal Survey</header>
+<p>
+<textarea id="T111_2" name="Procedure">Frontal and lateral views of the skull, chest, abdomen, and spine, bilateral oblique views of the ribs, and frontal views of the upper and lower extremities obtained according to the guidelines for the American College of Radiology for the investigation of possible child abuse are submitted for interpretation. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T111_6" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T111_13" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T111_16">Fractures: </label>
+<input type="text" id="T111_16" name="Fractures" value="None. "/>
+</p>
+<p>
+<label for="T111_111">Other bony abnormality:</label>
+<input type="text" id="T111_111" name="Other bony abnormality" value="None. "/>
+</p>
+<p>
+<label for="T111_113">Soft tissues: </label>
+<input type="text" id="T111_113" name="Soft tissues" value="Normal. "/>
+</p>
+<p>
+<label for="T111_115">Bone density:</label>
+<input type="text" id="T111_115" name="Bone density" value="Normal. "/>
+</p>
+<p>
+<label for="T111_118">Bone age: </label>
+<input type="text" id="T111_118" name="Bone age" value="Normal. "/>
+</p>
+<p>
+<textarea id="T111_15" name="Findings"> </textarea>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T111_139" name="Impression">Normal. </textarea>
+</p>
+<p>
+<label for="T111_145">Communication of findings: </label>
+<input type="text" id="T111_145" name="Communication of findings" value=""/>
+</p>
+</section>
+</body>
+</html>

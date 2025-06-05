@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Routine ABD_PEL CT MEH" name="dcterms.title"/>
+<meta content="Routine ABD_PEL CT MEH report template" name="dcterms.description"/>
+<meta content="" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2015-05-14" name="dcterms.date"/>
+<meta content=" " name="dcterms.creator"/>
+<meta content=" " name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>0</top-level-flag>
+<status>ACTIVE</status>
+<coded_content></coded_content>
+</template_attributes>
+-->
+</script>
+<title>Routine ABD_PEL CT MEH</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Routine ABD_PEL CT MEH</header>
+<p>
+<textarea id="0" name="Procedure"></textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+
+<p>*generator Msftedit 5.41.15.1515;viewkind4uc1df0fs36 EXAM CT <select id="20150514155927_1" name="Exam Technique">
+<option id="20150514155927_2" name="with IV contrast" value="With - with IV contrast">With - with IV contrast</option>
+<option id="20150514155927_3" name="without IV contrast" value="Without - without IV contrast">Without - without IV contrast</option>
+<option id="20150514155927_4" name="without and with IV contrast" value="Both - without and with IV contrast">Both - without and with IV contrast</option>
+</select>
+   of the Abdomen and Pelvis</p>
+<p>INDICATIONS <textarea id="20150514155927_5" name="Indications"></textarea></p>
+<p>TECHNIQUE <select id="20150514155927_6" name="Technique">
+<option id="20150514155927_7" name="Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and positive oral contrast material. Coronal and sagittal images were created at the CT scanner." value="Routine - Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and positive oral contrast material. Coronal and sagittal images were created at the CT scanner.">Routine - Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and positive oral contrast material. Coronal and sagittal images were created at the CT scanner.</option>
+<option id="20150514155927_8" name="Helical scan mode images were obtained through the abdomen and pelvis following the administration of  positive oral contrast material only. Coronal and sagittal images were created at the CT scanner. This examination is limited for the evaluation of solid organs and vascular structures due to the lack of intravenous contrast." value="Without - Helical scan mode images were obtained through the abdomen and pelvis following the administration of  positive oral contrast material only. Coronal and sagittal images were created at the CT scanner. This examination is limited for the evaluation of solid organs and vascular structures due to the lack of intravenous contrast.">Without - Helical scan mode images were obtained through the abdomen and pelvis following the administration of  positive oral contrast material only. Coronal and sagittal images were created at the CT scanner. This examination is limited for the evaluation of solid organs and vascular structures due to the lack of intravenous contrast.</option>
+<option id="20150514155927_9" name="Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material in multiple postcontrast phases and oral contrast material. Coronal and sagittal images were created at the CT scanner." value="Multiphase - Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material in multiple postcontrast phases and oral contrast material. Coronal and sagittal images were created at the CT scanner.">Multiphase - Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material in multiple postcontrast phases and oral contrast material. Coronal and sagittal images were created at the CT scanner.</option>
+<option id="20150514155927_10" name="Helical scan mode images were obtained through the abdomen before and after the protocol administration of nonionic intravenous contrast material in multiple postcontrast phases and oral contrast material. Additionally, in the portal venous phase imaging is carried through the pelvis. Coronal and sagittal images were created at the CT scanner." value="Three-phase liver - Helical scan mode images were obtained through the abdomen before and after the protocol administration of nonionic intravenous contrast material in multiple postcontrast phases and oral contrast material. Additionally, in the portal venous phase imaging is carried through the pelvis. Coronal and sagittal images were created at the CT scanner.">Three-phase liver - Helical scan mode images were obtained through the abdomen before and after the protocol administration of nonionic intravenous contrast material in multiple postcontrast phases and oral contrast material. Additionally, in the portal venous phase imaging is carried through the pelvis. Coronal and sagittal images were created at the CT scanner.</option>
+<option id="20150514155927_11" name="Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material. Coronal and sagittal images were created at the CT scanner." value="ED - Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material. Coronal and sagittal images were created at the CT scanner.">ED - Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material. Coronal and sagittal images were created at the CT scanner.</option>
+<option id="20150514155927_12" name="CT of the abdomen and pelvis was performed at an outside institution. Study is performed on initial. Over read is provided on followup." value="Outside - CT of the abdomen and pelvis was performed at an outside institution. Study is performed on initial. Over read is provided on followup.">Outside - CT of the abdomen and pelvis was performed at an outside institution. Study is performed on initial. Over read is provided on followup.</option>
+<option id="20150514155927_13" name="Helical scan mode CT of the abdomen was performed without contrast. The images were evaluated by a physician provider with decision made to proceed with contrast administration dependent on identification of an adrenal lesion. Next intravenous contrast was administered and, after a 70 second delay, helical scan mode images of the abdomen were acquired. An additional series of images through the abdomen was obtained after 15 minutes.
+" value="Adrenal - Helical scan mode CT of the abdomen was performed without contrast. The images were evaluated by a physician provider with decision made to proceed with contrast administration dependent on identification of an adrenal lesion. Next intravenous contrast was administered and, after a 70 second delay, helical scan mode images of the abdomen were acquired. An additional series of images through the abdomen was obtained after 15 minutes.
+">Adrenal - Helical scan mode CT of the abdomen was performed without contrast. The images were evaluated by a physician provider with decision made to proceed with contrast administration dependent on identification of an adrenal lesion. Next intravenous contrast was administered and, after a 70 second delay, helical scan mode images of the abdomen were acquired. An additional series of images through the abdomen was obtained after 15 minutes.
+</option>
+</select>
+    <select id="20150514155927_14" name="Additional series">
+<option id="20150514155927_15" name="Note, findings in the thorax will be reported separately." value="Thorax - Note, findings in the thorax will be reported separately.">Thorax - Note, findings in the thorax will be reported separately.</option>
+<option id="20150514155927_16" name="Blank" value="Blank" selected>Blank</option>
+<option id="20150514155927_17" name="Note, findings in the soft tissues of the neck and thorax will be reported separately." value="Chest with neck - Note, findings in the soft tissues of the neck and thorax will be reported separately.">Chest with neck - Note, findings in the soft tissues of the neck and thorax will be reported separately.</option>
+</select>
+  <select id="20150514155927_18" name="Tumor report">
+<option id="20150514155927_19" name="Blank" value="Blank" selected>Blank</option>
+<option id="20150514155927_20" name="A formal RECIST read for research purposes will be reported separately." value="Research - A formal RECIST read for research purposes will be reported separately.">Research - A formal RECIST read for research purposes will be reported separately.</option>
+</select>
+ </p>
+<p>COMPARISON <textarea id="20150514155927_21" name="Comparison">No prior abdominal or pelvic CTs are in the system.</textarea></p>
+<p>FINDINGS</p>
+<p><textarea id="20150514155927_22" name="Lungs">Lung bases&#58;</textarea>  <textarea id="20150514155927_23" name="Lung bases"></textarea></p>
+<p> Liver <textarea id="20150514155927_24" name="Liver">No focal mass lesions. No intrahepatic biliary ductal dilatation.</textarea></p>
+<p>Gallbladder <select id="20150514155927_25" name="Gallbladder">
+<option id="20150514155927_26" name="The CT appearance is unremarkable." value="Normal - The CT appearance is unremarkable.">Normal - The CT appearance is unremarkable.</option>
+<option id="20150514155927_27" name="Surgically absent." value="Absent - Surgically absent.">Absent - Surgically absent.</option>
+<option id="20150514155927_28" name="Cholelithiasis without cholecystitis." value="Stones - Cholelithiasis without cholecystitis.">Stones - Cholelithiasis without cholecystitis.</option>
+</select>
+  </p>
+<p>Spleen <textarea id="20150514155927_29" name="Spleen">Unremarkable</textarea></p>
+<p>Pancreas <textarea id="20150514155927_30" name="Pancreas">Normal CT appearance.</textarea></p>
+<p>Adrenals <textarea id="20150514155927_31" name="Adrenals">No nodules.</textarea></p>
+<p>Kidneys <textarea id="20150514155927_32" name="Kidneys 1">No solid lesions.</textarea>  <textarea id="20150514155927_33" name="Kidneys 2">No calculi. No hydroureteronephrosis.</textarea></p>
+<p>Bowel <textarea id="20150514155927_34" name="Bowel">Nondilated.</textarea>  <select id="20150514155927_35" name="Appendix">
+<option id="20150514155927_36" name="  " value="  " selected>  </option>
+<option id="20150514155927_37" name="A normal appendix is identified." value="Normal - A normal appendix is identified.">Normal - A normal appendix is identified.</option>
+<option id="20150514155927_38" name="The appendix is not identified, but there is no free fluid or stranding in the right lower quadrant." value="Not found - The appendix is not identified, but there is no free fluid or stranding in the right lower quadrant.">Not found - The appendix is not identified, but there is no free fluid or stranding in the right lower quadrant.</option>
+<option id="20150514155927_39" name="Postoperative changes from appendectomy." value="Appendectomy - Postoperative changes from appendectomy.">Appendectomy - Postoperative changes from appendectomy.</option>
+</select>
+ </p>
+<p>Mesentery/Peritoneum <textarea id="20150514155927_40" name="Mesentery">Unremarkable</textarea></p>
+<p>Nodes <textarea id="20150514155927_41" name="Nodes">Scattered small abdominal nodes, none meeting CT criteria for pathologic enlargement.</textarea></p>
+<p>Pelvis <select id="20150514155927_42" name="Pelvis">
+<option id="20150514155927_43" name="The prostate and seminal vesicles are unremarkable." value="Young male - The prostate and seminal vesicles are unremarkable.">Young male - The prostate and seminal vesicles are unremarkable.</option>
+<option id="20150514155927_44" name="The uterus is unremarkable. No abnormal adnexal masses." value="Young female - The uterus is unremarkable. No abnormal adnexal masses.">Young female - The uterus is unremarkable. No abnormal adnexal masses.</option>
+<option id="20150514155927_45" name="The prostate is enlarged, a nonspecific finding but one that is typically secondary to BPH." value="Old male - The prostate is enlarged, a nonspecific finding but one that is typically secondary to BPH.">Old male - The prostate is enlarged, a nonspecific finding but one that is typically secondary to BPH.</option>
+<option id="20150514155927_46" name="The uterus  is not visualized, consistent with hysterectomy. No abnormal adnexal masses." value="Hysterectomy - The uterus  is not visualized, consistent with hysterectomy. No abnormal adnexal masses.">Hysterectomy - The uterus  is not visualized, consistent with hysterectomy. No abnormal adnexal masses.</option>
+</select>
+  <textarea id="20150514155927_47" name="Optional pelvis"></textarea></p>
+<p>Bone windows <textarea id="20150514155927_48" name="Bones">No aggressive osseous abnormalities.</textarea></p>
+<p>Vasculature <select id="20150514155927_49" name="Vessels">
+<option id="20150514155927_50" name="Normal, without aneurysm or significant atherosclerotic disease." value="Normal - Normal, without aneurysm or significant atherosclerotic disease.">Normal - Normal, without aneurysm or significant atherosclerotic disease.</option>
+<option id="20150514155927_51" name="Atherosclerotic disease of the abdominal aorta. No abdominal aortic aneurysm." value="Atherosclerosis - Atherosclerotic disease of the abdominal aorta. No abdominal aortic aneurysm.">Atherosclerosis - Atherosclerotic disease of the abdominal aorta. No abdominal aortic aneurysm.</option>
+</select>
+  </p>
+<p>Soft Tissues <select id="20150514155927_52" name="Soft tissue">
+<option id="20150514155927_53" name="Unremarkable." value="Normal - Unremarkable.">Normal - Unremarkable.</option>
+<option id="20150514155927_54" name="No subcutaneous or intramuscular enhancing mass lesions." value="Melanoma - No subcutaneous or intramuscular enhancing mass lesions.">Melanoma - No subcutaneous or intramuscular enhancing mass lesions.</option>
+<option id="20150514155927_55" name="Subcutaneous fat at the level of the umbilicus measures number cm in anteroposterior diameter." value="Subcutaneous - Subcutaneous fat at the level of the umbilicus measures number cm in anteroposterior diameter.">Subcutaneous - Subcutaneous fat at the level of the umbilicus measures number cm in anteroposterior diameter.</option>
+</select>
+ </p>
+<p>IMPRESSION</p>
+<p>1. <textarea id="20150514155927_56" name="Impression">No malignant or metastatic disease in the abdomen or pelvis.</textarea></p>
+</section><section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="" name="Impression"></textarea>
+</p>
+</section>
+</body>
+</html>

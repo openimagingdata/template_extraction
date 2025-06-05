@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fluoro Feeding Tube </title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="2478af9e-78d0-46da-af85-a0f63c453f82" />
+        <meta name="dcterms.title" content="Fluoro Feeding Tube " />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="University of Utah" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2018-03-12" />
+        <meta name="dcterms.creator" content="Marta E. Heilbrun, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="findingsText">
+                        <term>
+                            <code meaning="ligament of Treitz" value="RID147" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459354564191">
+                        <term>
+                            <code meaning="indication" value="RID49442" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459354564192">
+                        <term>
+                            <code meaning="fluoroscopy time" value="RID49440" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="TEXT_1459354564190">Technique:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459354564190" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Small amount of topical lidocaine gel was placed into the nares. Next, under fluoroscopic guidance, a feeding tube was inserted into the stomach and guided into the proximal small bowel. Small amount of contrast was injected to verify satisfactory positioning.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459354564192">Fluoroscopy Time:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459354564192" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1459354564191">Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459354564191" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Requirement for nutritional replacement.</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="findingsText">The tip of the feeding tube terminates:</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">at the ligament of Treitz</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1520484872613">Additional Findings:</label>
+                <input type="text" id="TEXT_1520484872613" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="None." />
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Technically successful placement of feeding tube using fluoroscopic guidance.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta content="Bladder Ultrasound" name="dcterms.title" />
+		<meta content="Bladder Ultrasound template :: Authored by Kahn CE Jr" name="dcterms.description" />
+		<meta content="http://www.radreport.org/template/0000192" name="dcterms.identifier" />
+		<meta content="en" name="dcterms.language" />
+		<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type" />
+		<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher" />
+		<meta content="May be used gratis, subject to license agreement" name="dcterms.rights" />
+		<meta content="http://www.radreport.org/license.pdf" name="dcterms.license" />
+		<meta content="2013-12-08" name="dcterms.date" />
+		<meta content="Kahn CE Jr" name="dcterms.creator" />
+		<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+		<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+		<script type="text/xml">
+			<!--
+			<template_attributes>
+				<top-level-flag>true</top-level-flag>
+				<status>ACTIVE</status>			
+			</template_attributes>
+			<coded_content>
+</coded_content>
+			-->
+		</script>
+		<title>Bladder Ultrasound</title>
+		<!-- <style>header {display:none;} label {display: block;}</style> -->
+	</head>
+	<body>
+		<section data-section-name="Procedure">
+			<header class="level1">Bladder ultrasound examination.</header>
+		</section>
+		<section data-section-name="Clinical information">
+			<header class="level1">Clinical information</header>
+			<p>
+			<textarea id="T192_002" name="Clinical information">Incomplete voiding.</textarea>
+			</p>
+		</section>
+		<section data-section-name="Comparison">
+			<header class="level1">Comparison</header>
+			<p>
+				<textarea id="T192_003" name="Comparison" >None.</textarea>
+			</p>
+		</section>
+		<section data-section-name="Findings">
+			<header class="level1">Findings</header>
+			<section data-section-name="Urinary bladder">
+				<header class="level2">URINARY BLADDER</header>
+				<p>
+				<textarea id="T192_004" name="URINARY BLADDER" >The urinary bladder is morphologically normal. No free fluid is seen in the pelvis.</textarea>
+				</p>
+			</section> 
+			<section data-section-name="Bladder volume">
+				<header class="level2">BLADDER VOLUME</header>
+				<p>
+				<label for="T192_005">Pre-void bladder:</label>
+				<input type="text" id="T192_005" name="Pre-void bladder" /> <label for="T192_005">cm;</label>
+				<label for="T192_006">estimated volume</label>
+				<input type="number" id="T192_006" name="estimated volume" /> <label for="T192_006">ml</label>
+				</p>
+				<p>
+				<label for="T192_007">Post-void bladder:</label>
+				<input type="text" id="T192_007" name="Post-void bladder" /> <label for="T192_007">cm;</label>
+				<label for="T192_008">estimated volume</label> 
+				<input type="number" id="T192_008" name="estimated volume" /> <label for="T192_008">ml</label>
+				</p>
+			</section>
+		</section>
+		<section data-section-name="Impression">
+			<header class="level1">Impression</header>
+			<p>
+				<textarea id="T192_009" name="Impression">Normal.</textarea>
+			</p>
+		</section>
+	</body>
+</html>

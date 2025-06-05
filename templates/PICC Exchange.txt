@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="PICC Exchange" name="dcterms.title"/>
+<meta content="PICC Exchange template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000187" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-05-29" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="catheter" value="RID5576" scheme="RadLex">
+</term>
+<term>
+ <code meaning="peripheral intravenous central catheter" value="RID5581" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T187_8">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T187_9">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T187_15">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>PICC Exchange</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">PICC Exchange</header>
+<p>
+After the procedure was explained to the patient, the patient was brought to the interventional radiology suite 
+and placed supine on the exam table. The upper extremity and current PICC line were prepped and draped in usual 
+sterile fashion. 1% lidocaine was used for local anesthetic.
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T187_8" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T187_9" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+The PICC line was pulled back approximately 20 cm and cut at a 90-degree angle. Through the remaining portion of 
+the PICC line, a Microvena wire was advanced centrally into the IVC. The remaining portion of the PICC line was 
+removed.
+</p>
+<p>
+A 5 French vascular peel-away sheath was then placed over the wire into the vein. 
+</p>
+<p>
+The new PICC line was sized to <input id="T187_998" type="number" name="PICC_line_size" step="0.1" /> cm. 
+The inner dilator and wire were removed. Through the sheath, a 
+<input id="T187_997" type="text" name="PICC_line" /> 
+PICC line was placed such that the tip was at the junction of SVC and right atrium. This was confirmed with 
+fluoroscopy. 
+</p>
+<p>
+<label for="T187_999">Catheter length:</label>
+<input type="number" name="Catheter length" id="T187_999" /> <label for="T187_999">cm.</label> 
+</p>
+<p>
+The catheter was secured in place with 3-0 nonabsorbable suture. The catheter aspirates and flushes without 
+difficulty. A sterile dressing was applied. 
+</p>
+<p>
+<label for="T187_12">Complications:</label>
+<input type="text" id="T187_12" name="Complications" value="None. The patient tolerated the procedure well and without any immediate complications."/>
+</p>
+<p>
+<label for="T187_14">Fluoroscopy time:</label>
+<input type="number" id="T187_14" name="Fluoroscopy time" data-field-units="minutes" min="" max=""/> <label for="T187_14">minutes</label>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T187_15" name="Impression">PICC exchange. </textarea>
+</p>
+</section>
+</body>
+</html>

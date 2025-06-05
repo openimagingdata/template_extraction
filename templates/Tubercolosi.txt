@@ -1,0 +1,28 @@
+TUBERCOLOSI
+Informazioni cliniche
+[Screening della TB primaria * | asintomatica]
+Confronto[Nessuno ]
+I risultati:
+Polmoni
+Infiltrati: [Nessuno * | destra | Sinistra | Periilare | Diffusi]
+Inflazione: [Normale * | Iperinflazione | ipoinflazione]
+Malattia interstiziale: [Nessuna | destra | Sinistra | Periilare | Diffusa]
+Cicatrici o atelettasia del parenchima: [Normale  | Parte superiore destra | destra in basso | Parte superiore sinistra | Sinistra in basso]
+Noduli polmonari: [Nessuno  | Solitario | Da due a cinque | Pi&ugrave; di cinque | Opacit&agrave; Miliari]
+Mediastino
+Cardiomegalia [No  | Lieve | Moderato | Grave]
+Vascolarizzazione polmonare [Normale  | aumentata | diminuita]
+Adenopatia paratracheale [Assente  | Presente]
+Adenopatia ilare [Nessuno * |destra | Sinistra]
+Massa mediastinica [Assente * | Presente]
+Pleura
+Versamento pleurico destro: [Nessuno * | Piccolo | Moderato | Grande]
+Versamento pleurico sinistro: [Nessuno * | Piccolo | Moderato | Grande]
+Cicatrici pleuriche: [nessuna * | Apicale destra | Laterale destro | destra basilare | Apicale sinistro | Laterale sinistro | Sinistra basilare]
+Pneumotorace destro: [Nessuno * | Piccolo | Moderato | Grande]
+Pneumotorace sinistro: [Nessuno * | Piccolo | Moderato | Grande]
+Altri risultati
+Conclusioni
+
+
+

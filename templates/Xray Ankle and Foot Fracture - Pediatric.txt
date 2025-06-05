@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Xray Foot and Ankle - Pediatric</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="4e04c78c-b002-4dbc-9f03-3c2057c3900c" />
+        <meta name="dcterms.title" content="Xray Foot and Ankle - Pediatric" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2020-03-12" />
+        <meta name="dcterms.creator" content="Apeksha Chaturvedi" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="CHECKBOX_1580316820951_0">
+                        <term>
+                            <code meaning="1st" value="http://radlex.org/RID/RID5996" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820951_1">
+                        <term>
+                            <code meaning="2nd" value="http://radlex.org/RID/RID5998" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820951_2">
+                        <term>
+                            <code meaning="3rd" value="http://radlex.org/RID/RID6000" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820951_3">
+                        <term>
+                            <code meaning="4th" value="http://radlex.org/RID/RID6002" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820951_4">
+                        <term>
+                            <code meaning="5th" value="http://radlex.org/RID/RID6004" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580311997040_0">
+                        <term>
+                            <code meaning="right" value="http://radlex.org/RID/RID5825" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580311997040_1">
+                        <term>
+                            <code meaning="left" value="http://radlex.org/RID/RID5824" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063438">
+                        <term>
+                            <code meaning="Salter-Harris fracture" value="http://radlex.org/RID/RID4684" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063438_0">
+                        <term>
+                            <code meaning="not applicable" value="http://radlex.org/RID/RID46056" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063438_1">
+                        <term>
+                            <code meaning="Salter-Harris type I fracture" value="http://radlex.org/RID/RID4685" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063438_2">
+                        <term>
+                            <code meaning="Salter-Harris type II fracture" value="http://radlex.org/RID/RID4686" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063438_3">
+                        <term>
+                            <code meaning="Salter-Harris type III fracture" value="http://radlex.org/RID/RID4687" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063438_4">
+                        <term>
+                            <code meaning="Salter-Harris type IV fracture" value="http://radlex.org/RID/RID4688" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063438_5">
+                        <term>
+                            <code meaning="Salter-Harris type V fracture" value="http://radlex.org/RID/RID4689" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063434_0">
+                        <term>
+                            <code meaning="not applicable" value="http://radlex.org/RID/RID46056" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063434_1">
+                        <term>
+                            <code meaning="yes" value="http://radlex.org/RID/RID28474" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063434_2">
+                        <term>
+                            <code meaning="no" value="http://radlex.org/RID/RID28475" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1576511526385">
+                        <term>
+                            <code meaning="bones of foot or ankle" value="http://radlex.org/RID/RID2948" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1576511526385_0">
+                        <term>
+                            <code meaning="tibia" value="http://radlex.org/RID/RID2885" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1576511526385_1">
+                        <term>
+                            <code meaning="fibula" value="http://radlex.org/RID/RID2871" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1576511526385_2">
+                        <term>
+                            <code meaning="calcaneus" value="http://radlex.org/RID/RID2959" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1576511526385_3">
+                        <term>
+                            <code meaning="talus" value="http://radlex.org/RID/RID2949" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1576511526385_4">
+                        <term>
+                            <code meaning="cuboid" value="http://radlex.org/RID/RID2973" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1576511526385_6">
+                        <term>
+                            <code meaning="cuneiform bone" value="http://radlex.org/RID/RID35744" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063460">
+                        <term>
+                            <code meaning="syndesmosis" value="http://radlex.org/RID/RID29053" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063460_0">
+                        <term>
+                            <code meaning="intact" value="http://radlex.org/RID/RID39115" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063460_1">
+                        <term>
+                            <code meaning="disrupted" value="http://radlex.org/RID/RID39070" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820965_0">
+                        <term>
+                            <code meaning="proximal" value="http://radlex.org/RID/RID5829" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820965_1">
+                        <term>
+                            <code meaning="middle" value="http://radlex.org/RID/RID5974" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820965_2">
+                        <term>
+                            <code meaning="distal" value="http://radlex.org/RID/RID5830" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580311997032_0">
+                        <term>
+                            <code meaning="right" value="http://radlex.org/RID/RID5825" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580311997032_1">
+                        <term>
+                            <code meaning="left" value="http://radlex.org/RID/RID5824" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063474_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063474_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063455_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063455_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580327063463">
+                        <term>
+                            <code meaning="dislocation" value="http://radlex.org/RID/RID4770" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580327063463_0">
+                        <term>
+                            <code meaning="none" value="http://radlex.org/RID/RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580327063463_2">
+                        <term>
+                            <code meaning="subtalar joint" value="http://radlex.org/RID/RID3029" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580327063463_4">
+                        <term>
+                            <code meaning="tarsometatarsal joint" value="http://radlex.org/RID/RID3107" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1576511526430_0">
+                        <term>
+                            <code meaning="transverse" value="http://radlex.org/RID/RID5854" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1576511526430_1">
+                        <term>
+                            <code meaning="longitudinal" value="http://radlex.org/RID/RID5855" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063451_0">
+                        <term>
+                            <code meaning="marked" value="http://radlex.org/RID/RID34299" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063451_1">
+                        <term>
+                            <code meaning="minimal" value="http://radlex.org/RID/RID5670" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1580327063451_2">
+                        <term>
+                            <code meaning="none" value="http://radlex.org/RID/RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisonsText">
+                        <term>
+                            <code meaning="comparison section" value="http://radlex.org/RID/RID28483" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820959_0">
+                        <term>
+                            <code meaning="medial" value="http://radlex.org/RID/RID5820" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820959_1">
+                        <term>
+                            <code meaning="intermediate cuneiform" value="http://radlex.org/RID/RID2981" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1580316820959_2">
+                        <term>
+                            <code meaning="lateral" value="http://radlex.org/RID/RID39121" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1580314119880">
+                        <term>
+                            <code meaning="number of views" value="http://radlex.org/RID/RID43397" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1580314366216">
+                        <term>
+                            <code meaning="number of views" value="http://radlex.org/RID/RID43397" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="TEXT_1576511526382">Exam</label>
+                <textarea rows="3" cols="100" id="TEXT_1576511526382" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Projection radiography of the ankle and foot</textarea>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1580311997032">Side Examined Ankle</label>
+                <span id="CHECKBOX_1580311997032" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1580311997032_0" type="checkbox" name="CHECKBOX_1580311997032" value="Right">Right</input>
+                    <br />
+                    <input id="CHECKBOX_1580311997032_1" type="checkbox" name="CHECKBOX_1580311997032" value="Left">Left</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1580314119880">Number of Views Ankle</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="" id="NUMBER_1580314119880" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1580311997040">Side Examined Foot</label>
+                <span id="CHECKBOX_1580311997040" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1580311997040_0" type="checkbox" name="CHECKBOX_1580311997040" value="Right">Right</input>
+                    <br />
+                    <input id="CHECKBOX_1580311997040_1" type="checkbox" name="CHECKBOX_1580311997040" value="Left">Left</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1580314366216">Number of Views Foot</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="" id="NUMBER_1580314366216" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="clinicalInformationText"></label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1576511526383">Mechanism of Injury</label>
+                <textarea rows="3" cols="100" id="TEXT_1576511526383" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="findingsText"></label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1576511526385">Bone(s) fractured</label>
+                <span id="CHECKBOX_1576511526385" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1576511526385_0" type="checkbox" name="CHECKBOX_1576511526385" value="Tibia">Tibia</input>
+                    <br />
+                    <input id="CHECKBOX_1576511526385_1" type="checkbox" name="CHECKBOX_1576511526385" value="Fibula">Fibula</input>
+                    <br />
+                    <input id="CHECKBOX_1576511526385_2" type="checkbox" name="CHECKBOX_1576511526385" value="Calcaneus">Calcaneus</input>
+                    <br />
+                    <input id="CHECKBOX_1576511526385_3" type="checkbox" name="CHECKBOX_1576511526385" value="Talus">Talus</input>
+                    <br />
+                    <input id="CHECKBOX_1576511526385_4" type="checkbox" name="CHECKBOX_1576511526385" value="Cuboid">Cuboid</input>
+                    <br />
+                    <input id="CHECKBOX_1576511526385_5" type="checkbox" name="CHECKBOX_1576511526385" value="Navicular">Navicular</input>
+                    <br />
+                    <input id="CHECKBOX_1576511526385_6" type="checkbox" name="CHECKBOX_1576511526385" value="Cuneiform(s)">Cuneiform(s)</input>
+                    <br />
+                    <input id="CHECKBOX_1576511526385_7" type="checkbox" name="CHECKBOX_1576511526385" value="Toe(s)">Toe(s)</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1580316820959">Affected cuneiform (if applicable)</label>
+                <span id="CHECKBOX_1580316820959" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1580316820959_0" type="checkbox" name="CHECKBOX_1580316820959" value="Medial">Medial</input>
+                    <br />
+                    <input id="CHECKBOX_1580316820959_1" type="checkbox" name="CHECKBOX_1580316820959" value="Intermediate">Intermediate</input>
+                    <br />
+                    <input id="CHECKBOX_1580316820959_2" type="checkbox" name="CHECKBOX_1580316820959" value="Lateral">Lateral</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1580316820951">Affected toe (If applicable)</label>
+                <span id="CHECKBOX_1580316820951" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1580316820951_0" type="checkbox" name="CHECKBOX_1580316820951" value="1st">1st</input>
+                    <br />
+                    <input id="CHECKBOX_1580316820951_1" type="checkbox" name="CHECKBOX_1580316820951" value="2nd">2nd</input>
+                    <br />
+                    <input id="CHECKBOX_1580316820951_2" type="checkbox" name="CHECKBOX_1580316820951" value="3rd">3rd</input>
+                    <br />
+                    <input id="CHECKBOX_1580316820951_3" type="checkbox" name="CHECKBOX_1580316820951" value="4th">4th</input>
+                    <br />
+                    <input id="CHECKBOX_1580316820951_4" type="checkbox" name="CHECKBOX_1580316820951" value="5th">5th</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1580316820965">Affected phalanx (if applicable)</label>
+                <span id="CHECKBOX_1580316820965" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1580316820965_0" type="checkbox" name="CHECKBOX_1580316820965" value="Proximal">Proximal</input>
+                    <br />
+                    <input id="CHECKBOX_1580316820965_1" type="checkbox" name="CHECKBOX_1580316820965" value="Middle">Middle</input>
+                    <br />
+                    <input id="CHECKBOX_1580316820965_2" type="checkbox" name="CHECKBOX_1580316820965" value="DIstal">DIstal</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1576511526430">Fracture orientation</label>
+                <span id="RADIO_1576511526430" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1576511526430_0" type="radio" name="RADIO_1576511526430" value="Transverse" checked="">Transverse</input>
+                    <br />
+                    <input id="RADIO_1576511526430_1" type="radio" name="RADIO_1576511526430" value="Longitudinal">Longitudinal</input>
+                    <br />
+                    <input id="RADIO_1576511526430_2" type="radio" name="RADIO_1576511526430" value="Oblique">Oblique</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1580327063434">Growth plate involvement</label>
+                <span id="RADIO_1580327063434" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1580327063434_0" type="radio" name="RADIO_1580327063434" value="N/A" checked="">N/A</input>
+                    <br />
+                    <input id="RADIO_1580327063434_1" type="radio" name="RADIO_1580327063434" value="Yes">Yes</input>
+                    <br />
+                    <input id="RADIO_1580327063434_2" type="radio" name="RADIO_1580327063434" value="No">No</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1580327063438">Salter-Harris grade</label>
+                <span id="RADIO_1580327063438" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1580327063438_0" type="radio" name="RADIO_1580327063438" value="N/A" checked="">N/A</input>
+                    <br />
+                    <input id="RADIO_1580327063438_1" type="radio" name="RADIO_1580327063438" value="Salter-Harris I">Salter-Harris I</input>
+                    <br />
+                    <input id="RADIO_1580327063438_2" type="radio" name="RADIO_1580327063438" value="Salter-Harris II">Salter-Harris II</input>
+                    <br />
+                    <input id="RADIO_1580327063438_3" type="radio" name="RADIO_1580327063438" value="Salter-Harris III">Salter-Harris III</input>
+                    <br />
+                    <input id="RADIO_1580327063438_4" type="radio" name="RADIO_1580327063438" value="Salter-Harris IV">Salter-Harris IV</input>
+                    <br />
+                    <input id="RADIO_1580327063438_5" type="radio" name="RADIO_1580327063438" value="Salter-Harris V">Salter-Harris V</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1580327063451">Fracture comminution</label>
+                <span id="RADIO_1580327063451" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1580327063451_0" type="radio" name="RADIO_1580327063451" value="Marked" checked="">Marked</input>
+                    <br />
+                    <input id="RADIO_1580327063451_1" type="radio" name="RADIO_1580327063451" value="Minimal">Minimal</input>
+                    <br />
+                    <input id="RADIO_1580327063451_2" type="radio" name="RADIO_1580327063451" value="None">None</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1580327063455">Intra-articular extension</label>
+                <span id="RADIO_1580327063455" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1580327063455_0" type="radio" name="RADIO_1580327063455" value="Present" checked="">Present</input>
+                    <br />
+                    <input id="RADIO_1580327063455_1" type="radio" name="RADIO_1580327063455" value="Absent">Absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1580327063459">Fracture fragment distraction</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1580327063459" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1580327063460">Tibiofibular syndesmosis</label>
+                <span id="RADIO_1580327063460" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1580327063460_0" type="radio" name="RADIO_1580327063460" value="Intact" checked="">Intact</input>
+                    <br />
+                    <input id="RADIO_1580327063460_1" type="radio" name="RADIO_1580327063460" value="Disrupted">Disrupted</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1580327063463">Dislocation</label>
+                <span id="CHECKBOX_1580327063463" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1580327063463_0" type="checkbox" name="CHECKBOX_1580327063463" value="None">None</input>
+                    <br />
+                    <input id="CHECKBOX_1580327063463_1" type="checkbox" name="CHECKBOX_1580327063463" value="Tibiotalar">Tibiotalar</input>
+                    <br />
+                    <input id="CHECKBOX_1580327063463_2" type="checkbox" name="CHECKBOX_1580327063463" value="Subtalar">Subtalar</input>
+                    <br />
+                    <input id="CHECKBOX_1580327063463_3" type="checkbox" name="CHECKBOX_1580327063463" value="Midtarsal">Midtarsal</input>
+                    <br />
+                    <input id="CHECKBOX_1580327063463_4" type="checkbox" name="CHECKBOX_1580327063463" value="Tarsometatarsal">Tarsometatarsal</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1580327063474">Soft tissue swelling</label>
+                <span id="RADIO_1580327063474" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1580327063474_0" type="radio" name="RADIO_1580327063474" value="Present" checked="">Present</input>
+                    <br />
+                    <input id="RADIO_1580327063474_1" type="radio" name="RADIO_1580327063474" value="Absent">Absent</input>
+                </span>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

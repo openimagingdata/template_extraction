@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Ankle Xray" name="dcterms.title"/>
+<meta content="Ankle Xray template :: Authored by Langlotz CP" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000142" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-04-27" name="dcterms.date"/>
+<meta content="Langlotz CP" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr. [editor]" name="dcterms.contributor"/>
+<meta content="Penn Medicine | Hospital of the University of Pennsylvania (Penn)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<term>
+ <code meaning="ankle" value="RID28545" scheme="RadLex">
+</term>
+<term>
+ <code meaning="projection radiography" value="RID10345" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T142_1">
+     <term>
+  <code meaning="side (laterality)" value="RID5821" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="right">
+     <term>
+  <code meaning="right" value="RID5825" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="left">
+     <term>
+  <code meaning="left" value="RID5824" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="bilateral">
+     <term>
+  <code meaning="bilateral" value="RID5771" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="T142_2">
+     <term>
+  <code meaning="imaging procedure" value="RID13060" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="T142_7">
+     <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="T142_7">
+     <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+  </entry>
+<entry ORIGTXT="T142_8">
+     <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="T142_12">
+     <term>
+  <code meaning="bones (set of bones)" value="RID28569" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="T142_13">
+     <term>
+  <code meaning="demineralization" value="RID5387" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="T142_14">
+     <term>
+  <code meaning="set of joints" value="RID28711" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="T142_24">
+     <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+  </entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Ankle Xray</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Ankle Xray</header>
+<p>
+<label for="T142_1">Side:</label>
+<select id="T142_1" name="Side">
+	<option id="right" name="right" value="right">Right</option>
+	<option id="left" name="left" value="left">Left</option>
+	<option id="bilateral" name="bilateral" value="bilateral">Bilateral</option>
+</select>
+</p>
+<p>
+<label for="T142_3">Number of views:</label>
+<input type="number" id="T142_3" name="Number of views" data-field-units="" min="1" max="8"/>
+</p>
+<p>
+<textarea id="T142_2" name="procedure_comments"></textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<!-- <label for="T142_7">Clinical information</label> -->
+<textarea id="T142_7" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<!-- <label for="T142_8">Comparison</label> -->
+<input type="text" id="T142_8" name="Comparison" value="None." data-codedcontent-default-val="None" data-codedcontent-default-ref="T142_9"/>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T142_11">Bones:</label>
+<input type="text" id="T142_12" name="Bones" value="Normal anatomic alignment. No fracture or dislocation."/>
+</p>
+<p>
+<label for="T142_13">Mineralization:</label>
+<input type="text" id="T142_13" name="Mineralization" value="Normal."/>
+</p>
+<p>
+<label for="T142_14">Joints:</label>
+<input type="text" id="T142_14" name="Joints" value="Normal. No arthritis."/>
+</p>
+<p>
+<label for="T142_19">Other findings:</label>
+<input type="text" id="T142_19" name="Other findings" value="None."/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T142_24" name="Impression">Normal. No fracture or dislocation.</textarea>
+</p>
+</section>
+</body>
+</html>

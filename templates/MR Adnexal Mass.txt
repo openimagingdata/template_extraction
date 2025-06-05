@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MR Adnexal Mass</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="6f30ac10-f521-49a1-a351-4a2b92914cbb" />
+        <meta name="dcterms.title" content="MR Adnexal Mass" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2020-09-22" />
+        <meta name="dcterms.creator" content="Erin Taylor" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="RADIO_1597695308612">
+                        <term>
+                            <code meaning="laterality" value="http://radlex.org/RID/RID5821" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308612_0">
+                        <term>
+                            <code meaning="bilateral" value="http://radlex.org/RID/RID5771" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308612_1">
+                        <term>
+                            <code meaning="right" value="http://radlex.org/RID/RID5825" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308612_2">
+                        <term>
+                            <code meaning="left" value="http://radlex.org/RID/RID5824" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203839_0">
+                        <term>
+                            <code meaning="normal" value="http://radlex.org/RID/RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203839_1">
+                        <term>
+                            <code meaning="abnormal" value="http://radlex.org/RID/RID28453" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1597695308591">
+                        <term>
+                            <code meaning="thickness descriptor" value="http://radlex.org/RID/RID28671" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308655_0">
+                        <term>
+                            <code meaning="unilocular" value="http://radlex.org/RID/RID5919" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308655_1">
+                        <term>
+                            <code meaning="multilocular" value="http://radlex.org/RID/RID5891" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308655_2">
+                        <term>
+                            <code meaning="not applicable" value="http://radlex.org/RID/RID46056" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1597695308608">
+                        <term>
+                            <code meaning="mass" value="http://radlex.org/RID/RID3874" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308602">
+                        <term>
+                            <code meaning="set of ovaries" value="http://radlex.org/RID/RID39537" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308602_0">
+                        <term>
+                            <code meaning="yes" value="http://radlex.org/RID/RID28474" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308602_1">
+                        <term>
+                            <code meaning="no" value="http://radlex.org/RID/RID28475" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308689_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308689_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308605_0">
+                        <term>
+                            <code meaning="yes" value="http://radlex.org/RID/RID28474" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308605_1">
+                        <term>
+                            <code meaning="no" value="http://radlex.org/RID/RID28475" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308683_0">
+                        <term>
+                            <code meaning="yes" value="http://radlex.org/RID/RID28474" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308683_1">
+                        <term>
+                            <code meaning="no" value="http://radlex.org/RID/RID28475" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308642">
+                        <term>
+                            <code meaning="composition" value="http://radlex.org/RID/RID39409" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308642_0">
+                        <term>
+                            <code meaning="predominantly cystic" value="http://radlex.org/RID/RID49879" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308642_2">
+                        <term>
+                            <code meaning="mostly solid" value="http://radlex.org/RID/RID46012" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308686_0">
+                        <term>
+                            <code meaning="yes" value="http://radlex.org/RID/RID28474" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308686_1">
+                        <term>
+                            <code meaning="no" value="http://radlex.org/RID/RID28475" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203860">
+                        <term>
+                            <code meaning="metastatic disease" value="http://radlex.org/RID/RID49953" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203860_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203860_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1597695308601">
+                        <term>
+                            <code meaning="cervix of uterus" value="http://radlex.org/RID/RID308" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308609">
+                        <term>
+                            <code meaning="mass" value="http://radlex.org/RID/RID3874" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308609_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308609_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformationText">
+                        <term>
+                            <code meaning="imaging technique section" value="http://radlex.org/RID/RID28482" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308634">
+                        <term>
+                            <code meaning="fat-containing" value="http://radlex.org/RID/RID5749" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308634_0">
+                        <term>
+                            <code meaning="yes" value="http://radlex.org/RID/RID28474" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308634_1">
+                        <term>
+                            <code meaning="no" value="http://radlex.org/RID/RID28475" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308678_0">
+                        <term>
+                            <code meaning="none" value="http://radlex.org/RID/RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308678_1">
+                        <term>
+                            <code meaning="mild" value="http://radlex.org/RID/RID5671" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308678_2">
+                        <term>
+                            <code meaning="moderate" value="http://radlex.org/RID/RID5672" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308678_3">
+                        <term>
+                            <code meaning="marked" value="http://radlex.org/RID/RID34299" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308671_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308671_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203855">
+                        <term>
+                            <code meaning="diagnosis" value="http://radlex.org/RID/RID10394" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203855_0">
+                        <term>
+                            <code meaning="benign" value="http://radlex.org/RID/RID15654" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203855_2">
+                        <term>
+                            <code meaning="indeterminate" value="http://radlex.org/RID/RID39110" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308595">
+                        <term>
+                            <code meaning="endometrioma" value="http://radlex.org/RID/RID34767" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308595_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308595_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308598">
+                        <term>
+                            <code meaning="cervix of uterus" value="http://radlex.org/RID/RID308" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308598_0">
+                        <term>
+                            <code meaning="normal" value="http://radlex.org/RID/RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308598_1">
+                        <term>
+                            <code meaning="abnormal" value="http://radlex.org/RID/RID28453" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308630">
+                        <term>
+                            <code meaning="origin" value="http://radlex.org/RID/RID5976" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308630_0">
+                        <term>
+                            <code meaning="ovary" value="http://radlex.org/RID/RID290" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308630_1">
+                        <term>
+                            <code meaning="uterus" value="http://radlex.org/RID/RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203850">
+                        <term>
+                            <code meaning="metastatic disease" value="http://radlex.org/RID/RID49953" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203850_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203850_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1597695308696">
+                        <term>
+                            <code meaning="lymph node" value="http://radlex.org/RID/RID13296" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1597695308696_0">
+                        <term>
+                            <code meaning="enlarged" value="http://radlex.org/RID/RID5791" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1597695308696_2">
+                        <term>
+                            <code meaning="abnormal" value="http://radlex.org/RID/RID28453" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308668_0">
+                        <term>
+                            <code meaning="satellite lesions present" value="http://radlex.org/RID/RID43317" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308668_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203847">
+                        <term>
+                            <code meaning="ascites" value="http://radlex.org/RID/RID1541" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203847_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203847_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1597695308583">
+                        <term>
+                            <code meaning="uterus" value="http://radlex.org/RID/RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308661_0">
+                        <term>
+                            <code meaning="homogeneous" value="http://radlex.org/RID/RID6059" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308661_1">
+                        <term>
+                            <code meaning="heterogeneous" value="http://radlex.org/RID/RID6060" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308661_2">
+                        <term>
+                            <code meaning="not applicable" value="http://radlex.org/RID/RID46056" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203843">
+                        <term>
+                            <code meaning="appendix" value="http://radlex.org/RID/RID168" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203843_0">
+                        <term>
+                            <code meaning="normal" value="http://radlex.org/RID/RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597757203843_1">
+                        <term>
+                            <code meaning="abnormal" value="http://radlex.org/RID/RID28453" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308587">
+                        <term>
+                            <code meaning="endometrium" value="http://radlex.org/RID/RID30958" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308587_0">
+                        <term>
+                            <code meaning="normal" value="http://radlex.org/RID/RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308587_1">
+                        <term>
+                            <code meaning="thickened" value="http://radlex.org/RID/RID5914" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308587_2">
+                        <term>
+                            <code meaning="mass" value="http://radlex.org/RID/RID3874" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308665_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308665_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1597695308700">
+                        <term>
+                            <code meaning="lymph node" value="http://radlex.org/RID/RID13296" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1597695308585">
+                        <term>
+                            <code meaning="uterus" value="http://radlex.org/RID/RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1597695308584">
+                        <term>
+                            <code meaning="uterus" value="http://radlex.org/RID/RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308592">
+                        <term>
+                            <code meaning="endometriosis" value="http://radlex.org/RID/RID3870" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308592_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1597695308592_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1597695308586">
+                        <term>
+                            <code meaning="mass" value="http://radlex.org/RID/RID3874" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="procedureInformationText"></label>
+                <textarea rows="3" cols="100" id="procedureInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Multi-sequential, multiplanar MR imaging of the pelvis was performed before and after the administration of [ ] mL of [ ] intravenous contrast.</textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="Specifically look for history of GI cancer (colon, appendiceal, pancreas, stomach) and breast cancer, which are common primaries to metastasize to the ovaries.">
+                <label for="clinicalInformationText"></label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">[Characterize adnexal mass] [Age of patient] [Look for history of malignancy, elevated tumor markers.]</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="NUMBER_1597695308583">Uterus length</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1597695308583" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1597695308584">Uterus width</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1597695308584" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1597695308585">Uterus height</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1597695308585" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1597695308586">Uterine mass or fibroid description</label>
+                <textarea rows="3" cols="100" id="TEXT_1597695308586" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308587">Endometrium</label>
+                <span id="RADIO_1597695308587" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308587_0" type="radio" name="RADIO_1597695308587" value="normal" checked="">normal</input>
+                    <br />
+                    <input id="RADIO_1597695308587_1" type="radio" name="RADIO_1597695308587" value="thickened">thickened</input>
+                    <br />
+                    <input id="RADIO_1597695308587_2" type="radio" name="RADIO_1597695308587" value="mass present">mass present</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1597695308591">Endometrial thickness</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1597695308591" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308592">Endometriosis</label>
+                <span id="RADIO_1597695308592" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308592_0" type="radio" name="RADIO_1597695308592" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597695308592_1" type="radio" name="RADIO_1597695308592" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308595">Endometrioma</label>
+                <span id="RADIO_1597695308595" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308595_0" type="radio" name="RADIO_1597695308595" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597695308595_1" type="radio" name="RADIO_1597695308595" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308598">Cervix</label>
+                <span id="RADIO_1597695308598" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308598_0" type="radio" name="RADIO_1597695308598" value="unremarkable" checked="">unremarkable</input>
+                    <br />
+                    <input id="RADIO_1597695308598_1" type="radio" name="RADIO_1597695308598" value="abnormal">abnormal</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1597695308601">Cervix abnormality description</label>
+                <textarea rows="3" cols="100" id="TEXT_1597695308601" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308602">Both ovaries identified</label>
+                <span id="RADIO_1597695308602" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308602_0" type="radio" name="RADIO_1597695308602" value="yes" checked="">yes</input>
+                    <br />
+                    <input id="RADIO_1597695308602_1" type="radio" name="RADIO_1597695308602" value="no">no</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308605">Normal ovarian parenchyma visualized</label>
+                <span id="RADIO_1597695308605" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308605_0" type="radio" name="RADIO_1597695308605" value="yes" checked="">yes</input>
+                    <br />
+                    <input id="RADIO_1597695308605_1" type="radio" name="RADIO_1597695308605" value="no">no</input>
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1597695308608" class="level2" data-section-name="Adnexal mass:">
+                <header class="level2">
+                    Adnexal mass:
+                </header>
+            </section>
+            <p title="">
+                <label for="RADIO_1597695308609">Adnexal mass</label>
+                <span id="RADIO_1597695308609" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308609_0" type="radio" name="RADIO_1597695308609" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597695308609_1" type="radio" name="RADIO_1597695308609" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308612">Adnexal mass laterality</label>
+                <span id="RADIO_1597695308612" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308612_0" type="radio" name="RADIO_1597695308612" value="bilateral" checked="">bilateral</input>
+                    <br />
+                    <input id="RADIO_1597695308612_1" type="radio" name="RADIO_1597695308612" value="right">right</input>
+                    <br />
+                    <input id="RADIO_1597695308612_2" type="radio" name="RADIO_1597695308612" value="left">left</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1600782092050">Adnexal mass maximal dimension</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1600782092050" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1600782092051">Adnexal mass length</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1600782092051" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1600782092052">Adnexal mass width</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1600782092052" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1600782092053">Adnexal mass height</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1600782092053" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1597695308629" class="level2" data-section-name="Supply the following fields for each adnexal mass (or combine if bilateral and they have the same features):">
+                <header class="level2">
+                    Supply the following fields for each adnexal mass (or combine if bilateral and they have the same features):
+                </header>
+            </section>
+            <p title="Use gonadal vein to help locate the ovaries. Assess for claw sign to suggest ovarian origin. Bridging vessel sign if uterine in origin (e.g. pedunculated fibroid). ">
+                <label for="RADIO_1597695308630">Origin of Mass</label>
+                <span id="RADIO_1597695308630" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308630_0" type="radio" name="RADIO_1597695308630" value="ovarian" checked="">ovarian</input>
+                    <br />
+                    <input id="RADIO_1597695308630_1" type="radio" name="RADIO_1597695308630" value="uterus">uterus</input>
+                    <br />
+                    <input id="RADIO_1597695308630_2" type="radio" name="RADIO_1597695308630" value="other">other</input>
+                </span>
+            </p>
+            <p title="Use gonadal vein to help locate the ovaries. Assess for claw sign to suggest ovarian origin. Bridging vessel sign if uterine in origin (e.g. pedunculated fibroid). ">
+                <label for="TEXT_1597695308633">Relationship of mass to surrounding structures (uterus, rectum, bladder, pelvic sidewall)</label>
+                <textarea rows="3" cols="100" id="TEXT_1597695308633" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308634">Macroscopic fat-containing</label>
+                <span id="RADIO_1597695308634" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308634_0" type="radio" name="RADIO_1597695308634" value="yes" checked="">yes</input>
+                    <br />
+                    <input id="RADIO_1597695308634_1" type="radio" name="RADIO_1597695308634" value="no">no</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308639">Signal suppression on opposed phase chemical shift</label>
+                <span id="RADIO_1597695308639" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308639_0" type="radio" name="RADIO_1597695308639" value="yes" checked="">yes</input>
+                    <br />
+                    <input id="RADIO_1597695308639_1" type="radio" name="RADIO_1597695308639" value="no">no</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308642">Composition</label>
+                <span id="RADIO_1597695308642" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308642_0" type="radio" name="RADIO_1597695308642" value="predominantly cystic (&gt;80%)" checked="">predominantly cystic (&gt;80%)</input>
+                    <br />
+                    <input id="RADIO_1597695308642_1" type="radio" name="RADIO_1597695308642" value="solid and cystic">solid and cystic</input>
+                    <br />
+                    <input id="RADIO_1597695308642_2" type="radio" name="RADIO_1597695308642" value="predominantly solid (&gt;80%)">predominantly solid (&gt;80%)</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308655">Locules (If cystic component)</label>
+                <span id="RADIO_1597695308655" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308655_0" type="radio" name="RADIO_1597695308655" value="unilocular" checked="">unilocular</input>
+                    <br />
+                    <input id="RADIO_1597695308655_1" type="radio" name="RADIO_1597695308655" value="multilocular">multilocular</input>
+                    <br />
+                    <input id="RADIO_1597695308655_2" type="radio" name="RADIO_1597695308655" value="not applicable">not applicable</input>
+                </span>
+            </p>
+            <p title="Look for varying signal intensities of locules as can be seen in mucinous neoplasms.">
+                <label for="RADIO_1597695308661">Cystic contents</label>
+                <span id="RADIO_1597695308661" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308661_0" type="radio" name="RADIO_1597695308661" value="homogenous" checked="">homogenous</input>
+                    <br />
+                    <input id="RADIO_1597695308661_1" type="radio" name="RADIO_1597695308661" value="heterogenous">heterogenous</input>
+                    <br />
+                    <input id="RADIO_1597695308661_2" type="radio" name="RADIO_1597695308661" value="not applicable">not applicable</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308665">Wall thickening or thickened septations (&gt;3 mm)</label>
+                <span id="RADIO_1597695308665" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308665_0" type="radio" name="RADIO_1597695308665" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597695308665_1" type="radio" name="RADIO_1597695308665" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308668">Papillary projections</label>
+                <span id="RADIO_1597695308668" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308668_0" type="radio" name="RADIO_1597695308668" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597695308668_1" type="radio" name="RADIO_1597695308668" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308671">Solid components</label>
+                <span id="RADIO_1597695308671" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308671_0" type="radio" name="RADIO_1597695308671" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597695308671_1" type="radio" name="RADIO_1597695308671" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1597695308674">Signal characteristics of solid components</label>
+                <textarea rows="3" cols="100" id="TEXT_1597695308674" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1600782092066">T1 and T2 signal</label>
+                <textarea rows="3" cols="100" id="TEXT_1600782092066" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308683">Solid component hypointense relative to skeletal muscle</label>
+                <span id="RADIO_1597695308683" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308683_0" type="radio" name="RADIO_1597695308683" value="yes" checked="">yes</input>
+                    <br />
+                    <input id="RADIO_1597695308683_1" type="radio" name="RADIO_1597695308683" value="no">no</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308678">Enhancement of solid component</label>
+                <span id="RADIO_1597695308678" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308678_0" type="radio" name="RADIO_1597695308678" value="none" checked="">none</input>
+                    <br />
+                    <input id="RADIO_1597695308678_1" type="radio" name="RADIO_1597695308678" value="mild">mild</input>
+                    <br />
+                    <input id="RADIO_1597695308678_2" type="radio" name="RADIO_1597695308678" value="moderate">moderate</input>
+                    <br />
+                    <input id="RADIO_1597695308678_3" type="radio" name="RADIO_1597695308678" value="marked">marked</input>
+                </span>
+            </p>
+            <p title="High signal on the T1 fat-saturated sequence. ">
+                <label for="RADIO_1597695308686">Hemorrhagic component</label>
+                <span id="RADIO_1597695308686" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308686_0" type="radio" name="RADIO_1597695308686" value="yes" checked="">yes</input>
+                    <br />
+                    <input id="RADIO_1597695308686_1" type="radio" name="RADIO_1597695308686" value="no">no</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597695308689">Peritoneal implant</label>
+                <span id="RADIO_1597695308689" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597695308689_0" type="radio" name="RADIO_1597695308689" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597695308689_1" type="radio" name="RADIO_1597695308689" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1597695308692">Peritoneal implant size of largest</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1597695308692" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1597695308696">Lymph node</label>
+                <span id="CHECKBOX_1597695308696" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1597695308696_0" type="checkbox" name="CHECKBOX_1597695308696" value="enlarged" checked="">enlarged</input>
+                    <br />
+                    <input id="CHECKBOX_1597695308696_1" type="checkbox" name="CHECKBOX_1597695308696" value="not enlarged">not enlarged</input>
+                    <br />
+                    <input id="CHECKBOX_1597695308696_2" type="checkbox" name="CHECKBOX_1597695308696" value="abnormal">abnormal</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1597695308700">Lymph node largest abnormal node</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1597695308700" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1600782092069">Nodal stations involved</label>
+                <textarea rows="3" cols="100" id="TEXT_1600782092069" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="RADIO_1597757203839">Visualized bowel</label>
+                <span id="RADIO_1597757203839" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597757203839_0" type="radio" name="RADIO_1597757203839" value="unremarkable" checked="">unremarkable</input>
+                    <br />
+                    <input id="RADIO_1597757203839_1" type="radio" name="RADIO_1597757203839" value="abnormal">abnormal</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1597757203842">Visualized bowel abnormality description</label>
+                <textarea rows="3" cols="100" id="TEXT_1597757203842" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="RADIO_1597757203843">Appendix</label>
+                <span id="RADIO_1597757203843" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597757203843_0" type="radio" name="RADIO_1597757203843" value="normal" checked="">normal</input>
+                    <br />
+                    <input id="RADIO_1597757203843_1" type="radio" name="RADIO_1597757203843" value="abnormal">abnormal</input>
+                    <br />
+                    <input id="RADIO_1597757203843_2" type="radio" name="RADIO_1597757203843" value="not visualized">not visualized</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597757203847">Ascites</label>
+                <span id="RADIO_1597757203847" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597757203847_0" type="radio" name="RADIO_1597757203847" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597757203847_1" type="radio" name="RADIO_1597757203847" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597757203850">Evidence of osseous metastatic disease</label>
+                <span id="RADIO_1597757203850" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597757203850_0" type="radio" name="RADIO_1597757203850" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597757203850_1" type="radio" name="RADIO_1597757203850" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1597757203853">Abnormal bone lesion description</label>
+                <textarea rows="3" cols="100" id="TEXT_1597757203853" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1597757203854">Additional findings</label>
+                <textarea rows="3" cols="100" id="TEXT_1597757203854" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"> Summary of imaging description</label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="RADIO_1597757203855">Differential diagnosis or favored subtype</label>
+                <span id="RADIO_1597757203855" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597757203855_0" type="radio" name="RADIO_1597757203855" value="benign" checked="">benign</input>
+                    <br />
+                    <input id="RADIO_1597757203855_1" type="radio" name="RADIO_1597757203855" value="potentially borderline or malignant">potentially borderline or malignant</input>
+                    <br />
+                    <input id="RADIO_1597757203855_2" type="radio" name="RADIO_1597757203855" value="indeterminate">indeterminate</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1597757203860">Metastatic disease in the pelvis</label>
+                <span id="RADIO_1597757203860" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1597757203860_0" type="radio" name="RADIO_1597757203860" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1597757203860_1" type="radio" name="RADIO_1597757203860" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="If strongly favored to be a borderline/malignant ovarian neoplasm, recommend referral to a gynecologist-oncologist. If metastases are in the differential, consider additional CT imaging if not already performed, and referral to surgical oncologist.">
+                <label for="TEXT_1597757203863">Recommendations and referrals</label>
+                <textarea rows="3" cols="100" id="TEXT_1597757203863" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">If strongly favored to be a borderline/malignant ovarian neoplasm, recommend referral to a gynecologist-oncologist. If metastases are in the differential, consider additional CT imaging if not already performed, and referral to surgical oncologist.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

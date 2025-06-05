@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prostate multi parametric MRI</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="748026c8-dc69-4a85-96cb-1b512e4509b9" />
+        <meta name="dcterms.title" content="Prostate multi parametric MRI" />
+        <meta name="dcterms.description" content="Template created according to PI-RADS v.2" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2016-08-09" />
+        <meta name="dcterms.creator" content="Dr. Aringhieri Giacomo" />
+        <meta name="dcterms.contributor" content="Prof. Neri Emanuele" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                </coded_content>
+            </template_attributes>
+		</script>
+		
+		<script type="text/javascript">		
+			function pzLesionNumber(){
+			var lesionNumberPZ=document.getElementById('PZ_LESION_NUMBER').value;
+			var tbody = document.getElementById("PZ_LESION");
+			
+				if(lesionNumberPZ==0){
+					while (tbody.childNodes.length > 0) {
+						tbody.removeChild(tbody.firstChild);
+					}
+				}else{
+					while (tbody.childNodes.length > 0) {
+						tbody.removeChild(tbody.firstChild);
+					}
+					
+					var i=1;
+					while(i<=lesionNumberPZ){
+						var row1 = document.createElement("tr");
+						var td1 = document.createElement("td");
+						td1.setAttribute("colspan","3");
+						td1.setAttribute("style","background-color:#ececec; font-weight:bold; padding-top:10px;");
+						td1.appendChild(document.createTextNode("PZ - Suspiciuos Lesion #"+i+" - [PI-RADS v.2 score] "));
+						row1.appendChild(td1);
+						
+						var row2 = document.createElement("tr");
+						var td2 = document.createElement("td");
+						td2.setAttribute("colspan","1");
+						var td3 = document.createElement("td");
+						td3.setAttribute("colspan","2");
+						select1=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Right");
+						option.appendChild(opzione);
+						select1.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Left");
+						option.appendChild(opzione);
+						select1.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Median");
+						option.appendChild(opzione);
+						select1.appendChild(option);
+						td2.appendChild(document.createTextNode("Laterality of the lesion"));
+						td3.appendChild(select1);
+						row2.appendChild(td2);
+						row2.appendChild(td3);
+						
+						var row3 = document.createElement("tr");
+						var td4 = document.createElement("td");
+						td4.setAttribute("colspan","1");
+						var td5 = document.createElement("td");
+						td5.setAttribute("colspan","2");
+						span1 = document.createElement("span");
+						span1.setAttribute("title","Specify the exact site of the lesion according to the PI-RADS v.2 map");
+						select2=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Base - anterior (PZa)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Base - postero-lateral (PZpl)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Mid - anterior (PZa)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Mid - postero-medial (PZpm)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Apex - anterior (PZa)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Apex - postero-medial (PZpm)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Apex - postero-lateral (PZpl)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						td4.appendChild(document.createTextNode("Localisation"));
+						span1.appendChild(select2);
+						td5.appendChild(span1);
+						row3.appendChild(td4);
+						row3.appendChild(td5);
+						
+						var row4 = document.createElement("tr");
+						var td6 = document.createElement("td");
+						td6.setAttribute("colspan","1");
+						var td7 = document.createElement("td");
+						td7.setAttribute("colspan","2");
+						span2=document.createElement("span");
+						span2.setAttribute("title","Specify the signal intensity in diffusion weighted images and apparent diffusion coefficient maps according to PI-RADS v.2 - [score useful to determinate final PI-RADS v.2 score]");
+						select3=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Normal [1]");
+						option.appendChild(opzione);
+						select3.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Indistinct hypointense in ADC [2]");
+						option.appendChild(opzione);
+						select3.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Focal mildly/moderately hypointense on ADC and isointense/mildly hyperintense on high b-value [3]");
+						option.appendChild(opzione);
+						select3.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Focal markedly hypointense on ADC and markedly hyperintense on high b-value DWI [>4]");
+						option.appendChild(opzione);
+						select3.appendChild(option);
+						td6.appendChild(document.createTextNode("DWI/ADC-map signal intensity"));
+						span2.appendChild(select3);
+						td7.appendChild(span2);
+						row4.appendChild(td6);
+						row4.appendChild(td7);
+						
+						var row5 = document.createElement("tr");
+						var td8 = document.createElement("td");
+						td8.setAttribute("colspan","1");
+						var td9 = document.createElement("td");
+						td9.setAttribute("colspan","2");
+						span3=document.createElement("span");
+						span3.setAttribute("title","Specify the presence of focal earlier enhancement of the lesion than adjacent prostate tissue");
+						select4=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("No early enhancement [-]");
+						option.appendChild(opzione);
+						select4.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Early and focal enhancement corresponding to a focal suspicious finding in T2/DWI [+]");
+						option.appendChild(opzione);
+						select4.appendChild(option);
+						td8.appendChild(document.createTextNode("Dynamic contrast enhancement"));
+						span3.appendChild(select4);
+						td9.appendChild(span3);
+						row5.appendChild(td8);
+						row5.appendChild(td9);
+						
+						var row6 = document.createElement("tr");
+						var td10 = document.createElement("td");
+						td10.setAttribute("colspan","1");
+						var td11 = document.createElement("td");
+						td11.setAttribute("colspan","2");
+						span4=document.createElement("span");
+						span4.setAttribute("title","Specify the maximum diameters, in particular <1,5cm or >1,5cm");
+						select5=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("<1,5cm [<4]");
+						option.appendChild(opzione);
+						select5.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode(">1,5cm [5]");
+						option.appendChild(opzione);
+						select5.appendChild(option);
+						td10.appendChild(document.createTextNode("Size of the lesion"));
+						span4.appendChild(select5);
+						td11.appendChild(span4);
+						row6.appendChild(td10);
+						row6.appendChild(td11);
+						
+						var row7 = document.createElement("tr");
+						var td12 = document.createElement("td");
+						td12.setAttribute("colspan","1");
+						var td13 = document.createElement("td");
+						td13.setAttribute("colspan","2");
+						span5=document.createElement("span");
+						span5.setAttribute("title","Specify the most similar shape of the lesion");
+						select6=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Linear or wedge-shaped [<2]");
+						option.appendChild(opzione);
+						select6.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Rounded [>3]");
+						option.appendChild(opzione);
+						select6.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Mass-like [>4]");
+						option.appendChild(opzione);
+						select6.appendChild(option);
+						td12.appendChild(document.createTextNode("Shape of the lesion"));
+						span5.appendChild(select6);
+						td13.appendChild(span5);
+						row7.appendChild(td12);
+						row7.appendChild(td13);
+						
+						var row8 = document.createElement("tr");
+						var td14 = document.createElement("td");
+						td14.setAttribute("colspan","1");
+						var td15 = document.createElement("td");
+						td15.setAttribute("colspan","2");
+						span6=document.createElement("span");
+						span6.setAttribute("title","Specify the aspect of the borders of the lesion");
+						select7=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Non-Circumscribed [3]");
+						option.appendChild(opzione);
+						select7.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Circumscribed [>4]");
+						option.appendChild(opzione);
+						select7.appendChild(option);
+						td14.appendChild(document.createTextNode("Borders of the lesion"));
+						span6.appendChild(select7);
+						td15.appendChild(span6);
+						row8.appendChild(td14);
+						row8.appendChild(td15);
+						
+						var row9 = document.createElement("tr");
+						var td16 = document.createElement("td");
+						td16.setAttribute("colspan","1");
+						var td17 = document.createElement("td");
+						td17.setAttribute("colspan","2");
+						span7=document.createElement("span");
+						span7.setAttribute("title","Indicate the signal intensity of the lesion in T2 images");
+						select8=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Hyperintensity [1]");
+						option.appendChild(opzione);
+						select8.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Heterogeneous Hypointensity [3]");
+						option.appendChild(opzione);
+						select8.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Homogeneous Hypointensity [>4]");
+						option.appendChild(opzione);
+						select8.appendChild(option);
+						td16.appendChild(document.createTextNode("T2 signal intensity"));
+						span7.appendChild(select8);
+						td17.appendChild(span7);
+						row9.appendChild(td16);
+						row9.appendChild(td17);
+						
+						var row10 = document.createElement("tr");
+						var td18 = document.createElement("td");
+						td18.setAttribute("colspan","1");
+						var td19 = document.createElement("td");
+						td19.setAttribute("colspan","2");
+						span8=document.createElement("span");
+						span8.setAttribute("title","Specify the presence of extra-prostatic invasion; special focus on infiltration of neurovascular bundle and seminal vesicles");
+						select9=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Extra-prostatic extension");
+						option.appendChild(opzione);
+						select9.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("No extra-prostatic extension [<4]");
+						option.appendChild(opzione);
+						select9.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Extra-prostatic extension [5]");
+						option.appendChild(opzione);
+						select9.appendChild(option);
+						td18.appendChild(document.createTextNode("Extra-prostatic extension"));
+						span8.appendChild(select9);
+						td19.appendChild(span8);
+						row10.appendChild(td18);
+						row10.appendChild(td19);
+						
+						var row11 = document.createElement("tr");
+						var td20 = document.createElement("td");
+						td20.setAttribute("colspan","1");
+						var td21 = document.createElement("td");
+						td21.setAttribute("colspan","2");
+						span9=document.createElement("span");
+						span9.setAttribute("title","Describe eventual infiltration of neurovascular bundle and seminal vesicles");
+						textarea1=document.createElement("textarea");
+						textarea1.setAttribute("cols","70");
+						td20.appendChild(document.createTextNode("Focus on infiltration of neurovascular bundle and seminal vesicles"));
+						span9.appendChild(textarea1);
+						td21.appendChild(span9);
+						row11.appendChild(td20);
+						row11.appendChild(td21);
+						
+						var row12 = document.createElement("tr");
+						var td22 = document.createElement("td");
+						td22.setAttribute("colspan","1");
+						var td23 = document.createElement("td");
+						td23.setAttribute("colspan","2");
+						span10=document.createElement("span");
+						span10.setAttribute("title","Indicate the final PI-RADS category using the [score] of the previous option selected");
+						input1=document.createElement("input");
+						input1.setAttribute('type','text');
+						td22.appendChild(document.createTextNode("FINAL SIGNIFICANT PI-RADS category of the lesion #"+i+" (PZ)"));
+						span10.appendChild(input1);
+						td23.appendChild(span10);
+						row12.appendChild(td22);
+						row12.appendChild(td23);
+						
+						tbody.appendChild(row1);
+						tbody.appendChild(row2);
+						tbody.appendChild(row3);
+						tbody.appendChild(row4);
+						tbody.appendChild(row5);
+						tbody.appendChild(row6);
+						tbody.appendChild(row7);
+						tbody.appendChild(row8);
+						tbody.appendChild(row9);
+						tbody.appendChild(row10);
+						tbody.appendChild(row11);
+						tbody.appendChild(row12);
+						i++;
+					}			
+				}
+			}
+			
+			function tzLesionNumber(){
+			var lesionNumberTZ=document.getElementById('TZ_LESION_NUMBER').value;
+			var tbody = document.getElementById("TZ_LESION");
+			
+				if(lesionNumberTZ==0){
+					while (tbody.childNodes.length > 0) {
+						tbody.removeChild(tbody.firstChild);
+					}
+				}else{
+					while (tbody.childNodes.length > 0) {
+						tbody.removeChild(tbody.firstChild);
+					}
+					
+					var i=1;
+					while(i<=lesionNumberTZ){
+						var row1 = document.createElement("tr");
+						var td1 = document.createElement("td");
+						td1.setAttribute("colspan","3");
+						td1.setAttribute("style","background-color:#ececec; font-weight:bold; padding-top:10px;");
+						td1.appendChild(document.createTextNode("TZ - Suspiciuos Lesion #"+i+" - [PI-RADS v.2 score]"));
+						row1.appendChild(td1);
+						
+						var row2 = document.createElement("tr");
+						var td2 = document.createElement("td");
+						td2.setAttribute("colspan","1");
+						var td3 = document.createElement("td");
+						td3.setAttribute("colspan","2");
+						select1=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Right");
+						option.appendChild(opzione);
+						select1.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Left");
+						option.appendChild(opzione);
+						select1.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Median");
+						option.appendChild(opzione);
+						select1.appendChild(option);
+						td2.appendChild(document.createTextNode("Laterality of the lesion"));
+						td3.appendChild(select1);
+						row2.appendChild(td2);
+						row2.appendChild(td3);
+						
+						var row3 = document.createElement("tr");
+						var td4 = document.createElement("td");
+						td4.setAttribute("colspan","1");
+						var td5 = document.createElement("td");
+						td5.setAttribute("colspan","2");
+						span1 = document.createElement("span");
+						span1.setAttribute("title","Specify the exact site of the lesion according to the PI-RADS v.2 map");
+						select2=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Base - anterior (TZa)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Base - posterior (TZp)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Mid - anterior (TZa)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Mid - posterior (TZp)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Apex - anterior (TZa)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Apex - posterior (TZp)");
+						option.appendChild(opzione);
+						select2.appendChild(option);
+						td4.appendChild(document.createTextNode("Localisation"));
+						span1.appendChild(select2);
+						td5.appendChild(span1);
+						row3.appendChild(td4);
+						row3.appendChild(td5);
+						
+						var row4 = document.createElement("tr");
+						var td6 = document.createElement("td");
+						td6.setAttribute("colspan","1");
+						var td7 = document.createElement("td");
+						td7.setAttribute("colspan","2");
+						span2=document.createElement("span");
+						span2.setAttribute("title","Indicate the signal intensity of the lesion in T2 images");
+						select3=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Homogeneous intermediate (normal) [1]");
+						option.appendChild(opzione);
+						select3.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Heterogeneous Hypointensity [2-3]");
+						option.appendChild(opzione);
+						select3.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Homogeneous Hypointensity [>4]");
+						option.appendChild(opzione);
+						select3.appendChild(option);
+						td6.appendChild(document.createTextNode("T2 signal intensity"));
+						span2.appendChild(select3);
+						td7.appendChild(span2);
+						row4.appendChild(td6);
+						row4.appendChild(td7);
+						
+						var row5 = document.createElement("tr");
+						var td8 = document.createElement("td");
+						td8.setAttribute("colspan","1");
+						var td9 = document.createElement("td");
+						td9.setAttribute("colspan","2");
+						span3=document.createElement("span");
+						span3.setAttribute("title","Specify the maximum diameters, in particular <1,5cm or >1,5cm");
+						select4=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("<1,5cm [<4]");
+						option.appendChild(opzione);
+						select4.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode(">1,5cm [>4]");
+						option.appendChild(opzione);
+						select4.appendChild(option);
+						td8.appendChild(document.createTextNode("Size of the lesion"));
+						span3.appendChild(select4);
+						td9.appendChild(span3);
+						row5.appendChild(td8);
+						row5.appendChild(td9);
+						
+						var row6 = document.createElement("tr");
+						var td10 = document.createElement("td");
+						td10.setAttribute("colspan","1");
+						var td11 = document.createElement("td");
+						td11.setAttribute("colspan","2");
+						span4=document.createElement("span");
+						span4.setAttribute("title","Specify the most similar shape of the lesion");
+						select5=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Encapsulated [2]");
+						option.appendChild(opzione);
+						select5.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Non-capsulated [>2]");
+						option.appendChild(opzione);
+						select5.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Lenticular [>4]");
+						option.appendChild(opzione);
+						select5.appendChild(option);
+						td10.appendChild(document.createTextNode("Shape of the lesion"));
+						span4.appendChild(select5);
+						td11.appendChild(span4);
+						row6.appendChild(td10);
+						row6.appendChild(td11);
+						
+						var row7 = document.createElement("tr");
+						var td12 = document.createElement("td");
+						td12.setAttribute("colspan","1");
+						var td13 = document.createElement("td");
+						td13.setAttribute("colspan","2");
+						span5=document.createElement("span");
+						span5.setAttribute("title","Specify the aspect of the borders of the lesion");
+						select6=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Circumscribed or encapsulated [2]");
+						option.appendChild(opzione);
+						select6.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Obscured margins [3]");
+						option.appendChild(opzione);
+						select6.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Non-circumscribed [>4]");
+						option.appendChild(opzione);
+						select6.appendChild(option);
+						td12.appendChild(document.createTextNode("Borders of the lesion"));
+						span5.appendChild(select6);
+						td13.appendChild(span5);
+						row7.appendChild(td12);
+						row7.appendChild(td13);
+						
+						var row8 = document.createElement("tr");
+						var td14 = document.createElement("td");
+						td14.setAttribute("colspan","1");
+						var td15 = document.createElement("td");
+						td15.setAttribute("colspan","2");
+						span6=document.createElement("span");
+						span6.setAttribute("title","Specify the presence of extra-prostatic invasion; special focus on infiltration of neurovascular bundle and seminal vesicles");
+						select7=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Extra-prostatic extension");
+						option.appendChild(opzione);
+						select7.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("No extra-prostatic extension [<4]");
+						option.appendChild(opzione);
+						select7.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Extra-prostatic extension [5]");
+						option.appendChild(opzione);
+						select7.appendChild(option);
+						td14.appendChild(document.createTextNode("Extra-prostatic extension"));
+						span6.appendChild(select7);
+						td15.appendChild(span6);
+						row8.appendChild(td14);
+						row8.appendChild(td15);
+						
+						var row9 = document.createElement("tr");
+						var td16 = document.createElement("td");
+						td16.setAttribute("colspan","1");
+						var td17 = document.createElement("td");
+						td17.setAttribute("colspan","2");
+						span7=document.createElement("span");
+						span7.setAttribute("title","Describe eventual infiltration of neurovascular bundle and seminal vesicles");
+						textarea1=document.createElement("textarea");
+						textarea1.setAttribute("cols","70");
+						td16.appendChild(document.createTextNode("Focus on infiltration of neurovascular bundle and seminal vesicles"));
+						span7.appendChild(textarea1);
+						td17.appendChild(span7);
+						row9.appendChild(td16);
+						row9.appendChild(td17);
+						
+						var row10 = document.createElement("tr");
+						var td18 = document.createElement("td");
+						td18.setAttribute("colspan","1");
+						var td19 = document.createElement("td");
+						td19.setAttribute("colspan","2");
+						span8=document.createElement("span");
+						span8.setAttribute("title","Specify the signal intensity in diffusion weighted images and apparent diffusion coefficient maps according to PI-RADS v.2 - [score useful to determinate final PI-RADS v.2 score]");
+						select8=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("Normal [1]");
+						option.appendChild(opzione);
+						select8.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Indistinct hypointense in ADC [2]");
+						option.appendChild(opzione);
+						select8.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Focal mildly/moderately hypointense on ADC and isointense/mildly hyperintense on high b-value [3]");
+						option.appendChild(opzione);
+						select8.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Focal markedly hypointense on ADC and markedly hyperintense on high b-value DWI [>4]");
+						option.appendChild(opzione);
+						select8.appendChild(option);
+						td18.appendChild(document.createTextNode("DWI/ADC-map signal intensity"));
+						span7.appendChild(select8);
+						td19.appendChild(span8);
+						row10.appendChild(td18);
+						row10.appendChild(td19);
+						
+						var row11 = document.createElement("tr");
+						var td20 = document.createElement("td");
+						td20.setAttribute("colspan","1");
+						var td21 = document.createElement("td");
+						td21.setAttribute("colspan","2");
+						span9=document.createElement("span");
+						span9.setAttribute("title","Specify the presence of focal earlier enhancement of the lesion than adjacent prostate tissue");
+						select9=document.createElement("select");
+						option=document.createElement("option");
+						opzione=document.createTextNode("No early enhancement [-]");
+						option.appendChild(opzione);
+						select9.appendChild(option);
+						option=document.createElement("option");
+						opzione=document.createTextNode("Early and focal enhancement corresponding to a focal suspicious finding in T2/DWI [+]");
+						option.appendChild(opzione);
+						select9.appendChild(option);
+						td20.appendChild(document.createTextNode("Dynamic contrast enhancement"));
+						span9.appendChild(select9);
+						td21.appendChild(span9);
+						row11.appendChild(td20);
+						row11.appendChild(td21);
+						
+						var row12 = document.createElement("tr");
+						var td22 = document.createElement("td");
+						td22.setAttribute("colspan","1");
+						var td23 = document.createElement("td");
+						td23.setAttribute("colspan","2");
+						span10=document.createElement("span");
+						span10.setAttribute("title","Indicate the final PI-RADS category using the score of the previous option selected");
+						input1=document.createElement("input");
+						input1.setAttribute('type','text');
+						td22.appendChild(document.createTextNode("FINAL SIGNIFICANT PI-RADS category of the lesion #"+i+" (TZ)"));
+						span10.appendChild(input1);
+						td23.appendChild(span10);
+						row12.appendChild(td22);
+						row12.appendChild(td23);
+						
+						tbody.appendChild(row1);
+						tbody.appendChild(row2);
+						tbody.appendChild(row3);
+						tbody.appendChild(row4);
+						tbody.appendChild(row5);
+						tbody.appendChild(row6);
+						tbody.appendChild(row7);
+						tbody.appendChild(row8);
+						tbody.appendChild(row9);
+						tbody.appendChild(row10);
+						tbody.appendChild(row11);
+						tbody.appendChild(row12);
+						i++;
+					}			
+				}
+			}
+			
+			function hide_neoplasticInvolvement(){
+				var neoplasticInvolvementYes=document.getElementById("neoplasticInvolvement_yes");
+				var neoplasticInvolvementNo=document.getElementById("neoplasticInvolvement_no");
+				var tr1 = document.getElementById("tr_neoplasticInvolvement_1");
+				var tr2 = document.getElementById("tr_neoplasticInvolvement_2");
+				if(neoplasticInvolvementYes.checked){
+					tr1.setAttribute("style","display:block");
+					tr2.setAttribute("style","display:block");
+				}
+				if(neoplasticInvolvementNo.checked){
+					tr1.setAttribute("style","display:none");
+					tr2.setAttribute("style","display:none");
+				}
+			}
+        </script>
+    </head>
+    <body>
+		<table style="border:2px solid #000000; width:50%; margin-top:0px; margin-bottom:10px;">
+			<section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+			
+				<header class="level1">
+					<th colspan="3" style="border-bottom:1px solid #b1b1b1; text-align:left; font-size:1.2em; font-variant: small-caps;">Procedure Information</th>
+				</header>
+				<section id="SECTION_HEADER_1470732083748" class="level2" data-section-name="Exam quality">
+					<tr>
+						<td style="border-right:1px solid #b1b1b1;" rowspan="2" colspan="1"><b>Exam quality</b></td>
+					
+							<td colspan="1"><label for="procedureInformationText">General exam quality</label></td>
+							<td colspan="1"><span title="Description and motivation of eventual reduction of image quality"><input type="text" id="procedureInformationText" name="" data-field-type="TEXT" data-field-completion-action="ALERT" value="Good" /></span></td>
+						</tr>
+						<tr>
+							<td colspan="1"><label for="TEXT_1470732083698">Rectal cleaning</label></td>
+							<td colspan="1"><span title="Description of the effective rectal cleaning, possible cause of artifact"><input type="text" id="TEXT_1470732083698" name="" data-field-type="TEXT" data-field-completion-action="ALERT" value="Good" /></span></td>
+						</tr>
+					
+				</section>
+				<section id="SECTION_HEADER_1470732083749" class="level2" data-section-name="Technical details">
+					<tr>
+						<td style="border-right:1px solid #b1b1b1;border-top:1px solid #b1b1b1;padding-top:5px;" rowspan="4" colspan="1"><b>Technical details</b></td>
+						<td style="border-top:1px solid #b1b1b1;padding-top:5px;" colspan="1"><label for="TEXT_1470732083699">Protocol details</label></td>
+						<td style="border-top:1px solid #b1b1b1;padding-top:5px;" colspan="1"><span title="Description of eventual changes in MRI protocol and motivation"><input type="text" id="TEXT_1470732083699" name="" data-field-type="TEXT" data-field-completion-action="ALERT" value="Standard protocol" /></span></td>
+					</tr>
+					
+					<tr>
+						<td colspan="1"><label for="SELECTION_LIST_1470732083713">Field of MRI scanner</label></td>
+						<td colspan="1"><select id="SELECTION_LIST_1470732083713" name="" data-field-type="SELECTION_LIST" data-field-completion-action="ALERT" value="3T">
+							<option id="SELECTION_LIST_1470732083713_0" value="1.5T" name="SELECTION_LIST_1470732083713">1.5T</option>
+							<option id="SELECTION_LIST_1470732083713_1" value="3T" name="SELECTION_LIST_1470732083713" selected="">3T</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="TEXT_1470732083704">Type of the contrast medium</label></td>
+						<td colspan="1"><span title="Specify type of the contrast medium"><input type="text" id="TEXT_1470732083704" name="" data-field-type="TEXT" data-field-completion-action="ALERT" value="" /></span></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="NUMBER_1470732083706">Volume of contrast medium</label></td>
+						<td colspan="1"><span title="Specify the volume of the contrast medium used"><input type="number" step="1.0" data-field-units="mL" id="NUMBER_1470732083706" name="" data-field-type="NUMBER" data-field-completion-action="ALERT" value="" /> mL</span></td>
+					</tr>
+				</section>
+			</section>
+		</table>
+		
+		<table style="border:2px solid #000000; width:50%; margin-bottom:10px;">
+			<section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+				<header class="level1">
+					<th colspan="3" style="border-bottom:1px solid #b1b1b1; text-align:left; font-size:1.2em; font-variant: small-caps;"><b>Clinical Information</b></th>
+				</header>
+				<section id="SECTION_HEADER_1470732083750" class="level2" data-section-name="Prostatic Specific Antigene (PSA)">
+					<tr>
+						<td style="border-right:1px solid #b1b1b1;" rowspan="3" colspan="1"><b>Prostatic Specific Antigene (PSA)</b></td>
+						<td colspan="1"><label for="NUMBER_1470732083718">PSA last value</label></td>
+						<td colspan="1"><span title="Specify the last value of PSA"><input type="number" step="1.0" data-field-units="ng/mL" id="NUMBER_1470732083718" name="" data-field-type="NUMBER" data-field-completion-action="ALERT" value="" /> ng/mL</span></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="NUMBER_1470732083720">PSA ratio</label></td>
+						<td colspan="1"><span title="Specify the value when available"><input type="number" step="1.0" data-field-units="" id="NUMBER_1470732083720" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" /></span></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="clinicalInformationText">PSA history and other PSA derivatives </label></td>
+						<td colspan="1"><span title="Specify the values when available ">
+						<textarea rows="10" cols="30" id="clinicalInformationText" name="" data-field-type="TEXT" data-field-completion-action="ALERT"></textarea></span></td>
+					</tr>
+				</section>
+				<section id="SECTION_HEADER_1470732083753" class="level2" data-section-name="Other clinical information">
+					<tr>
+						<td style="border-right:1px solid #b1b1b1;border-top:1px solid #b1b1b1;padding-top:5px;" rowspan="2" colspan="1"><b>Other clinical information</b></td>
+						<td colspan="1" style="border-top:1px solid #b1b1b1;padding-top:5px;"><label for="TEXT_1470732083721">Previous biopsy and Gleason Score</label></td>
+						<td colspan="1" style="border-top:1px solid #b1b1b1;padding-top:5px;"><span title="Specify date and result of the last and eventual previous biopsy and corresponding Gleason Score"><input type="text" id="TEXT_1470732083721" name="" data-field-type="TEXT" data-field-completion-action="ALERT" value="" /></span></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="TEXT_1470732083754">Digital rectal examination (DRE)</label></td>
+						<td colspan="1"><span title="Specify the outcome of DRE"><input type="text" id="TEXT_1470732083754" name="" data-field-type="TEXT" data-field-completion-action="ALERT" value="" /></span></td>
+					</tr>
+				</section>			
+			</section>
+		</table>
+		
+		<table style="border:2px solid #000000; width:60%; margin-bottom:10px;">
+			<section id="comparisons" class="level1" data-section-name="Comparison">
+				<header class="level1">
+					<th colspan="3" style="border-bottom:1px solid #b1b1b1; text-align:left; font-size:1.2em; font-variant: small-caps;"><b>Comparison</b></th>
+				</header>
+				<tr>
+					<td colspan="3"><textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea></td>
+				</tr>
+			</section>
+		</table>
+		<table style="border:2px solid #000000; width:60%; margin-bottom:10px;">
+			<section id="findings" class="level1" data-section-name="Findings">
+				<header class="level1">
+					<th colspan="3" style="border-bottom:1px solid #b1b1b1; text-align:left; font-size:1.2em; font-variant: small-caps;"><b>Findings</b></th>
+				</header>
+				
+				<section id="SECTION_HEADER_1470732083722" class="level2" data-section-name="General information about the prostate gland">
+					<tr>
+						<td style="border-right:1px solid #b1b1b1;" rowspan="2" colspan="1"><b>General information about the prostate gland</b></td>
+						<td colspan="1"><label for="TEXT_1470732083738">Volume (maximum diameters APxLLxCC; units: mm)</label></td>
+						<td colspan="1"><span title="Specify the antero-posterior, latero-lateral and cranio-caudal diameters"><input type="text" id="TEXT_1470732083738" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="" /></span></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="SELECTION_LIST_1470732083726">Grade of BPH and deformation of the normal anatomy</label></td>
+						<td colspan="1"><span title="Grade of Benign Prostatic Hyperplasia and eventual deformation of the normal anatomy of the gland"><select id="SELECTION_LIST_1470732083726" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Mild">
+							<option id="SELECTION_LIST_1470732083726_0" value="Mild" name="SELECTION_LIST_1470732083726" selected="">Mild</option>
+							<option id="SELECTION_LIST_1470732083726_1" value="Moderate" name="SELECTION_LIST_1470732083726">Moderate</option>
+							<option id="SELECTION_LIST_1470732083726_2" value="Severe" name="SELECTION_LIST_1470732083726">Severe</option>
+						</select></span></td>
+					</tr>
+				</section>
+			
+				<section style="margin-top:10px;" id="SECTION_HEADER_1470732083768" class="level2" data-section-name="Peripheral Zone (PZ)">
+					<tr>
+						<td colspan="3" style="border-top:1px solid #000000;padding-top:5px;font-variant: small-caps;"><b>Peripheral Zone (PZ)</b></td>
+					</tr>
+					<tr>
+						<td colspan="3" style="padding-top:5px;">Suspicious lesions &nbsp; &nbsp;<select id="PZ_LESION_NUMBER" name="PZ_LESION_NUMBER" data-field-type="SELECTION_LIST" onChange="pzLesionNumber()">
+							<option id="PZ_LESION_NUMBER_0" value="0" name="PZ_LESION_NUMBER" selected>0</option>
+							<option id="PZ_LESION_NUMBER_1" value="1" name="PZ_LESION_NUMBER">1</option>
+							<option id="PZ_LESION_NUMBER_2" value="2" name="PZ_LESION_NUMBER">2</option>
+							<option id="PZ_LESION_NUMBER_3" value="3" name="PZ_LESION_NUMBER">3</option>
+							<option id="PZ_LESION_NUMBER_4" value="4" name="PZ_LESION_NUMBER">4</option>
+						</select>  (up to maximum 4 lesions in the global evaluation)</td>	
+					</tr>
+					<tbody id="PZ_LESION" data-section-name="PZ - Suspiciuos Lesion #1 - [PI-RADS v.2 score] "></tbody>
+				</section>	
+					
+				<section style="margin-top:10px;" id="SECTION_HEADER_1470740550138" class="level2" data-section-name="Transitional Zone">
+					<tr>
+						<td colspan="3" style="border-top:1px solid #000000;padding-top:5px;font-variant: small-caps;"><b>Transitional Zone (TZ)</td>
+					</tr>
+					<tr>
+						<td colspan="3" style="padding-top:5px;">Suspicious lesions &nbsp; &nbsp;<select id="TZ_LESION_NUMBER" name="TZ_LESION_NUMBER" data-field-type="SELECTION_LIST" onChange="tzLesionNumber()">
+							<option id="TZ_LESION_NUMBER_0" value="0" name="TZ_LESION_NUMBER" selected>0</option>
+							<option id="TZ_LESION_NUMBER_1" value="1" name="TZ_LESION_NUMBER">1</option>
+							<option id="TZ_LESION_NUMBER_2" value="2" name="TZ_LESION_NUMBER">2</option>
+							<option id="TZ_LESION_NUMBER_3" value="3" name="TZ_LESION_NUMBER">3</option>
+							<option id="TZ_LESION_NUMBER_4" value="4" name="TZ_LESION_NUMBER">4</option>
+						</select>  (up to maximum 4 lesions in the global evaluation)</td>	
+					<tr>
+					<tbody id="TZ_LESION" data-section-name="TZ - Suspiciuos Lesion #1 - [PI-RADS v.2 score] "></tbody>
+				</section>
+				
+				<section id="SECTION_HEADER_1470742048825" class="level2" data-section-name="Other prostate zones">
+					<tr>
+						<td colspan="3" style="border-top:1px solid #000000;padding-top:5px;font-variant: small-caps;"><b>Other prostate zones</td>
+					</tr>
+					<tr>
+						<td colspan="3"><label for="TEXT_1470742245827">Neoplastic involvement</label>
+						&nbsp;&nbsp;<input checked type="radio" name="neoplasticInvolvement" id="neoplasticInvolvement_no" value="no" onClick="hide_neoplasticInvolvement()"/>No&nbsp; <input type="radio" name="neoplasticInvolvement" value="yes" id="neoplasticInvolvement_yes" onClick="hide_neoplasticInvolvement()"/>Yes</td>
+					</tr>
+					<tr id="tr_neoplasticInvolvement_1" style="display:none">
+						<td colspan="1"><label for="TEXT_1470742048827">Involvement of the Anterior fibromuscular Stroma (AS)</label></td>
+						<td colspan="2"><span title="Specify laterality (right/left/median) and localisation (Base/Mid/Apex)"><textarea rows="3" cols="40" id="TEXT_1470742048827" name="" data-field-type="TEXT" data-field-completion-action="ALERT"></textarea></span></td>
+					</tr>
+					<tr id="tr_neoplasticInvolvement_2" style="display:none">
+						<td colspan="1"><label for="TEXT_1470742048828">Involvement of the Central Zone (CZ) </label></td>
+						<td colspan="2"><span title="Specify laterality (right/left/median) and localisation (Base/Mid/Apex)"><textarea rows="3" cols="40" id="TEXT_1470742048828" name="" data-field-type="TEXT" data-field-completion-action="ALERT"></textarea></span></td>
+					</tr>
+				</section>      
+			
+				<tr>
+					<td colspan="1">Metastatic lymph nodes</td>
+					<td colspan="2"><span title="Specify localisation, morphology and short axis lenght"><textarea rows="3" cols="70" id="TEXT_1470742048831" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT"></textarea></span></td>
+				</tr>
+				<tr>
+					<td colspan="1">Metastatic bone lesions</td>
+					<td colspan="2"><span title="Specify localisation, morphology and maximum diameters of the lesions"><textarea rows="3" cols="70" id="TEXT_1470742048834" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT"></textarea>
+                </tr>
+				<tr>
+					<td colspan="1">Additional findings</td>
+					<td colspan="2"><textarea rows="3" cols="70" id="TEXT_1470742048837" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea></td>
+				</tr>
+			</section>
+		</table>
+		
+		<table style="border:2px solid #000000; width:60%;">
+			<section id="impression" class="level1" data-section-name="Impression">
+				<header class="level1">
+					<th colspan="3" style="border-bottom:1px solid #b1b1b1; text-align:left; font-size:1.2em; font-variant: small-caps;"><b>Impression</b></th>
+				</header>
+				
+				<tr>
+					<td colspan="1">Conclusions</td>
+					<td colspan="2"><span title="Specify presence or absence of clinically significant probability of prostate cancer. If present, specify the exact localisation and the final PI-PIRADS score for each lesion found (higher grade of PI-RADS assessment correspond to the DOMINANT lesion)"><textarea rows="3" cols="70" id="TEXT_1470742048850" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT"></textarea></span></td>
+				</tr>
+				<tr>
+					<td colspan="1">Dominant lesion PI-RADS v.2 category</td>
+					<td colspan="2"><span title="Specify the higher grade of PI-RADS assessment between all the lesions">
+						<input type="number" step="1.0" data-field-units="" id="NUMBER_1470743941471" name="" data-field-type="NUMBER" data-field-completion-action="PROHIBIT" value="" />
+					</span></td>
+				</tr>
+				<tr>
+					<td colspan="1">Focus on infiltration of neurovascular bundle and seminal vesicles</td>
+					<td colspan="2"><span title="Describe eventual infiltration of neurovascular bundle and seminal vesicles"><textarea rows="3" cols="70" id="TEXT_1470747480645" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT"></textarea></span></td>
+				</tr>
+				<tr>
+					<td colspan="1">Metastatic disease</td>
+					<td colspan="2"><select multiple="multiple" id="SELECTION_LIST_1470742048852" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="None">
+						<option id="SELECTION_LIST_1470742048852_0" value="None" name="SELECTION_LIST_1470742048852" selected="">None</option>
+						<option id="SELECTION_LIST_1470742048852_1" value="Metastatic bone involvement" name="SELECTION_LIST_1470742048852">Metastatic bone involvement</option>
+						<option id="SELECTION_LIST_1470742048852_2" value="Metastatic lymph node involvement" name="SELECTION_LIST_1470742048852">Metastatic lymph node involvement</option>
+					</select></td>
+				</tr>
+			</section>
+		</table>
+    </body>
+</html>

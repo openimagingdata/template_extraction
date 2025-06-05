@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="MR Temporomandibular Joint" name="dcterms.title"/>
+<meta content="MR Temporomandibular Joint template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000186" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-06-19" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="magnetic resonance imaging" value="RID10312" scheme="RadLex">
+</term>
+<term>
+ <code meaning="temporomandibular joint" value="RID9779" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T186_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T186_3">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T186_6">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T186_15">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR Temporomandibular Joint</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR Temporomandibular Joint</header>
+<p>
+<textarea id="T186_2" name="Procedure">Sagittal T2-weighted fat-saturation images were obtained with the jaw in open and closed positions. Coronal T2-weighted images images were obtained as well. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T186_3" name="Clinical information">Arthralgia. Joint popping. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T186_6" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T186_9">Right temporomandibular joint:</label>
+<input type="text" id="T186_9" name="Right temporomandibular joint" value="The articular disc is normally positioned between the mandibular condyle and the temporal bone in both open and closed positions. There is normal anterior translation of the mandibular condyle with jaw opening."/>
+</p>
+<p>
+<label for="T186_12">Left temporomandibular joint:</label>
+<input type="text" id="T186_12" name="Left temporomandibular joint" value="The articular disc is normally positioned between the mandibular condyle and the temporal bone in both open and closed positions. There is normal anterior translation of the mandibular condyle with jaw opening."/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T186_15" name="Impression">Normal temporomandibular joints. </textarea>
+</p>
+</section>
+</body>
+</html>

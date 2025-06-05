@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="MR Brachial Plexus" name="dcterms.title"/>
+<meta content="MR Brachial Plexus template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000044" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-16" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="brachial plexus" value="RID7202" scheme="RadLex">
+</term>
+<term>
+ <code meaning="magnetic resonance imaging" value="RID10312" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T44_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T44_7">
+ <term>
+  <code meaning="contrast agent" value="RID11582" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T44_12">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T44_13">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T44_23">
+ <term>
+  <code meaning="spinal cord" value="RID7361" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T44_84">
+ <term>
+  <code meaning="set of cords of brachial nerve plexus" value="RID16503" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T44_123">
+ <term>
+  <code meaning="set of ribs" value="RID28591" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T44_330">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR Brachial Plexus</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR Brachial Plexus</header>
+<p>
+<textarea id="T44_2" name="Procedure">High resolution MRI was performed of the brachial plexus employing MR neurography techniques using multiplanar 3-D anatomical and fluid-sensitive sequences.</textarea>
+</p>
+<p>
+<label for="T44_7">IV Contrast:</label>
+<input type="text" id="T44_7" name="IV Contrast" value="None."/>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T44_12" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T44_13" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+
+<section data-section-name="Spinal cord">
+<header class="level2">Spinal cord</header>
+<p>
+<textarea id="T44_23" name="Spinal cord">Normal caliber and signal of visualized spinal cord.</textarea>
+</p>
+</section>
+
+<section data-section-name="Brachial plexus">
+<header class="level2">Brachial plexus</header>
+<p>
+<label for="T44_33">Roots:</label>
+<input type="text" id="T44_33" name="Roots" value="Normal."/>
+</p>
+<p>
+<label for="T44_50">Trunks:</label>
+<input type="text" id="T44_50" name="Trunks" value="Normal."/>
+</p>
+<p>
+<label for="T44_67">Divisions:</label>
+<input type="text" id="T44_67" name="Divisions" value="Normal."/>
+</p>
+<p>
+<label for="T44_84">Cords:</label>
+<input type="text" id="T44_84" name="Cords" value="Normal."/>
+</p>
+<p>
+<label for="T44_101">Branches:</label>
+<input type="text" id="T44_101" name="Branches" value="Normal."/>
+</p>
+</section>
+
+<section data-section-name="Muscles and tendons">
+<header class="level2">Muscles and tendons</header>
+<p>
+<textarea id="T44_997" name="Muscles and tendons">Normal scalenes.</textarea>
+</p>
+</section>
+<section data-section-name="Bones">
+<header class="level2">Bones</header>
+<p>
+<label for="T44_123">Cervical ribs:</label>
+<input type="text" id="T44_123" name="Cervical ribs" value="Normal."/>
+</p>
+<p>
+<label for="T44_126">C7 transverse processes:</label>
+<input type="text" id="T44_126" name="C7 transverse processes" value="Normal."/>
+</p>
+<p>
+<label for="T44_129">Marrow signal:</label>
+<input type="text" id="T44_129" name="Marrow signal" value="Normal."/>
+</p>
+</section>
+<section data-section-name="Joints">
+<header class="level2">Joints</header>
+<p>
+<textarea id="T44_999" name="Joints">Normal cervical spine articulations, sternoclavicular joints, acromioclavicular joints, and glenohumeral joints.</textarea>
+</p>
+</section>
+
+<section data-section-name="Thoracic outlet and cervicothoracic junction">
+<header class="level2">Thoracic outlet and cervicothoracic junction</header>
+<p>
+<textarea id="T44_998" name="Thoracic outlet and cervicothoracic junction">Normal interscalene triangle, costoclavicular space, and retropectoralis minor space.</textarea>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<textarea id="T44_166" name="Other findings">No vascular abnormality, mass, or other significant finding.</textarea>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T44_330" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

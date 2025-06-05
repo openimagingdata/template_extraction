@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8"/>
+		<meta content="US Thoracentesis" name="dcterms.title"/>
+		<meta content="US Thoracentesis template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+		<meta content="http://www.radreport.org/template/0000095" name="dcterms.identifier"/>
+		<meta content="en" name="dcterms.language"/>
+		<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+		<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+		<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+		<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+		<meta content="2013-12-10" name="dcterms.date"/>
+		<meta content="Tolat P" name="dcterms.creator"/>
+		<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+		<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+        <link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+		<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+        <script type="text/xml">
+			<!--
+			<template_attributes>
+			<top-level-flag>true</top-level-flag>
+			<status>ACTIVE</status>
+			<coded_content>
+</coded_content>
+			</template_attributes>			
+			-->
+        </script>
+        <title>US Thoracentesis</title>
+    </head>
+    <body>
+        <section data-section-name="Procedure">
+            <header class="level1">Ultrasound-guided thoracentesis</header>
+        </section>
+
+        <section data-section-name="Clinical information">
+            <header class="level1">Clinical information</header>
+            <p>
+                <textarea id="T95_1" name="Clinical information">Pleural effusion.</textarea>
+            </p>
+        </section>
+        <section data-section-name="Comparison">
+            <header class="level1">Comparison</header>
+            <p>
+                <textarea id="T95_2" name="Comparison">None.</textarea>
+            </p>
+        </section>
+
+        <section data-section-name="Findings">
+            <header class="level1">Procedure</header>
+
+            <section data-section-name="Informed consent">
+                <header class="level2">Informed consent</header>
+                <p>
+                    <select id="T95_3" name="Consent">
+                        <option id="T95_4" name="Consent-yes" value="yes">The risks, benefits, and alternatives of the procedure were discussed with the patient. Verbal and written consent was obtained. </option>
+                        <option id="T95_5" name="Consent-POA" value="POA">The risks, benefits, and alternatives of the procedure were discussed with the patient's Power of Attorney. Verbal and written consent was obtained.</option>
+                        <option id="T95_6" name="Consent-no" value="no">Consent was not obtained.</option>
+                    </select>
+                </p>
+            </section>
+
+            <section data-section-name="Time-out">
+                <header class="level2">Time-out</header>
+                <p>
+                    <select id="T95_7" name="Time-Out">
+                        <option id="T95_8" name="Time-Out-yes" value="yes" selected>Time-out was performed to confirm the correct patient, procedure, and site. </option>
+                        <option id="T95_9" name="Time-Out-no" value="no">Not performed. </option>
+                    </select>
+                </p>
+            </section>
+			
+			<section data-section-name="Site">
+                <header class="level2">Site</header>
+                <p>
+                    <select id="T95_10" name="Site">
+						<option id="T95_11" name="Site-Right" value="Right">Right</option>
+						<option id="T95_12" name="Site-Left" value="Left">Left</option>
+					</select>
+					chest.
+                </p>
+            </section>
+
+            <section data-section-name="Preparation">
+                <header class="level2">Preparation</header>
+                <p>
+                    <textarea id="T95_13" name="Preparation">A suitable skin site was identified. The patient was prepped and draped in usual sterile fashion. Lidocaine 1% was used for local anaesthesia. </textarea>
+                </p>
+            </section>
+
+            <section data-section-name="Catheter">
+                <header class="level2">Catheter</header>
+                <p>
+                    <input type="text" id="T95_14" name="Catheter" value="4 French One-Step catheter." />
+                </p>
+            </section>
+
+            <section data-section-name="Fluid">
+                <header class="level2">Fluid</header>
+                <p>
+                    <label>Volume:</label>
+                    <input type="number" id="T95_15" name="Volume" value="" /> ml. </p>
+                <p>
+                    <label>Color:</label>
+                    <input type="text" id="T95_16" name="Color" value="" />
+                </p>
+                <p>
+                    <label>Disposition:</label>
+                    <select id="T95_17" name="Disposition">
+                        <option id="T95_18" name="discarded" value="discarded">Discarded safely.</option>
+                        <option id="T95_19" name="labs" value="labs">Sent to the laboratory for analysis.
+                        </option>
+                    </select>
+                </p>
+            </section>
+
+            <section data-section-name="Complications">
+                <header class="level2">Complications</header>
+                <p>
+                    <input type="text" id="T95_20" name="Complications" value="None." />
+                </p>
+            </section>
+
+            <section data-section-name="Patient disposition">
+                <header class="level2">Patient disposition</header>
+                <p>
+                    <input type="text" id="T95_21" name="Patient" value="Discharged from the department in stable condition." />
+                </p>
+            </section>
+        </section>
+
+        <section data-section-name="Impression">
+            <header class="level1">Impression</header>
+            <p>
+                <textarea name="Impression" id="T95_22">Ultrasound-guided thoracentesis.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

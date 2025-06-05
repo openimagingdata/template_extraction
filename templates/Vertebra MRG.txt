@@ -1,0 +1,70 @@
+The original text template is provided below. The XML version has been translated. 
+
+Clinical History
+
+    * Medical history
+    * Risk factors
+    * Allergies, if relevant
+    * Reason for exam, including medical necessity: [headache | stroke | dizziness | trauma]
+
+Imaging Technique
+
+    * Time of image acquisition
+    * Imaging device [MR, CT]
+    * Image acquisition parameters, such as device settings, patient positioning, interventions (e.g., Valsalva maneuver)
+
+
+CT SPINE TECHNIQUE
+
+ 
+
+This CT study consists of [#] mm contiguous axial images performed from [skull base - sacrum] to [skull base - sacrum].  Sagittal and coronal reformatted images were also performed.
+
+ 
+
+MR SPINE TECHNIQUE
+
+ 
+
+This MR study consists of multiple sagittal and axial images of the [cervical thoracic lumbar] spine utilizing [<T1, T2 and gradient echo>] acquisitions.
+
+    * Contrast materials and other medications administered (including name, dose, route, and time of administration)
+    * Radiation dose
+
+Comparison
+
+    * Date and type of previous exams reviewed, if applicable
+
+Observations
+General observations
+
+    * Lordosis/kyphosis: [normal* | accentuated | straightened]
+    * Alignment: [normal* | retrolisthesis | anterolisthesis]
+    * Spinal canal: [normal* | stenotic | capacious]
+    * Anatomy: [normal* | transitional ]
+
+Vertebral observations {applicable to cervical (C2-C7), thoracic (T1-T12) and lumbar (L1 to S1) }
+
+    * Vertebral marrow: [normal* | fatty | edematous | sclerotic] {types I - III}
+    * Posterior neural arch integrity: [intact* | fractured | displaced]
+    * Cortical definition: [normal* | fractured | lytic]
+    * Endplate definition: [normal* ; degenerated]
+    * Medullary space: [normal* | osteopenic | sclerotic]
+
+Interspace observations {applicable to cervical (C2/3 to C7/T1), thoracic (T1/2 to T11/12), lumbar (L1/2 to L5/S1)}
+
+    * Disc height/hydration: [normal* ; narrowed; dessicated]
+    * Facet joint {left / right}: [normal* | degenerated | hypertrophic | fractured ]
+    * Uncovertebral joint {left / right C2-3 to C7/T1}: [normal* | degenerated | hypertrophic ]
+    * Disc morphology: [normal* | bulging disc | herniation (protrusion type) | herniation (extrusion type) | herniation (sequestration type) ] {size modifier: small | medium | large} {laterality modifier: central | lateral | foraminal | extra foraminal} {superior/inferior modifier: pedicular | supra pedicular | infra pedicular}
+    * Central canal: [normal* | mild stenosis (<1/3) | moderate stenosis (>1/3) | severe stenosis (>2/3) ]
+    * Subarticular recess {left / right}: [normal* | mild stenosis (<1/3) | moderate stenosis (>1/3) | severe stenosis (>2/3) ]
+    * Neural foramen {left / right}: [normal* | mild stenosis (<1/3) | moderate stenosis (>1/3) | severe stenosis (>2/3) ]
+    * Subarachnoid space: [normal* | mild stenosis (<1/3) | moderate stenosis (>1/3) | severe stenosis (>2/3) ]
+    * Spinal cord {cervical & thoracic MR}: [normal caliber and signal*; atrophic; expanded; edema; myelomalacic; hemorrhagic; cystic; abutment; deformity; compression]
+    * Nerve roots {when applicable}: [normal* | contact | deviation | deformity]
+
+
+Summary (or Impression)
+
+    * An itemized list of key observations, including any recommendations.

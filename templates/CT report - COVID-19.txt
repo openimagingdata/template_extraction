@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CT report - COVID-19</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="ab5ff4a3-5b7b-4591-af3a-9231299d1996" />
+        <meta name="dcterms.title" content="CT report - COVID-19" />
+        <meta name="dcterms.description" content="Structured report prepared by the SIRM working group on COVID-19" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="Italian Society of Medical and Interventional Radiology" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2020-05-05" />
+        <meta name="dcterms.creator" content="Emanuele Neri, Roberto Grassi" />
+        <meta name="dcterms.contributor" content="Francesca Coppola, Nicola Sverzellati, Annarita Larici, Giorgia Dal Piaz, Palmino Sacco, Maria Antonietta Mazzei, Beatrice Feragalli" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="SELECTION_LIST_1588672703477_0">
+                        <term>
+                            <code meaning="supine position" value="http://radlex.org/RID/RID10421" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1588672703477_1">
+                        <term>
+                            <code meaning="prone position" value="http://radlex.org/RID/RID10422" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1588531343849_0">
+                        <term>
+                            <code meaning="supine position" value="http://radlex.org/RID/RID10421" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1588531343849_1">
+                        <term>
+                            <code meaning="prone position" value="http://radlex.org/RID/RID10422" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="NUMBER_1588531343842">Thickness</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1588531343842" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1588531343843">Reconstruction algorithm</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588531343843" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Standard">
+                    <option id="SELECTION_LIST_1588531343843_0" value="Standard" name="SELECTION_LIST_1588531343843" selected="">Standard</option>
+                    <option id="SELECTION_LIST_1588531343843_1" value="Iterative" name="SELECTION_LIST_1588531343843">Iterative</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1588580525105">Kernel</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588580525105" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Standard">
+                    <option id="SELECTION_LIST_1588580525105_0" value="Standard" name="SELECTION_LIST_1588580525105" selected="">Standard</option>
+                    <option id="SELECTION_LIST_1588580525105_1" value="High-resolution" name="SELECTION_LIST_1588580525105">High-resolution</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1588531343849">Decubitus</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588531343849" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Supine">
+                    <option id="SELECTION_LIST_1588531343849_0" value="Supine" name="SELECTION_LIST_1588531343849" selected="">Supine</option>
+                    <option id="SELECTION_LIST_1588531343849_1" value="Prone" name="SELECTION_LIST_1588531343849">Prone</option>
+                    <option id="SELECTION_LIST_1588531343849_2" value="Supine and Prone" name="SELECTION_LIST_1588531343849">Supine and Prone</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1588672703477">Contrast media</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588672703477" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="yes">
+                    <option id="SELECTION_LIST_1588672703477_0" value="yes" name="SELECTION_LIST_1588672703477" selected="">yes</option>
+                    <option id="SELECTION_LIST_1588672703477_1" value="no" name="SELECTION_LIST_1588672703477">no</option>
+                </select>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="CHECKBOX_1588531343856">Anamnesis</label>
+                <span id="CHECKBOX_1588531343856" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1588531343856_0" type="checkbox" name="CHECKBOX_1588531343856" value="Positive RT-PCR test">Positive RT-PCR test</input>
+                    <br />
+                    <input id="CHECKBOX_1588531343856_1" type="checkbox" name="CHECKBOX_1588531343856" value="Suspect COVID-19">Suspect COVID-19</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1588532281044">Severity of symptoms</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588532281044" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Mild: No evidence of significant pulmonary dysfunction or damage">
+                    <option id="SELECTION_LIST_1588532281044_0" value="Mild: No evidence of significant pulmonary dysfunction or damage" name="SELECTION_LIST_1588532281044" selected="">Mild: No evidence of significant pulmonary dysfunction or damage</option>
+                    <option id="SELECTION_LIST_1588532281044_1" value="Moderate-to-severe: Evidence of significant pulmonary dysfunction or damage" name="SELECTION_LIST_1588532281044">Moderate-to-severe: Evidence of significant pulmonary dysfunction or damage</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1588532281031">Pre-test probability of COVID</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588532281031" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Low: Sporadic transmission">
+                    <option id="SELECTION_LIST_1588532281031_0" value="Low: Sporadic transmission" name="SELECTION_LIST_1588532281031" selected="">Low: Sporadic transmission</option>
+                    <option id="SELECTION_LIST_1588532281031_1" value="Medium: Clustered transmission" name="SELECTION_LIST_1588532281031">Medium: Clustered transmission</option>
+                    <option id="SELECTION_LIST_1588532281031_2" value="High: Community transmission" name="SELECTION_LIST_1588532281031">High: Community transmission</option>
+                </select>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1588532281078">Previous exams</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588532281078" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Chest X-ray">
+                    <option id="SELECTION_LIST_1588532281078_0" value="Chest X-ray" name="SELECTION_LIST_1588532281078" selected="">Chest X-ray</option>
+                    <option id="SELECTION_LIST_1588532281078_1" value="CT" name="SELECTION_LIST_1588532281078">CT</option>
+                </select>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <section id="SECTION_HEADER_1588532280990" class="level2" data-section-name="PARENCHYMA: GROUND GLASS OPACITIES">
+                <header class="level2">
+                    PARENCHYMA: GROUND GLASS OPACITIES
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1588532280986">Location</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588532280986" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Right unilateral">
+                        <option id="SELECTION_LIST_1588532280986_0" value="Right unilateral" name="SELECTION_LIST_1588532280986" selected="">Right unilateral</option>
+                        <option id="SELECTION_LIST_1588532280986_1" value="Left unilateral" name="SELECTION_LIST_1588532280986">Left unilateral</option>
+                        <option id="SELECTION_LIST_1588532280986_2" value="Bilateral" name="SELECTION_LIST_1588532280986">Bilateral</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588532281117">Distribution in the axial plane</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588532281117" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Diffuse">
+                        <option id="SELECTION_LIST_1588532281117_0" value="Diffuse" name="SELECTION_LIST_1588532281117" selected="">Diffuse</option>
+                        <option id="SELECTION_LIST_1588532281117_1" value="Predominantly peripheral" name="SELECTION_LIST_1588532281117">Predominantly peripheral</option>
+                        <option id="SELECTION_LIST_1588532281117_2" value="Predominantly central" name="SELECTION_LIST_1588532281117">Predominantly central</option>
+                        <option id="SELECTION_LIST_1588532281117_3" value="Dependent on decubitus" name="SELECTION_LIST_1588532281117">Dependent on decubitus</option>
+                        <option id="SELECTION_LIST_1588532281117_4" value="Non-dependent on decubitus" name="SELECTION_LIST_1588532281117">Non-dependent on decubitus</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588532280993">Cranio-caudal distribution</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588532280993" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Diffuse">
+                        <option id="SELECTION_LIST_1588532280993_0" value="Diffuse" name="SELECTION_LIST_1588532280993" selected="">Diffuse</option>
+                        <option id="SELECTION_LIST_1588532280993_1" value="Multifocal / patching" name="SELECTION_LIST_1588532280993">Multifocal / patching</option>
+                        <option id="SELECTION_LIST_1588532280993_2" value="Predominant in the upper lobes" name="SELECTION_LIST_1588532280993">Predominant in the upper lobes</option>
+                        <option id="SELECTION_LIST_1588532280993_3" value="Predominant in the lower lobes" name="SELECTION_LIST_1588532280993">Predominant in the lower lobes</option>
+                    </select>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1588537800380" class="level2" data-section-name="PARENCHYMA: CONSOLIDATIONS">
+                <header class="level2">
+                    PARENCHYMA: CONSOLIDATIONS
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1588537800382">Location</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588537800382" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Right unilateral">
+                        <option id="SELECTION_LIST_1588537800382_0" value="Right unilateral" name="SELECTION_LIST_1588537800382" selected="">Right unilateral</option>
+                        <option id="SELECTION_LIST_1588537800382_1" value="Left unilateral" name="SELECTION_LIST_1588537800382">Left unilateral</option>
+                        <option id="SELECTION_LIST_1588537800382_2" value="Bilateral" name="SELECTION_LIST_1588537800382">Bilateral</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588537800383">Distribution in the axial plane</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588537800383" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Diffuse">
+                        <option id="SELECTION_LIST_1588537800383_0" value="Diffuse" name="SELECTION_LIST_1588537800383" selected="">Diffuse</option>
+                        <option id="SELECTION_LIST_1588537800383_1" value="Predominantly peripheral" name="SELECTION_LIST_1588537800383">Predominantly peripheral</option>
+                        <option id="SELECTION_LIST_1588537800383_2" value="Predominantly central" name="SELECTION_LIST_1588537800383">Predominantly central</option>
+                        <option id="SELECTION_LIST_1588537800383_3" value="Dependent on decubitus" name="SELECTION_LIST_1588537800383">Dependent on decubitus</option>
+                        <option id="SELECTION_LIST_1588537800383_4" value="Non-dependent on decubitus" name="SELECTION_LIST_1588537800383">Non-dependent on decubitus</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588537800384">Cranio-caudal distribution</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588537800384" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Diffuse">
+                        <option id="SELECTION_LIST_1588537800384_0" value="Diffuse" name="SELECTION_LIST_1588537800384" selected="">Diffuse</option>
+                        <option id="SELECTION_LIST_1588537800384_1" value="Multifocal / patching" name="SELECTION_LIST_1588537800384">Multifocal / patching</option>
+                        <option id="SELECTION_LIST_1588537800384_2" value="Predominant in the upper lobes" name="SELECTION_LIST_1588537800384">Predominant in the upper lobes</option>
+                        <option id="SELECTION_LIST_1588537800384_3" value="Predominant in the lower lobes" name="SELECTION_LIST_1588537800384">Predominant in the lower lobes</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588537800488">Features</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588537800488" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Solid">
+                        <option id="SELECTION_LIST_1588537800488_0" value="Solid" name="SELECTION_LIST_1588537800488" selected="">Solid</option>
+                        <option id="SELECTION_LIST_1588537800488_1" value="Subsolid" name="SELECTION_LIST_1588537800488">Subsolid</option>
+                        <option id="SELECTION_LIST_1588537800488_2" value="Cavitated" name="SELECTION_LIST_1588537800488">Cavitated</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588537800385">Parenchyma: other findings</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588537800385" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Septal thickness">
+                        <option id="SELECTION_LIST_1588537800385_0" value="Septal thickness" name="SELECTION_LIST_1588537800385" selected="">Septal thickness</option>
+                        <option id="SELECTION_LIST_1588537800385_1" value="Crazy paving" name="SELECTION_LIST_1588537800385">Crazy paving</option>
+                        <option id="SELECTION_LIST_1588537800385_2" value="Subpleural sparing" name="SELECTION_LIST_1588537800385">Subpleural sparing</option>
+                        <option id="SELECTION_LIST_1588537800385_3" value="Fibrotic distortion" name="SELECTION_LIST_1588537800385">Fibrotic distortion</option>
+                        <option id="SELECTION_LIST_1588537800385_4" value="Reversed halo sign" name="SELECTION_LIST_1588537800385">Reversed halo sign</option>
+                        <option id="SELECTION_LIST_1588537800385_5" value="Pulmonary emphysema" name="SELECTION_LIST_1588537800385">Pulmonary emphysema</option>
+                        <option id="SELECTION_LIST_1588537800385_6" value="Perilobular sign" name="SELECTION_LIST_1588537800385">Perilobular sign</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588580525035">Pleural effusion</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588580525035" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Unilateral">
+                        <option id="SELECTION_LIST_1588580525035_0" value="Unilateral" name="SELECTION_LIST_1588580525035" selected="">Unilateral</option>
+                        <option id="SELECTION_LIST_1588580525035_1" value="Bilateral" name="SELECTION_LIST_1588580525035">Bilateral</option>
+                    </select>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1588580525086" class="level2" data-section-name="PARENCHYMA: NODULES">
+                <header class="level2">
+                    PARENCHYMA: NODULES
+                </header>
+            </section>
+            <p title="">
+                <label for="SELECTION_LIST_1588580525071">Characteristics</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588580525071" name="" data-field-type="SELECTION_LIST" data-field-completion-action="ALERT" value="Nodules (3mm &lt; diameter &lt;=30mm)">
+                    <option id="SELECTION_LIST_1588580525071_0" value="Nodules (3mm &lt; diameter &lt;=30mm)" name="SELECTION_LIST_1588580525071" selected="">Nodules (3mm &lt; diameter &lt;=30mm)</option>
+                    <option id="SELECTION_LIST_1588580525071_1" value="Micronodules (diameter &lt;= 3mm)" name="SELECTION_LIST_1588580525071">Micronodules (diameter &lt;= 3mm)</option>
+                    <option id="SELECTION_LIST_1588580525071_2" value="Solid" name="SELECTION_LIST_1588580525071">Solid</option>
+                    <option id="SELECTION_LIST_1588580525071_3" value="Subsolid" name="SELECTION_LIST_1588580525071">Subsolid</option>
+                    <option id="SELECTION_LIST_1588580525071_4" value="Cavitated" name="SELECTION_LIST_1588580525071">Cavitated</option>
+                    <option id="SELECTION_LIST_1588580525071_5" value="Tree-in-bud" name="SELECTION_LIST_1588580525071">Tree-in-bud</option>
+                    <option id="SELECTION_LIST_1588580525071_6" value="Centrilobular" name="SELECTION_LIST_1588580525071">Centrilobular</option>
+                    <option id="SELECTION_LIST_1588580525071_7" value="Perilymphatic" name="SELECTION_LIST_1588580525071">Perilymphatic</option>
+                    <option id="SELECTION_LIST_1588580525071_8" value="Random" name="SELECTION_LIST_1588580525071">Random</option>
+                </select>
+            </p>
+            <section id="SECTION_HEADER_1588537800394" class="level2" data-section-name="MEDIASTINUM">
+                <header class="level2">
+                    MEDIASTINUM
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1588537800396">Lymphnodes</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588537800396" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Right ilar">
+                        <option id="SELECTION_LIST_1588537800396_0" value="Right ilar" name="SELECTION_LIST_1588537800396" selected="">Right ilar</option>
+                        <option id="SELECTION_LIST_1588537800396_1" value="Left hilar" name="SELECTION_LIST_1588537800396">Left hilar</option>
+                        <option id="SELECTION_LIST_1588537800396_2" value="Subcarinal" name="SELECTION_LIST_1588537800396">Subcarinal</option>
+                        <option id="SELECTION_LIST_1588537800396_3" value="Antero-superior mediastinum" name="SELECTION_LIST_1588537800396">Antero-superior mediastinum</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588580525025">Pericardial effusion</label>
+                    <select id="SELECTION_LIST_1588580525025" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Evident">
+                        <option id="SELECTION_LIST_1588580525025_0" value="Evident" name="SELECTION_LIST_1588580525025" selected="">Evident</option>
+                        <option id="SELECTION_LIST_1588580525025_1" value="Not evident" name="SELECTION_LIST_1588580525025">Not evident</option>
+                    </select>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1588672703482" class="level2" data-section-name="VASCULAR FINDINGS">
+                <header class="level2">
+                    VASCULAR FINDINGS
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1588537800405">Pulmonary Artery Trunk Diameter</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588537800405" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal (&lt; 29 mm)">
+                        <option id="SELECTION_LIST_1588537800405_0" value="Normal (&lt; 29 mm)" name="SELECTION_LIST_1588537800405" selected="">Normal (&lt; 29 mm)</option>
+                        <option id="SELECTION_LIST_1588537800405_1" value="Increased (&gt;= 29 mm)" name="SELECTION_LIST_1588537800405">Increased (&gt;= 29 mm)</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588672703483">Pulmonary embolism</label>
+                    <select id="SELECTION_LIST_1588672703483" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="">
+                        <option id="SELECTION_LIST_1588672703483_0" value="peripheral" name="SELECTION_LIST_1588672703483">peripheral</option>
+                        <option id="SELECTION_LIST_1588672703483_1" value="proximal" name="SELECTION_LIST_1588672703483">proximal</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1588672703487">Vascular changes in parenchyma</label>
+                    <select id="SELECTION_LIST_1588672703487" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="yes">
+                        <option id="SELECTION_LIST_1588672703487_0" value="yes" name="SELECTION_LIST_1588672703487" selected="">yes</option>
+                        <option id="SELECTION_LIST_1588672703487_1" value="not" name="SELECTION_LIST_1588672703487">not</option>
+                    </select>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1588537800413" class="level2" data-section-name="BAROTRAUMA">
+                <header class="level2">
+                    BAROTRAUMA
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1588537800415">SIGNS</label>
+                    <select multiple="multiple" id="SELECTION_LIST_1588537800415" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Pneumothorax">
+                        <option id="SELECTION_LIST_1588537800415_0" value="Pneumothorax" name="SELECTION_LIST_1588537800415" selected="">Pneumothorax</option>
+                        <option id="SELECTION_LIST_1588537800415_1" value="Pneumomediastinum" name="SELECTION_LIST_1588537800415">Pneumomediastinum</option>
+                        <option id="SELECTION_LIST_1588537800415_2" value="Subcutaneous emphysema" name="SELECTION_LIST_1588537800415">Subcutaneous emphysema</option>
+                    </select>
+                </p>
+            </section>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1588532281081">Classification</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588532281081" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Typical">
+                    <option id="SELECTION_LIST_1588532281081_0" value="Typical" name="SELECTION_LIST_1588532281081" selected="">Typical</option>
+                    <option id="SELECTION_LIST_1588532281081_1" value="Indeterminate" name="SELECTION_LIST_1588532281081">Indeterminate</option>
+                    <option id="SELECTION_LIST_1588532281081_2" value="Atypical" name="SELECTION_LIST_1588532281081">Atypical</option>
+                    <option id="SELECTION_LIST_1588532281081_3" value="Negative" name="SELECTION_LIST_1588532281081">Negative</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1588532281114">Typical - Peripheral, bilateral, GGO with or without consolidation or visible intralobular lines (crazy-paving). Multifocal GGO of rounded morphology with or without consolidation or visible intralobular lines (crazy-paving). Reverse halo sign or other findings of organizing pneumonia (seen later in the disease)</label>
+                <input type="text" id="TEXT_1588532281114" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <p title="">
+                <label for="TEXT_1588532281115">Atypical - Absence of typical or indeterminate features and presence of: Isolated lobar or segmental consolidation without GGO. Discrete small nodules (centrilobular, tree in-bud). Lung cavitation. Smooth interlobular septal thickening with pleural effusion</label>
+                <input type="text" id="TEXT_1588532281115" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <p title="">
+                <label for="TEXT_1588532281116">Indeterminate - Absence of typical features and presence of: Multifocal, diffuse, perihilar or unilateral GGO with or without consolidation lacking a specific distribution and are non-rounded or non-peripheral. Few very small GGO with a non-rounded and non-peripheral distribution</label>
+                <input type="text" id="TEXT_1588532281116" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <p title="CO-RADS, not interpretable: scan technically insufficient for assigning a score; CO-RADS 1 very low: normal or non-infections; CO-RADS 2 low: typical for other infection but not COVID-19. CO-RADS 3 equivocal/unsure: features compatible with COVID-19, but also other diseases. CO-RADS 4 high: suspicious for COVID-19. CO-RADS 5 very high: typical for COVID-19. CO-RADS 6 proven: RT-PCR positive for SARS-CoV-2">
+                <label for="SELECTION_LIST_1588532281056">Select CO-RADS cathegory</label>
+                <select multiple="multiple" id="SELECTION_LIST_1588532281056" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="CO-RADS 0">
+                    <option id="SELECTION_LIST_1588532281056_0" value="CO-RADS 0" name="SELECTION_LIST_1588532281056" selected="">CO-RADS 0</option>
+                    <option id="SELECTION_LIST_1588532281056_1" value="CO-RADS 1" name="SELECTION_LIST_1588532281056">CO-RADS 1</option>
+                    <option id="SELECTION_LIST_1588532281056_2" value="CO-RADS 2" name="SELECTION_LIST_1588532281056">CO-RADS 2</option>
+                    <option id="SELECTION_LIST_1588532281056_3" value="CO-RADS 3" name="SELECTION_LIST_1588532281056">CO-RADS 3</option>
+                    <option id="SELECTION_LIST_1588532281056_4" value="CO-RADS 4" name="SELECTION_LIST_1588532281056">CO-RADS 4</option>
+                    <option id="SELECTION_LIST_1588532281056_5" value="CO-RADS 5" name="SELECTION_LIST_1588532281056">CO-RADS 5</option>
+                    <option id="SELECTION_LIST_1588532281056_6" value="CO-RADS 6" name="SELECTION_LIST_1588532281056">CO-RADS 6</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="impressionText">CO-RADS, not interpretable: scan technically insufficient for assigning a score; CO-RADS 1 very low: normal or non-infections; CO-RADS 2 low: typical for other infection but not COVID-19. CO-RADS 3 equivocal/unsure: features compatible with COVID-19, but also other diseases. CO-RADS 4 high: suspicious for COVID-19. CO-RADS 5 very high: typical for COVID-19. CO-RADS 6 proven: RT-PCR positive for SARS-CoV-2</label>
+                <input type="text" id="impressionText" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <section id="SECTION_HEADER_1588532281088" class="level2" data-section-name="NOTES">
+                <header class="level2">
+                    NOTES
+                </header>
+                <p title="">
+                    <label for="TEXT_1588537800493"></label>
+                    <textarea rows="3" cols="100" id="TEXT_1588537800493" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+                </p>
+            </section>
+        </section>
+    </body>
+</html>

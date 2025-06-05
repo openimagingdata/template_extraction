@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="MR Hip" name="dcterms.title"/>
+<meta content="MR Hip template :: Authored by Carrino JA, Fatehi M" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000055" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-19" name="dcterms.date"/>
+<meta content="Carrino JA, Fatehi M" name="dcterms.creator"/>
+<meta content="Johns Hopkins Medicine (JHM)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="hip" value="RID2639" scheme="RadLex">
+</term>
+<term>
+ <code meaning="magnetic resonance imaging" value="RID10312" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T55_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_3">
+ <term>
+  <code meaning="right" value="RID5825" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="hip" value="RID2639" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_4">
+ <term>
+  <code meaning="left" value="RID5824" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="hip" value="RID2639" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_6">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_7">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_10">
+ <term>
+  <code meaning="location descriptor" value="RID5817" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="musculoskeletal region" value="RID6063" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_49">
+ <term>
+  <code meaning="acetabular labrum" value="RID2644" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_56">
+ <term>
+  <code meaning="articular cartilage of femoral head" value="RID2643" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_61">
+ <term>
+  <code meaning="articular cartilage of acetabulum" value="RID2642" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_66">
+ <term>
+  <code meaning="capsule of hip joint" value="RID2646" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="ligament of hip joint" value="RID2648" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_69">
+ <term>
+  <code meaning="flexor muscle" value="RID6064" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_71">
+ <term>
+  <code meaning="extensor muscle" value="RID6065" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_73">
+ <term>
+  <code meaning="abductor hallucis muscle" value="RID3165" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_75">
+ <term>
+  <code meaning="adductor brevis muscle" value="RID2710" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="adductor longus muscle" value="RID2708" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_77">
+ <term>
+  <code meaning="rotator muscle" value="RID32445" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_79">
+ <term>
+  <code meaning="hamstring muscle" value="RID2713" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_83">
+ <term>
+  <code meaning="set of nerves" value="RID16263" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_85">
+ <term>
+  <code meaning="soft tissue administration" value="RID11185" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_87">
+ <term>
+  <code meaning="set of viscera" value="RID30969" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T55_106">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR Hip</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR Hip</header>
+<p>
+<textarea id="T55_2" name="Procedure">Axial, coronal, and sagittal proton density images of the hip were obtained with and without fat suppression. </textarea>
+</p>
+<p>
+<select id="T55_777" name="Side">
+<option id="T55_3" name="Right" value="Right">Right hip</option>
+<option id="T55_4" name="Left" value="Left">Left hip</option>
+</select>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T55_6" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T55_7" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Alignment">
+<header class="level2">Alignment</header>
+<p>
+<input type="text" id="T55_10" name="Alignment" value="Normal. No subluxation. "/>
+</p>
+</section>
+<section data-section-name="Femoroacetabular impingement anatomy">
+<header class="level2">Femoroacetabular impingement anatomy</header>
+<section data-section-name="Pincer">
+<header class="level3">Pincer</header>
+<p>
+<label for="T55_14">Retroversion:</label>
+<input type="text" id="T55_14_text" name="Retroversion" value="Absent. "/>
+</p>
+<p>
+<label for="T55_17">Over-coverage:</label>
+<input type="text" id="T55_17_text" name="Over-coverage" value="Absent. "/>
+</p>
+<p>
+<label for="T55_20">Os acetabuli:</label>
+<input type="text" id="T55_20_text" name="Os acetabuli" value="Absent. "/>
+</p>
+</section>
+<section data-section-name="Cam">
+<header class="level3">Cam</header>
+<p>
+<label for="T55_24">Head-neck angle:</label>
+<input type="text" id="T55_24_text" name="Head-neck angle" value="Normal. "/>
+</p>
+<p>
+<label for="T55_27">Fibrocystic lesion of femoral neck:</label>
+<input type="text" id="T55_27_text" name="Fibrocystic lesion of femoral neck" value="None. "/>
+</p>
+</section>
+</section>
+<section data-section-name="Dysplasia">
+<header class="level2">Dysplasia</header>
+<p>
+<input type="text" id="T55_30_text" name="Dysplasia" value="None. "/>
+</p>
+</section>
+<section data-section-name="Joint effusion">
+<header class="level2">Joint effusion</header>
+<p>
+<input type="text" id="T55_999" name="Joint effusion" value="None. "/>
+</p>
+</section>
+<section data-section-name="Labrum">
+<header class="level2">Labrum</header>
+<p>
+<input type="text" id="T55_49" name="Labrum" value="Normal. No labral tear. "/>
+</p>
+</section>
+<section data-section-name="Cartilage">
+<header class="level2">Cartilage</header>
+<p>
+<label for="T55_56">Femoral cartilage:</label>
+<input type="text" id="T55_56" name="Femoral cartilage" value="Normal. "/>
+</p>
+<p>
+<label for="T55_61">Acetabular cartilage:</label>
+<input type="text" id="T55_61" name="Acetabular cartilage" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Capsule and ligaments">
+<header class="level2">Capsule and ligaments</header>
+<p>
+<input type="text" id="T55_66" name="Capsule and ligaments" value="Normal."/>
+</p>
+</section>
+<section data-section-name="Muscles, tendons, and entheses">
+<header class="level2">Muscles, tendons, and entheses</header>
+<p>
+<label for="T55_69">Flexors:</label>
+<input type="text" id="T55_69" name="Flexors" value="Normal. "/>
+</p>
+<p>
+<label for="T55_71">Extensors:</label>
+<input type="text" id="T55_71" name="Extensors" value="Normal. "/>
+</p>
+<p>
+<label for="T55_73">Abductors:</label>
+<input type="text" id="T55_73" name="Abductors" value="Normal. "/>
+</p>
+<p>
+<label for="T55_75">Adductors:</label>
+<input type="text" id="T55_75" name="Adductors" value="Normal. "/>
+</p>
+<p>
+<label for="T55_77">Rotators:</label>
+<input type="text" id="T55_77" name="Rotators" value="Normal. "/>
+</p>
+<p>
+<label for="T55_79">Hamstrings:</label>
+<input type="text" id="T55_79" name="Hamstrings" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+
+<p>
+<label for="T55_81">Vessels:</label>
+<input type="text" id="T55_81" name="Vessels" value="Normal."/>
+</p>
+<p>
+<label for="T55_83">Nerves:</label>
+<input type="text" id="T55_83" name="Nerves" value="Normal. "/>
+</p>
+<p>
+<label for="T55_85">Soft tissues:</label>
+<input type="text" id="T55_85" name="Soft tissues" value="Normal. "/>
+</p>
+<p>
+<label for="T55_87">Viscera:</label>
+<input type="text" id="T55_87" name="Viscera" value="Normal. No abnormality seen in pelvis. No lymphadenopathy. No free fluid in the pelvis."/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T55_106" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

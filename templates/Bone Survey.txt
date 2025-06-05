@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Bone Survey" name="dcterms.title"/>
+<meta content="Bone Survey template :: Authored by Langlotz CP" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000143" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-05-03" name="dcterms.date"/>
+<meta content="Langlotz CP" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr. [editor]" name="dcterms.contributor"/>
+<meta content="Penn Medicine | Hospital of the University of Pennsylvania (Penn)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="bone organ" value="RID13197" scheme="RadLex">
+</term>
+<term>
+ <code meaning="projection radiography" value="RID10345" scheme="RadLex">
+</term>
+<term>
+ <code meaning="set of bones" value="RID28569" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T143_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T143_28">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T143_30">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T143_33">
+ <term>
+  <code meaning="set of bones" value="RID28569" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T143_34">
+ <term>
+  <code meaning="normal" value="RID13173" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T143_35">
+ <term>
+  <code meaning="demineralization" value="RID5387" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T143_36">
+ <term>
+  <code meaning="set of joints" value="RID28711" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T143_41">
+ <term>
+  <code meaning="intervertebral disc degeneration" value="RID5086" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T143_48">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Bone Survey</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Bone Survey</header>
+<p>
+<textarea id="T143_2" name="Procedure">22 views of the axial and appendicular skeleton. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T143_28" name="Clinical information">Multiple myeloma. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T143_30" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T143_33">Lytic lesions:</label>
+<input type="text" id="T143_33" name="Lytic lesions" value="None. "/>
+</p>
+<p>
+<label for="T143_34">Alignment: </label>
+<input type="text" id="T143_34" name="Alignment" value="The bones are in normal anatomic alignment. There is no evidence of fracture or dislocation."/>
+</p>
+<p>
+<label for="T143_35">Mineralization: </label>
+<input type="text" id="T143_35" name="Mineralization" value="Normal." />
+</p>
+<p>
+<label for="T143_36">Joints</label>
+<input type="text" id="T143_36" name="Joints" value="Normal. No arthritis is present."/>
+</p>
+<p>
+<label for="T143_41">Degenerative disc disease: </label>
+<input type="text" id="T143_41" name="Degenerative disc disease" value="None."/>
+</p>
+<p>
+<label for="T143_42">Other findings: </label>
+<input type="text" id="T143_42" name="Other findings" value="None. "/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T143_48" name="Impression">Negative examination. No evidence of multiple myeloma. </textarea>
+</p>
+</section>
+</body>
+</html>

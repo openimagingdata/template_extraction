@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Kidney DMSA" name="dcterms.title"/>
+<meta content="Kidney DMSA template :: Authored by Imani F" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000173" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-05-29" name="dcterms.date"/>
+<meta content="Imani F" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="UCLA Health System (UCLA)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="function" value="RID28812" scheme="RadLex">
+</term>
+<term>
+ <code meaning="kidney" value="RID205" scheme="RadLex">
+</term>
+<term>
+ <code meaning="Tc-99m succimer" value="RID11750" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T173_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T173_5">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T173_6">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T173_8">
+ <term>
+  <code meaning="observations section" value="RID28486" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T173_14">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Kidney DMSA</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Kidney DMSA</header>
+<p>
+<textarea id="T173_2" name="Procedure">Following intravenous administration of Tc-99m DMSA, posterior and right and left posterior oblique projection images of the kidneys were acquired. </textarea>
+</p>
+<p>
+<label for="T173_4">Dose:</label>
+<input type="number" id="T173_4" name="Dose" value="2"/> mCi
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T173_5" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T173_6" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Morphology">
+<header class="level2">Morphology</header>
+<p>
+<textarea id="T173_8" name="Findings">Both kidneys are identified and are normal in position. Uptake is homogeneous throughout the kidneys. There is no evidence of horseshoe kidney or ectopic kidney. </textarea>
+</p>
+</section>
+<section data-section-name="Function">
+<header class="level2">Function</header>
+<p>
+<label for="T173_12">Right kidney:</label>
+<input type="number" id="T173_12" name="Right kidney" data-field-units="%" min="0" max="100" step="1" /> %
+</p>
+<p>
+<label for="T173_13">Left kidney:</label>
+<input type="number" id="T173_13" name="Left kidney" data-field-units="%" min="0" max="100" step="1" /> %
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T173_14" name="Impression">Normal. </textarea>
+</p>
+</section>
+</body>
+</html>

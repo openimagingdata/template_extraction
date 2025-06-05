@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="CT Chest Pulmonary Embolism" name="dcterms.title"/>
+<meta content="CT Chest Pulmonary Embolism template :: Authored by Heilbrun ME" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000116" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-03-28" name="dcterms.date"/>
+<meta content="Heilbrun ME" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="computed tomography" value="RID10321" scheme="RadLex">
+</term>
+<term>
+ <code meaning="pulmonary embolism" value="RID4834" scheme="RadLex">
+</term>
+<term>
+ <code meaning="set of pulmonary arteries" value="RID28586" scheme="RadLex">
+</term>
+<term>
+ <code meaning="thorax" value="RID1243" scheme="RadLex">
+</term>
+<term>
+ <code meaning="thromboembolism" value="RID4837" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T116_3">
+ <term>
+  <code meaning="contrast agent" value="RID11582" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_5">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_10">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_13">
+ <term>
+  <code meaning="diagnostic quality" value="RID12" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_14">
+  <term>
+  <code meaning="Adequate (qualifier value)" value="88323005" scheme="SNOMEDCT">
+ </term>
+</entry>
+<entry ORIGTXT="T116_18">
+ <term>
+  <code meaning="pulmonary embolism" value="RID4834" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_21">
+ <term>
+  <code meaning="lung" value="RID1301" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="parenchyma" value="RID5978" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_23">
+ <term>
+  <code meaning="pleural effusion" value="RID34539" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_25">
+ <term>
+  <code meaning="central" value="RID5827" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="airway" value="RID1245" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_27">
+ <term>
+  <code meaning="lymphadenopathy" value="RID3798" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_29">
+ <term>
+  <code meaning="heart" value="RID1385" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_31">
+ <term>
+  <code meaning="upper abdomen" value="RID29990" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_33">
+ <term>
+  <code meaning="set of bones" value="RID28569" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T116_35">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>CT Chest Pulmonary Embolism</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">CT Chest Pulmonary Embolism</header>
+<p>
+<label for="T116_3">Intravenous contrast (agent and volume): </label>
+<input type="text" id="T116_3" name="Intravenous contrast" value=""/>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T116_5" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T116_10" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T116_13">Diagnostic quality: </label>
+<select id="T116_13" name="Diagnostic quality">
+<option id="T116_14" name="Adequate" value="Adequate">Adequate</option>
+<option id="T116_15" name="Suboptimal" value="Suboptimal">Suboptimal</option>
+<option id="T116_16" name="Nondiagnostic" value="Nondiagnostic">Nondiagnostic</option>
+</select>
+</p>
+<p>
+<label for="T116_18">Pulmonary embolism:</label>
+<input type="text" id="T116_18" name="Pulmonary embolism" value="None. "/>
+</p>
+<p>
+<label for="T116_101">Right heart strain:</label>
+<input type="text" id="T116_101" name="Right heart strain" value="None. "/>
+</p>
+<p>
+<label for="T116_100">Pulmonary arteries:</label>
+<input type="text" id="T116_100" name="Pulmonary arteries" value="Normal in caliber. "/>
+</p>
+<p>
+<label for="T116_21">Lung parenchyma: </label>
+<input type="text" id="T116_21" name="Lung parenchyma" value="Normal. "/>
+</p>
+<p>
+<label for="T116_23">Pleural effusion: </label>
+<input type="text" id="T116_23" name="Pleural effusion" value="None. "/>
+</p>
+<p>
+<label for="T116_25">Central airways: </label>
+<input type="text" id="T116_25" name="Central airways" value="Normal. "/>
+</p>
+<p>
+<label for="T116_27">Adenopathy: </label>
+<input type="text" id="T116_27" name="Adenopathy" value="None. "/>
+</p>
+<p>
+<label for="T116_29">Heart and great vessels: </label>
+<input type="text" id="T116_29" name="Heart" value="Normal. "/>
+</p>
+<p>
+<label for="T116_31">Upper abdomen: </label>
+<input type="text" id="T116_31" name="Upper abdomen" value="Normal. "/>
+</p>
+<p>
+<label for="T116_33">Bones: </label>
+<input type="text" id="T116_33" name="Bones" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T116_35" name="Impression">No acute or chronic pulmonary embolism. </textarea>
+</p>
+</section>
+</body>
+</html>

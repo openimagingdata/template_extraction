@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="MR left wrist" name="dcterms.title">
+<meta content="MR left wrist report template" name="dcterms.description">
+<meta content="http://www.radreport.org/template/0000306" name="dcterms.identifier">
+<meta content="en" name="dcterms.language">
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type">
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher">
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights">
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license">
+<meta content="2014-07-18" name="dcterms.date">
+<meta content="Erickson SJ, Tolat P." name="dcterms.creator">
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor">
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css">
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR left wrist</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR left wrist</header>
+<p>
+<textarea id="T306_1" name="Procedure"></textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T306_2" name="Clinical information">Wrist pain. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T306_3" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Triangular fibrocartilage">
+<header class="level2">Triangular fibrocartilage</header>
+<p>  
+<textarea id="T306_9" name="TFC">No radial, central, or ulnar-sided triangular fibrocartilage perforation.</textarea></p>
+</section>
+<section data-section-name="Interosseous ligaments">
+<header class="level2">Interosseous ligaments</header>
+<p>
+<label for="T306_10">Scapholunate ligament:</label>
+<input type="text" id="T306_10" name="Scapholunate" value="Intact." />
+</p>
+<p>
+<label for="T306_11">Lunotriquetral ligament:</label>
+<input type="text" id="T306_11" name="Lunotriquetral" value="Intact." />
+</p>
+<p>
+<label for="T306_12">Carpal alignment:</label>
+<input type="text" id="T306_12" name="Carpal alignment" value="Normal." />
+</p>
+</section>
+<section data-section-name="Bones">
+<header class="level2">Bones</header>
+<p>
+<textarea id="T306_13" name="Bones">No fracture, stress reaction, or osseous lesion.</textarea>
+</p>
+</section>
+<section data-section-name="Articulations">
+<header class="level2">Articulations</header>
+<p>
+<label for="T306_14">Joint effusion:</label>
+<input type="text" id="T306_14" name="Joint effusion" value="None." />
+</p>
+<p>
+<label for="T306_15">Cartilage:</label>
+<input type="text" id="T306_15" name="Cartilage" value="No hyaline cartilage defects." />
+</p>
+<p>
+<label for="T306_16">Synovium:</label>
+<input type="text" id="T306_16" name="Synovium" value="No synovial thickening." />
+</p>
+</section>
+<section data-section-name="Tendons">
+<header class="level2">Tendons</header>
+<p>
+<label for="T306_17">Flexor tendons:</label>
+<input type="text" id="T306_17" name="Flexor tendons" value="Normal. No tear or tendon sheath effusion." />
+</p>
+<p>
+<label for="T306_18">Extensor tendons:</label>
+<input type="text" id="T306_18" name="Extensor tendons" value="Normal. No tear or tendon sheath effusion." />
+</p>
+<p>
+<label for="T306_19">Extensor carpi ulnaris:</label>
+<input type="text" id="T306_19" name="Extensor carpi ulnaris" value="Intact and normally situated in the ulnar groove." />
+</p>
+</section>
+<section data-section-name="Miscellaneous soft tissues">
+<header class="level2">Miscellaneous soft tissues</header>
+<p>
+<textarea id="T306_20" name="Miscellaneous soft tissues">No volar or dorsal ganglion cysts.</textarea>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>1. <input type="text" id="T306_21" name="TFC" value="Intact triangular fibrocartilage and interosseous ligaments." /></p>
+<p>2. <input type="text" id="T306_22" name="Bone and cartilage" value="No osseous or articular abnormalities." /></p>
+<p>3. <input type="text" id="T306_23" name="Tendons" value="Intact flexor and extensor tendons." /></p>
+<p>4. <input type="text" id="T306_24" name="Ganglion cyst" value="No ganglion cyst." /></p>
+</section>
+</body>
+</html>

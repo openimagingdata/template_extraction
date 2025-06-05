@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="CT-gesteuerte Drainagenanlage" name="dcterms.title"/>
+<meta content="CT-guided drainage catheter placement report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000295" name="dcterms.identifier"/>
+<meta content="de" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2014-03-21" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>0</top-level-flag>
+<status>ACTIVE</status>
+<coded_content></coded_content>
+</template_attributes>
+-->
+</script>
+<title>CT-gesteuerte Drainagenanlage</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1" data-english="CT-guided drainage catheter placement">CT-gesteuerte Drainagenanlage</header>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1" data-english="Clinical information">Klinische Informationen</header>
+<p>
+<textarea id="T286_01" name="Klinische Informationen" data-english-name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1" data-english="Comparison">Vergleichsuntersuchung</header>
+<p>
+<textarea id="T286_02" name="Vergleichsuntersuchung" data-english-name="Comparison" data-english-innertext="None. ">Keine.</textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1" data-english="Findings">Befund</header>
+
+<section data-section-name="Consent">
+<header class="level2" data-english="Consent">Einverständnis</header>
+<p>
+<select id="T286_03" name="Einverständnis" data-english-name="Consent">
+<option id="T286_04" name="Einverständnis" value="ja" data-english-name="Consent" data-english-value="yes" data-english-innertext="The risks, benefits, and alternatives of the procedure, including procedural sedation, were discussed with the patient. Verbal and written consent was obtained. ">Risiken, Vorteile und Alternativen des Eingriffs sowie Sedierung wurden mit dem Patienten besprochen. Mündliche und schriftliche Einverständnis wurde erteilt.</option>
+<option id="T286_05" name="Einverständis" value="Vollmacht" data-english-name="Consent" data-english-value="POA" data-english-innertext="The risks, benefits, and alternatives of the procedure, including procedural sedation, were discussed with the patient's Power of Attorney. Verbal and written consent was obtained. ">Risiken, Vorteile und Alternativen des Eingriffs sowie Sedierung wurden mit dem gesetzlichen Betreuer des Patienten besprochen. Mündliche und schriftliche Einverständnis wurde erteilt.</option>
+<option id="T286_06" name="Einverständis" value="nein" data-english-name="Consent" data-english-value="no" data-english-innertext="Consent was not obtained.">Eine Einverständnis wurde nicht erteilt.</option>
+</select>
+</section>
+<section data-section-name="Time-Out">
+<header class="level2" data-english="Time-Out">Time-out</header>
+<p>
+<select id="T286_07" name="Time-out" data-english-name="Time-Out">
+<option id="T286_08" name="Time-out" value="ja" data-english-name="Time-Out" data-english-value="yes" data-english-innertext="Time-out performed to confirm the correct patient, procedure, and site. ">Ein Time-out wurde durchgeführt um korrekten Patienten, korrektes Verfahren und korrekte Region zu bestätigen.</option>
+<option id="T286_09" name="Time-out" value="nein" data-english-name="Time-Out" data-english-value="no" data-english-innertext="Not performed. ">Nicht durchgeführt.</option>
+</select>
+</p>
+</section>
+
+<section data-section-name="Preparation">
+<header class="level2" data-english="Preparation">Vorbereitung</header>
+<p>
+<label data-english="Preliminary images:">Planungs-Bilder:</label>
+<input type="text" id="T286_10" name="Planungs-Bilder" value="" data-english-value="" data-english-name="Preliminary images" />
+</p>
+<p>
+<label data-english="Site:">Region:</label>
+<input type="text" id="T286_11" name="Region" value="" data-english-value="" data-english-name="Site" />
+</p>
+<p>
+<textarea id="T286_12" name="T286_12" data-english-name="T286_12" data-english-innertext="The patient was prepped and draped in usual sterile fashion. Lidocaine 1% was used for local anaesthesia.">Der Patient wurde vorbereitet und üblicher Weise steril abgedeckt. Lokalanästhesie mit Lidocain 1%.</textarea>
+</p>
+<p>
+<textarea id="T286_13" name="T286_13" data-english-name="T286_13" data-english-innertext="A 5-French sheathed needle was placed into the collection, through which a .038-inch guidewire was advanced.  CT confirmed appropriate position.  The tract was dilated serially to 12 French.">Punktion des Verhaltes mittels 5 French Punktionsnadel und Einlage eines 0,038 Zoll Führungsdrahtes unter CT-Kontrolle. Aufdilatieren des Punktionstraktes auf 12 French.</textarea>
+</p>
+<p>
+<label for="T286_14" data-english="Catheter:">Katheter:</label>
+<input type="text" id="T286_14" name="Kathetertyp" value="12 Fr Pigtail-Drainage" data-english-value="12 Fr pigtail drinage catheter" data-english-name="Catheter type" />
+</p>
+<p>
+<label for="T286_15" data-english="Volume:">Volumen:</label>
+<input type="number" id="T286_15" name="Volumen" value="" data-english-value="" data-english-name="Volume" /> <label for="T286_15" data-english="ml">ml</label>
+</p>
+<p>
+<label for="T286_16" data-english="Color:">Farbe:</label>
+<input type="text" id="T286_16" name="Farbe" value="" data-english-value="" data-english-name="Color" />
+</p>
+<p>
+<label for="T286_17" data-english="Sedation:">Sedierung:</label>
+<input type="text" id="T286_17" name="Sedierung" value="Durchgeführt von radiologischer Pflegekraft unter kontinuierlicher Überwachung des Patiente." data-english-value="Administered by the radiology nurse, who monitored the patient continuously throughout the procedure." data-english-name="Sedation" />
+</p>
+<p>
+<label data-english="Complications:">Komplikationen:</label>
+<input type="text" id="T286_18" name="Komplikationen" value="Keine." data-english-value="None." data-english-name="Complications" />
+</p>
+<p>
+<label data-english="Patient disposition:">Patientenzustand:</label>
+<input type="text" id="T286_19" name="Patientenzustand" value="Verlegung aus der Abteilung in stabilen Zustand." data-english-value="Discharged from the department in stable condition." data-english-name="Patient disposition" />
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1" data-english="Impression">Beurteilung</header>
+<p>
+<textarea id="T286_20" name="Beurteilung" data-english-name="Impression" data-english-innertext="CT-guided drainage catheter placement.">CT-gesteuerte Drainagenanlage.</textarea>
+</p>
+</section>
+</body>
+</html>

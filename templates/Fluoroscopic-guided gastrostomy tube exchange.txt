@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gastrostomy tube exchange</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="01d49cbc-d441-4226-bb37-5d158d5e7b96" />
+        <meta name="dcterms.title" content="Gastrostomy tube exchange" />
+        <meta name="dcterms.description" content="Gastrostomy tube exchange" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="Template Library Advisory Panel (TLAP) of the Radiological Society of North America (RSNA)" />
+        <meta name="dcterms.rights" content="May be used gratis, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2015-11-30" />
+        <meta name="dcterms.creator" content="Tolat PP" />
+        <meta name="dcterms.contributor" content="Medical College of Wisconsin (MCW)" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="DATE_1448943182484">
+                        <term>
+                            <code meaning="comparison" value="RID28483" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1448944648714">
+                        <term>
+                            <code meaning="attestation" value="RID49439" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1448943182471">
+                        <term>
+                            <code meaning="gastrostomy-jejunostomy tube exchange" value="RID49663" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1448944648673">
+                        <term>
+                            <code meaning="deployment technique" value="RID12917" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="T269_5">
+                        <term>
+                            <code meaning="fluoroscopy time" value="RID49440" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1448943182472_0">
+                        <term>
+                            <code meaning="obstructed" value="RID5893" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1448943182472_1">
+                        <term>
+                            <code meaning="gastrostomy-jejunostomy tube placement" value="RID49628" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1448943182472_2">
+                        <term>
+                            <code meaning="gastrostomy-jejunostomy tube exchange" value="RID49663" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="Procedure" class="level1" data-section-name="Procedure">
+            <header class="level1">
+                Procedure
+            </header>
+            <section id="SECTION_HEADER_1448943182471" class="level2" data-section-name="Fluoroscopic-guided gastrostomy tube exchange.">
+                <header class="level2">
+                    Fluoroscopic-guided gastrostomy tube exchange.
+                </header>
+            </section>
+        </section>
+        <section id="Clinical_information" class="level1" data-section-name="Clinical information">
+            <header class="level1">
+                Clinical information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1448943182472"></label>
+                <select multiple="multiple" id="SELECTION_LIST_1448943182472" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Clogged gastrostomy tube.">
+                    <option id="SELECTION_LIST_1448943182472_0" value="Clogged gastrostomy tube." name="SELECTION_LIST_1448943182472" selected="">Clogged gastrostomy tube.</option>
+                    <option id="SELECTION_LIST_1448943182472_1" value="New gastrostomy tube requiring confirmation of placement." name="SELECTION_LIST_1448943182472">New gastrostomy tube requiring confirmation of placement.</option>
+                    <option id="SELECTION_LIST_1448943182472_2" value="Routine exchange." name="SELECTION_LIST_1448943182472">Routine exchange.</option>
+                    <option id="SELECTION_LIST_1448943182472_3" value="" name="SELECTION_LIST_1448943182472"></option>
+                </select>
+            </p>
+        </section>
+        <section id="Comparison" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="DATE_1448943182484"></label>
+                <input type="date" id="DATE_1448943182484" name="" data-field-type="DATE" data-field-completion-action="NONE" value="" />
+            </p>
+        </section>
+        <section id="Findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <section id="SECTION_HEADER_1448944648685" class="level2" data-section-name="Pre-procedure Information:">
+                <header class="level2">
+                    Pre-procedure Information:
+                </header>
+                <p title="">
+                    <label for="TEXT_1448944388796">Informed consent</label>
+                    <textarea rows="3" cols="100" id="TEXT_1448944388796" name="" data-field-type="TEXT" data-field-completion-action="NONE">The risks, benefits, and alternatives of the procedure including procedural sedation were discussed with the patient. Verbal and written consent was obtained.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1448943182486">Time-out:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1448943182486" name="" data-field-type="TEXT" data-field-completion-action="ALERT">Time-out performed to confirm the correct patient, procedure, and site. </textarea>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1448944648686" class="level2" data-section-name="Intra-procedure Information:">
+                <header class="level2">
+                    Intra-procedure Information:
+                </header>
+                <p title="">
+                    <label for="TEXT_1448944648673">Technique:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1448944648673" name="" data-field-type="TEXT" data-field-completion-action="NONE">Using image guidance, the existing gastrotomy tube was exchanged for new gastrotomy tube.  A small amount of water soluable contrast was used to confirm appropriate placement within the stomach.</textarea>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1448944388798">Old gastrostomy tube size:</label>
+                    <span>
+                        <input type="number" step="2.0" data-field-units="French" id="NUMBER_1448944388798" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="16" />
+                        French
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1448944648672">New gastrostomy tube size:</label>
+                    <span>
+                        <input type="number" step="2.0" data-field-units="French" id="NUMBER_1448944648672" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="16" />
+                        French
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1448944648674">Balloon fill:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mL" id="NUMBER_1448944648674" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="7" />
+                        mL
+                    </span>
+                </p>
+                <p title="">
+                    <label for="TEXT_1448944648689">Additional intra-procedural information:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1448944648689" name="" data-field-type="TEXT" data-field-completion-action="NONE">None.</textarea>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1448944648687" class="level2" data-section-name="Post-procedure Information:">
+                <header class="level2">
+                    Post-procedure Information:
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1448944648675">Procedural sedation:</label>
+                    <select id="SELECTION_LIST_1448944648675" name="" data-field-type="SELECTION_LIST" data-field-completion-action="ALERT" value="None.">
+                        <option id="SELECTION_LIST_1448944648675_0" value="None." name="SELECTION_LIST_1448944648675" selected="">None.</option>
+                        <option id="SELECTION_LIST_1448944648675_1" value="Administered by the radiology nurse, who monitored the patient continuously throughout the procedure. " name="SELECTION_LIST_1448944648675">Administered by the radiology nurse, who monitored the patient continuously throughout the procedure. </option>
+                        <option id="SELECTION_LIST_1448944648675_2" value="Administered by the anesthesia department.  Please see anesthesia notes for sedation details." name="SELECTION_LIST_1448944648675">Administered by the anesthesia department. Please see anesthesia notes for sedation details.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1448944648679">Complications:</label>
+                    <input list="SELECTION_LIST_1448944648679_LIST" id="SELECTION_LIST_1448944648679" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="None." />
+                    <datalist id="SELECTION_LIST_1448944648679_LIST">
+                        <option id="SELECTION_LIST_1448944648679_0" value="None." name="SELECTION_LIST_1448944648679" selected="">None.</option>
+                        <option id="SELECTION_LIST_1448944648679_1" value="" name="SELECTION_LIST_1448944648679"></option>
+                    </datalist>
+                </p>
+                <p title="">
+                    <label for="TEXT_1448944648694">Patient disposition:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1448944648694" name="" data-field-type="TEXT" data-field-completion-action="ALERT">Discharged from the department in stable condition.</textarea>
+                </p>
+                <p title="">
+                    <label for="T269_5">Fluoroscopy time:</label>
+                    <span>
+                        <input type="number" step="0.1" data-field-units="minutes" id="T269_5" name="" data-field-type="NUMBER" data-field-completion-action="PROHIBIT" value="5" />
+                        minutes
+                    </span>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1448944648700" class="level2" data-section-name="Operators:">
+                <header class="level2">
+                    Operators:
+                </header>
+                <p title="">
+                    <label for="TEXT_1448944648712">Performing provider(s):</label>
+                    <textarea rows="3" cols="100" id="TEXT_1448944648712" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT">Dr. ***</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1448944648708">Attending (supervising) radiologist:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1448944648708" name="" data-field-type="TEXT" data-field-completion-action="NONE">Dr. @@@</textarea>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1448944648714">Attestation:</label>
+                    <select id="SELECTION_LIST_1448944648714" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Dr. *** dictated this invasive procedure. Dr. @@@ was present for the key and critical  procedural components of this case. Images were reviewed and reported findings were edited and confirmed by Dr.  @@@.">
+                        <option id="SELECTION_LIST_1448944648714_0" value="Not applicable." name="SELECTION_LIST_1448944648714">Not applicable.</option>
+                        <option id="SELECTION_LIST_1448944648714_1" value="Dr. *** dictated this invasive procedure. Dr. @@@ was present for the key and critical  procedural components of this case. Images were reviewed and reported findings were edited and confirmed by Dr.  @@@." name="SELECTION_LIST_1448944648714" selected="">Dr. *** dictated this invasive procedure. Dr. @@@ was present for the key and critical procedural components of this case. Images were reviewed and reported findings were edited and confirmed by Dr. @@@.</option>
+                    </select>
+                </p>
+            </section>
+        </section>
+        <section id="Impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="T269_6"></label>
+                <textarea rows="3" cols="100" id="T269_6" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT">Fluoroscopic-guided percutaneous gastrostomy tube exchange. The new gastrostomy tube is ready for immediate use.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

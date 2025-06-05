@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Upper GI" name="dcterms.title"/>
+<meta content="Upper GI template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000112" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-06" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="duodenum" value="RID134" scheme="RadLex">
+</term>
+<term>
+ <code meaning="esophagus" value="RID95" scheme="RadLex">
+</term>
+<term>
+ <code meaning="fluoroscopy" value="RID10361" scheme="RadLex">
+</term>
+<term>
+ <code meaning="stomach" value="RID114" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T112_3">
+ <term>
+  <code meaning="oral contrast" value="RID35817" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_4">
+ <term>
+  <code meaning="barium" value="RID11872" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_5">
+ <term>
+  <code meaning="contrast agent" value="RID11582" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_7">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_22">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_24">
+ <term>
+  <code meaning="observations section" value="RID28486" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_30">
+ <term>
+  <code meaning="esophagus" value="RID95" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_41">
+ <term>
+  <code meaning="gastroesophageal reflux" value="RID5260" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_46">
+ <term>
+  <code meaning="stomach" value="RID114" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_49">
+ <term>
+  <code meaning="duodenum" value="RID134" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T112_71">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Upper GI</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Upper GI</header>
+<p>
+<label for="T112_3">Contrast material:</label>
+<select id="T112_3" name="Contrast material">
+<option id="T112_4" name="Barium sulfate suspension" value="Barium sulfate suspension">Barium sulfate suspension</option>
+<option id="T112_5" name="Water-soluble contrast" value="Water-soluble contrast">Water-soluble contrast</option>
+</select>
+<p>
+<label for="T112_6">Gas granules:</label>
+<select id="T112_6" name="Gas granules">
+<option id="T112_100" name="Yes" value="Yes">Yes</option>
+<option id="T112_101" name="No" value="No">No</option>
+</select>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T112_7" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T112_22" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<textarea id="T112_24" name="Findings"> </textarea>
+<p>
+<label for="T112_25">Preliminary radiograph:</label>
+<input type="text" id="T112_25" name="Preliminary radiograph" value="Normal."/>
+</p>
+<p>
+<label for="T112_27">Swallowing:</label>
+<input type="text" id="T112_27" name="Swallowing" value="Normal."/>
+</p>
+<p>
+<label for="T112_30">Esophagus:</label>
+<input type="text" id="T112_30" name="Esophagus" value="Normal caliber and motility."/>
+</p>
+<p>
+<label for="T112_41">Gastroesophageal reflux:</label>
+<input type="text" id="T112_41" name="Gastroesophageal reflux" value="None observed."/>
+</p>
+<p>
+<label for="T112_46">Stomach:</label>
+<input type="text" id="T112_46" name="Stomach" value="Normal."/>
+</p>
+<p>
+<label for="T112_49">Duodenum:</label>
+<input type="text" id="T112_49" name="Duodenum" value="Normal."/>
+</p>
+<p>
+<label for="T112_52">Other findings:</label>
+<input type="text" id="T112_52" name="Other findings" value="None. "/>
+</p>
+<p>
+<label for="T112_53">Fluoroscopy time:</label>
+<input type="number" id="T112_53" name="Fluoroscopy time" data-field-units="minutes" /> minutes
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T112_71" name="Impression">Normal examination. </textarea>
+</p>
+</section>
+</body>
+</html>

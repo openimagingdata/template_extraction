@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="PICC Removal" name="dcterms.title"/>
+<meta content="PICC Removal template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000189" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-05-29" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="catheter" value="RID5576" scheme="RadLex">
+</term>
+<term>
+ <code meaning="peripheral intravenous central catheter" value="RID5581" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T189_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T189_3">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T189_4">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T189_8">
+ <term>
+  <code meaning="none" value="RID28454" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T189_9">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>PICC Removal</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">PICC Removal</header>
+<p>
+<textarea id="T189_2" name="Procedure">After the procedure was explained to the patient, the patient was placed supine on a cart. The dressing was removed from the PICC line. The area was prepped in sterile fashion. The retention suture was cut. While the patient was holding his breath on inhalation and bearing down, the PICC line was removed. Pressure was held at the site. Hemostasis was achieved. A pressure dressing was applied. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T189_3" name="Clinical information">PICC no longer needed. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T189_4" name="Comparison" value="None" data-codedcontent-default-val="None" data-codedcontent-default-ref="T189_4">None.</textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T189_8">Complications:</label>
+<input type="text" id="T189_8" name="Complications" value="No immediate complications. "/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T189_9" name="Impression">PICC removal. No immediate complication </textarea>
+</p>
+</section>
+</body>
+</html>

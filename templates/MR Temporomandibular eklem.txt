@@ -1,0 +1,16 @@
+The original text template is provided below. The XML version has been translated. 
+
+Indication: [<Arthralgia, joint popping>]
+
+Technique: Sagittal T2-weighted fat-saturation images were obtained with the jaw in open and closed positions. Coronal T2-weighted images images were obtained as well.
+
+Comparison: [<None>]
+
+Findings: 
+
+Right: [<The articular disc is normally positioned between the mandibular condyle and the temporal bone in both open and closed positions. There is normal anterior translation of the mandibular condyle with jaw opening.>]
+
+Left: [<The articular disc is normally positioned between the mandibular condyle and the temporal bone in both open and closed positions. There is normal anterior translation of the mandibular condyle with jaw opening.>]
+
+Impression:
+1. [<Normal temporomandibular joints.>]

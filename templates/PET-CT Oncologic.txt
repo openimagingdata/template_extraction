@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="PET-CT Oncologic" name="dcterms.title"/>
+<meta content="PET-CT Oncologic Study template :: Authored by Pryma DA, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000084" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-19" name="dcterms.date"/>
+<meta content="Pryma DA, et al." name="dcterms.creator"/>
+<meta content="Hong Y [coder]" name="dcterms.contributor"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="neoplasm" value="RID3957" scheme="RadLex">
+</term>
+<term>
+ <code meaning="PET-CT" value="RID10341" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T84_45">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_92">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_136">
+ <term>
+  <code meaning="foci" value="RID34302" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_150">
+ <term>
+  <code meaning="heart" value="RID1385" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="vasculature of organ" value="RID15990" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="heart" value="RID1385" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_154">
+ <term>
+  <code meaning="lymphadenopathy" value="RID3798" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_156">
+ <term>
+  <code meaning="pleural effusion" value="RID34539" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_163">
+ <term>
+  <code meaning="liver" value="RID58" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_165">
+ <term>
+  <code meaning="spleen" value="RID86" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_167">
+ <term>
+  <code meaning="pancreas" value="RID170" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_169">
+ <term>
+  <code meaning="gallbladder" value="RID187" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_171">
+ <term>
+  <code meaning="aorta" value="RID480" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_173">
+ <term>
+  <code meaning="kidney" value="RID205" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_175">
+ <term>
+  <code meaning="anterior abdominal wall" value="RID30008" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_177">
+ <term>
+  <code meaning="lymph node group" value="RID28847" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_180">
+ <term>
+  <code meaning="foci" value="RID34302" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_182">
+ <term>
+  <code meaning="subdivision of pelvis" value="RID30020" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_184">
+ <term>
+  <code meaning="set of pelvic viscera" value="RID30970" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_186">
+ <term>
+  <code meaning="pneumoperitoneum" value="RID4803" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_188">
+ <term>
+  <code meaning="fluid" value="RID1547" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_190">
+ <term>
+  <code meaning="lymph node" value="RID13296" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_201">
+ <term>
+  <code meaning="spondylosis deformans" value="RID5121" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_204">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_208">
+ <term>
+  <code meaning="(unspecified)" value="RID13051" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_213">
+ <term>
+  <code meaning="response to treatment" value="RID11565" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_214">
+ <term>
+  <code meaning="complete imaging response" value="RID11511" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_215">
+ <term>
+  <code meaning="partial response" value="RID11513" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_216">
+ <term>
+  <code meaning="progressive disease" value="RID11515" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T84_217">
+ <term>
+  <code meaning="stable disease" value="RID11514" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>PET-CT Oncologic</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">PET-CT Oncologic Study</header>
+<p>
+<label for="T82_8">Duration of fast prior to injection:</label>
+<input type="text" id="T82_8" name="Duration of fast prior to injection" value=""/>
+</p>
+<p>
+<label for="T82_10">Blood glucose prior to injection:</label>
+<input type="number" id="T82_10" name="Blood glucose prior to injection" data-field-units="mg/dl" min="" max=""/> <label for="T82_10">mg/dl</label>
+</p>
+<p>
+<label for="T82_11">Scan region:</label>
+<input type="text" id="T82_11" name="Scan region" value=""/>
+</p>
+<p>
+<label for="T82_13">Radiopharmaceutical:</label>
+<input type="text" id="T82_13" name="Radiopharmaceutical" value="F-18 FDG"/>
+<input type="number" id="T82_14" name="Radiopharmaceutical value" data-field-units="mCi" min="0" max=""/> <label for="T82_14">mCi IV</label>
+</p>
+<p>
+<label for="T82_15">Calibration time:</label>
+<input type="date" id="T82_15" name="Calibration date" data-field-type="DATE"/>
+<input type="time" id="T82_15_time" name="Calibration time" data-field-type="TIME"/>
+</p>
+<p>
+<label for="T82_16">Administration time:</label>
+<input type="date" id="T82_16" name="Administration date" data-field-type="DATE"/>
+<input type="time" id="T82_16_time" name="Administration time" data-field-type="TIME"/>
+</p>
+<p>
+<label for="T82_17">Injection site:</label>
+<input type="text" id="T82_17" name="Injection site" value=""/>
+</p>
+<p>
+<label for="T82_33">Post-injection imaging delay:</label>
+<input type="number" id="T82_33" name="Post-injection imaging delay" data-field-units="minutes" min="" max=""/> <label for="T82_33">minutes</label>
+</p>
+<p>
+<label for="T82_34">Attenuation correction:</label>
+<input type="text" id="T82_34" name="Attenuation correction" value="Computed tomography scan. "/>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T84_45" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T84_92" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Neck">
+<header class="level2">Neck</header>
+<p>
+<label for="T84_136">Hypermetabolic foci:</label>
+<input type="text" id="T84_136" name="Hypermetabolic foci" value="None."/>
+</p>
+<p>
+<textarea id="T84_999" name="Neck findings">No mass or lymphadenopathy. </textarea>
+</p>
+</section>
+<section data-section-name="Thorax">
+<header class="level2">Thorax</header>
+<p>
+<label for="T84_148">Hypermetabolic foci:</label>
+<input type="text" id="T84_148" name="Hypermetabolic foci" value="None."/>
+</p>
+<p>
+<label for="T84_150">Heart and great vessels:</label>
+<input type="text" id="T84_150" name="Heart and great vessels" value="Normal."/>
+</p>
+<p>
+<label for="T84_154">Adenopathy:</label>
+<input type="text" id="T84_154" name="Adenopathy" value="None."/>
+</p>
+<p>
+<label for="T84_156">Pleural or pericardial effusion:</label>
+<input type="text" id="T84_156" name="Pleural or pericardial effusion" value="None."/>
+</p>
+<p>
+<label for="T84_158">Lungs:</label>
+<input type="text" id="T84_158" name="Lungs" value="Normal. Adequate lung volumes with satisfactory inflation."/>
+</p>
+</section>
+<section data-section-name="Abdomen">
+<header class="level2">Abdomen</header>
+<p>
+<label for="T84_161">Hypermetabolic foci:</label>
+<input type="text" id="T84_161" name="Hypermetabolic foci" value="None."/>
+</p>
+<p>
+<label for="T84_163">Liver:</label>
+<input type="text" id="T84_163" name="Liver" value="Normal."/>
+</p>
+<p>
+<label for="T84_169">Gallbladder:</label>
+<input type="text" id="T84_169" name="Gallbladder" value="Normal."/>
+</p>
+<p>
+<label for="T84_165">Spleen:</label>
+<input type="text" id="T84_165" name="Spleen" value="Normal."/>
+</p>
+<p>
+<label for="T84_167">Pancreas:</label>
+<input type="text" id="T84_167" name="Pancreas" value="Normal."/>
+</p>
+<p>
+<label for="T84_171">Great abdominal vessels</label>
+<input type="text" id="T84_171" name="Great abdominal vessels" value="Normal."/>
+</p>
+<p>
+<label for="T84_173">Kidneys:</label>
+<input type="text" id="T84_173" name="Kidneys" value="Normal."/>
+</p>
+<p>
+<label for="T84_175">Anterior abdominal wall:</label>
+<input type="text" id="T84_175" name="Anterior abdominal wall" value="Normal."/>
+</p>
+<p>
+<label for="T84_177">Hypermetabolic lymph nodes:</label>
+<input type="text" id="T84_177" name="Hypermetabolic lymph nodes" value="None."/>
+</p>
+</section>
+<section data-section-name="Pelvis">
+<header class="level2">Pelvis</header>
+<p>
+<label for="T84_180">Hypermetabolic foci:</label>
+<input type="text" id="T84_180" name="Hypermetabolic foci" value="None."/>
+</p>
+<p>
+<label for="T84_182">Anterior and inner pelvic walls:</label>
+<input type="text" id="T84_182" name="Anterior and inner pelvic walls" value="Normal."/>
+</p>
+<p>
+<label for="T84_184">Pelvic viscera:</label>
+<input type="text" id="T84_184" name="Pelvic viscera" value="Normal."/>
+</p>
+<p>
+<label for="T84_186">Infradiaphragmatic free air:</label>
+<input type="text" id="T84_186" name="Infradiaphragmatic free air" value="None."/>
+</p>
+<p>
+<label for="T84_188">Free pelvic fluid:</label>
+<input type="text" id="T84_188" name="Free pelvic fluid" value="None."/>
+</p>
+<p>
+<label for="T84_190">Hypermetabolic lymph nodes:</label>
+<input type="text" id="T84_190" name="Hypermetabolic lymph nodes" value="None."/>
+</p>
+</section>
+<section data-section-name="Bones">
+<header class="level2">Bones</header>
+<p>
+<label for="T84_195">Hypermetabolic foci:</label>
+<input type="text" id="T84_195" name="Hypermetabolic foci" value="None."/>
+</p>
+<p>
+<textarea id="T84_201" name="lytic or blastic foci">No lytic or blastic foci.</textarea>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T84_204" name="Impression"> </textarea>
+</p>
+<p>
+<label for="T84_208">EORTC response criteria:</label>
+<select id="T84_208" name="EORTC response criteria">
+<option id="T84_208.1" name="Complete" value="Complete">Complete Metabolic Response. MaxSUV &lt; 2.5 or equivalent to background</option>
+<option id="T84_208.2" name="Partial" value="Partial">Partial Metabolic Response. Decrease in MaxSUV >= 25%</option>
+<option id="T84_208.3" name="Progressive" value="Progressive">Progressive Metabolic Disease. Increase in MaxSUV > 25%</option>
+<option id="T84_208.4" name="Stable" value="Stable">Stable Metabolic Disease. Change in MaxSUV &lt; 25%</option>
+</select>
+</p>
+<p>
+<label for="T84_213">Primary tumor response WHO category:</label>
+<select id="T84_213" name="Primary tumor response WHO category">
+<option id="T84_214" name="CR" value="CR">CR - No radiologically detectable residual tumor</option>
+<option id="T84_215" name="PR" value="PR">PR - At least 30% decrease in longest recordable dimension of tumor</option>
+<option id="T84_216" name="PD" value="PD">PD - At least 20% increase in longest recordable dimension of tumor</option>
+<option id="T84_217" name="NC" value="NC">NC - No change</option>
+</select>
+</p>
+</section>
+</body>
+</html>

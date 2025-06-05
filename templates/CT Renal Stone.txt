@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="CT Renal Stone" name="dcterms.title"/>
+<meta content="CT Renal Stone template :: Authored by Heilbrun ME, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000028" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-06-20" name="dcterms.date"/>
+<meta content="Heilbrun ME, et al." name="dcterms.creator"/>
+<meta content="Hong Y [coder]" name="dcterms.contributor"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Society of Abdominal Radiology (SAR)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="computed tomography" value="RID10321" scheme="RadLex">
+</term>
+<term>
+ <code meaning="urinary tract" value="RID204" scheme="RadLex">
+</term>
+<term>
+ <code meaning="urolithiasis" value="RID4996" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T28_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_3">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_5">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_14">
+ <term>
+  <code meaning="count" value="RID28492" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_15">
+ <term>
+  <code meaning="measurement" value="RID10409" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_16">
+ <term>
+  <code meaning="measurement" value="RID10409" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_17">
+ <term>
+  <code meaning="hydronephrosis" value="RID34393" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_23">
+ <term>
+  <code meaning="ureteral" value="RID11198" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="calculus" value="RID4994" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_28">
+ <term>
+  <code meaning="dilated" value="RID5786" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="ureter" value="RID229" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_36">
+ <term>
+  <code meaning="count" value="RID28492" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_37">
+ <term>
+  <code meaning="measurement" value="RID10409" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_38">
+ <term>
+  <code meaning="measurement" value="RID10409" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_39">
+ <term>
+  <code meaning="hydronephrosis" value="RID34393" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_45">
+ <term>
+  <code meaning="ureteral" value="RID11198" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="calculus" value="RID4994" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_50">
+ <term>
+  <code meaning="dilated" value="RID5786" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="ureter" value="RID229" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_58">
+ <term>
+  <code meaning="count" value="RID28492" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_59">
+ <term>
+  <code meaning="measurement" value="RID10409" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_60">
+ <term>
+  <code meaning="measurement" value="RID10409" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_61">
+ <term>
+  <code meaning="wall" value="RID5987" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_66">
+ <term>
+  <code meaning="liver" value="RID58" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_68">
+ <term>
+  <code meaning="spleen" value="RID86" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_70">
+ <term>
+  <code meaning="pancreas" value="RID170" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_72">
+ <term>
+  <code meaning="set of adrenal glands" value="RID28752" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_74">
+ <term>
+  <code meaning="lymphadenopathy" value="RID3798" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_76">
+ <term>
+  <code meaning="intestine" value="RID130" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_78">
+ <term>
+  <code meaning="ascites" value="RID1541" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T28_135">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>CT Renal Stone</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">CT Renal Stone</header>
+<p>
+<textarea id="T28_2" name="Procedure"> </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T28_5" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T28_3" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Right kidney and ureter">
+<header class="level2">Right kidney and ureter</header>
+<p>
+<label for="T28_14">Number of calculi:</label>
+<input type="text" id="T28_14" name="T28_14" value="None."/>
+</p>
+<p>
+<label for="T28_15">Minimum size:</label>
+<input type="number" id="T28_15" name="T28_15" data-field-units="mm" min="" max=""/> mm
+</p>
+<p>
+<label for="T28_16">Maximum size:</label>
+<input type="number" id="T28_16" name="T28_16" data-field-units="mm" min="" max=""/> mm
+</p>
+<p>
+<label for="T28_17">Hydronephrosis:</label>
+<input type="text" id="T28_17" name="T28_17" value="None."/>
+</p>
+<p>
+<label for="T28_23">Ureteral calculi:</label>
+<input type="text" id="T28_23" name="T28_23" value="None."/>
+</p>
+<p>
+<label for="T28_28">Hydroureter:</label>
+<input type="text" id="T28_28" name="T28_28" value="None."/>
+</p>
+</section>
+<section data-section-name="Left kidney and ureter">
+<header class="level2">Left kidney and ureter</header>
+<p>
+<label for="T28_36">Number of calculi:</label>
+<input type="text" id="T28_36" name="T28_36" value="None."/>
+</p>
+<p>
+<label for="T28_37">Minimum size:</label>
+<input type="number" id="T28_37" name="T28_37" data-field-units="mm" min="" max=""/> mm
+</p>
+<p>
+<label for="T28_38">Maximum size:</label>
+<input type="number" id="T28_38" name="T28_38" data-field-units="mm" min="" max=""/> mm
+</p>
+<p>
+<label for="T28_39">Hydronephrosis:</label>
+<input type="text" id="T28_39" name="T28_39" value="None."/>
+</p>
+<p>
+<label for="T28_45">Ureteral calculi:</label>
+<input type="text" id="T28_45" name="T28_45" value="None."/>
+</p>
+<p>
+<label for="T28_50">Hydroureter:</label>
+<input type="text" id="T28_50" name="T28_50" value="None."/>
+</p>
+</section>
+<section data-section-name="Urinary bladder">
+<header class="level2">Urinary bladder</header>
+<p>
+<label for="T28_58">Number of calculi:</label>
+<input type="text" id="T28_58" name="T28_58" value="None."/>
+</p>
+<p>
+<label for="T28_59">Minimum size:</label>
+<input type="number" id="T28_59" name="T28_59" data-field-units="mm" min="" max=""/> mm
+</p>
+<p>
+<label for="T28_60">Maximum size:</label>
+<input type="number" id="T28_60" name="T28_60" data-field-units="mm" min="" max=""/> mm
+</p>
+<p>
+<label for="T28_61">Bladder wall thickening:</label>
+<input type="text" id="T28_61" name="T28_61" value="None."/>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<label for="T28_66">Liver:</label>
+<input type="text" id="T28_66" name="T28_66" value="Normal."/>
+</p>
+<p>
+<label for="T28_68">Spleen:</label>
+<input type="text" id="T28_68" name="T28_68" value="Normal."/>
+</p>
+<p>
+<label for="T28_70">Pancreas:</label>
+<input type="text" id="T28_70" name="T28_70" value="Normal."/>
+</p>
+<p>
+<label for="T28_72">Adrenals:</label>
+<input type="text" id="T28_72" name="T28_72" value="Normal."/>
+</p>
+<p>
+<label for="T28_74">Lymphadenopathy:</label>
+<input type="text" id="T28_74" name="T28_74" value="None."/>
+</p>
+<p>
+<label for="T28_76">Bowel:</label>
+<input type="text" id="T28_76" name="T28_76" value="Normal."/>
+</p>
+<p>
+<label for="T28_78">Ascites:</label>
+<input type="text" id="T28_78" name="T28_78" value="None."/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T28_135" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="CT Calcium Score" name="dcterms.title"/>
+<meta content="CT Calcium Score template :: Authored by Jacobs JE, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000007" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-17" name="dcterms.date"/>
+<meta content="Jacobs JE, et al." name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="North American Society for Cardiac Imaging (NASCI)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="calcium" value="RID11800" scheme="RadLex">
+</term>
+<term>
+ <code meaning="computed tomography" value="RID10321" scheme="RadLex">
+</term>
+<term>
+ <code meaning="heart" value="RID1385" scheme="RadLex">
+</term>
+<term>
+ <code meaning="set of coronary arteries" value="RID28727" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T7_3">
+ <term>
+  <code meaning="EKG gating" value="RID11250" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_13">
+ <term>
+  <code meaning="superior" value="RID5822" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="status descriptor" value="RID5683" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_17">
+ <term>
+  <code meaning="inferior" value="RID5823" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="status descriptor" value="RID5683" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_20">
+ <term>
+  <code meaning="complication" value="RID11525" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_26">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_32">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_35">
+ <term>
+  <code meaning="image quality" value="RID10" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_36">
+  <term>
+  <code meaning="Excellent (qualifier value)" value="425405005" scheme="SNOMEDCT">
+ </term>
+</entry>
+<entry ORIGTXT="T7_37">
+  <term>
+  <code meaning="Good (qualifier value)" value="20572008" scheme="SNOMEDCT">
+ </term>
+</entry>
+<entry ORIGTXT="T7_38">
+ <term>
+  <code meaning="diagnostic quality" value="RID12" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_40">
+ <term>
+  <code meaning="non-diagnostic quality" value="RID14" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_41">
+  <term>
+  <code meaning="Limitation (attribute)" value="246175000" scheme="SNOMEDCT">
+ </term>
+</entry>
+<entry ORIGTXT="T7_42">
+ <term>
+  <code meaning="artifact" value="RID11296" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="image registration" value="RID12776" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_43">
+ <term>
+  <code meaning="patient motion" value="RID11308" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_44">
+ <term>
+  <code meaning="calcium" value="RID11800" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="artifact" value="RID11296" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_45">
+ <term>
+  <code meaning="metal artifact" value="RID11334" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_46">
+ <term>
+  <code meaning="arrhythmia artifact" value="RID11309" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_47">
+ <term>
+  <code meaning="calcium score" value="RID28808" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_49">
+ <term>
+  <code meaning="complete" value="RID5689" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="calcium score" value="RID28808" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_50">
+ <term>
+  <code meaning="complete" value="RID5689" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="volume" value="RID28668" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_51">
+  <term>
+  <code meaning="Percentile value (qualifier value)" value="415068004" scheme="SNOMEDCT">
+ </term>
+</entry>
+<entry ORIGTXT="T7_53">
+ <term>
+  <code meaning="left coronary artery" value="RID486" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_54">
+ <term>
+  <code meaning="left anterior descending artery" value="RID490" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_55">
+ <term>
+  <code meaning="left" value="RID5824" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="circumflex coronary artery" value="RID510" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_56">
+ <term>
+  <code meaning="right coronary artery" value="RID544" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_57">
+ <term>
+  <code meaning="cardiac chamber" value="RID1386" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_59">
+  <term>
+  <code meaning="All cardiac valves (body structure)" value="41244000" scheme="SNOMEDCT">
+ </term>
+</entry>
+<entry ORIGTXT="T7_61">
+ <term>
+  <code meaning="thoracic aorta" value="RID879" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_63">
+ <term>
+  <code meaning="lungs" value="RID13437" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_65">
+ <term>
+  <code meaning="abdomen" value="RID56" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T7_79">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>CT Calcium Score</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">CT Calcium Score</header>
+<p>
+<label for="T7_3">ECG Gating:</label>
+<select id="T7_3" name="ECG Gating">
+<option id="T7_3_4" name="None" value="None">None</option>
+<option id="T7_3_5" name="Prospective" value="Prospective">Prospective</option>
+<option id="T7_3_6" name="Retrospective" value="Retrospective">Retrospective</option>
+</select>
+</p>
+<p>
+<label for="T7_12">Scan range:</label>
+<select id="T7_13" name="Superior extent">
+<option id="T7_13_14" name="Thoracic inlet" value="Thoracic inlet">Thoracic inlet</option>
+<option id="T7_13_15" name="Pulmonary artery bifurcation" value="Pulmonary artery bifurcation">Pulmonary artery bifurcation</option>
+<option id="T7_13_16" name="Carina" value="Carina">Carina</option>
+</select>
+<label>to</label>
+<select id="T7_17" name="Inferior extent">
+<option id="T7_17_18" name="Diaphragm" value="Diaphragm">Diaphragm</option>
+<option id="T7_17_19" name="Inferior aspect of heart" value="Inferior aspect of heart">Inferior aspect of heart</option>
+</select>
+</p>
+<p>
+<label for="T7_20">Complications:</label>
+<input type="text" id="T7_20" name="Complications" value="None. "/>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T7_26" name="Clinical information">Coronary artery disease risk assessment. </textarea>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T7_32" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Technical quality">
+<header class="level2">Technical quality</header>
+<p>
+<label for="T7_35">Examination quality:</label>
+<select id="T7_35" name="Examination quality">
+<option id="T7_36" name="Excellent" value="Excellent">Excellent</option>
+<option id="T7_37" name="Good" value="Good">Good</option>
+<option id="T7_38" name="Fair" value="Fair">Fair</option>
+<option id="T7_39" name="Poor" value="Poor">Poor</option>
+<option id="T7_40" name="Nondiagnostic" value="Nondiagnostic">Nondiagnostic</option>
+</select>
+</p>
+<p>
+<label for="T7_41">Limitation:</label>
+<select id="T7_41" name="Limitation" multiple="multiple">
+<option id="T7_none" name="None" value="None" selected>None</option>
+<option id="T7_42" name="Misregistration artifacts" value="Misregistration artifacts">Misregistration artifacts</option>
+<option id="T7_43" name="Patient motion" value="Patient motion">Patient motion</option>
+<option id="T7_44" name="Calcium blooming artifacts" value="Calcium blooming artifacts">Calcium blooming artifacts</option>
+<option id="T7_45" name="Metal artifact" value="Metal artifact">Metal artifact</option>
+<option id="T7_46" name="Arrhythmia" value="Arrhythmia">Arrhythmia</option>
+</select>
+</p>
+</section>
+<section data-section-name="Overall scores">
+<header class="level2">Overall scores</header>
+<p>
+<label for="T7_47">Agatston score:</label>
+<input type="number" id="T7_47" name="Agatston score" value=""/>
+</p>
+<p>
+<label for="T7_49">Total calcium score:</label>
+<input type="number" id="T7_49" name="Total calcium score" data-field-units="" min="" max=""/> 
+</p>
+<p>
+<label for="T7_50">Total volume score:</label>
+<input type="number" id="T7_50" name="Total volume score" data-field-units="mm3" min="" max=""/> <label for="T7_50">mm3</label>
+</p>
+<p>
+<label for="T7_51">Percentile:</label>
+<input type="number" id="T7_51" name="Percentile" data-field-units="%" min="0" max="100"/> <label for="T7_51">%</label>
+</p>
+</section>
+<section data-section-name="Artery scores">
+<header class="level2">Artery scores</header>
+<p>
+<label for="T7_53">Left main coronary artery:</label>
+<input type="number" id="T7_53" name="Left main coronary artery" data-field-units="" min="" max=""/> 
+</p>
+<p>
+<label for="T7_54">Left anterior descending artery:</label>
+<input type="number" id="T7_54" name="Left anterior descending artery" data-field-units="" min="" max=""/> 
+</p>
+<p>
+<label for="T7_55">Left circumflex artery:</label>
+<input type="number" id="T7_55" name="Left circumflex artery" data-field-units="" min="" max=""/> 
+</p>
+<p>
+<label for="T7_56">Right coronary artery:</label>
+<input type="number" id="T7_56" name="Right coronary artery" data-field-units="" min="" max=""/> 
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<label for="T7_57">Cardiac chambers:</label>
+<input type="text" id="T7_57" name="Cardiac chambers" value="Normal. "/>
+</p>
+<p>
+<label for="T7_59">Cardiac valves:</label>
+<input type="text" id="T7_59" name="Cardiac valves" value="Normal. "/>
+</p>
+<p>
+<label for="T7_61">Thoracic aorta:</label>
+<input type="text" id="T7_61" name="Thoracic aorta" value="Normal. "/>
+</p>
+<p>
+<label for="T7_63">Lungs:</label>
+<input type="text" id="T7_63" name="Lungs" value="Normal. "/>
+</p>
+<p>
+<label for="T7_65">Upper abdomen:</label>
+<input type="text" id="T7_65" name="Upper abdomen" value="Normal. "/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T7_79" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

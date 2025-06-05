@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Gastrostomy Tube Removal" name="dcterms.title"/>
+<meta content="Gastrostomy Tube Removal template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000256" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-12-10" name="dcterms.date"/>
+<meta content="Tolat P" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="device removal" value="RID10415" scheme="RadLex">
+</term>
+<term>
+ <code meaning="gastrostomy" value="RID1634" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T256_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T256_3">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T256_4">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T256_6">
+  <term>
+  <code meaning="Radiology Study observation (narrative)" value="18782-3" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T256_7">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Gastrostomy Tube Removal</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Gastrostomy Tube Removal</header>
+<p>
+<textarea id="T256_2" name="Procedure">After the procedure was explained to the patient, the patient was placed supine on a cart. The retention balloon of the gastrostomy tube was deflated. The area was cleansed with chloroprep. The gastrostomy tube was removed. Pressure was achieved at the entry site of the gastrostomy tube. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T256_3" name="Clinical information">Gastrostomy tube no longer needed. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T256_4" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<textarea id="T256_6" name="Findings">The patient tolerated the procedure well and without complications. </textarea>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T256_7" name="Impression">Gastrostomy tube removed. Education provided.  Written and verbal discharge instructions were given to patient for signs and symptoms to report. Patient also advised if any of the symptoms were severe or life threatening the patient was to call 911 or report to the nearest emergency room. Patient verbalizes understanding and all questions were answered.  </textarea>
+</p>
+</section>
+</body>
+</html>

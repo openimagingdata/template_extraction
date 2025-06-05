@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Hip Xray - Prosthesis" name="dcterms.title"/>
+<meta content="Hip Xray - Prosthesis template :: Authored by Langlotz CP" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000151" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-03-28" name="dcterms.date"/>
+<meta content="Langlotz CP" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Penn Medicine | Hospital of the University of Pennsylvania (Penn)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="hip" value="RID2639" scheme="RadLex">
+</term>
+<term>
+ <code meaning="projection radiography" value="RID10345" scheme="RadLex">
+</term>
+<term>
+ <code meaning="prosthesis" value="RID28823" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T151_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T151_4">
+ <term>
+  <code meaning="laterality" value="RID5821" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T151_5">
+ <term>
+  <code meaning="left" value="RID5824" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="hip" value="RID2639" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T151_6">
+ <term>
+  <code meaning="right" value="RID5825" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="hip" value="RID2639" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T151_7">
+ <term>
+  <code meaning="both" value="RID5770" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="hip" value="RID2639" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T151_8">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T151_9">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T151_12">
+ <term>
+  <code meaning="arthroplasty" value="RID1845" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T151_14">
+ <term>
+  <code meaning="normal" value="RID13173" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T151_19">
+ <term>
+  <code meaning="normal" value="RID13173" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Hip Xray - Prosthesis</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Hip Xray</header>
+<p>
+<p>
+<select id="T151_4" name="Laterality">
+<option id="T151_5" name="Left hip" value="Left hip">Left hip</option>
+<option id="T151_6" name="Right hip" value="Right hip">Right hip</option>
+<option id="T151_7" name="Both hips" value="Both hips">Both hips</option>
+</select>
+<input type="number" id="T151_3" name="Number of views" min="1" max="10" step="1" />
+<label for="T151_3">views</label>
+</p>
+<p>
+<input type="text" id="T151_2" name="Procedure" />
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T151_8" name="Clinical information">Total hip arthroplasty. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T151_9" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<input type="text" id="T151_12" name="Arthroplasty" value="A total hip arthroplasty is present."/>
+</p>
+<p>
+<label for="T151_13">Alignment:</label>
+<input type="text" id="T151_14" name="Alignment" value="The prosthesis is in normal alignment."/></p>
+<p>
+<label for="T151_19">Complication:</label>
+<input type="text" id="T151_19" name="Complication" value="There is no evidence of loosening or fracture."/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T151_20" name="Impression">Total hip arthroplasty in normal alignment. </textarea>
+</p>
+</section>
+</body>
+</html>

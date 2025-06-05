@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="US Early Pregnancy" name="dcterms.title"/>
+<meta content="US Early Pregnancy report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000298" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2014-04-30" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>US Early Pregnancy</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">US Early Pregnancy</header>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T298_001" name="Clinical information"></textarea>
+</p>
+<p>
+<label for="T298_002">LMP:</label>
+<input type="text" id="T298_002" name="LMP" value="Unknown"/>.
+</p>
+<p><label for="T298_003">Beta-hCG:</label>
+<input type="text" id="T298_003" name="Beta hCG" value="Unknown"/>.
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T298_004" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="TECHNIQUE">
+<header class="level2">TECHNIQUE</header>
+<p>
+<textarea id ="T298_021" name="Technique">Transabdominal sonography of the pelvis was performed, followed by transvaginal sonography to better evaluate the uterus and ovaries.</textarea>
+</p>
+</section>
+<section data-section-name="UTERUS and GESTATIONAL SAC">
+<header class="level2">UTERUS and GESTATIONAL SAC</header>
+<p>
+<label for="T298_005">Intrauterine gestation(s):</label>
+<input type="text" id="T298_005" name="Intrauterine gestation" value="Single"/>
+</p>
+<p>
+<label for="T298_006">Mean gestational sac diameter:</label>
+<input type="number" id="T298_006" name="Gestational sac diameter" value=""/> <label for="T298_006">cm;</label> 
+<label for="T298_007">estimated gestational age</label> 
+<input type="number" id="T298_007" name="Weeks" value="" min="0" max="50" step="1" />  <label for="T298_007">weeks</label> 
+<input type="number" id="T298_008" name="Days" value="" min="0" max="6" step="1"/> <label for="T298_008">days.</label>
+</p>
+<p>
+<label for="T298_009">Yolk sac:</label>
+<input type="text" id="T298_009" name="Yolk sac" value=""/>
+</p>
+<p>
+<label for="T298_010">Crown-rump length (CRL):</label>
+<input type="number" id="T298_010" name="Crown-rump length" value=""/> <label for="T298_010">cm =</label>
+<input type="number" id="T298_011" name="Weeks" value="" min="0" max="50" step="1" />  <label for="T298_011">weeks</label> 
+<input type="number" id="T298_012" name="Days" value="" min="0" max="6" step="1"/>  <label for="T298_012">days.</label>
+</p>
+<p>
+<label for="T298_013">Fetal heart motion:</label>
+<input type="number" id="T298_013" name="Heart rate" value=""/> 
+<label for="T298_013">bpm</label>
+</p>
+<p>
+<label for="T298_014">Subchorionic hemorrhage:</label>
+<input type="text" id="T298_014" name="Subchorionic hemorrhage" value="None."/>
+</p>
+</section>
+<section data-section-name="OVARIES">
+<header class="level2">OVARIES</header>
+<p>
+<label for="T298_015">Right ovary:</label>
+<input type="text" id="T298_015" name="Right ovary" value="Normal."/>
+</p>
+<p>
+<label for="T298_016">Left ovary:</label>
+<input type="text" id="T298_016" name="Left ovary" value="Normal."/>
+</p>
+</section>
+<section data-section-name="FREE FLUID">
+<header class="level2">FREE FLUID</header>
+<p>
+<input type="text" id="T298_017" name="Free fluid" value="None."/>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<label for="T298_018">1.</label>
+<input type="text" id="T298_018" name="Impression" value="Single live intrauterine pregnancy."/>
+</p>
+<p>
+<label for="T298_019">2. Estimated gestational age:</label>
+<input type="number" id="T298_019" name="Weeks" value="" min="0" max="50" step="1" />  
+<label for="T298_019">weeks</label>  
+<input type="number" id="T298_020" name="Days" value="" min="0" max="6" step="1"/> 
+<label for="T298_020">days.</label>
+</p>
+</section>
+</body>
+</html>

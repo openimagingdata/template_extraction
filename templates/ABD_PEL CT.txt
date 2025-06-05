@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Routine ABD_PEL CT MEH" name="dcterms.title"/>
+<meta content="Routine ABD_PEL CT MEH report template" name="dcterms.description"/>
+<meta content="" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2015-05-14" name="dcterms.date"/>
+<meta content=" " name="dcterms.creator"/>
+<meta content=" " name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>0</top-level-flag>
+<status>ACTIVE</status>
+<coded_content></coded_content>
+</template_attributes>
+-->
+</script>
+<title>Routine ABD_PEL CT MEH</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">EXAMINATION</header>
+   <p> CT <select id="20150514155927_1" name="Exam Technique">
+<option id="20150514155927_2" name="With" value="with IV contrast">with IV contrast</option>
+<option id="20150514155927_3" name="Without" value="without IV contrast">without IV contrast</option>
+<option id="20150514155927_4" name="Without and with" value="without and with IV contrast">without and with IV contrast</option>
+</select>
+   of the Abdomen and Pelvis</p>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">CLINICAL INFORMATION</header> <textarea id="" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">COMPARISON</header> <textarea id="" name="Comparison">None. </textarea>
+<p>
+</p>
+</section>
+<section data-section-name="Technique">
+<header class="level1">TECHNIQUE</header> 
+    <select id="20150514155927_6" name="Technique">
+<option id="20150514155927_7" name="CE Routine" value="CE Routine">Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and positive oral contrast material. Coronal and sagittal images were created at the CT scanner.</option>
+<option id="20150514155927_8" name="NonCon w PO" value="HNonCon w PO ">Helical scan mode images were obtained through the abdomen and pelvis following the administration of  positive oral contrast material only. Coronal and sagittal images were created at the CT scanner. This examination is limited for the evaluation of solid organs and vascular structures due to the lack of intravenous contrast.</option>
+<option id="20150514155927_9" name="CE Multiphase" value="CE Multiphase">Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material in multiple postcontrast phases and oral contrast material. Coronal and sagittal images were created at the CT scanner.</option>
+<option id="20150514155927_10" name="NC&CE Liver" value="HNC&CE Liver">Helical scan mode images were obtained through the abdomen before and after the protocol administration of nonionic intravenous contrast material in multiple postcontrast phases and oral contrast material. Additionally, in the portal venous phase imaging is carried through the pelvis. Coronal and sagittal images were created at the CT scanner.</option>
+<option id="20150514155927_11" name="CE no PO" value="HCE no PO">Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material. Coronal and sagittal images were created at the CT scanner.</option>
+</select>
+ </p>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">FINDINGS</header>
+</p>
+<p>Lung bases <select id= "" name="Lung bases">
+<option id="" name="Separate chest" value="Separate chest">Note, findings in the thorax will be reported separately.</option>
+<option id="" name="Normal chest" value="Normal chest">The lung bases are clear.</option>
+</select>
+  </p>
+<p>Liver <textarea id="20150514155927_24" name="Liver">No focal mass lesions. No intrahepatic biliary ductal dilatation.</textarea></p>
+<p>Gallbladder <select id="20150514155927_25" name="Gallbladder">
+<option id="20150514155927_26" name="Normal GB" value="Normal GB">The CT appearance is unremarkable.</option>
+<option id="20150514155927_27" name="sp chole" value="sp chole">Surgically absent.</option>
+<option id="20150514155927_28" name="stones" value="stones">Cholelithiasis without cholecystitis.</option>
+</select>
+  </p>
+<p>Spleen <textarea id="20150514155927_29" name="Spleen">Unremarkable</textarea></p>
+<p>Pancreas <textarea id="20150514155927_30" name="Pancreas">Normal CT appearance.</textarea></p>
+<p>Adrenals <textarea id="20150514155927_31" name="Adrenals">No nodules.</textarea></p>
+<p>Kidneys <textarea id="20150514155927_32" name="Kidneys">No solid lesions.</textarea>  <textarea id="20150514155927_33" name="Kidneys">No calculi. No hydroureteronephrosis.</textarea></p>
+<p>Bowel <textarea id="20150514155927_34" name="Bowel">Nondilated.</textarea>  <select id="20150514155927_35" name="Appendix">
+<option id="20150514155927_36" name="Appendix" value="  " selected>  </option>
+<option id="20150514155927_37" name="Normal appy" value="Normal appy">A normal appendix is identified.</option>
+<option id="20150514155927_38" name="Not found" value="The appendix is not identified, but there is no free fluid or stranding in the right lower quadrant.">The appendix is not identified, but there is no free fluid or stranding in the right lower quadrant.</option>
+<option id="20150514155927_39" name="Appendectomy." value="Appendectomy">Postoperative changes from appendectomy.</option>
+</select>
+ </p>
+<p>Mesentery/Peritoneum <textarea id="20150514155927_40" name="Mesentery">Unremarkable</textarea></p>
+<p>Nodes <textarea id="20150514155927_41" name="Nodes">Scattered small abdominal nodes, none meeting CT criteria for pathologic enlargement.</textarea></p>
+<p>Pelvis <select id="20150514155927_42" name="Pelvis">
+<option id="20150514155927_43" name="Normal male" value="Normal male">The prostate and seminal vesicles are unremarkable.</option>
+<option id="20150514155927_44" name="Normal female" value="Normal female ">The uterus is unremarkable. No abnormal adnexal masses.</option>
+<option id="20150514155927_45" name="BPH." value="BPH.">The prostate is enlarged, a nonspecific finding but one that is typically secondary to BPH.</option>
+<option id="20150514155927_46" name="Hysterectomy" value="Hysterectomy">The uterus is not visualized, consistent with hysterectomy. No abnormal adnexal masses.</option>
+</select>
+<p>
+  <textarea id="20150514155927_47" name="Optional pelvis">No free fluid. No enlarged pelvic lymph nodes.</textarea></p>
+<p>Bone windows <textarea id="20150514155927_48" name="Bones">No aggressive osseous abnormalities.</textarea></p>
+<p>Vasculature <select id="20150514155927_49" name="Vessels">
+<option id="20150514155927_50" name="Normal" value="Normal ">Normal, without aneurysm or flow limiting atherosclerotic disease.</option>
+<option id="20150514155927_51" name="Athero" value="Athero ">Atherosclerotic disease of the abdominal aorta. No abdominal aortic aneurysm.</option>
+</select>
+  </p>
+<p>Soft Tissues <select id="20150514155927_52" name="Soft tissue">
+<option id="20150514155927_53" name="Normal" value="Normal">Unremarkable.</option>
+<option id="20150514155927_54" name="No melanoma" value="No melanoma">No subcutaneous or intramuscular enhancing mass lesions.</option>
+</select>
+ </p>
+<header class="level1">IMPRESSION</header>
+<p>
+<p>1. <textarea id="20150514155927_56" name="IMPRESSION">No actionable abnormality in the abdomen or pelvis.</textarea></p>
+</section><section data-section-name="IMPRESSION">
+
+</p>
+</section>
+</body>
+</html>

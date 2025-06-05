@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MR Elastography</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="1a14d9f7-e741-4c94-98a0-fe667dc3b5fe" />
+        <meta name="dcterms.title" content="MR Elastography" />
+        <meta name="dcterms.description" content="INSTRUCTIONS FOR USING THIS TEMPLATE: This MR elastography structured report template can be used for a standalone MR elastography examination or can be added to a diagnostic MRI report template." />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2019-10-15" />
+        <meta name="dcterms.creator" content="Flavius F. Guglielmo" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="SELECTION_LIST_1569249677778">
+                        <term>
+                            <code meaning="confluent fibrosis (liver)" value="http://radlex.org/RID/RID39441" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1569249677778_0">
+                        <term>
+                            <code meaning="normal" value="http://radlex.org/RID/RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1569249677778_1">
+                        <term>
+                            <code meaning="hepatitis" value="http://radlex.org/RID/RID3467" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1569249677778_2">
+                        <term>
+                            <code meaning="confluent fibrosis (liver)" value="http://radlex.org/RID/RID39441" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1569249677778_3">
+                        <term>
+                            <code meaning="confluent fibrosis (liver)" value="http://radlex.org/RID/RID39441" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1569249677778_4">
+                        <term>
+                            <code meaning="confluent fibrosis (liver)" value="http://radlex.org/RID/RID39441" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1569249677778_5">
+                        <term>
+                            <code meaning="cirrhosis" value="http://radlex.org/RID/RID3822" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1568728984915">
+                        <term>
+                            <code meaning="elastography" value="http://radlex.org/RID/RID10932" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1568728984895">
+                        <term>
+                            <code meaning="imaging technique section" value="http://radlex.org/RID/RID28482" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="procedureInformationText">Exam</label>
+                <textarea rows="3" cols="100" id="procedureInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">MR elastography without contrast</textarea>
+            </p>
+            <section id="SECTION_HEADER_1568728984896" class="level2" data-section-name="Technique">
+                <header class="level2">
+                    Technique
+                </header>
+                <p title="">
+                    <label for="TEXT_1568728984895"></label>
+                    <textarea rows="3" cols="100" id="TEXT_1568728984895" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Noncontrast MR Elastography</textarea>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1568728984897">Magnet Strength</label>
+                    <select id="SELECTION_LIST_1568728984897" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="1.5 Tesla">
+                        <option id="SELECTION_LIST_1568728984897_0" value="1.5 Tesla" name="SELECTION_LIST_1568728984897" selected="">1.5 Tesla</option>
+                        <option id="SELECTION_LIST_1568728984897_1" value="3.0 Tesla" name="SELECTION_LIST_1568728984897">3.0 Tesla</option>
+                    </select>
+                </p>
+            </section>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="clinicalInformationText"></label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Evaluate for liver fibrosis</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <input type="text" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="None" />
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <section id="SECTION_HEADER_1568728984910" class="level2" data-section-name="Liver Elastography: ">
+                <header class="level2">
+                    Liver Elastography: 
+                </header>
+                <p title="Liver stiffness CDE">
+                    <label for="NUMBER_1568728984915">Mean liver stiffness (calculated weighted mean):</label>
+                    <span>
+                        <input type="number" step="0.1" data-field-units="kPa" id="NUMBER_1568728984915" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        kPa
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1568728984916">Number of measurements used to calculate the mean liver stiffness:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="" id="NUMBER_1568728984916" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    </span>
+                </p>
+            </section>
+            <p title="">
+                <label for="TEXT_1570656247963"></label>
+                <textarea rows="3" cols="100" id="TEXT_1570656247963" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">MR elastography estimates of hepatic stiffness (at 60 Hz) correlate with hepatic fibrosis stages as: &lt;2.5 kPa: Normal; 2.5 - 2.9 kPa: Normal or Inflammation; 2.9 - 3.5 kPa: Stage 1 to 2 Fibrosis; 3.5 - 4 kPa: Stage 2 to 3 Fibrosis; 4 - 5 kPa: Stage 3 to 4 Fibrosis; &gt;5 kPa: Stage 4 Fibrosis or Cirrhosis. (These are broad categories and results should be interpreted with clinical and laboratory findings for other possible causes of increased liver stiffness.)</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1570656247964"></label>
+                <textarea rows="3" cols="100" id="TEXT_1570656247964" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The standalone liver MR elastography protocol is a limited MRI protocol designed to quantitatively evaluate for liver fibrosis. The imaging techniques used in this protocol are not suitable for detection or characterization of focal liver lesions or evaluation of lesions in other organs.</textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1569249677778">Mean liver stiffness consistent with:</label>
+                <select id="SELECTION_LIST_1569249677778" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal">
+                    <option id="SELECTION_LIST_1569249677778_0" value="Normal" name="SELECTION_LIST_1569249677778" selected="">Normal</option>
+                    <option id="SELECTION_LIST_1569249677778_1" value="Normal or Inflammation" name="SELECTION_LIST_1569249677778">Normal or Inflammation</option>
+                    <option id="SELECTION_LIST_1569249677778_2" value="Stage 1 to 2 Fibrosis" name="SELECTION_LIST_1569249677778">Stage 1 to 2 Fibrosis</option>
+                    <option id="SELECTION_LIST_1569249677778_3" value="Stage 2 to 3 Fibrosis" name="SELECTION_LIST_1569249677778">Stage 2 to 3 Fibrosis</option>
+                    <option id="SELECTION_LIST_1569249677778_4" value="Stage 3 to 4 Fibrosis" name="SELECTION_LIST_1569249677778">Stage 3 to 4 Fibrosis</option>
+                    <option id="SELECTION_LIST_1569249677778_5" value="Stage 4 Fibrosis or Cirrhosis" name="SELECTION_LIST_1569249677778">Stage 4 Fibrosis or Cirrhosis</option>
+                </select>
+            </p>
+        </section>
+    </body>
+</html>

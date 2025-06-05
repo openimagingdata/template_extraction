@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ACR LI-RADS  TEST</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="f34dce46-9165-4b13-aae2-45f2f6ace216" />
+        <meta name="dcterms.title" content="ACR LI-RADS  TEST" />
+        <meta name="dcterms.description" content="The Liver Imaging Reporting and Data System is for the reporting and data collection of CT and MR imaging for hepatocellular carcinoma (HCC). " />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="RSNA RadElements" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2018-11-20" />
+        <meta name="dcterms.creator" content="AASLD 23 February 2015" />
+        <meta name="dcterms.contributor" content="Editors: Marquette University: Mansour Almanaa,  Mohammad Alarifi; Teri Sippel Schmidt" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="SELECTION_LIST_1519871265396">
+                        <term>
+                            <code meaning="washout appearance" value="RID39486" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265396_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265396_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265393">
+                        <term>
+                            <code meaning="threshold growth (liver mass)" value="RID43350" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265393_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265393_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265381">
+                        <term>
+                            <code meaning="tumor in vein (LI-RADS)" value="RID39483" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265381_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265381_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265390">
+                        <term>
+                            <code meaning="capsule appearance (liver)" value="RID39439" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265390_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265390_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265402">
+                        <term>
+                            <code meaning="mild-moderate T2 hyperintensity" value="RID39468" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265402_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265402_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265413">
+                        <term>
+                            <code meaning="mosaic architecture" value="RID39149" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265413_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265413_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1519871265389">
+                        <term>
+                            <code meaning="diameter" value="RID13432" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519929720013">
+                        <term>
+                            <code meaning="imaging modality" value="RID10311" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519929720013_0">
+                        <term>
+                            <code meaning="computed tomography" value="RID10321" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1519929720013_1">
+                        <term>
+                            <code meaning="magnetic resonance imaging" value="RID10312" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265399">
+                        <term>
+                            <code meaning="hepatobiliary phase hypointensity" value="RID49813" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265399_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265399_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265410">
+                        <term>
+                            <code meaning="restricted diffusion" value="RID43349" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265410_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265410_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265405_2">
+                        <term>
+                            <code meaning="homogeneous marked T2 hyperintensity" value="RID39458" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265416">
+                        <term>
+                            <code meaning="intralesional fat" value="RID39463" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265416_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519871265416_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519757620391">
+                        <term>
+                            <code meaning="LI-RADS assessment" value="RID49823" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519757620391_0">
+                        <term>
+                            <code meaning="LR-1" value="RID49794" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519757620391_1">
+                        <term>
+                            <code meaning="LR-2" value="RID49795" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519757620391_2">
+                        <term>
+                            <code meaning="LR-3" value="RID49796" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519757620391_3">
+                        <term>
+                            <code meaning="LR-4" value="RID49797" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519757620391_4">
+                        <term>
+                            <code meaning="LR-5" value="RID49799" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519757620391_5">
+                        <term>
+                            <code meaning="LR-5V" value="RID49802" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519757620391_6">
+                        <term>
+                            <code meaning="LR-M" value="RID49803" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1519757620391_7">
+                        <term>
+                            <code meaning="LR-Treated" value="RID49804" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="RADIO_1519929720013">Modality</label>
+                <span id="RADIO_1519929720013" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1519929720013_0" type="radio" name="RADIO_1519929720013" value="CT" checked="">CT</input>
+                    <br />
+                    <input id="RADIO_1519929720013_1" type="radio" name="RADIO_1519929720013" value="MRI">MRI</input>
+                </span>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="clinicalInformationText">Text:</label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText">Prior Study(s):</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265381">Tumor in vein</label>
+                <select id="SELECTION_LIST_1519871265381" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="1 : Present">
+                    <option id="SELECTION_LIST_1519871265381_0" value="1 : Present" name="SELECTION_LIST_1519871265381" selected="">1 : Present</option>
+                    <option id="SELECTION_LIST_1519871265381_1" value="0 : Absent" name="SELECTION_LIST_1519871265381">0 : Absent</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1519871265389">Diameter</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1519871265389" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265390">Capsule appearance</label>
+                <select id="SELECTION_LIST_1519871265390" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Present : Capsule appearance">
+                    <option id="SELECTION_LIST_1519871265390_0" value="Present : Capsule appearance" name="SELECTION_LIST_1519871265390" selected="">Present : Capsule appearance</option>
+                    <option id="SELECTION_LIST_1519871265390_1" value="Absent : No capsule appearance" name="SELECTION_LIST_1519871265390">Absent : No capsule appearance</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265393">Threshold growth</label>
+                <select id="SELECTION_LIST_1519871265393" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Present : Threshold growth">
+                    <option id="SELECTION_LIST_1519871265393_0" value="Present : Threshold growth" name="SELECTION_LIST_1519871265393" selected="">Present : Threshold growth</option>
+                    <option id="SELECTION_LIST_1519871265393_1" value="Absent : No threshold growth" name="SELECTION_LIST_1519871265393">Absent : No threshold growth</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265396">Washout</label>
+                <select id="SELECTION_LIST_1519871265396" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Present : Washout ">
+                    <option id="SELECTION_LIST_1519871265396_0" value="Present : Washout" name="SELECTION_LIST_1519871265396">Present : Washout</option>
+                    <option id="SELECTION_LIST_1519871265396_1" value="Absent : No washout" name="SELECTION_LIST_1519871265396">Absent : No washout</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265399">Hepatobiliary phase hypointensity</label>
+                <select id="SELECTION_LIST_1519871265399" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Present : Hepatobiliary phase hypointensity">
+                    <option id="SELECTION_LIST_1519871265399_0" value="Present : Hepatobiliary phase hypointensity" name="SELECTION_LIST_1519871265399" selected="">Present : Hepatobiliary phase hypointensity</option>
+                    <option id="SELECTION_LIST_1519871265399_1" value="Absent : Hepatobiliary phase iso- or hyperintensity" name="SELECTION_LIST_1519871265399">Absent : Hepatobiliary phase iso- or hyperintensity</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265402">Mild-moderate T2 hyperintensity</label>
+                <select id="SELECTION_LIST_1519871265402" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Present : Mild-moderate T2 hyperintensity">
+                    <option id="SELECTION_LIST_1519871265402_0" value="Present : Mild-moderate T2 hyperintensity" name="SELECTION_LIST_1519871265402" selected="">Present : Mild-moderate T2 hyperintensity</option>
+                    <option id="SELECTION_LIST_1519871265402_1" value="Absent : Not mild-moderate T2 hyperintensity" name="SELECTION_LIST_1519871265402">Absent : Not mild-moderate T2 hyperintensity</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265405">T2 signal intensity</label>
+                <select id="SELECTION_LIST_1519871265405" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="1 : Mild-moderate T2 hyperintensity, well-defined">
+                    <option id="SELECTION_LIST_1519871265405_0" value="1 : Mild-moderate T2 hyperintensity, well-defined" name="SELECTION_LIST_1519871265405" selected="">1 : Mild-moderate T2 hyperintensity, well-defined</option>
+                    <option id="SELECTION_LIST_1519871265405_1" value="2 : Mild-moderate T2 hyperintensity, ill-defined" name="SELECTION_LIST_1519871265405">2 : Mild-moderate T2 hyperintensity, ill-defined</option>
+                    <option id="SELECTION_LIST_1519871265405_2" value="3 : Marked T2 hyperintensity" name="SELECTION_LIST_1519871265405">3 : Marked T2 hyperintensity</option>
+                    <option id="SELECTION_LIST_1519871265405_3" value="4 : Mild T2 hypointensity" name="SELECTION_LIST_1519871265405">4 : Mild T2 hypointensity</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265410">Restricted diffusion</label>
+                <select id="SELECTION_LIST_1519871265410" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Present : Restricted diffusion">
+                    <option id="SELECTION_LIST_1519871265410_0" value="Present : Restricted diffusion" name="SELECTION_LIST_1519871265410" selected="">Present : Restricted diffusion</option>
+                    <option id="SELECTION_LIST_1519871265410_1" value="Absent : No restricted diffusion" name="SELECTION_LIST_1519871265410">Absent : No restricted diffusion</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265413">Mosaic architecture</label>
+                <select id="SELECTION_LIST_1519871265413" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Present : Mosaic architecture">
+                    <option id="SELECTION_LIST_1519871265413_0" value="Present : Mosaic architecture" name="SELECTION_LIST_1519871265413" selected="">Present : Mosaic architecture</option>
+                    <option id="SELECTION_LIST_1519871265413_1" value="Absent : No mosaic architecture" name="SELECTION_LIST_1519871265413">Absent : No mosaic architecture</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1519871265416">Intralesional fat</label>
+                <select id="SELECTION_LIST_1519871265416" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Present : Intralesional fat">
+                    <option id="SELECTION_LIST_1519871265416_0" value="Present : Intralesional fat" name="SELECTION_LIST_1519871265416" selected="">Present : Intralesional fat</option>
+                    <option id="SELECTION_LIST_1519871265416_1" value="Absent : No intralesional fat" name="SELECTION_LIST_1519871265416">Absent : No intralesional fat</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="findingsText">Comments:</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <section id="SECTION_HEADER_1519757620407" class="level2" data-section-name="ACR LI-RADS: Liver Imaging Reporting and Data System">
+                <header class="level2">
+                    ACR LI-RADS: Liver Imaging Reporting and Data System
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1519757620391">LI-RADS Assessment Category</label>
+                    <select id="SELECTION_LIST_1519757620391" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="LR-1: Definitely benign">
+                        <option id="SELECTION_LIST_1519757620391_0" value="LR-1: Definitely benign" name="SELECTION_LIST_1519757620391" selected="">LR-1: Definitely benign</option>
+                        <option id="SELECTION_LIST_1519757620391_1" value="LR-2: Probably benign" name="SELECTION_LIST_1519757620391">LR-2: Probably benign</option>
+                        <option id="SELECTION_LIST_1519757620391_2" value="LR-3: Intermediate probability for HCC" name="SELECTION_LIST_1519757620391">LR-3: Intermediate probability for HCC</option>
+                        <option id="SELECTION_LIST_1519757620391_3" value="LR-4: Probably HCC" name="SELECTION_LIST_1519757620391">LR-4: Probably HCC</option>
+                        <option id="SELECTION_LIST_1519757620391_4" value="LR-5: Definitely HCC" name="SELECTION_LIST_1519757620391">LR-5: Definitely HCC</option>
+                        <option id="SELECTION_LIST_1519757620391_5" value="LR-5V: Definite tumor in vein" name="SELECTION_LIST_1519757620391">LR-5V: Definite tumor in vein</option>
+                        <option id="SELECTION_LIST_1519757620391_6" value="LR-M: Probably malignant, not specific for HCC" name="SELECTION_LIST_1519757620391">LR-M: Probably malignant, not specific for HCC</option>
+                        <option id="SELECTION_LIST_1519757620391_7" value="LR-Treated: Treated observation" name="SELECTION_LIST_1519757620391">LR-Treated: Treated observation</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="impressionText">Journal Reference:</label>
+                    <input type="text" id="impressionText" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="http://onlinelibrary.wiley.com/doi/10.1002/hep.27304/full" />
+                </p>
+            </section>
+        </section>
+    </body>
+</html>

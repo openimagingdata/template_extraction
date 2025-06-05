@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>US Scrotum</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="e29219f5-7b20-4a99-81ca-fd74bac005eb" />
+        <meta name="dcterms.title" content="US Scrotum" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="University of Utah" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2018-03-12" />
+        <meta name="dcterms.creator" content="Marta E. Heilbrun, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="TEXT_1459370873463">
+                        <term>
+                            <code meaning="indication" value="RID49442" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459370873468">
+                        <term>
+                            <code meaning="epididymis" value="RID371" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459370873467">
+                        <term>
+                            <code meaning="set of testicles" value="RID39541" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459370873469">
+                        <term>
+                            <code meaning="scrotum" value="RID365" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findingsText">
+                        <term>
+                            <code meaning="set of testicles" value="RID39541" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="TEXT_1459370873464">Technique:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459370873464" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The scrotum was evaluated with a high frequency transducer using both grey-scale and Doppler technology.</textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1459370873463">Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459370873463" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="findingsText">Testicles:</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Both testicles are present in expected location. There is no intratesticular mass on either side, with a normal homogeneous appearance to both testicles.</textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1459370873465">The right testicle measures:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1459370873465" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1459370873466">The left testicle measures:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1459370873466" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1459370873467">Blood flow within the Testicles:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459370873467" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Color Doppler imaging demonstrates symmetric, normal flow throughout both testicles. Normal pulsed Doppler arterial waveforms were obtained from each testicle.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459370873468">Epididymides:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459370873468" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The epididymides bilaterally are normal without evidence for focal mass or hyperemia on Doppler imaging.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459370873469">Scrotum:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459370873469" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No abnormal intrascrotal fluid collections.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1520912445586">Additional Findings:</label>
+                <input type="text" id="TEXT_1520912445586" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="None." />
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

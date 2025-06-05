@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Ga-67 SPECT" name="dcterms.title"/>
+<meta content="Ga-67 SPECT template :: Authored by Imani F" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000170" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-05-29" name="dcterms.date"/>
+<meta content="Imani F" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="UCLA Health System (UCLA)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="Gallium-67" value="RID11703" scheme="RadLex">
+</term>
+<term>
+ <code meaning="inflammation" value="RID3382" scheme="RadLex">
+</term>
+<term>
+ <code meaning="neoplasm" value="RID3957" scheme="RadLex">
+</term>
+<term>
+ <code meaning="single photon emission computed tomography" value="RID10334" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T170_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T170_6">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T170_7">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T170_9">
+ <term>
+  <code meaning="observations section" value="RID28486" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T170_11">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Ga-67 SPECT</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Ga-67 SPECT</header>
+<p>
+<textarea id="T170_2" name="Procedure" style="height:4em;" >Anterior and posterior images of the chest, lower cervical region and upper abdomen were obtained following the intravenous injection of Gallium-67 citrate. Emission tomographic images of the same area were obtained. </textarea>
+</p>
+<p>
+<label for="T170_4">Ga-67 citrate</label>
+<input type="number" id="T170_4" name="Ga-67 citrate" value="10" data-field-units="mCi" min="0" max="20" /> mCi
+</p>
+<p>
+<label for="T170_5">Scan delay</label>
+<input type="number" id="T170_5" name="Scan delay" data-field-units="hr" min="0"/> hr
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T170_6" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T170_7" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<textarea id="T170_9" name="Findings">No abnormal concentration of Gallium is demonstrated in the chest, lower neck, or upper abdomen. </textarea>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T170_11" name="Impression">Negative examination. No evidence for inflammation, infection, or tumor. </textarea>
+</p>
+</section>
+</body>
+</html>

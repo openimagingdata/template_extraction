@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Echografie abdomen UZ Gent man</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="93421e8c-852b-49b3-92e9-40e3e2a96688" />
+        <meta name="dcterms.title" content="Echografie abdomen UZ Gent man" />
+        <meta name="dcterms.description" content="Template of the report of an US examination of the abdomen in a male patient, such as used at Ghent University Hospital, Ghent, Flanders, Belgium (in Dutch)" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="nl" />
+        <meta name="dcterms.publisher" content="" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2015-11-17" />
+        <meta name="dcterms.creator" content="Jan ML Bosmans, MD, PhD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="NUMBER_1447419670816">
+                        <term>
+                            <code meaning="length" value="RID39123" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1447419670788">
+                        <term>
+                            <code meaning="length" value="RID39123" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1447419670798">
+                        <term>
+                            <code meaning="left kidney" value="RID29663" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1447419670800">
+                        <term>
+                            <code meaning="right kidney" value="RID29662" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1447419670790">
+                        <term>
+                            <code meaning="vasculature of organ" value="RID15990" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670780">
+                        <term>
+                            <code meaning="liver mass" value="RID39466" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670780_0">
+                        <term>
+                            <code meaning="no" value="RID28475" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670780_1">
+                        <term>
+                            <code meaning="yes" value="RID28474" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1447419670803">
+                        <term>
+                            <code meaning="prostate" value="RID343" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670811">
+                        <term>
+                            <code meaning="surface of liver" value="RID30836" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670811_0">
+                        <term>
+                            <code meaning="smooth" value="RID5912" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670811_1">
+                        <term>
+                            <code meaning="nodular" value="RID5802" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670811_2">
+                        <term>
+                            <code meaning="nodular" value="RID5802" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670811_3">
+                        <term>
+                            <code meaning="nodular" value="RID5802" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1447419670787">
+                        <term>
+                            <code meaning="spleen" value="RID86" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1447419670801">
+                        <term>
+                            <code meaning="abdominal aorta" value="RID905" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1447419670802">
+                        <term>
+                            <code meaning="urinary bladder" value="RID237" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1447418888285">
+                        <term>
+                            <code meaning="liver" value="RID58" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670775">
+                        <term>
+                            <code meaning="echogenicity characteristic" value="RID6045" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670775_1">
+                        <term>
+                            <code meaning="hypoechoic" value="RID6046" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670775_2">
+                        <term>
+                            <code meaning="hyperechoic" value="RID6048" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670775_3">
+                        <term>
+                            <code meaning="hyperechoic" value="RID6048" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1447419670799">
+                        <term>
+                            <code meaning="kidney" value="RID205" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670791">
+                        <term>
+                            <code meaning="homogeneously dense" value="RID43294" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670791_0">
+                        <term>
+                            <code meaning="yes" value="RID28474" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1447419670791_1">
+                        <term>
+                            <code meaning="no" value="RID28475" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">Uitgevoerde procedure:        </header>
+            <p title="">
+                <label for="procedureInformationText">Tekst:</label>
+                <textarea rows="3" cols="100" id="procedureInformationText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">Klinische informatie:       </header>
+            <p title="">
+                <label for="clinicalInformationText">Tekst:</label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">Vergelijking        </header>
+            <p title="">
+                <label for="comparisonsText">Tekst:</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">Bevindingen:         </header>
+            <p title="">
+                <label for="findingsText">Tekst:</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="DATE_1447418888284">Datum: </label>
+                <input type="date" id="DATE_1447418888284" name="" data-field-type="DATE" data-field-completion-action="NONE" value="" />
+            </p>
+            <p title="">
+                <label for="TEXT_1447418888296">Pancreas:</label>
+                <input type="text" id="TEXT_1447418888296" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <section id="SECTION_HEADER_1447418888285" class="level2" data-section-name="Lever:   ">
+                <header class="level2">Lever:                 </header>
+                <p title="">
+                    <label for="NUMBER_1447419670816">Craniocaudale lengte</label>
+                    <span>
+                        <input type="number" step="0.1" data-field-units="cm" id="NUMBER_1447419670816" name="" data-field-type="NUMBER" data-field-completion-action="PROHIBIT" value="" />
+                        cm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1447419670811">Contouren:</label>
+                    <select id="SELECTION_LIST_1447419670811" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="glad">
+                        <option id="SELECTION_LIST_1447419670811_0" value="glad" name="SELECTION_LIST_1447419670811" selected="">glad</option>
+                        <option id="SELECTION_LIST_1447419670811_1" value="licht hobbelig" name="SELECTION_LIST_1447419670811">licht hobbelig</option>
+                        <option id="SELECTION_LIST_1447419670811_2" value="matig hobbelig" name="SELECTION_LIST_1447419670811">matig hobbelig</option>
+                        <option id="SELECTION_LIST_1447419670811_3" value="uitgesproken hobbelig" name="SELECTION_LIST_1447419670811">uitgesproken hobbelig</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1447419670775">Reflectiviteit: </label>
+                    <select id="SELECTION_LIST_1447419670775" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="normoreflectief">
+                        <option id="SELECTION_LIST_1447419670775_0" value="normoreflectief" name="SELECTION_LIST_1447419670775" selected="">normoreflectief</option>
+                        <option id="SELECTION_LIST_1447419670775_1" value="hyporeflectief" name="SELECTION_LIST_1447419670775">hyporeflectief</option>
+                        <option id="SELECTION_LIST_1447419670775_2" value="matig hyperreflectief" name="SELECTION_LIST_1447419670775">matig hyperreflectief</option>
+                        <option id="SELECTION_LIST_1447419670775_3" value="uitgesproken hyperreflectief" name="SELECTION_LIST_1447419670775">uitgesproken hyperreflectief</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1447419670780">Focale letsels: </label>
+                    <select id="SELECTION_LIST_1447419670780" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="neen">
+                        <option id="SELECTION_LIST_1447419670780_0" value="neen" name="SELECTION_LIST_1447419670780" selected="">neen</option>
+                        <option id="SELECTION_LIST_1447419670780_1" value="ja" name="SELECTION_LIST_1447419670780">ja</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="TEXT_1447419670790">Levervaten: </label>
+                    <input type="text" id="TEXT_1447419670790" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1447419670787" class="level2" data-section-name="Milt:   ">
+                <header class="level2">                    Milt:                 </header>
+                <p title="">
+                    <label for="NUMBER_1447419670788">Lengte:</label>
+                    <span>
+                        <input type="number" step="0.1" data-field-units="cm" id="NUMBER_1447419670788" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        cm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1447419670791">Homogeen? </label>
+                    <input list="SELECTION_LIST_1447419670791_LIST" id="SELECTION_LIST_1447419670791" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="ja" />
+                    <datalist id="SELECTION_LIST_1447419670791_LIST">
+                        <option id="SELECTION_LIST_1447419670791_0" value="ja" name="SELECTION_LIST_1447419670791" selected="">ja</option>
+                        <option id="SELECTION_LIST_1447419670791_1" value="neen" name="SELECTION_LIST_1447419670791">neen</option>
+                    </datalist>
+                </p>
+                <p title="">
+                    <label for="TEXT_1447420804064">Bijkomende bevindingen:</label>
+                    <input type="text" id="TEXT_1447420804064" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1447419670799" class="level2" data-section-name="Nieren:">
+                <header class="level2">Nieren:                </header>
+                <p title="">
+                    <label for="TEXT_1447419670798">Links:</label>
+                    <input type="text" id="TEXT_1447419670798" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+                </p>
+                <p title="">
+                    <label for="TEXT_1447419670800">Rechts:</label>
+                    <input type="text" id="TEXT_1447419670800" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1447419670802" class="level2" data-section-name="Blaas:">
+                <header class="level2">Urineblaas:                </header>
+                <p title="">
+                    <label for="TEXT_1447420804060">Bevindingen:</label>
+                    <input type="text" id="TEXT_1447420804060" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1447419670801" class="level2" data-section-name="Aorta:">
+                <header class="level2">Aorta:                </header>
+                <p title="">
+                    <label for="TEXT_1447420804061">Bevindingen:</label>
+                    <input type="text" id="TEXT_1447420804061" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1447419670803" class="level2" data-section-name="Prostaat:">
+                <header class="level2">Prostaat:                </header>
+                <p title="">
+                    <label for="TEXT_1447420804062">Bevindingen:</label>
+                    <input type="text" id="TEXT_1447420804062" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1447419670804" class="level2" data-section-name="Bijkomende bevindingen:">
+                <header class="level2">Bijkomende bevindingen:                </header>
+                <p title="">
+                    <label for="TEXT_1447420804063">Tekst:</label>
+                    <input type="text" id="TEXT_1447420804063" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+                </p>
+            </section>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">Conclusie            </header>
+            <p title="">
+                <label for="impressionText">Text:</label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

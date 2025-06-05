@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="MR Left Hip" name="dcterms.title"/>
+<meta content="MR Left Hip report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000299" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2014-04-30" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR Left Hip</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR Left Hip</header>
+<p>
+<textarea id="T299_001" name="Procedure">Triplanar (to include oblique sagittal) T2 with/without fat suppression and coronal T1-weighted sequences were obtained of the left hip.</textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T299_002" name="Clinical information">Hip pain.</textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T299_003" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Osseous structures">
+<header class="level2">Osseous structures</header>
+<p>
+<textarea id="T299_004" name="Osseous structures">No fracture, stress reaction, avascular necrosis, or focal osseous lesion is seen.</textarea>
+</p>
+</section>
+<section data-section-name="Articular cartilage/Labrum">
+<header class="level2">Articular cartilage and labrum</header>
+<p>
+<textarea id="T299_005" name="Articular cartilage">There is no joint space narrowing or cartilage disease.</textarea>
+</p>
+<p>
+<textarea id="T299_006" name="Labrum">No labral tear or paralabral cyst is identified. The ligamentum teres is normal.</textarea>
+</p>
+<p>
+<label>The alpha angle measures </label>
+<input type="text" id="T299_007" name="Alpha angle" value=""/>.
+</p>
+</section>
+<section data-section-name="Joint or bursal effusion">
+<header class="level2">Joint or bursal effusion</header>
+<p>
+<textarea id="T299_008" name="Joint effusion">There is no joint effusion.</textarea>
+</p>
+<p>
+<textarea id="T299_009" name="Bursal effusion">No iliopsoas or trochanteric bursal effusion is present.</textarea>
+</p>
+</section>
+<section data-section-name="Muscles and tendons">
+<header class="level2">Muscles and tendons</header>
+<p>
+<textarea id="T299_010" name="Muscles and tendons">The rectus femoris, iliopsoas, proximal hamstrings, quadratus femoris, and hip abductors are intact.</textarea>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<textarea id="T299_011" name="Miscellaneous">None.</textarea>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T299_012" name="Impression">1. Normal MR of the left hip.
+2. No osseous, articular, or musculotendinous abnormalities.</textarea>
+</p>
+</section>
+</body>
+</html>

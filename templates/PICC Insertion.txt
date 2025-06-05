@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta content="PICC Insertion" name="dcterms.title" />
+        <meta content="PICC Insertion template" name="dcterms.description" />
+        <meta content="http://www.radreport.org/template/0000188" name="dcterms.identifier" />
+        <meta content="en" name="dcterms.language" />
+        <meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type" />
+        <meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher" />
+        <meta content="May be used gratis, subject to license agreement" name="dcterms.rights" />
+        <meta content="http://www.radreport.org/license.pdf" name="dcterms.license" />
+        <meta content="2012-05-29" name="dcterms.date" />
+		<meta content="Kahn CE Jr" name="dcterms.creator"/>
+        
+        <meta content="Kahn CE Jr [editor]" name="dcterms.contributor" />
+        <meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor" />
+        <link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+		<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+        <script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="catheter" value="RID5576" scheme="RadLex">
+</term>
+<term>
+ <code meaning="peripheral intravenous central catheter" value="RID5581" scheme="RadLex">
+</term>
+<term>
+ <code meaning="thorax" value="RID1243" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T188_15">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T188_16">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T188_23">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+        <title>PICC Insertion</title>
+    </head>
+    <body>
+        <section data-section-name="Procedure">
+            <header class="level1">Procedure</header>
+			<section data-section-name="Technique">
+				<header class="level2">Technique</header>
+				<p>
+				<label for="T188_3">Site:</label>
+				<select id="T188_3" name="Site">
+					<option id="T188_3_4" name="Right arm" value="Right">Right arm</option>
+					<option id="T188_3_5" name="Left arm" value="Left">Left arm</option>
+				</select>
+				<select id="T188_6" name="Vein">
+					<option id="T188_6_7" name="Basilic" value="Basilic">Basilic vein</option>
+					<option id="T188_6_8" name="Brachial" value="Brachial">Brachial vein</option>
+					<option id="T188_6_9" name="Cephalic" value="Cephalic">Cephalic vein</option>
+				</select>
+				</p>
+				<p>
+				<label for="T188_10">Catheter:</label>
+				<select id="T188_10" name="Catheter">
+					<option id="T188_10_11" name="Single" value="Single">Single-lumen</option>
+					<option id="T188_10_12" name="Double" value="Double">Double-lumen</option>
+					<option id="T188_10_13" name="Triple" value="Triple">Triple-lumen</option>
+				</select>
+				</p>
+			</section>
+			<section data-section-name="PICC placement">
+				<header class="level2">PICC placement</header>
+				<p>
+				<textarea id="T188_14" name="PICC placement">Peripherally placed PICC line. The arm was prepped and draped in sterile fashion. Lidocaine 1% was used for local anesthetic. Under fluoroscopic and ultrasound guidance, the vein was patent and accessed with a micropuncture needle. A guide wire was then advanced into the vein. A vascular sheath was then advanced over a guide wire, and a PICC line was trimmed. The PICC line was then advanced into the central venous system. After confirmation of the catheter position, the catheter was sutured in place at the skin entry site.</textarea>
+				</p>
+			</section>
+        </section>
+        <section data-section-name="Clinical information">
+            <header class="level1">Clinical information</header>
+            <p>
+            <textarea id="T188_15" name="Clinical information" ></textarea>
+            </p>
+        </section>
+        <section data-section-name="Comparison">
+            <header class="level1">Comparison</header>
+            <p>
+            <textarea id="T188_16" name="Comparison" value="None" data-codedcontent-default-val="None" data-codedcontent-default-ref="T188_16">None. </textarea>
+            </p>
+        </section>
+        <section data-section-name="Findings">
+            <header class="level1">Findings</header>
+            <p>
+            <label for="T188_19">Position:</label>
+            <input type="text" id="T188_19" name="Position" value="A final placement radiograph demonstrates the tip of the catheter at the junction of SVC and right atrium." />
+			</p>
+			<p>
+            <label for="T188_20">Complications:</label>
+            <input type="text" id="T188_20" name="Complications" value="No immediate complication. " />
+			</p>
+			<p>
+            <label for="T188_22">Fluoroscopy time:</label>
+            <input type="number" id="T188_22" name="Fluoroscopy time" data-field-units="minutes" min="0" max="" step="0.1"/>
+			<label for="T188_22">min</label>
+            </p>
+        </section>
+        <section data-section-name="Impression">
+            <header class="level1">Impression</header>
+            <p>
+            <textarea id="T188_23" name="Impression" >PICC insertion. </textarea>
+            </p>
+        </section>
+    </body>
+</html>

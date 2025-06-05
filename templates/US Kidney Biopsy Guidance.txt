@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="US kidney biopsy guidance" name="dcterms.title"/>
+<meta content="ultrasound kidney biopsy guidance report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000287" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2014-02-12" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>US kidney biopsy guidance</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Ultrasound kidney biopsy guidance</header>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T287_01" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T287_02" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Procedure">
+<header class="level1">Procedure</header>
+<p>
+<label for="T287_03">Ultrasound examination was performed to localize the</label>
+<select id="T287_03" name="Target">
+<option id="T287_04" name="right native" value="right native">native right kidney</option>
+<option id="T287_05" name="left native" value="left native">native left kidney</option>
+<option id="T287_06" name="right transplant" value="right transplant">transplant kidney in the right iliac fossa</option>
+<option id="T287_07" name="left transplant" value="left transplant">transplant kidney in the left iliac fossa</option>
+</select>
+<label for="T287_03">for biopsy by the nephrology service. </label>
+</p>
+<p>    
+<label for="T287_08">Number of biopsy passes:</label>
+<input type="number" id="T287_08" name="Number of passes" value="3" />
+</p>
+<p>
+<label for="T287_09">Complications:</label>
+<textarea id="T287_09" name="Complications">None.  Images obtained after biopsy show no evidence of hematoma, arteriovenous fistula, or other complication.</textarea>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T287_10" name="Impression">Ultrasound guidance for kidney biopsy.</textarea>
+</p>
+</section>
+</body>
+</html>

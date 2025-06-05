@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CT Neck - Primary Hyperparathyroidism (PHPT)</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="f2c62b8b-cc10-4485-87bc-75a31461ccc5" />
+        <meta name="dcterms.title" content="CT Neck - Primary Hyperparathyroidism (PHPT)" />
+        <meta name="dcterms.description" content="Test Description" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="test sponsoring org" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2020-06-02" />
+        <meta name="dcterms.creator" content="Dr Bunch" />
+        <meta name="dcterms.contributor" content="test contibutors" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1588166248247">
+                        <term>
+                            <code meaning="aortic arch" value="http://radlex.org/RID/RID581" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654732_0">
+                        <term>
+                            <code meaning="anterior" value="http://radlex.org/RID/RID5818" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654759">
+                        <term>
+                            <code meaning="density" value="http://radlex.org/RID/RID39166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654759_0">
+                        <term>
+                            <code meaning="hypodense" value="http://radlex.org/RID/RID6042" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654759_1">
+                        <term>
+                            <code meaning="equal density" value="http://radlex.org/RID/RID6043" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654759_2">
+                        <term>
+                            <code meaning="hyperdense" value="http://radlex.org/RID/RID6044" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1588166248206_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1588166248206_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1588166248225">
+                        <term>
+                            <code meaning="attenuation" value="http://radlex.org/RID/RID28662" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1573156496299">
+                        <term>
+                            <code meaning="imaging procedure" value="http://radlex.org/RID/RID13060" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1588166248203_0">
+                        <term>
+                            <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1588166248203_1">
+                        <term>
+                            <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1573159654740">
+                        <term>
+                            <code meaning="morphology" value="http://radlex.org/RID/RID28825" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654728">
+                        <term>
+                            <code meaning="location" value="http://radlex.org/RID/RID39038" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654728_0">
+                        <term>
+                            <code meaning="neck" value="http://radlex.org/RID/RID7488" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654728_1">
+                        <term>
+                            <code meaning="mediastinum" value="http://radlex.org/RID/RID1384" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654766">
+                        <term>
+                            <code meaning="density" value="http://radlex.org/RID/RID39166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654766_0">
+                        <term>
+                            <code meaning="hypodense" value="http://radlex.org/RID/RID6042" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654766_1">
+                        <term>
+                            <code meaning="equal density" value="http://radlex.org/RID/RID6043" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654766_2">
+                        <term>
+                            <code meaning="hyperdense" value="http://radlex.org/RID/RID6044" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="impression" value="http://radlex.org/RID/RID49895" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654741">
+                        <term>
+                            <code meaning="density" value="http://radlex.org/RID/RID39166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654741_0">
+                        <term>
+                            <code meaning="hypodense" value="http://radlex.org/RID/RID6042" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654741_1">
+                        <term>
+                            <code meaning="equal density" value="http://radlex.org/RID/RID6043" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654741_2">
+                        <term>
+                            <code meaning="hyperdense" value="http://radlex.org/RID/RID6044" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformationText">
+                        <term>
+                            <code meaning="indication" value="http://radlex.org/RID/RID49442" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654724">
+                        <term>
+                            <code meaning="laterality" value="http://radlex.org/RID/RID5821" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654724_0">
+                        <term>
+                            <code meaning="right" value="http://radlex.org/RID/RID5825" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654724_1">
+                        <term>
+                            <code meaning="left" value="http://radlex.org/RID/RID5824" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1573159654724_2">
+                        <term>
+                            <code meaning="midline" value="http://radlex.org/RID/RID5826" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1588166248212">
+                        <term>
+                            <code meaning="lesion" value="http://radlex.org/RID/RID38780" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findingsText">
+                        <term>
+                            <code meaning="thyroid gland" value="http://radlex.org/RID/RID7578" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1588166248211">
+                        <term>
+                            <code meaning="lesion" value="http://radlex.org/RID/RID38780" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1586887921657">
+                        <term>
+                            <code meaning="parathyroid gland" value="http://radlex.org/RID/RID7587" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1573159654731">
+                        <term>
+                            <code meaning="location" value="http://radlex.org/RID/RID39038" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1573159654753">
+                        <term>
+                            <code meaning="lesion" value="http://radlex.org/RID/RID38780" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="TEXT_1573156496299">Exam</label>
+                <textarea rows="3" cols="100" id="TEXT_1573156496299" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">CT neck without and with contrast</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1573156496300">Technique</label>
+                <textarea rows="3" cols="100" id="TEXT_1573156496300" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">CT images of the neck were obtained without and with intravenous contrast.</textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="clinicalInformationText">Indication</label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Primary hyperparathyroidism</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="findingsText">Thyroid</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The thyroid gland is normal in size and morphology with homogeneous attenuation.</textarea>
+            </p>
+            <section id="SECTION_HEADER_1586887921657" class="level2" data-section-name="PARATHYROID:">
+                <header class="level2">
+                    PARATHYROID:
+                </header>
+            </section>
+            <p title="">
+                <label for="NUMBER_1572636688873">Total number of candidate parathyroid lesions</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="" id="NUMBER_1572636688873" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="1" />
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1588166248203">Ectopic parathyroid tissue</label>
+                <span id="RADIO_1588166248203" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1588166248203_0" type="radio" name="RADIO_1588166248203" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1588166248203_1" type="radio" name="RADIO_1588166248203" value="absent">absent</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1588166248206">Supernumerary parathyroid tissue</label>
+                <span id="RADIO_1588166248206" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1588166248206_0" type="radio" name="RADIO_1588166248206" value="present" checked="">present</input>
+                    <br />
+                    <input id="RADIO_1588166248206_1" type="radio" name="RADIO_1588166248206" value="absent">absent</input>
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1588166248211" class="level2" data-section-name="LESION DESCRIPTION: (Repeat below steps as needed for number of candidate lesions described. Provide applicable measurements.)">
+                <header class="level2">
+                    LESION DESCRIPTION: (Repeat below steps as needed for number of candidate lesions described. Provide applicable measurements.)
+                </header>
+            </section>
+            <p title="">
+                <label for="NUMBER_1588166248212">Candidate lesion number</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="" id="NUMBER_1588166248212" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="1" />
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1573233958984">Candidate lesion size largest dimension</label>
+                <span>
+                    <input type="number" step="0.0" data-field-units="mm" id="NUMBER_1573233958984" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1588606853291">Candidate lesion size height</label>
+                <span>
+                    <input type="number" step="0.0" data-field-units="mm" id="NUMBER_1588606853291" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1588606853292">Candidate lesion size length</label>
+                <span>
+                    <input type="number" step="0.0" data-field-units="mm" id="NUMBER_1588606853292" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1588606853293">Candidate lesion size width</label>
+                <span>
+                    <input type="number" step="0.0" data-field-units="mm" id="NUMBER_1588606853293" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1573159654724">Laterality</label>
+                <span id="RADIO_1573159654724" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1573159654724_0" type="radio" name="RADIO_1573159654724" value="right" checked="">right</input>
+                    <br />
+                    <input id="RADIO_1573159654724_1" type="radio" name="RADIO_1573159654724" value="left">left</input>
+                    <br />
+                    <input id="RADIO_1573159654724_2" type="radio" name="RADIO_1573159654724" value="midline">midline</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1573159654728">Location</label>
+                <span id="RADIO_1573159654728" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1573159654728_0" type="radio" name="RADIO_1573159654728" value="neck" checked="">neck</input>
+                    <br />
+                    <input id="RADIO_1573159654728_1" type="radio" name="RADIO_1573159654728" value="mediastinum">mediastinum</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1573159654732">Anterior posterior (AP) position relative to the tracheoesophageal groove</label>
+                <span id="RADIO_1573159654732" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1573159654732_0" type="radio" name="RADIO_1573159654732" value="anterior to" checked="">anterior to</input>
+                    <br />
+                    <input id="RADIO_1573159654732_1" type="radio" name="RADIO_1573159654732" value="posterior to">posterior to</input>
+                    <br />
+                    <input id="RADIO_1573159654732_2" type="radio" name="RADIO_1573159654732" value="within">within</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1573159654736">Superior inferior (SI) position relative to the cricoid cartilage</label>
+                <span id="RADIO_1573159654736" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1573159654736_0" type="radio" name="RADIO_1573159654736" value="above" checked="">above</input>
+                    <br />
+                    <input id="RADIO_1573159654736_1" type="radio" name="RADIO_1573159654736" value="below">below</input>
+                    <br />
+                    <input id="RADIO_1573159654736_2" type="radio" name="RADIO_1573159654736" value="at">at</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1573159654731">Additional location description</label>
+                <textarea rows="3" cols="100" id="TEXT_1573159654731" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Optional additional location description (e.g. along the inferior aspect of the right thyroid lobe)</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1573159654740">Morphology</label>
+                <textarea rows="3" cols="100" id="TEXT_1573159654740" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <section id="SECTION_HEADER_1588166248225" class="level2" data-section-name="ATTENUATION RELATIVE TO NORMAL THYROID PARENCHYMA:">
+                <header class="level2">
+                    ATTENUATION RELATIVE TO NORMAL THYROID PARENCHYMA:
+                </header>
+            </section>
+            <p title="">
+                <label for="RADIO_1573159654741">Noncontrast density</label>
+                <span id="RADIO_1573159654741" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1573159654741_0" type="radio" name="RADIO_1573159654741" value="hypodense" checked="">hypodense</input>
+                    <br />
+                    <input id="RADIO_1573159654741_1" type="radio" name="RADIO_1573159654741" value="isodense">isodense</input>
+                    <br />
+                    <input id="RADIO_1573159654741_2" type="radio" name="RADIO_1573159654741" value="hyperdense">hyperdense</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1573159654759">Arterial phase density</label>
+                <span id="RADIO_1573159654759" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1573159654759_0" type="radio" name="RADIO_1573159654759" value="hypodense" checked="">hypodense</input>
+                    <br />
+                    <input id="RADIO_1573159654759_1" type="radio" name="RADIO_1573159654759" value="isodense">isodense</input>
+                    <br />
+                    <input id="RADIO_1573159654759_2" type="radio" name="RADIO_1573159654759" value="hyperdense">hyperdense</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1573159654766">Venous phase density</label>
+                <span id="RADIO_1573159654766" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1573159654766_0" type="radio" name="RADIO_1573159654766" value="hypodense" checked="">hypodense</input>
+                    <br />
+                    <input id="RADIO_1573159654766_1" type="radio" name="RADIO_1573159654766" value="isodense">isodense</input>
+                    <br />
+                    <input id="RADIO_1573159654766_2" type="radio" name="RADIO_1573159654766" value="hyperdense">hyperdense</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1573159654753">Additional lesion characteristics</label>
+                <textarea rows="3" cols="100" id="TEXT_1573159654753" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Optional additional lesion characteristics (e.g. polar vessel, cystic/fatty foci, calcification)</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1573159654755">Candidate lesion most likely represents</label>
+                <textarea rows="3" cols="100" id="TEXT_1573159654755" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Parathyroid adenoma</textarea>
+            </p>
+            <section id="SECTION_HEADER_1588166248238" class="level2" data-section-name="ADDITIONAL:">
+                <header class="level2">
+                    ADDITIONAL:
+                </header>
+            </section>
+            <p title="">
+                <label for="TEXT_1588166248247">Aortic arch</label>
+                <textarea rows="3" cols="100" id="TEXT_1588166248247" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">There is no aortic arch anomaly associated with a nonrecurrent laryngeal nerve.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1573159654756">Other findings</label>
+                <textarea rows="3" cols="100" id="TEXT_1573159654756" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

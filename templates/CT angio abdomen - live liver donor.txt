@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CT Body Liver</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="97cbc41d-6f08-4f30-8cb5-fc0e3fb44588" />
+        <meta name="dcterms.title" content="CT Body Liver" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="Medical College of Wisconsin" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2016-05-26" />
+        <meta name="dcterms.creator" content="" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="SELECTION_LIST_1463544191587_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191587_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1463544191555">
+                        <term>
+                            <code meaning="liver parenchyma" value="RID49459" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="impression section" value="RID13170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1463544191631">
+                        <term>
+                            <code meaning="vasculature" value="RID15989" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191540">
+                        <term>
+                            <code meaning="oral contrast" value="RID35817" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisonsText">
+                        <term>
+                            <code meaning="comparison" value="RID28483" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191582">
+                        <term>
+                            <code meaning="atherosclerosis" value="RID39049" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191582_0">
+                        <term>
+                            <code meaning="present" value="RID28472" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191582_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformationText">
+                        <term>
+                            <code meaning="clinical information" value="RID13166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1463544191628">
+                        <term>
+                            <code meaning="kidney" value="RID205" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1463544191629">
+                        <term>
+                            <code meaning="gastrointestinal tract" value="RID94" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1463544191626">
+                        <term>
+                            <code meaning="spleen" value="RID86" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1463544191627">
+                        <term>
+                            <code meaning="set of adrenal glands" value="RID28752" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1463544191625">
+                        <term>
+                            <code meaning="pancreas" value="RID170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191572_0">
+                        <term>
+                            <code meaning="right hepatic artery" value="RID918" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191572_1">
+                        <term>
+                            <code meaning="left hepatic artery" value="RID916" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191561_0">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191606_0">
+                        <term>
+                            <code meaning="none" value="RID28454" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1463544191581">
+                        <term>
+                            <code meaning="vascular disease" value="RID46041" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1463544191592_0">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1463544191529">Examination:</label>
+                <select id="SELECTION_LIST_1463544191529" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="CT angiography abdomen with IV contrast and postprocess imaging.">
+                    <option id="SELECTION_LIST_1463544191529_0" value="CT angiography abdomen with IV contrast and postprocess imaging." name="SELECTION_LIST_1463544191529" selected="">CT angiography abdomen with IV contrast and postprocess imaging.</option>
+                    <option id="SELECTION_LIST_1463544191529_1" value="CT abdomen with IV and oral contrast." name="SELECTION_LIST_1463544191529">CT abdomen with IV and oral contrast.</option>
+                </select>
+            </p>
+            <section id="SECTION_HEADER_1463544191532" class="level2" data-section-name="Technique:">
+                <header class="level2">
+                    Technique:
+                </header>
+                <p title="">
+                    <label for="NUMBER_1463544191535">IV contrast:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mL" id="NUMBER_1463544191535" name="" data-field-type="NUMBER" data-field-completion-action="ALERT" value="125" />
+                        mL
+                    </span>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191536"></label>
+                    <select id="SELECTION_LIST_1463544191536" name="" data-field-type="SELECTION_LIST" data-field-completion-action="ALERT" value="Omnipaque 350">
+                        <option id="SELECTION_LIST_1463544191536_0" value="Omnipaque 350" name="SELECTION_LIST_1463544191536" selected="">Omnipaque 350</option>
+                        <option id="SELECTION_LIST_1463544191536_1" value="Visipaque 320" name="SELECTION_LIST_1463544191536">Visipaque 320</option>
+                        <option id="SELECTION_LIST_1463544191536_2" value="Isovue 370" name="SELECTION_LIST_1463544191536">Isovue 370</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191540">Oral contrast:</label>
+                    <select id="SELECTION_LIST_1463544191540" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="None.">
+                        <option id="SELECTION_LIST_1463544191540_0" value="None." name="SELECTION_LIST_1463544191540" selected="">None.</option>
+                        <option id="SELECTION_LIST_1463544191540_1" value="Oral contrast was given." name="SELECTION_LIST_1463544191540">Oral contrast was given.</option>
+                        <option id="SELECTION_LIST_1463544191540_2" value="Water was given as enteric contrast." name="SELECTION_LIST_1463544191540">Water was given as enteric contrast.</option>
+                        <option id="SELECTION_LIST_1463544191540_3" value="VoLumen was given as enteric contrast." name="SELECTION_LIST_1463544191540">VoLumen was given as enteric contrast.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191545">Technique comments:</label>
+                    <select id="SELECTION_LIST_1463544191545" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Standard technique.">
+                        <option id="SELECTION_LIST_1463544191545_0" value="Standard technique." name="SELECTION_LIST_1463544191545" selected="">Standard technique.</option>
+                        <option id="SELECTION_LIST_1463544191545_1" value="Dual-energy technique, with monochromatic and material-decomposition images." name="SELECTION_LIST_1463544191545">Dual-energy technique, with monochromatic and material-decomposition images.</option>
+                        <option id="SELECTION_LIST_1463544191545_2" value="Dual-phase imaging of the abdomen" name="SELECTION_LIST_1463544191545">Dual-phase imaging of the abdomen</option>
+                        <option id="SELECTION_LIST_1463544191545_3" value="Dual-phase with equilibrium imaging of the abdomen." name="SELECTION_LIST_1463544191545">Dual-phase with equilibrium imaging of the abdomen.</option>
+                        <option id="SELECTION_LIST_1463544191545_4" value="CT angiography through the abdomen, with image acquisitions in the early arterial, late arterial, and hepatic venous phases. Multiple reformatted images were created by the 3D lab." name="SELECTION_LIST_1463544191545">CT angiography through the abdomen, with image acquisitions in the early arterial, late arterial, and hepatic venous phases. Multiple reformatted images were created by the 3D lab.</option>
+                    </select>
+                </p>
+            </section>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="clinicalInformationText">Clinical Information:</label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT">Potential live liver donor. Examination for presurgical planning.</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText">Comparison:</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT">None.</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="TEXT_1463544191551">Findings:</label>
+                <input type="text" id="TEXT_1463544191551" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <section id="SECTION_HEADER_1463544191555" class="level2" data-section-name="Liver parenchyma:">
+                <header class="level2">
+                    Liver parenchyma:
+                </header>
+                <p title="">
+                    <label for="TEXT_1463544191556"></label>
+                    <input type="text" id="TEXT_1463544191556" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="No focal liver lesion." />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1463544191557" class="level2" data-section-name="Hepatic Arterial System:">
+                <header class="level2">
+                    Hepatic Arterial System:
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191561">Arterial anatomy:</label>
+                    <select id="SELECTION_LIST_1463544191561" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Normal (Type II).">
+                        <option id="SELECTION_LIST_1463544191561_0" value="Normal (Type II)." name="SELECTION_LIST_1463544191561" selected="">Normal (Type II).</option>
+                        <option id="SELECTION_LIST_1463544191561_1" value="Right hepatic artery replaced to SMA." name="SELECTION_LIST_1463544191561">Right hepatic artery replaced to SMA.</option>
+                        <option id="SELECTION_LIST_1463544191561_2" value="Hepatic artery completely replaced to SMA." name="SELECTION_LIST_1463544191561">Hepatic artery completely replaced to SMA.</option>
+                        <option id="SELECTION_LIST_1463544191561_3" value="Accessory right hepatic artery." name="SELECTION_LIST_1463544191561">Accessory right hepatic artery.</option>
+                        <option id="SELECTION_LIST_1463544191561_4" value="Accessory left hepatic artery." name="SELECTION_LIST_1463544191561">Accessory left hepatic artery.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191572">Origin of the middle hepatic artery (i.e. segment 4 hepatic artery):</label>
+                    <select id="SELECTION_LIST_1463544191572" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Right hepatic artery.">
+                        <option id="SELECTION_LIST_1463544191572_0" value="Right hepatic artery." name="SELECTION_LIST_1463544191572" selected="">Right hepatic artery.</option>
+                        <option id="SELECTION_LIST_1463544191572_1" value="Left hepatic artery." name="SELECTION_LIST_1463544191572">Left hepatic artery.</option>
+                        <option id="SELECTION_LIST_1463544191572_2" value="Both right and left hepatic arteries." name="SELECTION_LIST_1463544191572">Both right and left hepatic arteries.</option>
+                        <option id="SELECTION_LIST_1463544191572_3" value="Unidentifiable." name="SELECTION_LIST_1463544191572">Unidentifiable.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1463544191577">Diameter of the right hepatic artery at origin:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1463544191577" name="" data-field-type="NUMBER" data-field-completion-action="ALERT" value="" />
+                        mm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1463544191578">Diameter of the right heaptic artery at the level of branching into the middle hepatic artery:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1463544191578" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        mm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1463544191579">Diameter of the left hepatic artery at origin:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1463544191579" name="" data-field-type="NUMBER" data-field-completion-action="PROHIBIT" value="" />
+                        mm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1463544191580">Diameter of the left hepatic artery at the level of the branching into middle hepatic artery:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1463544191580" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        mm
+                    </span>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1463544191581" class="level2" data-section-name="Vascular disease:">
+                <header class="level2">
+                    Vascular disease:
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191582">Atherosclerosis:</label>
+                    <select id="SELECTION_LIST_1463544191582" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Present.">
+                        <option id="SELECTION_LIST_1463544191582_0" value="Present." name="SELECTION_LIST_1463544191582" selected="">Present.</option>
+                        <option id="SELECTION_LIST_1463544191582_1" value="Absent." name="SELECTION_LIST_1463544191582">Absent.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191587">Celiac artery compression by the median arcuate ligament:</label>
+                    <select id="SELECTION_LIST_1463544191587" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Present.">
+                        <option id="SELECTION_LIST_1463544191587_0" value="Present." name="SELECTION_LIST_1463544191587" selected="">Present.</option>
+                        <option id="SELECTION_LIST_1463544191587_1" value="Absent." name="SELECTION_LIST_1463544191587">Absent.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="TEXT_1463544191590">Other:</label>
+                    <input type="text" id="TEXT_1463544191590" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="None." />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1463544191591" class="level2" data-section-name="Portal Venous System:">
+                <header class="level2">
+                    Portal Venous System:
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191592">Portal Vein System:</label>
+                    <select id="SELECTION_LIST_1463544191592" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Normal.">
+                        <option id="SELECTION_LIST_1463544191592_0" value="Normal." name="SELECTION_LIST_1463544191592" selected="">Normal.</option>
+                        <option id="SELECTION_LIST_1463544191592_1" value="Trifurcation (right anterior, right posterior, and left portal veins)." name="SELECTION_LIST_1463544191592">Trifurcation (right anterior, right posterior, and left portal veins).</option>
+                        <option id="SELECTION_LIST_1463544191592_2" value="Right anterior portal vein arises from left portal vein." name="SELECTION_LIST_1463544191592">Right anterior portal vein arises from left portal vein.</option>
+                        <option id="SELECTION_LIST_1463544191592_3" value="Segment 4 portal vein arises from right anterior vein." name="SELECTION_LIST_1463544191592">Segment 4 portal vein arises from right anterior vein.</option>
+                        <option id="SELECTION_LIST_1463544191592_4" value="Right anterior portal vein arises from segment 4 portal vein." name="SELECTION_LIST_1463544191592">Right anterior portal vein arises from segment 4 portal vein.</option>
+                        <option id="SELECTION_LIST_1463544191592_5" value="Absence of main bifurcation, with main left portal vein arising from the right anterior portal vein." name="SELECTION_LIST_1463544191592">Absence of main bifurcation, with main left portal vein arising from the right anterior portal vein.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="TEXT_1463544191600">Portal and mesenteric vein patency:</label>
+                    <input type="text" id="TEXT_1463544191600" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="Normally patent." />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1463544191601" class="level2" data-section-name="Hepatic Venous System:">
+                <header class="level2">
+                    Hepatic Venous System:
+                </header>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191603">Presence of an accessory right hepatic vein, also known as right inferior hepatic or short hepatic vein (larger than 5 mm in diameter):</label>
+                    <select id="SELECTION_LIST_1463544191603" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="Please describe nature of accessory right hepatic vein.">
+                        <option id="SELECTION_LIST_1463544191603_0" value="Please describe nature of accessory right hepatic vein." name="SELECTION_LIST_1463544191603" selected="">Please describe nature of accessory right hepatic vein.</option>
+                        <option id="SELECTION_LIST_1463544191603_1" value="Absent." name="SELECTION_LIST_1463544191603">Absent.</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191606">Anterior sector (segment 5/8) hepatic veins draining into the middle hepatic vein greater than 5 mm in diameter:</label>
+                    <input list="SELECTION_LIST_1463544191606_LIST" id="SELECTION_LIST_1463544191606" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="None- None." />
+                    <datalist id="SELECTION_LIST_1463544191606_LIST">
+                        <option id="SELECTION_LIST_1463544191606_0" value="None- None." name="SELECTION_LIST_1463544191606" selected="">None- None.</option>
+                        <option id="SELECTION_LIST_1463544191606_1" value="Segment 5 and 8- Segment 5 and 8." name="SELECTION_LIST_1463544191606">Segment 5 and 8- Segment 5 and 8.</option>
+                        <option id="SELECTION_LIST_1463544191606_2" value="Other- Other (specify)" name="SELECTION_LIST_1463544191606">Other- Other (specify)</option>
+                        <option id="SELECTION_LIST_1463544191606_3" value="Segment 5- Segment 5 only." name="SELECTION_LIST_1463544191606">Segment 5- Segment 5 only.</option>
+                        <option id="SELECTION_LIST_1463544191606_4" value="Segment 8- Segment 8 only." name="SELECTION_LIST_1463544191606">Segment 8- Segment 8 only.</option>
+                    </datalist>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1463544191612">Presence of significant (greater than 5 mm in diameter) accessory vein in between the middle hepatic and left hepatic veins: </label>
+                    <select id="SELECTION_LIST_1463544191612" name="" data-field-type="SELECTION_LIST" data-field-completion-action="PROHIBIT" value="No- No.">
+                        <option id="SELECTION_LIST_1463544191612_0" value="No- No." name="SELECTION_LIST_1463544191612" selected="">No- No.</option>
+                        <option id="SELECTION_LIST_1463544191612_1" value="Yes- Yes." name="SELECTION_LIST_1463544191612">Yes- Yes.</option>
+                    </select>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1463544191615" class="level2" data-section-name="Bilary System:">
+                <header class="level2">
+                    Bilary System:
+                </header>
+                <p title="">
+                    <label for="TEXT_1463544191616"></label>
+                    <input type="text" id="TEXT_1463544191616" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="Please see accompanying MRI report for biliary anatomy detail. No biliary dilatation seen." />
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1463544191617" class="level2" data-section-name="Liver Volumes and Size:">
+                <header class="level2">
+                    Liver Volumes and Size:
+                </header>
+                <p title="">
+                    <label for="NUMBER_1463544191618">Total liver volume:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mL" id="NUMBER_1463544191618" name="" data-field-type="NUMBER" data-field-completion-action="PROHIBIT" value="" />
+                        mL
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1463544191619">Right liver volume (Please indicate segments which were included in this measurement):</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mL" id="NUMBER_1463544191619" name="" data-field-type="NUMBER" data-field-completion-action="PROHIBIT" value="" />
+                        mL
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1463544191620">Left lateral segment volume (Please indicate segments which were included in this measurement):</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mL" id="NUMBER_1463544191620" name="" data-field-type="NUMBER" data-field-completion-action="PROHIBIT" value="" />
+                        mL
+                    </span>
+                </p>
+                <section id="SECTION_HEADER_1463544191623" class="level2" data-section-name="AP distance:">
+                    <header class="level2">
+                        AP distance:
+                    </header>
+                </section>
+                <p title="">
+                    <label for="NUMBER_1463544191622">Left lateral segment (segments 2/3):</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1463544191622" name="" data-field-type="NUMBER" data-field-completion-action="PROHIBIT" value="" />
+                        cm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1463544191624">Right hepatic lobe (segments 5/6/7/8):</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1463544191624" name="" data-field-type="NUMBER" data-field-completion-action="PROHIBIT" value="" />
+                        cm
+                    </span>
+                </p>
+            </section>
+            <p title="">
+                <label for="TEXT_1463544191625">Pancreas:</label>
+                <input type="text" id="TEXT_1463544191625" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="Normal." />
+            </p>
+            <p title="">
+                <label for="TEXT_1463544191626">Spleen:</label>
+                <input type="text" id="TEXT_1463544191626" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="" />
+            </p>
+            <p title="">
+                <label for="TEXT_1463544191627">Adrenal Glands:</label>
+                <input type="text" id="TEXT_1463544191627" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="" />
+            </p>
+            <p title="">
+                <label for="TEXT_1463544191628">Kidneys:</label>
+                <input type="text" id="TEXT_1463544191628" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="Normal." />
+            </p>
+            <p title="">
+                <label for="TEXT_1463544191629">Gastrointestinal:</label>
+                <input type="text" id="TEXT_1463544191629" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="Imaged bowel and mesentery are normal." />
+            </p>
+            <p title="">
+                <label for="TEXT_1463544191630">Free Fluid/Air:</label>
+                <input type="text" id="TEXT_1463544191630" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="None." />
+            </p>
+            <p title="">
+                <label for="TEXT_1463544191631">Vasculature:</label>
+                <input type="text" id="TEXT_1463544191631" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="Visceral arteries and portal venous system are normally patent." />
+            </p>
+            <p title="">
+                <label for="TEXT_1463544191632">Lymph Nodes:</label>
+                <input type="text" id="TEXT_1463544191632" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="No abdominal retroperitoneal or mesenteric lymphadenopathy." />
+            </p>
+            <p title="">
+                <label for="TEXT_1463544191633">Bones:</label>
+                <input type="text" id="TEXT_1463544191633" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT" value="No significant lesion." />
+            </p>
+            <p title="">
+                <label for="TEXT_1464273703915">Other:</label>
+                <input type="text" id="TEXT_1464273703915" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText">Impression:</label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXT" data-field-completion-action="PROHIBIT">Live liver donor mapping with measurements, as described in the text of the report.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1464273703916"></label>
+                <input type="text" id="TEXT_1464273703916" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+        </section>
+    </body>
+</html>

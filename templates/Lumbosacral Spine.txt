@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head><meta content="NIKOLAOS EFTHYMIADIS [translator]" name="dcterms.contributor"/>
+<meta charset="UTF-8"/>
+<meta content="Lumbosacral Spine" name="dcterms.title"/>
+<meta content="Lumbosacral Spine template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+<meta content="http://open.radreport.org/template/0050299" name="dcterms.identifier"/>
+<meta content="el" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2017-11-30" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Lumbosacral Spine</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1" data-english="Lumbosacral Spine">Οσφυοϊερά μοίρα της σπονδυλικής στήλης</header>
+<p>
+<label for="T223_2" data-english="Number of views:">Αριθμός προβολών:</label>
+<input type="number" id="T223_2" name="Αριθμός προβολών" data-field-units="views" min="1" max="8" data-english-name="Number of views"/> προβολές </p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1" data-english="Clinical information">Κλινικές πληροφορίες</header>
+<p>
+<textarea id="T223_3" name="Κλινικές πληροφορίες" data-english-name="Clinical information" data-english-innertext=" "></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1" data-english="Comparison">Σύγκριση</header>
+<p>
+<textarea id="T223_4" name="Σύγκριση" data-english-name="Comparison" data-english-innertext="None. ">Καμία</textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1" data-english="Findings">Ευρήματα</header>
+<p>
+<textarea id="T223_6" name="Ευρήματα" data-english-name="Findings" data-english-innertext="The alignment, development and bony structures are normal. There is no fracture or destructive lesion. The disk spaces are well-preserved. The sacrum and sacroiliac joints are normal.">Η ευθυγράμμιση, η ανάπτυξη και οι οστικές δομές είναι φυσιολογικές. Δεν υπάρχει κάταγμα ή καταστροφική βλάβη. Τα μεσοσπονδύλια διαστήματα είναι καλά διατηρημένα. Το ιερό οστό και οι ιερολάγόνιες αρθρώσεις είναι φυσιολογικές.</textarea>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1" data-english="Impression">Εντύπωση</header>
+<p>
+<textarea id="T223_8" name="Εντύπωση" data-english-name="Impression" data-english-innertext="Negative lumbosacral spine. ">Αρνητική οσφυϊκή μοίρα της σπονδυλικής στήλης.</textarea>
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MR or CT Enterography 1.0</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="9f1f6e2e-dd0f-4b6b-9343-5f76c46ef705" />
+        <meta name="dcterms.title" content="MR or CT Enterography 1.0" />
+        <meta name="dcterms.description" content="This MR or CT enterography structured report template was created by members of the Society of Abdominal Radiology Crohn's disease-focused panel. Instructions for using this template are included throughout the document. For additional instructions, hover the mouse over the Crohn's disease related sections in the &quot;Findings&quot; section. The purpose of this template is to provide a framework for reporting MR and CT enterography in patients with Crohn&acirc;&Acirc;&Acirc;s disease. This template should be modified to comply with individual institutional requirements. " />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="SAR Crohn's Disease-Focused Panel" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2020-01-16" />
+        <meta name="dcterms.creator" content="Flavius F. Guglielmo, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="RADIO_1572484216316">Exam:</label>
+                <span id="RADIO_1572484216316" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1572484216316_0" type="radio" name="RADIO_1572484216316" value="MR Enterography" checked="">MR Enterography</input>
+                    <br />
+                    <input id="RADIO_1572484216316_1" type="radio" name="RADIO_1572484216316" value="CT Enterography">CT Enterography</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="RADIO_1572484216321">Technique:</label>
+                <span id="RADIO_1572484216321" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1572484216321_0" type="radio" name="RADIO_1572484216321" value="Contrast Enhanced MR Enterography" checked="">Contrast Enhanced MR Enterography</input>
+                    <br />
+                    <input id="RADIO_1572484216321_1" type="radio" name="RADIO_1572484216321" value="Contrast Enhanced CT Enterography">Contrast Enhanced CT Enterography</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1572227404909">IV Contrast Material (agent and volume administered):</label>
+                <input type="text" id="TEXT_1572227404909" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <p title="">
+                <label for="TEXT_1572227404910">Oral Contrast Material (name and amount administered)</label>
+                <input type="text" id="TEXT_1572227404910" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <p title="Delete this sentence if an antiperistaltic agent was not administered.">
+                <label for="TEXT_1572227404911">Antiperistaltic Agent (agent, route and dose administered)</label>
+                <input type="text" id="TEXT_1572227404911" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <p title="Delete this sentence for CT enterography">
+                <label for="NUMBER_1571885071567">Magnet Strength:</label>
+                <span>
+                    <input type="number" step="0.1" data-field-units="Tesla" id="NUMBER_1571885071567" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="1.5" />
+                    Tesla
+                </span>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="clinicalInformationText"></label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Rule out inflammatory bowel disease</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <input type="text" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="None" />
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <section id="SECTION_HEADER_1579014383889" class="level2" data-section-name="There is no bowel wall thickening, abnormal bowel wall enhancement, or evidence of obstruction. (INSTRUCTIONS: If there are abnormal bowel segments, delete this sentence.)">
+                <header class="level2">
+                    There is no bowel wall thickening, abnormal bowel wall enhancement, or evidence of obstruction. (INSTRUCTIONS: If there are abnormal bowel segments, delete this sentence.)
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1579111956053" class="level2" data-section-name="_________________________________________________________________________________________________________________________________">
+                <header class="level2">
+                    _________________________________________________________________________________________________________________________________
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488887" class="level2" data-section-name="INSTRUCTIONS FOR CREATING A REPORT FOR ABNORMAL BOWEL SEGMENTS:">
+                <header class="level2">
+                    INSTRUCTIONS FOR CREATING A REPORT FOR ABNORMAL BOWEL SEGMENTS:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488888" class="level2" data-section-name="Combine sections 1 - 8 below to create sentences describing the findings for bowel segments in each disease category (i.e. &quot;active inflammation without luminal narrowing&quot; or &quot;stricture with active inflammation&quot;). If there is more than 1 abnormal bowel segment with the same disease category, list the findings in detail, the location and length of the most severely involved segment and provide the number of similar abnormal bowel segments. Repeat for each bowel segment that has a different disease category. Alternatively, if there is more than one abnormal bowel segment with the same disease category, each abnormal segment can be described in detail, rather than just the most severely abnormal segment. After describing the abnormal bowel segments, compare to prior studies. If there are no abnormal bowel segments, delete sections 1 - 8 below.">
+                <header class="level2">
+                    Combine sections 1 - 8 below to create sentences describing the findings for bowel segments in each disease category (i.e. &quot;active inflammation without luminal narrowing&quot; or &quot;stricture with active inflammation&quot;). If there is more than 1 abnormal bowel segment with the same disease category, list the findings in detail, the location and length of the most severely involved segment and provide the number of similar abnormal bowel segments. Repeat for each bowel segment that has a different disease category. Alternatively, if there is more than one abnormal bowel segment with the same disease category, each abnormal segment can be described in detail, rather than just the most severely abnormal segment. After describing the abnormal bowel segments, compare to prior studies. If there are no abnormal bowel segments, delete sections 1 - 8 below.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488884" class="level2" data-section-name="_________________________________________________________________________________________________________________________________">
+                <header class="level2">
+                    _________________________________________________________________________________________________________________________________
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488889" class="level2" data-section-name="SAMPLE REPORT 1:">
+                <header class="level2">
+                    SAMPLE REPORT 1:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488881" class="level2" data-section-name="There is moderate wall thickening with stratified hyperenhancement, intramural edema, restricted diffusion and luminal narrowing involving a 12 cm long segment of the distal and terminal ileum consistent with active inflammation with luminal narrowing.">
+                <header class="level2">
+                    There is moderate wall thickening with stratified hyperenhancement, intramural edema, restricted diffusion and luminal narrowing involving a 12 cm long segment of the distal and terminal ileum consistent with active inflammation with luminal narrowing.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279103" class="level2" data-section-name="_________________________________________________________________________________________________________________________________">
+                <header class="level2">
+                    _________________________________________________________________________________________________________________________________
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279101" class="level2" data-section-name="SAMPLE REPORT 2:">
+                <header class="level2">
+                    SAMPLE REPORT 2:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279105" class="level2" data-section-name="There are multiple (5) segments of active inflammation without luminal narrowing in the jejunum and ileum. The most severe segment is in the mid ileum measuring 4 cm in length and shows asymmetric mural hyperenhancement, mild wall thickening, intramural edema and restricted diffusion. These segments are improved compared to the prior study.">
+                <header class="level2">
+                    There are multiple (5) segments of active inflammation without luminal narrowing in the jejunum and ileum. The most severe segment is in the mid ileum measuring 4 cm in length and shows asymmetric mural hyperenhancement, mild wall thickening, intramural edema and restricted diffusion. These segments are improved compared to the prior study.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488891" class="level2" data-section-name="_________________________________________________________________________________________________________________________________">
+                <header class="level2">
+                    _________________________________________________________________________________________________________________________________
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279100" class="level2" data-section-name="SAMPLE REPORT 3:">
+                <header class="level2">
+                    SAMPLE REPORT 3:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279104" class="level2" data-section-name="There are multiple (3) segments of stricture with active inflammation in the ileum. The most severe segment is in the distal ileum measuring 5 cm in length and shows stratified mural hyperenhancement, moderate wall thickening, mild upstream dilation, intramural edema, restricted diffusion and decreased motility and has an associated enterocolic fistula to the sigmoid colon. These segments are without significant change compare to the prior study.">
+                <header class="level2">
+                    There are multiple (3) segments of stricture with active inflammation in the ileum. The most severe segment is in the distal ileum measuring 5 cm in length and shows stratified mural hyperenhancement, moderate wall thickening, mild upstream dilation, intramural edema, restricted diffusion and decreased motility and has an associated enterocolic fistula to the sigmoid colon. These segments are without significant change compare to the prior study.
+                </header>
+            </section>
+            <p title="If there are no abnormal bowel segments, delete sections 1 through 8.">
+                <label for="SELECTION_LIST_1574648069466">1. Abnormal Bowel Segment</label>
+                <select id="SELECTION_LIST_1574648069466" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Nonspecific small bowel inflammation.">
+                    <option id="SELECTION_LIST_1574648069466_0" value="Nonspecific small bowel inflammation." name="SELECTION_LIST_1574648069466" selected="">Nonspecific small bowel inflammation.</option>
+                    <option id="SELECTION_LIST_1574648069466_1" value="Active inflammatory small bowel Crohn's Disease without luminal narrowing." name="SELECTION_LIST_1574648069466">Active inflammatory small bowel Crohn's Disease without luminal narrowing.</option>
+                    <option id="SELECTION_LIST_1574648069466_2" value="Active inflammatory small bowel Crohn's Disease with luminal narrowing." name="SELECTION_LIST_1574648069466">Active inflammatory small bowel Crohn's Disease with luminal narrowing.</option>
+                    <option id="SELECTION_LIST_1574648069466_3" value="Crohn's Disease with no imaging signs of active inflammation." name="SELECTION_LIST_1574648069466">Crohn's Disease with no imaging signs of active inflammation.</option>
+                    <option id="SELECTION_LIST_1574648069466_4" value="Stricture with imaging findings of active inflammation." name="SELECTION_LIST_1574648069466">Stricture with imaging findings of active inflammation.</option>
+                    <option id="SELECTION_LIST_1574648069466_5" value="Stricture without imaging findings of active inflammation." name="SELECTION_LIST_1574648069466">Stricture without imaging findings of active inflammation.</option>
+                </select>
+            </p>
+            <p title="If there are no abnormal bowel segments, delete this paragraph.">
+                <label for="TEXT_1571885071592">2. Bowel segment location and length of involvement</label>
+                <input type="text" id="TEXT_1571885071592" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+            <p title="If there are no abnormal bowel segments, delete this paragraph.">
+                <label for="CHECKBOX_1571885071587">3. Bowel wall segmental mural hyperenhancement</label>
+                <span id="CHECKBOX_1571885071587" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1571885071587_0" type="checkbox" name="CHECKBOX_1571885071587" value="None">None</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071587_1" type="checkbox" name="CHECKBOX_1571885071587" value="Asymmetric">Asymmetric</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071587_2" type="checkbox" name="CHECKBOX_1571885071587" value="Stratified (bilaminar or trilaminar)">Stratified (bilaminar or trilaminar)</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071587_3" type="checkbox" name="CHECKBOX_1571885071587" value="Homogeneous, symmetric">Homogeneous, symmetric</input>
+                </span>
+            </p>
+            <p title="If there are no abnormal bowel segments, delete this paragraph.">
+                <label for="CHECKBOX_1571885071593">4. Bowel wall thickening</label>
+                <span id="CHECKBOX_1571885071593" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1571885071593_0" type="checkbox" name="CHECKBOX_1571885071593" value="None">None</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071593_1" type="checkbox" name="CHECKBOX_1571885071593" value="Mild (3-5 mm)">Mild (3-5 mm)</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071593_2" type="checkbox" name="CHECKBOX_1571885071593" value="Moderate (&gt;5-9 mm)">Moderate (&gt;5-9 mm)</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071593_3" type="checkbox" name="CHECKBOX_1571885071593" value="Severe (≥10 mm)">Severe (≥10 mm)</input>
+                </span>
+            </p>
+            <p title="Delete this paragraph if no stricture is present.">
+                <label for="RADIO_1572227404913">5. Is a stricture present?</label>
+                <span id="RADIO_1572227404913" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1572227404913_0" type="radio" name="RADIO_1572227404913" value="No stricture" checked="">No stricture</input>
+                    <br />
+                    <input id="RADIO_1572227404913_1" type="radio" name="RADIO_1572227404913" value="Probable stricture without upstream dilation (&lt; 3 cm)">Probable stricture without upstream dilation (&lt; 3 cm)</input>
+                    <br />
+                    <input id="RADIO_1572227404913_2" type="radio" name="RADIO_1572227404913" value="Stricture with mild upstream dilation (3-4 cm)">Stricture with mild upstream dilation (3-4 cm)</input>
+                    <br />
+                    <input id="RADIO_1572227404913_3" type="radio" name="RADIO_1572227404913" value="Stricture with moderate to severe upstream dilation (&gt;4 cm)">Stricture with moderate to severe upstream dilation (&gt;4 cm)</input>
+                </span>
+            </p>
+            <p title="Delete this paragraph if there are no additional bowel wall findings. Restricted diffusion and diminished motility apply to MRI only. ">
+                <label for="CHECKBOX_1571885071606">6. Additional bowel wall findings</label>
+                <span id="CHECKBOX_1571885071606" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1571885071606_0" type="checkbox" name="CHECKBOX_1571885071606" value="None">None</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071606_1" type="checkbox" name="CHECKBOX_1571885071606" value="Intramural edema">Intramural edema</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071606_2" type="checkbox" name="CHECKBOX_1571885071606" value="Ulcerations">Ulcerations</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071606_3" type="checkbox" name="CHECKBOX_1571885071606" value="Restricted diffusion">Restricted diffusion</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071606_4" type="checkbox" name="CHECKBOX_1571885071606" value="Sacculations">Sacculations</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071606_5" type="checkbox" name="CHECKBOX_1571885071606" value="Diminished motility">Diminished motility</input>
+                    <br />
+                    <input id="CHECKBOX_1571885071606_6" type="checkbox" name="CHECKBOX_1571885071606" value="Intramural fat">Intramural fat</input>
+                </span>
+            </p>
+            <p title="Delete this paragraph if there are no signs of penetrating Crohn's disease.">
+                <label for="CHECKBOX_1572315150541">7. Associated penetrating Crohn's disease findings</label>
+                <span id="CHECKBOX_1572315150541" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1572315150541_0" type="checkbox" name="CHECKBOX_1572315150541" value="None">None</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150541_1" type="checkbox" name="CHECKBOX_1572315150541" value="Sinus tract">Sinus tract</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150541_2" type="checkbox" name="CHECKBOX_1572315150541" value="Simple fistula (list involved structures; e.g. enteroenteric, enterocolic, enterocutaneous, etc.)">Simple fistula (list involved structures; e.g. enteroenteric, enterocolic, enterocutaneous, etc.)</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150541_3" type="checkbox" name="CHECKBOX_1572315150541" value="Complex fistula (list involved structures; e.g. enteroenteric, enterocolic, enterocutaneous, etc.)">Complex fistula (list involved structures; e.g. enteroenteric, enterocolic, enterocutaneous, etc.)</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150541_4" type="checkbox" name="CHECKBOX_1572315150541" value="Inflammatory mass">Inflammatory mass</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150541_5" type="checkbox" name="CHECKBOX_1572315150541" value="Abscess (size of abscess in cm)">Abscess (size of abscess in cm)</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150541_6" type="checkbox" name="CHECKBOX_1572315150541" value="Free perforation">Free perforation</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1574648069464">7a. Further description of penetrating Crohn's disease findings</label>
+                <textarea rows="3" cols="100" id="TEXT_1574648069464" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">INSTRUCTIONS: Use this section to further discuss some of the associated penetrating Crohn's disease findings such as a simple or complex small bowel fistula or abscess. Delete this paragraph if there are no signs of penetrating Crohn's disease.</textarea>
+            </p>
+            <p title="Delete this paragraph if there are no associated mesenteric findings.">
+                <label for="CHECKBOX_1572315150558">8. Associated mesenteric findings</label>
+                <span id="CHECKBOX_1572315150558" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1572315150558_0" type="checkbox" name="CHECKBOX_1572315150558" value="None">None</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150558_1" type="checkbox" name="CHECKBOX_1572315150558" value="Perienteric edema/inflammation/fluid">Perienteric edema/inflammation/fluid</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150558_2" type="checkbox" name="CHECKBOX_1572315150558" value="Engorged vasa recta">Engorged vasa recta</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150558_3" type="checkbox" name="CHECKBOX_1572315150558" value="Fibrofatty proliferation">Fibrofatty proliferation</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150558_4" type="checkbox" name="CHECKBOX_1572315150558" value="Lymphadenopathy">Lymphadenopathy</input>
+                </span>
+            </p>
+            <p title="Delete this section if other complications are not present.">
+                <label for="CHECKBOX_1572315150639">Other complications</label>
+                <span id="CHECKBOX_1572315150639" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1572315150639_0" type="checkbox" name="CHECKBOX_1572315150639" value="None">None</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150639_1" type="checkbox" name="CHECKBOX_1572315150639" value="Femoral head avascular necrosis">Femoral head avascular necrosis</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150639_2" type="checkbox" name="CHECKBOX_1572315150639" value="Sacroiliitis">Sacroiliitis</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150639_3" type="checkbox" name="CHECKBOX_1572315150639" value="Primary sclerosing cholangitis">Primary sclerosing cholangitis</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150639_4" type="checkbox" name="CHECKBOX_1572315150639" value="Pancreatitis">Pancreatitis</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150639_5" type="checkbox" name="CHECKBOX_1572315150639" value="Mesenteric venous thrombosis ">Mesenteric venous thrombosis </input>
+                    <br />
+                    <input id="CHECKBOX_1572315150639_6" type="checkbox" name="CHECKBOX_1572315150639" value="Chronic mesenteric venous occlusion">Chronic mesenteric venous occlusion</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150639_7" type="checkbox" name="CHECKBOX_1572315150639" value="Neoplasm">Neoplasm</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150639_8" type="checkbox" name="CHECKBOX_1572315150639" value="Cholelithiasis">Cholelithiasis</input>
+                    <br />
+                    <input id="CHECKBOX_1572315150639_9" type="checkbox" name="CHECKBOX_1572315150639" value="Nephrolithiasis">Nephrolithiasis</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1574648069465">Further description of other complications</label>
+                <textarea rows="3" cols="100" id="TEXT_1574648069465" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">INSTRUCTIONS: Use this section to further discuss other complications, if present, such as femoral head avascular necrosis, sacroiliitis or chronic mesenteric venous occlusion. Delete this section if other complications are not present.</textarea>
+            </p>
+            <p title="Delete this paragraph if perianal Crohn's disease is not present.">
+                <label for="CHECKBOX_1572484216410">Perianal Crohn's Disease</label>
+                <span id="CHECKBOX_1572484216410" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1572484216410_0" type="checkbox" name="CHECKBOX_1572484216410" value="Not present">Not present</input>
+                    <br />
+                    <input id="CHECKBOX_1572484216410_1" type="checkbox" name="CHECKBOX_1572484216410" value="Perianal fistula (if possible, report fistulas using the Parks' or St. James' classification system)">Perianal fistula (if possible, report fistulas using the Parks' or St. James' classification system)</input>
+                    <br />
+                    <input id="CHECKBOX_1572484216410_2" type="checkbox" name="CHECKBOX_1572484216410" value="Perianal abscess (size of abscess in cm)">Perianal abscess (size of abscess in cm)</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1574473239284">Further description of perianal Crohn's disease</label>
+                <textarea rows="3" cols="100" id="TEXT_1574473239284" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">INSTRUCTIONS: Use this section for further description of perianal fistulas and abscesses. Delete this paragraph if perianal Crohn's disease is not present.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1574473239285">Crohn's disease bowel involvement other than small bowel</label>
+                <textarea rows="3" cols="100" id="TEXT_1574473239285" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">INSTRUCTIONS: Use this section to discuss Crohn's disease involvement outside of the small bowel (e.g. stomach, colon, rectum). Delete this section if Crohn's disease involvement other than small bowel is not present.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1572484216324">Other findings</label>
+                <textarea rows="3" cols="100" id="TEXT_1572484216324" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The lower thorax, liver, spleen, biliary system, gallbladder, pancreas, kidneys, adrenals and urinary bladder appear within normal limits. The abdominal vessels and bones appear within normal limits. There is no intra-abdominal fluid collection or lymphadenopathy.</textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="TEXT_1579014383890"></label>
+                <textarea rows="3" cols="100" id="TEXT_1579014383890" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+            <section id="SECTION_HEADER_1575163279086" class="level2" data-section-name="_________________________________________________________________________________________________________________________________">
+                <header class="level2">
+                    _________________________________________________________________________________________________________________________________
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488878" class="level2" data-section-name="INSTRUCTIONS FOR CREATING IMPRESSION STATEMENTS:">
+                <header class="level2">
+                    INSTRUCTIONS FOR CREATING IMPRESSION STATEMENTS:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488877" class="level2" data-section-name="Crohn’s disease MRE and CTE reports can include up to 6 impression statements as indicated below. For less complex cases, impression statements 1 - 3 can be combined into one or two impression statement(s). Impression statements should be modified to comply with individual institutional requirements.">
+                <header class="level2">
+                    Crohn’s disease MRE and CTE reports can include up to 6 impression statements as indicated below. For less complex cases, impression statements 1 - 3 can be combined into one or two impression statement(s). Impression statements should be modified to comply with individual institutional requirements.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488875" class="level2" data-section-name="1. INFLAMMATION STATEMENT: If bowel inflammation is present, note the site, length and severity. Potential impression statements include, “No imaging signs of active inflammation”, “Nonspecific small bowel inflammation”, “Active inflammatory small bowel Crohn’s Disease without luminal narrowing”, “Active inflammatory small bowel Crohn’s Disease with luminal narrowing”, or “Crohn’s Disease with no imaging signs of active inflammation”. If inflammation is present, compare to prior studies to evaluate for disease response or progression.">
+                <header class="level2">
+                    1. INFLAMMATION STATEMENT: If bowel inflammation is present, note the site, length and severity. Potential impression statements include, “No imaging signs of active inflammation”, “Nonspecific small bowel inflammation”, “Active inflammatory small bowel Crohn’s Disease without luminal narrowing”, “Active inflammatory small bowel Crohn’s Disease with luminal narrowing”, or “Crohn’s Disease with no imaging signs of active inflammation”. If inflammation is present, compare to prior studies to evaluate for disease response or progression.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665847" class="level2" data-section-name="2. STRICTURE STATEMENT: If a stricture is present, describe the site, length and degree of upstream dilation. Potential impression statements include, “Stricture with imaging findings of active inflammation” or “Stricture without imaging findings of active inflammation”. If upstream bowel dilation is moderate to severe, consider adding the term, “…with small bowel obstruction”.">
+                <header class="level2">
+                    2. STRICTURE STATEMENT: If a stricture is present, describe the site, length and degree of upstream dilation. Potential impression statements include, “Stricture with imaging findings of active inflammation” or “Stricture without imaging findings of active inflammation”. If upstream bowel dilation is moderate to severe, consider adding the term, “…with small bowel obstruction”.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665848" class="level2" data-section-name="3. PENETRATING DISEASE STATEMENT: Describe the type of penetrating disease that is present and if associated with a stricture and/or enteric inflammation. Potential impression statements include sinus tract, fistula (simple or complex), inflammatory mass, abscess or free perforation.">
+                <header class="level2">
+                    3. PENETRATING DISEASE STATEMENT: Describe the type of penetrating disease that is present and if associated with a stricture and/or enteric inflammation. Potential impression statements include sinus tract, fistula (simple or complex), inflammatory mass, abscess or free perforation.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665849" class="level2" data-section-name="4. PERIANAL CROHN’S DISEASE STATEMENT: State if a perianal fistula or abscess is present. If a fistula is present, state if this is simple or complex. If possible, perianal fistulas should be reported using the Parks’ or St. James’ classification system.">
+                <header class="level2">
+                    4. PERIANAL CROHN’S DISEASE STATEMENT: State if a perianal fistula or abscess is present. If a fistula is present, state if this is simple or complex. If possible, perianal fistulas should be reported using the Parks’ or St. James’ classification system.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665850" class="level2" data-section-name="5. OTHER COMPLICATIONS STATEMENT: State if extraintestinal complications related to Crohn’s disease (or Crohn’s disease treatment) is present including femoral head avascular necrosis, sacroiliitis, primary sclerosing cholangitis, pancreatitis, mesenteric venous thrombosis, chronic mesenteric venous occlusion, neoplasm, cholelithiasis, or nephrolithiasis.">
+                <header class="level2">
+                    5. OTHER COMPLICATIONS STATEMENT: State if extraintestinal complications related to Crohn’s disease (or Crohn’s disease treatment) is present including femoral head avascular necrosis, sacroiliitis, primary sclerosing cholangitis, pancreatitis, mesenteric venous thrombosis, chronic mesenteric venous occlusion, neoplasm, cholelithiasis, or nephrolithiasis.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575027436958" class="level2" data-section-name="6. OTHER SIGNIFICANT FINDINGS STATEMENT: State if other significant findings unrelated to Crohn’s disease are present such as hepatic steatosis, a pancreatic mass or indeterminate ovarian mass.">
+                <header class="level2">
+                    6. OTHER SIGNIFICANT FINDINGS STATEMENT: State if other significant findings unrelated to Crohn’s disease are present such as hepatic steatosis, a pancreatic mass or indeterminate ovarian mass.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574954488879" class="level2" data-section-name="_________________________________________________________________________________________________________________________________">
+                <header class="level2">
+                    _________________________________________________________________________________________________________________________________
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665853" class="level2" data-section-name="SAMPLE REPORT 1:">
+                <header class="level2">
+                    SAMPLE REPORT 1:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279089" class="level2" data-section-name="1. No evidence of small bowel inflammation.">
+                <header class="level2">
+                    1. No evidence of small bowel inflammation.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575206825525" class="level2" data-section-name="2. No perianal fistula or abscess.">
+                <header class="level2">
+                    2. No perianal fistula or abscess.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575206825526" class="level2" data-section-name="_________________________________________________________________________________________________________________________________">
+                <header class="level2">
+                    _________________________________________________________________________________________________________________________________
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575206825522" class="level2" data-section-name="SAMPLE REPORT 2:">
+                <header class="level2">
+                    SAMPLE REPORT 2:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575206825523" class="level2" data-section-name="1. Active inflammation with luminal narrowing involving the distal and terminal ileum.">
+                <header class="level2">
+                    1. Active inflammation with luminal narrowing involving the distal and terminal ileum.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575206825524" class="level2" data-section-name="2. Hepatic steatosis.">
+                <header class="level2">
+                    2. Hepatic steatosis.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665859" class="level2" data-section-name="_________________________________________________________________________________________________________________________________">
+                <header class="level2">
+                    _________________________________________________________________________________________________________________________________
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279087" class="level2" data-section-name="SAMPLE REPORT 3:">
+                <header class="level2">
+                    SAMPLE REPORT 3:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279096" class="level2" data-section-name="1. Multiple segments of active inflammation with luminal narrowing in the ileum, overall improved compared to (date of prior study).">
+                <header class="level2">
+                    1. Multiple segments of active inflammation with luminal narrowing in the ileum, overall improved compared to (date of prior study).
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279099" class="level2" data-section-name="2. Multiple segments of stricture with active inflammation in the jejunum and ileum, with an associated enterocolic fistula between the distal ileum and sigmoid colon, overall without significant change compared to (date of prior study).">
+                <header class="level2">
+                    2. Multiple segments of stricture with active inflammation in the jejunum and ileum, with an associated enterocolic fistula between the distal ileum and sigmoid colon, overall without significant change compared to (date of prior study).
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279098" class="level2" data-section-name="3. No perianal fistula or abscess.">
+                <header class="level2">
+                    3. No perianal fistula or abscess.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279097" class="level2" data-section-name="4. Bilateral sacroiliitis.">
+                <header class="level2">
+                    4. Bilateral sacroiliitis.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279094" class="level2" data-section-name="_________________________________________________________________________________________________________________________________">
+                <header class="level2">
+                    _________________________________________________________________________________________________________________________________
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1575163279090" class="level2" data-section-name="SAMPLE REPORT 4:">
+                <header class="level2">
+                    SAMPLE REPORT 4:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665854" class="level2" data-section-name="1. Three ileal strictures with superimposed active inflammation associated with penetrating disease. The strictures are discontiguous and measure 3 cm, 5 cm and 5 cm. The most proximal stricture is associated with small bowel obstruction.">
+                <header class="level2">
+                    1. Three ileal strictures with superimposed active inflammation associated with penetrating disease. The strictures are discontiguous and measure 3 cm, 5 cm and 5 cm. The most proximal stricture is associated with small bowel obstruction.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665855" class="level2" data-section-name="2. Penetrating disease involving the distal ileal stricture with a complex fistula that includes two enteroenteric fistulas and an enterocolic and enterovesical fistula. There is no abscess.">
+                <header class="level2">
+                    2. Penetrating disease involving the distal ileal stricture with a complex fistula that includes two enteroenteric fistulas and an enterocolic and enterovesical fistula. There is no abscess.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665857" class="level2" data-section-name="3. Right posterior intersphincteric perianal fistula extending to the inferomedial gluteal fold.">
+                <header class="level2">
+                    3. Right posterior intersphincteric perianal fistula extending to the inferomedial gluteal fold.
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1574994665858" class="level2" data-section-name="4. Left femoral head avascular necrosis.">
+                <header class="level2">
+                    4. Left femoral head avascular necrosis.
+                </header>
+            </section>
+        </section>
+    </body>
+</html>

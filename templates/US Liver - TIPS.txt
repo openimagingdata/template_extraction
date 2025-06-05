@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://www.radreport.org/convert/rtf.php -->
+<html><head>
+<meta charset="UTF-8">
+<meta content="US Liver - TIPS" name="dcterms.title">
+<meta content="US Liver - TIPS report template" name="dcterms.description">
+<meta content="http://www.radreport.org/template/0000098" name="dcterms.identifier">
+<meta content="en" name="dcterms.language">
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type">
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher">
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights">
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license">
+<meta content="2014-05-01" name="dcterms.date">
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator">
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor">
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor">
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css">
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>US Liver - TIPS</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">US Liver - TIPS Evaluation</header>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T98_001" name="Clinical information">Evaluate TIPS patency and flow.</textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T98_002" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Liver">
+<header class="level2">Liver</header>
+<p>
+<label for="T98_003">Liver morphology:</label>
+<input type="text" id="T98_003" name="Liver" value="Cirrhosis.  No focal lesion." />
+</p>
+<p>
+<label for="T98_004">Ascites:</label>
+<select id="T98_004" name="Ascites">
+<option id="T98_005" name="None" value="None">None</option>
+<option id="T98_006" name="Trace" value="Trace">Trace</option>
+<option id="T98_007" name="Mild" value="Mild">Mild</option>
+<option id="T98_008" name="Moderate" value="Moderate">Moderate</option>
+<option id="T98_009" name="Severe" value="Severe">Severe</option>
+</select>
+<select id="T98_010" name="Change in ascites">
+<option id="T98_011" name="." value=".">.</option>
+<option id="T98_012" name="unchanged" value="unchanged">unchanged</option>
+<option id="T98_013" name="new" value="new">new</option>
+<option id="T98_014" name="increased" value="increased">increased</option>
+<option id="T98_015" name="decreased" value="decreased">decreased</option>
+</select>
+</p>
+<p>
+<label for="T98_016">Main portal vein:</label>
+<input type="text" id="T98_016" name="Main portal vein" value="Patent with ANTEGRADE flow." />
+</p>
+<p>
+<label for="T98_017">Left portal vein:</label>
+<input type="text" id="T98_017" name="Left portal vein" value="Patent with expected RETROGRADE flow."/>
+</p>
+<p>
+<label for="T98_018">Hepatic artery:</label>
+<input type="text" id="T98_018" name="Hepatic artery" value="Patent with normal flow characteristics."/>
+</p>
+<p>
+<label for="T98_019">Hepatic veins:</label>
+<input type="text" id="T98_019" name="Hepatic veins" value="Patent with normal flow hemodynamics."/>
+</p>
+</section>
+<section data-section-name="Peak velocities - Current examination">
+<header class="level2">Peak velocities - Current examination</header>
+<p>
+<label for="T98_020">Main portal vein:</label>
+<input type="number" id="T98_020" name="Main portal vein"/> <label for="T98_020">cm/s</label>
+</p>
+<p>
+<label for="T98_021">TIPS portal-vein end:</label>
+<input type="number" id="T98_021" name="Portal vein end"/> <label for="T98_021">cm/s</label>
+</p>
+<p>
+<label for="T98_022">Mid-TIPS:</label>
+<input type="number" id="T98_022" name="Mid-TIPS"/> <label for="T98_022">cm/s</label>
+</p>
+<p>
+<label for="T98_023">TIPS hepatic-vein end:</label>
+<input type="number" id="T98_023" name="Hepatic vein end"/> <label for="T98_023">cm/s</label>
+</p>
+</section>
+<section data-section-name="Peak velocities - Prior examination">
+<header class="level2">Peak velocities - Prior examination</header>
+<p>
+<label for="T98_024">Main portal vein:</label>
+<input type="number" id="T98_024" name="Prior Main portal vein"/> <label for="T98_024">cm/s</label>
+</p>
+<p>
+<label for="T98_025">TIPS portal-vein end:</label>
+<input type="number" id="T98_025" name="Prior Portal vein end"/> <label for="T98_025">cm/s</label>
+</p>
+<p>
+<label for="T98_026">Mid-TIPS:</label>
+<input type="number" id="T98_026" name="Prior Mid-TIPS"/> <label for="T98_026">cm/s</label>
+</p>
+<p>
+<label for="T98_027">TIPS hepatic-vein end:</label>
+<input type="number" id="T98_027" name="Prior Hepatic vein end"/> <label for="T98_027">cm/s</label>
+</p>
+</section>
+<section data-section-name="Spleen">
+<header class="level2">Spleen</header>
+<p>
+<label for="T98_028">Spleen length:</label>
+<input type="number" id="T98_028" name="Spleen length" value=""/> <label for="T98_028">cm.</label>
+</p>
+<p>
+<label for="T98_029">Splenic vein:</label>
+<input type="text" id="T98_029" name="Splenic vein" value="Patent with antegrade flow."/>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<textarea id="T98_030" name="Other findings">None.</textarea>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T98_031" name="Impression">Patent TIPS.  No evidence of stenosis.</textarea>
+</p>
+</section>
+
+</body></html>

@@ -1,0 +1,125 @@
+MR Placenta
+
+MR imaging of the gravid uterus was performed for purposes of placental evaluation utilizing Axial, Sagittal, and Coronal T2-weighted single shot fast spin echo and steady state free precession images, Sagittal gradient echo T1 and T2-weighted images, and Axial diffusion weighted images through the pelvis.  
+
+Field strength: [1.5] T
+
+Intravenous contrast: [None]
+
+Clinical Information:
+[ ]
+
+Comparison:
+[ ]
+
+Findings:
+
+Gestation:
+Intrauterine gestation: [Single] [Twin]
+Fetal lie: [Cephalic] [Breech] [Transverse] 
+Fetal spine maternal orientation: [Right] [Left] [Superior] [Inferior] [Anterior] [Posterior]
+
+Placenta:
+Placental location: [Anterior] [Posterior] [Right lateral] [Left lateral] [Fundal]
+Succenturiate lobe: [None] [Present*]
+(*if present) Succenturiate lobe location and size: [Location], [ ] cm
+
+Placenta previa: [None] [Low lying] [Marginal] [Partial previa] [Complete previa]
+
+Umbilical cord insertion on placenta: [Central] [Marginal] [Velamentous]
+
+Distance from the most inferior [anterior] [posterior] [right lateral] [left lateral] placental edge to the leading margin of the internal cervical os: [ ] cm [Covers the internal os]
+
+For anterior placenta, distance from the inferior placental edge to the level of the bladder dome: [ ] cm [Extends below the level of the bladder dome level] [Not applicable, the placenta is not located anteriorly]
+
+For anterior placenta, length of placental extent above the level of the umbilicus: [ ] cm [Not applicable, the placenta is not located anteriorly]
+
+Distance from the superior placental margin to the uterine fundus: [ ] cm [Covers the fundus]
+
+Placental contour: [Smooth] [Focal bulge*]
+(*If present) Focal bulge location and length: [Location], [ ] cm
+
+Maximum placental thickness: [ ] cm
+
+Placental myometrial interface: [Fully visible] [Partially nonvisible*]
+(*if present) Nonvisible location and length: [Location], [ ] cm
+
+Placental heterogeneity: [None] [Mild] [Moderate] [Marked] 
+Placental heterogeneity for gestation age: [Normal] [Greater than expected] [Less than expected]
+
+Placental T2 dark bands: [None] [Present*]
+(*if present) T2 dark band number: [ ]
+                       T2 dark band location and size: [Location], [ ] cm
+
+Placental vascularity: [Normal] [Disorganized prominent vasculature*]
+(*if present) Abnormal vessel number: [ ]
+Abnormal vessel location and maximum diameter: [Location], [ ] mm
+
+Placental hemorrhage: [None] [Present*]
+(*If present) Hemorrhage number: [ ]
+          Hemorrhage location and size: [Subchorionic] [Marginal] [Retroplacental]
+                       [Preplacental], [ ] cm
+
+Placental mass: [None]
+Placental cyst: [None]
+
+Uterus:
+Contour: [Smooth, pear shaped] [Abnormal bulge*]
+(*if present) Abnormal bulge location and length: [Location], [ ] cm
+
+Myometrium: [No abnormal thinning or disruption] [Normal gradual myometrial thinning over lower uterine segment] [Normal gradual myometrial thinning in posterior pre-aortic region] [Abnormal focal myometrial thinning*] [Abnormal focal myometrial absence*]
+(*if present) Abnormal myometrial thinning/absence location and thickness: [Location], 
+          [ ] mm [No visible measurable myometrial thickness at this location]
+
+Uterine post surgical changes: [Visible*] [Not visible] [Not applicable]
+(*if present) Type of surgical change: [Cesarean section] [Myomectomy] [Other]
+         Surgical change location: [ ]
+		         Surgical change overlies placenta: [Yes] [No]
+
+Fibroids: [None][Yes*]
+	(*if present) Fibroid number: [ ]
+		          Fibroid location and size: [Location], [ ] cm
+
+Contraction: [None] [Present*]
+	(*if present) Location:
+
+Cervix:
+Cervical length: [ ] cm
+Cervical zonal anatomy: [Normal][Placental protrusion into cervix*]
+(*if present): Extent of placental protrusion into cervix: [ ] cm
+Endocervical blood products: [None] [Present]
+Periuterine/pericervical varicosities: [None] [Present*] [Mild*] [Moderate*] [Marked*]
+(*if present) Largest varicosity diameter: [ ] mm
+
+Bladder:
+Degree of distention: [None, collapsed] [Mild] [Moderate] [Marked]
+Wall: [Intact, normal low T2 signal intensity] [Placental abutment*] [Placental invasion*]
+(*if present) Location of bladder wall placental [abutment] [invasion]: [ ]
+         Length of bladder wall placental [abutment] [invasion]: [ ] cm 
+         Length and depth of bladder wall placental invasion: [ ] cm 
+Bladder dome tenting: [None] [Present]
+
+Parametrium:
+Parametrium: [No placental extension] [Placental abutment*] [Placental invasion*]
+(*if present) Placental [abutment] [invasion] location and extent: [Location], [ ] cm
+
+Ovaries:
+[Normal size and appearance of the ovaries]
+Right ovary: [ ] cm
+Left ovary: [ ] cm
+
+Osseous Structures:
+[Normal for age]
+
+Additional findings:
+Pelvic free fluid: [None}
+Adnexal mass: [None]
+Adnexal cyst: [None]
+Maternal hydronephrosis: [None] [Physiologic] [Obstructive] [Bilateral] [Right] [Left]
+Gonadal varicosities: [None] [Patent] [Thrombosed] [Bilateral] [Right] [Left]
+
+Other:
+[The remainder of the imaged pelvic and abdominal organs are unremarkable.]
+
+Impression:
+[ ]

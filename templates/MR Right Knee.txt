@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="MR Right Knee" name="dcterms.title"/>
+<meta content="MR Right Knee report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000303" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2014-04-30" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR Right Knee</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR Right Knee</header>
+<p>
+<textarea id="T303_001" name="Procedure">Long-TR axial, sagittal and coronal MR images of the right knee were obtained. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T303_002" name="Clinical information">Knee pain.</textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T303_003" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="MENISCI">
+<header class="level2">MENISCI</header>
+<p>
+<label for="T303_004">Medial meniscus:</label>
+<input type="text" id="T303_004" name="Medial meniscus" value="Intact."/>
+</p>
+<p>
+<label for="T303_005">Lateral meniscus:</label>
+<input type="text" id="T303_005" name="Lateral meniscus" value="Intact."/>
+</p>
+</section>
+<section data-section-name="LIGAMENTS">
+<header class="level2">LIGAMENTS</header>
+<p>
+<label for="T303_006">Cruciate ligaments:</label>
+<input type="text" id="T303_006" name="Cruciate ligaments" value="Intact."/></p>
+<p>
+<label for="T303_007">Medial collateral ligament:</label>
+<input type="text" id="T303_007" name="MCL" value="Superficial and deep components intact. No periligamentous edema."/></p>
+<p>
+<label for="T303_008">Lateral collateral ligament:</label>
+<input type="text" id="T303_008" name="LCL" value="Intact."/></p>
+<p>
+<label for="T303_009">Posterolateral corner structures:</label>
+<input type="text" id="T303_009" name="Posterolateral corner structures" value="Intact."/></p>
+</section>
+<section data-section-name="EXTENSOR MECHANISM">
+<header class="level2">EXTENSOR MECHANISM</header>
+<p>
+<textarea id="T303_010" name="Extensor mechanism">The distal quadriceps and patellar tendons are intact. The patella is normally positioned within the femoral groove. There is no retinacular disruption.</textarea>
+</p>
+</section>
+<section data-section-name="FLUID">
+<header class="level2">FLUID</header>
+<p>
+<textarea id="T303_011" name="Fluid">No joint effusion. No Baker's cyst.</textarea>
+</p>
+</section>
+<section data-section-name="OSSEOUS and ARTICULAR STRUCTURES">
+<header class="level2">OSSEOUS and ARTICULAR STRUCTURES</header>
+<p>
+<label for="T303_012">Bones:</label>
+<input type="text" id="T303_012" name="Bones" value="No fracture, stress reaction, or osseous lesion is seen."/>
+</p>
+<p>
+<label for="T303_013">Patellofemoral compartment:</label>
+<input type="text" id="T303_013" name="Patellofemoral compartment" value="No hyaline cartilage disease."/>
+</p>
+<p>
+<label for="T303_014">Medial compartment:</label>
+<input type="text" id="T303_014" name="Medial compartment" value="No hyaline cartilage disease."/>
+</p>
+<p>
+<label for="T303_015">Lateral compartment:</label>
+<input type="text" id="T303_015" name="Lateral compartment" value="No hyaline cartilage disease."/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<label for="T303_016">1. </label>
+<input type="text" id="T303_016" name="Menisci" value="Normal menisci."/>
+</p>
+<p>
+<label for="T303_017">2. </label>
+<input type="text" id="T303_017" name="Ligaments" value="No cruciate or collateral ligament tears."/>
+</p>
+<p>
+<label for="T303_018">3. </label>
+<input type="text" id="T303_018" name="Bone and cartilage" value="No osseous or cartilaginous abnormality."/>
+</p>
+</section>
+</body>
+</html>

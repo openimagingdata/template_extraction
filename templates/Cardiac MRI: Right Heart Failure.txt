@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Cardiac MRI: Right Heart Failure" name="dcterms.title"/>
+<meta content="Cardiac MRI: Right Heart Failure template :: Authored by Jacobs JE, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000047" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-19" name="dcterms.date"/>
+<meta content="Jacobs JE, et al." name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="North American Society for Cardiac Imaging (NASCI)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="heart" value="RID1385" scheme="RadLex">
+</term>
+<term>
+ <code meaning="magnetic resonance imaging" value="RID10312" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T47_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_11">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_12">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_37">
+ <term>
+  <code meaning="aortic valve" value="RID1394" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_38">
+ <term>
+  <code meaning="normal" value="RID13173" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_63">
+ <term>
+  <code meaning="shunt" value="RID4969" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_84">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_85">
+ <term>
+  <code meaning="global" value="RID5693" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="function" value="RID28812" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_86">
+ <term>
+  <code meaning="normal" value="RID13173" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_87">
+ <term>
+  <code meaning="mild" value="RID5671" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_88">
+ <term>
+  <code meaning="moderate" value="RID5672" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_89">
+ <term>
+  <code meaning="severe" value="RID5673" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_90">
+ <term>
+  <code meaning="global" value="RID5693" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="function" value="RID28812" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_91">
+ <term>
+  <code meaning="normal" value="RID13173" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_92">
+ <term>
+  <code meaning="mild" value="RID5671" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_93">
+ <term>
+  <code meaning="moderate" value="RID5672" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_94">
+ <term>
+  <code meaning="severe" value="RID5673" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_95">
+ <term>
+  <code meaning="intracardiac" value="RID11113" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="shunt" value="RID4969" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T47_98">
+ <term>
+  <code meaning="valvular heart disease" value="RID3260" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Cardiac MRI: Right Heart Failure</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Cardiac MRI: Right Heart Failure</header>
+<p>
+<textarea id="T47_2" name="Procedure"> </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T47_11" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T47_12" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Left ventricular measurements">
+<header class="level2">Left ventricular measurements</header>
+<p>
+<label for="T47_16">End Diastolic Diameter:</label>
+<input type="number" id="T47_16" name="End Diastolic Diameter" data-field-units="mm" min="" max=""/>
+<label for="T47_16"> mm (normal, 36-56 mm)</label>
+</p>
+<p>
+<label for="T47_17">Ejection Fraction:</label>
+<input type="number" id="T47_17" name="Ejection Fraction" data-field-units="%" min="" max=""/>
+<label for="T47_17"> % (normal: male = 56-78%; female = 56-78%)</label>
+</p>
+<p>
+<label for="T47_18">Stroke Volume:</label>
+<input type="number" id="T47_18" name="Stroke Volume" data-field-units="ml" min="" max=""/>
+<label for="T47_18"> ml</label>
+</p>
+<p>
+<label for="T47_19">End Diastolic Volume:</label>
+<input type="number" id="T47_19" name="End Diastolic Volume" data-field-units="ml" min="" max=""/>
+<label for="T47_19"> mL (normal: male = 77-195 mL; female = 52-141 mL)</label>
+</p>
+<p>
+<label for="T47_20">Indexed End Diastolic Volume:</label>
+<input type="number" id="T47_20" name="Indexed End Diastolic Volume" data-field-units="mL/m2" min="" max=""/> 
+<label for="T47_20"> mL/m2</label>
+</p>
+<p>
+<label for="T47_21">End Systolic Volume:</label>
+<input type="number" id="T47_21" name="End Systolic Volume" data-field-units="ml" min="" max=""/>
+<label for="T47_21"> mL (normal: male = 19-72 mL; female = 13-51 mL)</label>
+</p>
+<p>
+<label for="T47_22">Indexed End Systolic Volume:</label>
+<input type="number" id="T47_22" name="Indexed End Systolic Volume" data-field-units="mL/m2" min="" max=""/> 
+<label for="T47_22"> mL/m2</label>
+</p>
+<p>
+<label for="T47_23">Cardiac output:</label>
+<input type="number" id="T47_23" name="Cardiac output" data-field-units=" L/min " min="" max=""/> 
+<label for="T47_23"> L/min (normal: male = 2.82-8.82 L/min; female = 2.7-6.0 l/min)</label>
+</p>
+<p>
+<label for="T47_24">Cardiac Index:</label>
+<input type="number" id="T47_24" name="Cardiac Index" data-field-units="L/min/m2" min="" max=""/> 
+<label for="T47_24"> L/min/m2</label>
+</p>
+<p>
+<label for="T47_25">Index values are normalized to body surface area (BSA) of </label>
+<input type="number" id="T47_25" name="body surface area" data-field-units="" min="" max=""/> 
+<label for="T47_25"> m2</label>
+</p>
+</section>
+
+<section data-section-name="Right ventricular measurements">
+<header class="level2">Right ventricular measurements</header>
+<p>
+<label for="T47_27">End Diastolic Diameter:</label>
+<input type="number" id="T47_27" name="End Diastolic Diameter" data-field-units="mm" min="" max=""/>
+<label for="T47_27"> mm (normal: male 25-46 mm; female 21-39)</label>
+</p>
+<p>
+<label for="T47_28">Ejection Fraction:</label>
+<input type="number" id="T47_28" name="Ejection Fraction" data-field-units="%" min="" max=""/>
+<label for="T47_28"> % (normal: male = 47-74%;  female = 47-80%)</label>
+</p>
+<p>
+<label for="T47_29">Stroke Volume:</label>
+<input type="number" id="T47_29" name="Stroke Volume" data-field-units="ml" min="" max=""/>
+<label for="T47_29"> mL (normal: male = 52-138 mL; female = 35-98 mL)</label>
+</p>
+<p>
+<label for="T47_30">End Diastolic Volume:</label>
+<input type="number" id="T47_30" name="End Diastolic Volume" data-field-units="ml" min="" max=""/>
+<label for="T47_30"> mL  (normal: male = 88-227 mL; female = 58-154 mL)</label>
+</p>
+<p>
+<label for="T47_31">Indexed End Diastolic Volume:</label>
+<input type="number" id="T47_31" name="Indexed End Diastolic Volume" data-field-units="mL/m2" min="" max=""/>
+<label for="T47_31"> mL/m2</label>
+</p>
+<p>
+<label for="T47_32">End Systolic Volume:</label>
+<input type="number" id="T47_32" name="End Systolic Volume" data-field-units="ml" min="" max=""/>
+<label for="T47_32"> mL (normal: male = 23-105 mL; female = 12-68 mL)</label>
+</p>
+<p>
+<label for="T47_33">Indexed End Systolic Volume:</label>
+<input type="number" id="T47_33" name="Indexed End Systolic Volume" data-field-units="mL/m2" min="" max=""/>
+<label for="T47_33"> mL/m2</label>
+</p>
+<p>
+<label for="T47_34">Cardiac Output:</label>
+<input type="number" id="T47_34" name="Cardiac Output" data-field-units=" L/min " min="" max=""/> 
+<label for="T47_34"> L/min (normal: male = 2.8-8.82 L/min; female = 2.7-6.0 L/min)</label>
+</p>
+<p>
+<label for="T47_35">Cardiac Index:</label>
+<input type="number" id="T47_35" name="Cardiac Index" data-field-units="L/min/m2" min="" max=""/>
+<label for="T47_35"> L/min/m2  (normal: male = 1.74-4.2 L/min/m2; female = 1.8-3.8 L/min/m2)</label>
+</p>
+</section>
+
+<section data-section-name="Valves">
+<header class="level2">Valves</header>
+<p>
+<label for="T47_37">Aortic valve:</label>
+<input type="text" id="T47_37" name="Aortic valve" value="Normal."/>
+</p>
+<p>
+<label for="T47_38">Aortic forward volume:</label>
+<input type="number" id="T47_38" name="Aortic forward volume" value=""/>
+<label for="T47_38">mL</label>
+</p>
+<p>
+<label for="T47_999">Aortic regurgitant volume:</label>
+<input type="number" id="T47_999" name="Aortic regurgitant volume" value=""/>
+<label for="T47_999">mL</label>
+</p>
+<p>
+<label for="T47_998">Aortic valve area:</label>
+<input type="number" id="T47_998" name="Aortic valve area" value=""/>
+<label for="T47_998">cm2 {&lt; 1.0 cm2 severe; 1.0-1.5 cm2 moderate; 1.5-2.0 cm2 mild; &gt; 2.0 cm2 normal}</label>
+</p>
+<p>
+<label for="T47_997">Mitral valve:</label>
+<input type="text" id="T47_997" name="Mitral valve" value="Normal. "/>
+</p>
+<p>
+<label for="T47_996">Mitral regurgitant volume:</label>
+<input type="number" id="T47_996" name="Mitral regurgitant volume" value=""/>
+<label for="T47_996">mL</label>
+</p>
+<p>
+<label for="T47_995">Mitral regurgitant fraction:</label>
+<input type="number" id="T47_995" name="Mitral regurgitant fraction" value=""/>
+<label for="T47_995">% mL</label>
+</p>
+<p>
+<label for="T47_994">Pulmonic valve:</label>
+<input type="text" id="T47_994" name="Pulmonic valve" value="Normal. "/>
+<label for="T47_994">mL</label>
+</p>
+<p>
+<label for="T47_993">Pulmonic forward volume:</label>
+<input type="number" id="T47_993" name="Pulmonic forward volume" value=""/>
+<label for="T47_993">mL</label>
+</p>
+<p>
+<label for="T47_992">Pulmonic regurgitant volume:</label>
+<input type="number" id="T47_992" name="Pulmonic regurgitant volume" value=""/>
+<label for="T47_992">mL</label>
+</p>
+<p>
+<label for="T47_991">Tricuspid valve:</label>
+<input type="text" id="T47_991" name="Tricuspid valve" value="Normal. "/>
+</p>
+</section>
+
+<section data-section-name="Shunt information">
+<header class="level2">Shunt information</header>
+<p>
+<textarea id="T47_63" name="Shunt information">No intracardiac shunt is present.</textarea>
+</p>
+<p>
+<label for="T47_990">Qp:Qs ratio:</label>
+<input id="T47_990" name="Qs ratio" type="number" value=""/>
+</p>
+</section>
+
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<textarea id="T47_76" name="T47_76">None.</textarea>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<label for="T47_85">Global systolic LV function:</label>
+<select id="T47_85" name="Global systolic LV function">
+<option id="T47_86" name="Normal" value="Normal">Normal</option>
+<option id="T47_87" name="Mildly impaired" value="Mildly impaired">Mildly impaired</option>
+<option id="T47_88" name="Moderately impaired" value="Moderately impaired">Moderately impaired</option>
+<option id="T47_89" name="Severely impaired" value="Severely impaired">Severely impaired</option>
+</select>
+</p>
+<p>
+<label for="T47_90">Global systolic RV function:</label>
+<select id="T47_90" name="Global systolic RV function">
+<option id="T47_91" name="Normal" value="Normal">Normal</option>
+<option id="T47_92" name="Mildly impaired" value="Mildly impaired">Mildly impaired</option>
+<option id="T47_93" name="Moderately impaired" value="Moderately impaired">Moderately impaired</option>
+<option id="T47_94" name="Severely impaired" value="Severely impaired">Severely impaired</option>
+</select>
+</p>
+<p>
+<label for="T47_95">Intracardiac shunt:</label>
+<input type="text" id="T47_95" name="Intracardiac shunt" value="None."/>
+</p>
+<p>
+<label for="T47_98">Valvular disease:</label>
+<input type="text" id="T47_98" name="Valvular disease" value="Absent."/>
+</p>
+<p>
+<textarea id="T47_84" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

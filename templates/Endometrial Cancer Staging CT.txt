@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Endometrial Cancer Staging CT</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="50b433f3-87e3-453a-aefd-6ae03fb49f98" />
+        <meta name="dcterms.title" content="Endometrial Cancer Staging CT" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="ESR" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2017-10-06" />
+        <meta name="dcterms.creator" content="Teresa Margarida Cunha, MD" />
+        <meta name="dcterms.contributor" content="Rita Lucas, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="SELECTION_LIST_1476396306210">
+                        <term>
+                            <code meaning="procedure" value="RID1559" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="impression section" value="RID13170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476396508599">
+                        <term>
+                            <code meaning="endometrium" value="RID30958" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476397006685">
+                        <term>
+                            <code meaning="set of ovaries" value="RID39537" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476396306213">
+                        <term>
+                            <code meaning="clinical information section" value="RID13166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476397006690">
+                        <term>
+                            <code meaning="ascites" value="RID1541" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisonsText">
+                        <term>
+                            <code meaning="comparison" value="RID28483" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476396306210">Procedure Description:</label>
+                <select id="SELECTION_LIST_1476396306210" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Enhanced abdomen and pelvis CT">
+                    <option id="SELECTION_LIST_1476396306210_0" value="Enhanced abdomen and pelvis CT" name="SELECTION_LIST_1476396306210" selected="">Enhanced abdomen and pelvis CT</option>
+                    <option id="SELECTION_LIST_1476396306210_1" value="Unenhanced abdomen and pelvis CT" name="SELECTION_LIST_1476396306210">Unenhanced abdomen and pelvis CT</option>
+                </select>
+            </p>
+          <p title="">
+                <label for="TEXT_1476396306214">Technique:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476396306214" name="" data-field-type="TEXT" data-field-completion-action="NONE">Helical CT of the abdomen and pelvis before and after IV contrast administration. Sagittal and coronal reconstructions.</textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1476396306213">Clinical Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476396306213" name="" data-field-type="TEXT" data-field-completion-action="NONE">Endometrium cancer staging</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText">Comparison study:</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE">None available</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476397006695">Uterus:</label>
+                <select id="SELECTION_LIST_1476397006695" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Anteverted">
+                    <option id="SELECTION_LIST_1476397006695_0" value="Anteverted" name="SELECTION_LIST_1476397006695" selected="">Anteverted</option>
+                    <option id="SELECTION_LIST_1476397006695_1" value="Retroverted" name="SELECTION_LIST_1476397006695">Retroverted</option>
+                    <option id="SELECTION_LIST_1476397006695_2" value="Retroflexed" name="SELECTION_LIST_1476397006695">Retroflexed</option>
+                    <option id="SELECTION_LIST_1476397006695_3" value="Displaced to left" name="SELECTION_LIST_1476397006695">Displaced to left</option>
+                    <option id="SELECTION_LIST_1476397006695_4" value="Displaced to right" name="SELECTION_LIST_1476397006695">Displaced to right</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1476397260855">Size:</label>
+                <input type="text" id="TEXT_1476397260855" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="Normal in size" />
+            </p>
+            <p title="">
+                <label for="NUMBER_1476397260856">Measuring:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1476397260856" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476396508599">Endometrium:</label>
+                <select id="SELECTION_LIST_1476396508599" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Tumor visible">
+                    <option id="SELECTION_LIST_1476396508599_0" value="Tumor visible" name="SELECTION_LIST_1476396508599" selected="">Tumor visible</option>
+                    <option id="SELECTION_LIST_1476396508599_1" value="Tumor not visible" name="SELECTION_LIST_1476396508599">Tumor not visible</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476397006684">Tumor measurement:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1476397006684" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1476397006685">Ovaries:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476397006685" name="" data-field-type="TEXT" data-field-completion-action="NONE">There are no pelvic masses.</textarea>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476397006686">Lymph nodes:</label>
+                <select id="SELECTION_LIST_1476397006686" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal size">
+                    <option id="SELECTION_LIST_1476397006686_0" value="Normal size" name="SELECTION_LIST_1476397006686" selected="">Normal size</option>
+                    <option id="SELECTION_LIST_1476397006686_1" value="Enlarged; probably reactive" name="SELECTION_LIST_1476397006686">Enlarged; probably reactive</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1476397006689">Hepatic lesions:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476397006689" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476397006690">Ascites:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476397006690" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no ascites</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476397006691">Peritoneal implants:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476397006691" name="" data-field-type="TEXT" data-field-completion-action="NONE">There are no peritoneal implants</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476397006692">Bone lesions:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476397006692" name="" data-field-type="TEXT" data-field-completion-action="NONE">There are no bone lesions.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476397006693">Other distant metastasis:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476397006693" name="" data-field-type="TEXT" data-field-completion-action="NONE">None</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476397006694">Other findings:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476397006694" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText">Impression:</label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Rachis Cervical" name="dcterms.title"/>
+<meta content="Cervical Spine template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000313" name="dcterms.identifier"/>
+<meta content="fr" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2015-05-20" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+<meta content="Carr C [translator]" name="dcterms.contributor"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>0</top-level-flag>
+<status>ACTIVE</status>
+<term>
+<code_meaning>cervical vertebral column</code_meaning>
+<code_value>RID34571</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>projection radiography</code_meaning>
+<code_value>RID10345</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<coded_content>
+<entry origtxt="T220_2">
+<term>
+<code_meaning>procedure</code_meaning>
+<code_value>RID1559</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T220_3">
+<term>
+<code_meaning>clinical information</code_meaning>
+<code_value>RID13166</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Clinical information</code_meaning>
+<code_value>55752-0</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.1</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T220_4">
+<term>
+<code_meaning>comparison</code_meaning>
+<code_value>RID28483</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T220_5">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T220_6">
+<term>
+<code_meaning>observations section</code_meaning>
+<code_value>RID28486</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Radiology Study observation (narrative)</code_meaning>
+<code_value>18782-3</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.1</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T220_7">
+<term>
+<code_meaning>impression section</code_meaning>
+<code_value>RID13170</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T220_8">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Rachis Cervical</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1" data-english="Cervical Spine">Rachis Cervical</header>
+<p>
+<label for="T200_1" data-english="Number of views:">Nombre de vues:</label>
+<input type="number" id="T220_1" name="Nombre de vues" min="1" max="8" step="1" data-english-name="Number of views"/>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1" data-english="Clinical information">Les informations cliniques</header>
+<p>
+<textarea id="T220_3" name="Les informations cliniques" data-english-name="Clinical information" data-english-innertext=" "></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1" data-english="Comparison">Comparaison</header>
+<p>
+<textarea id="T220_4" name="Comparaison" data-english-name="Comparison" data-english-innertext="None. ">Aucun.</textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1" data-english="Findings">Résultats</header>
+<p>
+<textarea id="T220_6" name="Résultats" data-english-name="Findings" data-english-innertext="There is no fracture or destructive lesion. The vertebral bodies and posterior elements are normal. The alignment, discs, and discovertebral relationships are normal. There is no evidence of instability.">Il n'y a aucune fracture ou lésion destructive. Les corps vertébraux et éléments postérieurs sont normaux. L'alignement, les disques et les relations discovertébrale sont normaux. Il n'y a aucune preuve de l'instabilité.</textarea>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1" data-english="Impression">Impression</header>
+<p>
+<textarea id="T220_7" name="Impression" data-english-name="Impression" data-english-innertext="Normal cervical spine.">Rachis cervical normal.</textarea>
+</p>
+</section>
+</body>
+</html>

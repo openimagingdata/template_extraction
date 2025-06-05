@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Nasogastric tube placement" name="dcterms.title"/>
+<meta content="Nasogastric tube placement report template" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000270" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2013-12-20" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coded_content>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Nasogastric tube placement</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Nasogastric tube placement</header>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T270_1" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T270_2" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T270_3">Viscous lidocaine 2% gel was applied to the </label>
+<select id="T270_3" name="Right or left">
+<option id="T270_4" name="right" value="right">right</option>
+<option id="T270_5" name="left" value="left">left</option>
+</select>
+<label for="T270_3"> naris and Cetacaine sprayed into the mouth.</label>
+</p>
+<p>
+<label for="T270_6">A </label>
+<input type="number" id="T270_6" name="NG tube size" value="10" />
+<label for="T270_6">French nasogastric tube was advanced under fluoroscopic guidance into the stomach. The sidehole was seen below the level of the left hemidiaphragm. Placement was further confirmed to be within the stomach by infusion of a small amount of water soluble contrast. The NG tube was flushed with water and secured using an adhesive bandage.</label>
+</p>
+<p>
+<label for="T270_7">Fluoroscopy time:</label>
+<input type="number" id="T270_7" name="Fluoro time" value="" min="0" step="0.1" /> <label for="T270_7">minutes</label>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T270_8" name="Impression">Nasogastric tube placement. Ready for immediate use. </textarea>
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,24 @@
+MRI BRAIN WITHOUT CONTRAST 
+
+HISTORY:â€¨[<AgeGender>], [headache.] 
+
+TECHNIQUE:â€¨MR images of the brain were acquired without intravenous contrast. 
+
+COMPARISON: [<PriorExamDate>|None available.] 
+
+FINDINGS:â€¨
+BRAIN PARENCHYMA: [No acute infarct or hemorrhage. No mass effect or herniation.] [<white matter>Signal intensities are within normal limits for age.|Multiple nodular T2 hyperintense foci within the subcortical white matter, which can be associated with migraines.| [<white matter severity>Mild|Moderate|Severe] white matter chronic small vessel ischemic changes.] 
+
+[<headache>No cerebellar tonsillar ectopia. No brainstem sag or other secondary signs of intracranial hypotension. No empty sella or other secondary signs of elevated intracranial pressure.] 
+
+VENTRICLES/EXTRA-AXIAL SPACES: [No hydrocephalus or extra-axial fluid collections.] 
+
+FLOW VOIDS: [Intact.|Not well assessed.] 
+
+SINUSES/MASTOIDS: [Clear.]â€¨
+
+OTHER EXTRACRANIAL STRUCTURES: [Normal.] 
+
+IMPRESSION:â€¨
+
+[Normal MRI of the brain. No findings to account for headaches.]  

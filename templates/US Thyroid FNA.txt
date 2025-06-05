@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="US Thyroid FNA" name="dcterms.title"/>
+<meta content="US Thyroid FNA template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000196" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-05-29" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="fine-needle aspiration" value="RID12933" scheme="RadLex">
+</term>
+<term>
+ <code meaning="thyroid gland" value="RID7578" scheme="RadLex">
+</term>
+<term>
+ <code meaning="ultrasound" value="RID10326" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T196_9">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T196_10">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T196_16">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>US Thyroid FNA</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">US Thyroid FNA</header>
+<p>
+<label for="T196_3">Consent:</label>
+<input type="text" id="T196_3" name="Consent" value="The procedure, with its potential risks and complications, was discussed with the patient, including the option of not performing the procedure. Verbal and written consent was obtained. "/>
+</p>
+<p>
+<label for="T196_4">Time-out:</label>
+<input type="text" id="T196_4" name="Time-out" value="A time-out was observed to confirm the correct patient, procedure, and site."/>
+</p>
+<p>
+<label for="T196_5">Localization:</label>
+<input type="text" id="T196_5" name="Localization" value="With the patient in supine position, the target nodule was identified by ultrasound. A skin site was marked, and the skin was prepped and draped in usual sterile fashion."/>
+</p>
+<p>
+<label for="T196_6">Location:</label>
+<input type="text" id="T196_6" name="Location" value=""/>
+</p>
+<p>
+<label for="T196_8">Needle(s)</label>
+<input type="number" id="T196_8" name="Needle" data-field-units="Ga" min="" max=""/> <label for="T196_8">Ga</label>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T196_9" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T196_10" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T196_7">Number of passes:</label>
+<input type="number" id="T196_7" name="Number of passes" data-field-units="" min="" max=""/> 
+</p>
+<p>
+<label for="T196_13">Adequacy:</label>
+<input type="text" id="T196_13" name="Adequacy" value="A cytotechnologist present on-site determined the sample to be adequate."/>
+</p>
+<p>
+<label for="T196_14">Complications:</label>
+<input type="text" id="T196_14" name="Complications" value="None. "/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T196_16" name="Impression">Ultrasound-guided fine needle aspiration of thyroid nodule. </textarea>
+</p>
+</section>
+</body>
+</html>

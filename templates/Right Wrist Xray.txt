@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Right Wrist Xray" name="dcterms.title"/>
+<meta content="Right Wrist Xray template :: Authored by Langlotz CP" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000280" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-03-28" name="dcterms.date"/>
+<meta content="Langlotz CP" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Penn Medicine | Hospital of the University of Pennsylvania (Penn)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="projection radiography" value="RID10345" scheme="RadLex">
+</term>
+<term>
+ <code meaning="wrist" value="RID2177" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T280_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T280_8">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T280_9">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T280_11">
+  <term>
+  <code meaning="Radiology Study observation (narrative)" value="18782-3" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T280_12">
+ <term>
+  <code meaning="set of bones" value="RID28569" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T280_14">
+ <term>
+  <code meaning="set of joints" value="RID28711" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T280_23">
+ <term>
+  <code meaning="portion of soft tissue" value="RID35730" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T280_24">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Right Wrist Xray</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Right Wrist Xray</header>
+<p>
+<textarea id="T280_2" name="Procedure"> </textarea>
+</p>
+<p>
+<label for="T280_3">Number of views:</label>
+<input type="number" id="T280_3" name="Number of views" data-field-units="views" min="1" max="6"/> <label for="T280_3">views</label>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T280_8" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T280_9" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<textarea id="T280_11" name="Findings"> </textarea>
+</p>
+<p>
+<label for="T280_12">Bones:</label>
+<input type="text" id="T280_12" name="Bones" value="No fractures are present. "/>
+</p>
+<p>
+<label for="T280_14">Joints:</label>
+<input type="text" id="T280_14" name="Joints" value="Normal. No osteoarthritis. "/>
+</p>
+<p>
+<label for="T280_23">Soft tissues:</label>
+<input type="text" id="T280_23" name="Soft tissues" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T280_24" name="Impression">Normal wrist. </textarea>
+</p>
+</section>
+</body>
+</html>

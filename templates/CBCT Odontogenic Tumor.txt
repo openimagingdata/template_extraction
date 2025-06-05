@@ -1,0 +1,23 @@
+CBCT Maxillofacial Region: Maxillofacial non-contrast thin slice cone-beam volumetric CT extending from [ ] to the level of [ ]. Multi-planar reformations were carried out interactively at the workstation.
+
+Clinical Information: [ ]
+
+Comparison: [ ]
+
+Findings
+Borders: [Well-defined | Ill-defined ]
+Internal contents: [Radiolucent | Radiopaque ]
+Extent of the lesion: [ ]
+Effects on adjacent structures: [ ]
+Additional imaging/further recommendation: [MDCT without IV constrast; MDCT with IV contrast; Histopathological Exam; MRI ]
+
+Other findings:
+Dental: [Normal.]
+Nasopharyngeal and oropharyngeal airway: [Normal.]
+Paranasal sinuses: [Normal.]
+Nasal cavity: [Normal.]
+Cervical spine: [Normal.]
+Temporomandibular joints: [Normal.]
+Anatomical variations: [None.]
+
+Impression: [ ]

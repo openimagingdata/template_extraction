@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Trimester Sonogram</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="d9839602-3aff-4f54-9940-6545823018ec" />
+        <meta name="dcterms.title" content="First Trimester Sonogram" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="University of Utah" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2018-03-12" />
+        <meta name="dcterms.creator" content="Marta E. Heilbrun, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1459361640288">
+                        <term>
+                            <code meaning="fetal biophysical profile" value="RID49841" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1459361640289">
+                        <term>
+                            <code meaning="sacrum" value="RID2509" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1459361640284">
+                        <term>
+                            <code meaning="right ovary" value="RID32829" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="NUMBER_1459361640285">
+                        <term>
+                            <code meaning="left ovary" value="RID32830" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459361640278">
+                        <term>
+                            <code meaning="indication" value="RID49442" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459361640286">
+                        <term>
+                            <code meaning="uterus" value="RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459361640287">
+                        <term>
+                            <code meaning="fluid" value="RID1547" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="TEXT_1476459004254">Technique:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476459004254" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">First trimester sonogram.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459361640277"></label>
+                <textarea rows="3" cols="100" id="TEXT_1459361640277" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The pelvis was scanned using transabdominal and endovaginal technique.</textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1459361640278">Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459361640278" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+            <section id="SECTION_HEADER_1459361640281" class="level2" data-section-name="Age by LMP is:">
+                <header class="level2">
+                    Age by LMP is:
+                </header>
+                <p title="">
+                    <label for="NUMBER_1459361640282">Weeks:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="" id="NUMBER_1459361640282" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1459361640283">Days:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="" id="NUMBER_1459361640283" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    </span>
+                </p>
+            </section>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="findingsText"></label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Endovaginal sonography demonstrates a single living intrauterine gestation. A normal appearing secondary yolk sac is identified. The appearance of the embryo and gestation is normal for age.  Both ovaries were identified and appear normal.</textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1459361640284">The right ovary measures:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1459361640284" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1459361640285">The left ovary measures:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1459361640285" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1459361640286">Uterus:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459361640286" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No abnormal adnexal masses.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459361640287">Fluid:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459361640287" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No free fluid.</textarea>
+            </p>
+            <section id="SECTION_HEADER_1459361640288" class="level2" data-section-name="Fetal Biometry:">
+                <header class="level2">
+                    Fetal Biometry:
+                </header>
+                <p title="">
+                    <label for="NUMBER_1459361640289">Mean Sac Diameter:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1459361640289" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        mm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1459361640290">Weeks:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="" id="NUMBER_1459361640290" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1459361640291">Crown rump length:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1459361640291" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                        cm
+                    </span>
+                </p>
+                <p title="">
+                    <label for="NUMBER_1459361640292">Weeks:</label>
+                    <span>
+                        <input type="number" step="1.0" data-field-units="" id="NUMBER_1459361640292" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    </span>
+                </p>
+            </section>
+            <p title="">
+                <label for="TEXT_1520484096199">Additional Findings:</label>
+                <input type="text" id="TEXT_1520484096199" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="None." />
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1459361640293">Single living intrauterine gestation with estimated gestational age by CRL of:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="weeks +/- 8%" id="NUMBER_1459361640293" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    weeks +/- 8%
+                </span>
+            </p>
+        </section>
+    </body>
+</html>

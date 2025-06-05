@@ -1,0 +1,20 @@
+Study:  MRI Pelvis without and with contrast
+Clinical Information/History: [free text]
+Comparison: [free text]
+Technique:  Prior to and following the uneventful intravenous administration of contrast, T1 and T2 weighted images in multiple planes were obtained through the pelvis. Prior to contrast administration, diffusion-weighted images were obtained through the pelvis. 
+Findings:
+UTERUS: Measures [ ] x [ ] x [ ] cm [Describe other uterine findings, excluding the tumor.]
+TUMOR SITE: [Endocervical tumor/exophytic; arises from the anterior or the posterior lip or circumferential; involves the entire cervix.] 
+TUMOR SIZE: [Give 3 dimensions (eg: 2 cm x 2 cm x 5 cm)
+UTERINE INVASION: [absent/present] [Describe location, lower uterus, body, fundus]
+PARAMETRIAL INVASION: [absent/present -- OR -- describe how certain you are: suspicious for/possible/less likely/unlikely] [Describe location]
+VAGINAL INVASION: [none/upper 2/3 of the vagina/lower 1/3 of the vagina]
+TUMOR EXTENSION: [none/right or left pelvic side wall/bladder/rectum]; [presence/absence of ureteral dilatation].
+ADDITIONAL COMMENTS: [Add any specific comments related to the tumor here if appropriate] 
+OVARIES: The ovaries are [not visualized/visualized] and are [normal/abnormal] in appearance. [Right Ovary measures # x # x #cm and left ovary measures # x # x #cm.] [If abnormal describe.]
+LYMPH NODES:
+There are [no/few/many] lymph nodes; [The largest pelvic lymph node is located (give location) and measures (give size).]  [The largest para-aortic lymph node measures (give size)]. These lymph nodes are [likely/possibly/less likely to be/unlikely to be] metastatic in nature.
+ADDITIONAL FINDINGS: [None; presence/absence pelvic fluid; presence/absence pelvic peritoneal implants; other findings]
+BONES: [No aggressive bone lesions]
+Impression:
+1.	Cervical cancer [ summarize the cervical tumor, including extent of invasion and provide your impression of whether there are suspicious lymph nodes].

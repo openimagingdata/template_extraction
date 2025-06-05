@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chest CT Without Contrast</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="318f7c58-6d0f-4695-bc86-bd5ed0a271b4" />
+        <meta name="dcterms.title" content="Chest CT Without Contrast" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="University of Utah" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2018-05-20" />
+        <meta name="dcterms.creator" content="Howard Mann" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459374926054">
+                        <term>
+                            <code meaning="heart" value="RID1385" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findingsText">
+                        <term>
+                            <code meaning="lungs" value="RID13437" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459374926053">
+                        <term>
+                            <code meaning="pleural space" value="RID1363" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459374926056">
+                        <term>
+                            <code meaning="set of chest vessels" value="RID49962" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459374926055">
+                        <term>
+                            <code meaning="mediastinum" value="RID1384" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459374926057">
+                        <term>
+                            <code meaning="chest wall" value="RID2468" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459374926059">
+                        <term>
+                            <code meaning="upper abdomen" value="RID29990" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459374926052">
+                        <term>
+                            <code meaning="clinical information section" value="RID13166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="procedureInformationText">Technique:</label>
+                <textarea rows="3" cols="100" id="procedureInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Non-Enhanced Multidetector-Row Chest Computed Tomography. Axial (5mm; 1mm; 10mm MIPS); Coronal (3mm); and Sagittal (3mm) series were acquired.</textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1459374926052">Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459374926052" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="findingsText">Pulmonary Parenchyma and Airways:</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No pulmonary parenchymal or airway process is present.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459374926053">Pleural Space:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459374926053" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No pleural fluid or thickening is present.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459374926054">Heart and Pericardium:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459374926054" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The cardiac chambers are normal in size. No pericardial fluid or thickening is present.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459374926055">Mediastinum and Hila:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459374926055" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No mediastinal mass is present. No enlarged lymph nodes are present.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459374926056">Thoracic Vessels:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459374926056" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No vascular abnormality is present.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1459374926057">Osseous Structures and Chest Wall:</label>
+                <textarea rows="3" cols="100" id="TEXT_1459374926057" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No pathologic osseous or soft-tissue process is present.</textarea>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1459374926059">Upper Abdomen:</label>
+                <select id="SELECTION_LIST_1459374926059" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="No pathologic process is present in the imaged portion of the upper abdomen.">
+                    <option id="SELECTION_LIST_1459374926059_0" value="No pathologic process is present in the imaged portion of the upper abdomen." name="SELECTION_LIST_1459374926059" selected="">No pathologic process is present in the imaged portion of the upper abdomen.</option>
+                    <option id="SELECTION_LIST_1459374926059_1" value="Imaging findings in the abdomen and pelvis are reported separately." name="SELECTION_LIST_1459374926059">Imaging findings in the abdomen and pelvis are reported separately.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1476460383686">Additional findings:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476460383686" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

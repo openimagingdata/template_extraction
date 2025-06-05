@@ -1,0 +1,22 @@
+RM ADDOME
+
+Sono state ottenute immagini pesate in T1, T2, TIRM, GE, immagini pesate con soppressione del grasso. Le immagini pesate in ....sono state ottenute in piani sagittale, coronale e assiale. ]
+Intensit&agrave; del campo: [] T
+MdC: [None.]
+Qualit&agrave; dell&#039;immagine: [Soddisfacente.]
+Confronto
+[Nessuna. ]
+I risultati
+Raccolta /Massa
+Localizzazione
+Dimensioni: [] cm
+Segnale: []
+Artefatti di suscettibilit&agrave;: [Nessuno.]
+Strutture adiacenti: [Nessuno.]
+Fistola: [Nessuno.]
+Altri risultati
+Basi polmonari: [Normale.]
+Fegato: [Normale.]-Colecisti: [normale]-Pancreas: [Normale.]-Milza: [Normale.]-Surreni e reni: [Normale.]-Vescica: [Normale.]-Organi riproduttivi: [normale]-Linfoadenopatie: [Nessuna.]
+Fluido libero: [Nessuno.]
+Ossa e tessuti molli: [Normale.]
+Conclusioni

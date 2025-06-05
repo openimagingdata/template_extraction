@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Pediatric Upper GI Exam" name="dcterms.title"/>
+<meta content="Pediatric Upper GI Exam template :: Authored by Meyer JS, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000109" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-18" name="dcterms.date"/>
+<meta content="Meyer JS, et al." name="dcterms.creator"/>
+<meta content="Society for Pediatric Radiology (SPR)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="child" value="RID5641" scheme="RadLex">
+</term>
+<term>
+ <code meaning="duodenum" value="RID134" scheme="RadLex">
+</term>
+<term>
+ <code meaning="esophagus" value="RID95" scheme="RadLex">
+</term>
+<term>
+ <code meaning="fluoroscopy" value="RID10361" scheme="RadLex">
+</term>
+<term>
+ <code meaning="stomach" value="RID114" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T109_6">
+ <term>
+  <code meaning="oral contrast" value="RID35817" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_9">
+ <term>
+  <code meaning="route of administration" value="RID11087" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_13">
+ <term>
+  <code meaning="imaging technique" value="RID28482" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="imaging technique modifier" value="RID28642" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_14">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_20">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_36">
+ <term>
+  <code meaning="pulmonary aspiration" value="RID5321" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_38">
+ <term>
+  <code meaning="esophagus" value="RID95" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_47">
+ <term>
+  <code meaning="stomach" value="RID114" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_48">
+ <term>
+  <code meaning="normal" value="RID13173" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_49">
+ <term>
+  <code meaning="size descriptor" value="RID5772" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_60">
+ <term>
+  <code meaning="duodenum" value="RID134" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_64">
+ <term>
+  <code meaning="duodenum" value="RID134" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_76">
+ <term>
+  <code meaning="duodenojejunal junction" value="RID32232" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_79">
+ <term>
+  <code meaning="gastroesophageal reflux" value="RID5260" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_127">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_128">
+ <term>
+  <code meaning="gastroesophageal reflux" value="RID5260" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_134">
+ <term>
+  <code meaning="intestine" value="RID130" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="malrotation" value="RID4812" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T109_137">
+ <term>
+  <code meaning="duodenum" value="RID134" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="obstruction" value="RID4962" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Pediatric Upper GI Exam</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Pediatric Upper GI Exam</header>
+<p>
+<label for="T109_6">Contrast:</label>
+<input type="text" id="T109_6" name="Contrast" value="barium sulfate suspension"/>
+<label for="T109_9">given by</label>
+<input type="text" id="T109_9" name="given by" value="mouth"/>
+</p>
+<p>
+<textarea id="T109_13" name="Procedure">Images of the esophagus, stomach, duodenum, and proximal mesenteric bowel were obtained.</textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T109_14" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T109_20" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T109_31">Preliminary view:</label>
+<input type="text" id="T109_31" name="Preliminary view" value="Normal."/>
+</p>
+<p>
+<label for="T109_33">Swallowing:</label>
+<input type="text" id="T109_33" name="Swallowing" value="Normal"/>
+</p>
+<p>
+<label for="T109_36">Aspiration:</label>
+<input type="text" id="T109_36" name="Aspiration" value="None."/>
+</p>
+<p>
+<label for="T109_38">Esophagus:</label>
+<input type="text" id="T109_38" name="Esophagus" value="Normal caliber and motility."/>
+</p>
+<p>
+<label for="T109_47">Stomach:</label>
+<input type="text" id="T109_47" name="Stomach" value="Normal size "/>
+</p>
+<p>
+<label for="T109_48">Normal</label>
+<input type="text" id="T109_48" name="Normal" value=""/>
+</p>
+<p>
+<label for="T109_49">Size</label>
+<input type="text" id="T109_49" name="Size" value="Normal size. Normal gastric mucosa. No penetratic ulcer. "/>
+</p>
+<p>
+<label for="T109_60">Emptying into duodenum:</label>
+<input type="text" id="T109_60" name="Emptying into duodenum" value="Normal."/>
+</p>
+<p>
+<label for="T109_64">Duodenum:</label>
+<input type="text" id="T109_64" name="Duodenum" value="Normal."/>
+</p>
+<p>
+<label for="T109_76">Duodenojejunal junction</label>
+<input type="text" id="T109_76" name="Duodenojejunal junction" value="Normal and located in the left upper quadrant of the abdomen"/>
+</p>
+<p>
+<label for="T109_79">Gastroesophageal reflux:</label>
+<input type="text" id="T109_79" name="Gastroesophageal reflux" value="None observed."/>
+</p>
+<p>
+<label>Fluoroscopy time:</label>
+<input type="number" name="Fluoroscopy time" data-field-units="minutes" /> minutes
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T109_127" name="Impression">Normal. </textarea>
+</p>
+<p>
+<label for="T109_128">Gastroesophageal reflux:</label>
+<input type="text" id="T109_128" name="Gastroesophageal reflux" value="Absent."/>
+</p>
+<p>
+<label for="T109_131">Gastric emptying:</label>
+<input type="text" id="T109_131" name="Gastric emptying" value="Normal."/>
+</p>
+<p>
+<label for="T109_134">Intestinal malrotation:</label>
+<input type="text" id="T109_134" name="Intestinal malrotation" value="None."/>
+</p>
+<p>
+<label for="T109_137">Duodenal obstruction:</label>
+<input type="text" id="T109_137" name="Duodenal obstruction" value="None. "/>
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="CT Pulmonary Veins" name="dcterms.title"/>
+<meta content="CT Pulmonary Veins template :: Authored by Jacobs JE, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000025" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-13" name="dcterms.date"/>
+<meta content="Jacobs JE, et al." name="dcterms.creator"/>
+<meta content="Bozkurt S [coder]" name="dcterms.contributor"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="North American Society for Cardiac Imaging (NASCI)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="computed tomography" value="RID10321" scheme="RadLex">
+</term>
+<term>
+ <code meaning="heart" value="RID1385" scheme="RadLex">
+</term>
+<term>
+ <code meaning="pulmonary vein" value="RID1231" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T25_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_11">
+ <term>
+  <code meaning="contrast agent" value="RID11582" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_12">
+ <term>
+  <code meaning="complication" value="RID11525" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_15">
+ <term>
+  <code meaning="volume CT dose index" value="RID12357" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_16">
+ <term>
+  <code meaning="CT dose length product" value="RID12359" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_17">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_28">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_34">
+ <term>
+  <code meaning="image quality" value="RID10" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_40">
+ <term>
+  <code meaning="imaging error" value="RID11254" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_50">
+ <term>
+  <code meaning="right" value="RID5825" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_51">
+ <term>
+  <code meaning="left" value="RID5824" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_53">
+ <term>
+  <code meaning="stenosis" value="RID5016" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_55">
+ <term>
+  <code meaning="right" value="RID5825" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="superior" value="RID5822" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_58">
+ <term>
+  <code meaning="right" value="RID5825" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="inferior" value="RID5823" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_61">
+ <term>
+  <code meaning="left" value="RID5824" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="superior" value="RID5822" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_64">
+ <term>
+  <code meaning="left" value="RID5824" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="inferior" value="RID5823" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_86">
+ <term>
+  <code meaning="left atrium" value="RID1390" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_93">
+ <term>
+  <code meaning="intraluminal" value="RID11135" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="thrombus" value="RID5037" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_99">
+ <term>
+  <code meaning="set of coronary arteries" value="RID28727" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_105">
+ <term>
+  <code meaning="set of pulmonary arteries" value="RID28586" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_107">
+ <term>
+  <code meaning="diameter" value="RID13432" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_109">
+ <term>
+  <code meaning="pulmonary embolism" value="RID4834" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_114">
+ <term>
+  <code meaning="thoracic aorta" value="RID879" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_116">
+ <term>
+  <code meaning="lungs" value="RID13437" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_118">
+ <term>
+  <code meaning="upper abdomen" value="RID29990" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_120">
+ <term>
+  <code meaning="image quality" value="RID10" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_121">
+ <term>
+  <code meaning="exemplary quality" value="RID11" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_122">
+ <term>
+  <code meaning="diagnostic quality" value="RID12" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T25_223">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>CT Pulmonary Veins</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">CT Pulmonary Veins</header>
+<p>
+<textarea id="T25_2" name="Procedure"> </textarea>
+</p>
+<p>
+<label for="T25_11">IV contrast:</label>
+<input type="text" id="T25_11" name="Contrast agent" value=""/>
+<input type="number" id="T25_11_dose" name="Contrast dose" data-field-units="mL" />
+<label for="T25_11_dose">mL</label>
+</p>
+<p>
+<label for="T25_12">Complication:</label>
+<input type="text" id="T25_12" name="Complication" value="None."/>
+</p>
+<p>
+<label for="T25_15">CT dose index-volume:</label>
+<input type="number" id="T25_15" name="CT dose index-volume" data-field-units="mGy" min="" max=""/> 
+<label for="T25_15">mGy</label>
+</p>
+<p>
+<label for="T25_16">CT dose length:</label>
+<input type="number" id="T25_16" name="CT dose length" data-field-units="mGy cm" min="" max=""/> 
+<label for="T25_16">mGy cm</label>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T25_17" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T25_28" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Technical findings">
+<header class="level2">Technical findings</header>
+<p>
+<label for="T25_31">Baseline cardiac rhythm:</label>
+<select id="T25_31" name="Baseline cardiac rhythm">
+<option id="T25_31_32" name="Sinus rhythm" value="Sinus rhythm">Sinus rhythm</option>
+<option id="T25_31_33" name="Atrial fibrillation" value="Atrial fibrillation">Atrial fibrillation</option>
+</select>
+</p>
+<p>
+<label for="T25_34">Examination quality:</label>
+<select id="T25_34" name="Examination quality">
+<option id="T25_34.1" name="Excellent" value="Excellent">Excellent</option>
+<option id="T25_34.2" name="Good" value="Good">Good</option>
+<option id="T25_34.3" name="Fair" value="Fair">Fair</option>
+<option id="T25_34.4" name="Poor" value="Poor">Poor</option>
+<option id="T25_34.5" name="Nondiagnostic" value="Nondiagnostic">Nondiagnostic</option>
+</select>
+</p>
+<p>
+<label for="T25_40">Limitations:</label>
+<input type="text" id="T25_40" name="Limitations" value="None."/>
+</p>
+</section>
+<section data-section-name="Pulmonary veins">
+<header class="level2">Pulmonary veins</header>
+<p>
+There are
+<input type="number" id="T25_50" name="right pulmonary veins"/> right pulmonary vein ostia
+and
+<input type="number" id="T25_51" name="left pulmonary veins"/> left pulmonary vein ostia
+into the left atrium.
+</p>
+<p>
+<label for="T25_53">Pulmonary vein stenosis:</label>
+<input type="text" id="T25_53" name="Pulmonary vein stenosis" value="None."/>
+</p>
+<p>Pulmonary vein diameters</p>
+<p>
+<label for="T25_55">Right superior:</label>
+<input type="text" id="T25_55" name="Right superior" value=""/> 
+<label for="T25_55">mm</label>
+</p>
+<p>
+<label for="T25_58">Right inferior:</label>
+<input type="text" id="T25_58" name="Right inferior" value=""/> 
+<label for="T25_58">mm</label>
+</p>
+<p>
+<label for="T25_61">Left superior:</label>
+<input type="text" id="T25_61" name="Left superior" value=""/> 
+<label for="T25_61">mm</label>
+</p>
+<p>
+<label for="T25_64">Left inferior:</label>
+<input type="text" id="T25_64" name="Left inferior" value=""/> 
+<label for="T25_64">mm</label>
+</p>
+</section>
+<section data-section-name="Heart">
+<header class="level2">Heart</header>
+<p>
+<label for="T25_86">Left atrium size:</label>
+<input type="text" id="T25_86" name="Left atrium size" value="Normal."/>
+</p>
+<p>
+<label for="T25_93">Left atrium lumen:</label>
+<input type="text" id="T25_93" name="Left atrium lumen" value="Normal opacification. No intraluminal thrombus."/>
+</p>
+<p>
+<label for="T25_99">Coronary arteries:</label>
+<input type="text" id="T25_99" name="Coronary arteries" value="Normal. "/>
+</p>
+<p>
+<label for="T25_102">IVC anomalies:</label>
+<input type="text" id="T25_102_text" name="IVC anomalies" value="None."/>
+</p>
+</section>
+<section data-section-name="Pulmonary arteries">
+<header class="level2">Pulmonary arteries</header>
+<p>
+<label for="T25_105">Pulmonary artery caliber:</label>
+<input type="text" id="T25_105" name="Pulmonary artery caliber" value="Normal."/>
+</p>
+<p>
+<label for="T25_107">Pulmonary artery diameter:</label>
+<input type="text" id="T25_107" name="Pulmonary artery diameter" value="Normal. "/>
+</p>
+<p>
+<label for="T25_109">Pulmonary emboli:</label>
+<input type="text" id="T25_109" name="Pulmonary emboli" value="None."/>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<label for="T25_114">Thoracic aorta:</label>
+<input type="text" id="T25_114" name="Thoracic aorta" value="Normal."/>
+</p>
+<p>
+<label for="T25_116">Lungs:</label>
+<input type="text" id="T25_116" name="Lungs" value="Normal."/>
+</p>
+<p>
+<label for="T25_118">Upper abdomen:</label>
+<input type="text" id="T25_118" name="Upper abdomen" value="Normal."/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<label for="T25_120">Pulmonary venous anatomy:</label>
+<input type="text" id="T25_120" name="Pulmonary venous anatomy" value="Normal."/>
+</p>
+<p>
+<label for="T25_121">Pulmonary vein stenosis:</label>
+<input type="text" id="T25_121" name="Pulmonary vein stenosis" value="None."/>
+</p>
+<p>
+<label for="T25_122">Left atrial or appendageal thrombus:</label>
+<input type="text" id="T25_122" name="Pulmonary venous anatomy" value="None."/>
+</p>
+<p>
+<textarea id="T25_223" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

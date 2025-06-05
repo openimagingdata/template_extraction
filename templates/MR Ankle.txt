@@ -1,0 +1,4017 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="MR Ankle" name="dcterms.title"/>
+<meta content="MR Ankle template :: Authored by Carrino JA, Fatehi M" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000041" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-16" name="dcterms.date"/>
+<meta content="Carrino JA, Fatehi M" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>0</top-level-flag>
+<status>ACTIVE</status>
+<term>
+<code_meaning>ankle</code_meaning>
+<code_value>RID28545</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>magnetic resonance imaging</code_meaning>
+<code_value>RID10312</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<coded_content>
+<entry ORIGTXT="T41_2">
+<term>
+<code_meaning>procedure</code_meaning>
+<code_value>RID1559</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_3">
+<term>
+<code_meaning>magnetic resonance imaging</code_meaning>
+<code_value>RID10312</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_4">
+<term>
+<code_meaning>ankle</code_meaning>
+<code_value>RID28545</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_5">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_6">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_7">
+<term>
+<code_meaning>clinical information</code_meaning>
+<code_value>RID13166</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_8">
+<term>
+<code_meaning>comparison</code_meaning>
+<code_value>RID28483</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_9">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_10">
+<term>
+<code_meaning>imaging technique</code_meaning>
+<code_value>RID28482</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_11">
+<term>
+<code_meaning>observations section</code_meaning>
+<code_value>RID28486</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_13">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_16">
+<term>
+<code_meaning>hindfoot</code_meaning>
+<code_value>RID2945</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>valgus deformity</code_meaning>
+<code_value>RID4768</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_17">
+<term>
+<code_meaning>medial</code_meaning>
+<code_value>RID5820</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>compartment subdivision</code_meaning>
+<code_value>RID15776</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_18">
+<term>
+<code_meaning>medial malleolus</code_meaning>
+<code_value>RID2904</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_19">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_20">
+<term>
+<code_meaning>bone organ</code_meaning>
+<code_value>RID13197</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>edema</code_meaning>
+<code_value>RID4865</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_21">
+<term>
+<code_meaning>tendon of foot or ankle</code_meaning>
+<code_value>RID3183</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_22">
+<term>
+<code_meaning>posterior tibial tendon</code_meaning>
+<code_value>RID3194</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_23">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_24">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_25">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_26">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_27">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_28">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_29">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_30">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_31">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_32">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_33">
+<term>
+<code_meaning>flexor digitorum longus tendon</code_meaning>
+<code_value>RID3192</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_34">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_35">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_36">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_37">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_38">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_39">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_40">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_41">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_42">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_43">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_44">
+<term>
+<code_meaning>ligament of ankle joint</code_meaning>
+<code_value>RID3011</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_45">
+<term>
+<code_meaning>deltoid ligament of ankle</code_meaning>
+<code_value>RID3012</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_46">
+<term>
+<code_meaning>superficial deltoid ligament of ankle</code_meaning>
+<code_value>RID3017</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_47">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_48">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_49">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_53">
+<term>
+<code_meaning>deep deltoid ligament of ankle</code_meaning>
+<code_value>RID3014</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_54">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_55">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_56">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_60">
+<term>
+<code_meaning>spring ligament</code_meaning>
+<code_value>RID3052</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_61">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_62">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_63">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_67">
+<term>
+<code_meaning>laterality</code_meaning>
+<code_value>RID5821</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>compartment subdivision</code_meaning>
+<code_value>RID15776</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_68">
+<term>
+<code_meaning>lateral malleolus</code_meaning>
+<code_value>RID2883</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_69">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_70">
+<term>
+<code_meaning>bone organ</code_meaning>
+<code_value>RID13197</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>edema</code_meaning>
+<code_value>RID4865</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_71">
+<term>
+<code_meaning>medial malleolar sulcus</code_meaning>
+<code_value>RID2905</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_72">
+<term>
+<code_meaning>flat</code_meaning>
+<code_value>RID6277</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_75">
+<term>
+<code_meaning>tendon of foot or ankle</code_meaning>
+<code_value>RID3183</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_76">
+<term>
+<code_meaning>peroneal longus plantaris muscle tendon</code_meaning>
+<code_value>RID3198</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_77">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_78">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_79">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_80">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_81">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_82">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_83">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_84">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_85">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_86">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_87">
+<term>
+<code_meaning>tendon of peroneus brevis</code_meaning>
+<code_value>RID3197</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_88">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_89">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_90">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_91">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_92">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_93">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_94">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_95">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_96">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_97">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_98">
+<term>
+<code_meaning>deep peroneal retinaculum</code_meaning>
+<code_value>RID3215</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superficial peroneal retinaculum</code_meaning>
+<code_value>RID3214</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_99">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_100">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_101">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_102">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_103">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_104">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_105">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_106">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_107">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_108">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_110">
+<term>
+<code_meaning>ligament of ankle joint</code_meaning>
+<code_value>RID3011</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_111">
+<term>
+<code_meaning>fibrous joint</code_meaning>
+<code_value>RID6087</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_113">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_114">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_115">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_119">
+<term>
+<code_meaning>posterior</code_meaning>
+<code_value>RID5819</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>ligament organ</code_meaning>
+<code_value>RID6071</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_120">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_121">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_122">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_126">
+<term>
+<code_meaning>anterior talofibular ligament</code_meaning>
+<code_value>RID3022</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_127">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_128">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_129">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_133">
+<term>
+<code_meaning>calcaneofibular ligament</code_meaning>
+<code_value>RID3023</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_134">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_135">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_136">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_140">
+<term>
+<code_meaning>posterior talofibular ligament</code_meaning>
+<code_value>RID3024</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_141">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_142">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_143">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_147">
+<term>
+<code_meaning>posterior</code_meaning>
+<code_value>RID5819</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>compartment of foot</code_meaning>
+<code_value>RID3157</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_148">
+<term>
+<code_meaning>posterior</code_meaning>
+<code_value>RID5819</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>talus</code_meaning>
+<code_value>RID2949</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_149">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_152">
+<term>
+<code_meaning>bone organ</code_meaning>
+<code_value>RID13197</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>edema</code_meaning>
+<code_value>RID4865</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_153">
+<term>
+<code_meaning>flexor hallucis longus muscle</code_meaning>
+<code_value>RID2928</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>flexor hallucis longus tendon</code_meaning>
+<code_value>RID3193</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_154">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_155">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_156">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_157">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_158">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_159">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_160">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_161">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_162">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_163">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_164">
+<term>
+<code_meaning>ligament of ankle joint</code_meaning>
+<code_value>RID3011</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_165">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_166">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_167">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_171">
+<term>
+<code_meaning>Achilles tendon</code_meaning>
+<code_value>RID3184</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_172">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_173">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_174">
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_175">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_176">
+<term>
+<code_meaning>inflammation</code_meaning>
+<code_value>RID3382</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tendon</code_meaning>
+<code_value>RID6067</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_177">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_178">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_179">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_180">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_181">
+<term>
+<code_meaning>enthesophyte</code_meaning>
+<code_value>RID5072</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_182">
+<term>
+<code_meaning>plantar fascia</code_meaning>
+<code_value>RID3228</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_183">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_184">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_185">
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_186">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_187">
+<term>
+<code_meaning>inflammation</code_meaning>
+<code_value>RID3382</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tendon</code_meaning>
+<code_value>RID6067</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_188">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_189">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_190">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_191">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_192">
+<term>
+<code_meaning>enthesophyte</code_meaning>
+<code_value>RID5072</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_193">
+<term>
+<code_meaning>articular surface of ankle joint</code_meaning>
+<code_value>RID3006</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_194">
+<term>
+<code_meaning>ankle joint</code_meaning>
+<code_value>RID3004</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_195">
+<term>
+<code_meaning>ankle joint</code_meaning>
+<code_value>RID3004</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_196">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_197">
+<term>
+<code_meaning>osteoarthritis</code_meaning>
+<code_value>RID3555</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_198">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_199">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_200">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_201">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_202">
+<term>
+<code_meaning>anterior</code_meaning>
+<code_value>RID5818</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>osteophyte</code_meaning>
+<code_value>RID5076</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_203">
+<term>
+<code_meaning>joint</code_meaning>
+<code_value>RID6122</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>effusion</code_meaning>
+<code_value>RID4872</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_204">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_205">
+<term>
+<code_meaning>small</code_meaning>
+<code_value>RID5774</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_206">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_207">
+<term>
+<code_meaning>large</code_meaning>
+<code_value>RID5778</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_209">
+<term>
+<code_meaning>subtalar joint</code_meaning>
+<code_value>RID3029</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_210">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_211">
+<term>
+<code_meaning>osteoarthritis</code_meaning>
+<code_value>RID3555</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_212">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_213">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_214">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_215">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_216">
+<term>
+<code_meaning>joint</code_meaning>
+<code_value>RID6122</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>effusion</code_meaning>
+<code_value>RID4872</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_217">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_218">
+<term>
+<code_meaning>small</code_meaning>
+<code_value>RID5774</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_219">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_220">
+<term>
+<code_meaning>large</code_meaning>
+<code_value>RID5778</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_222">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_223">
+<term>
+<code_meaning>anterior compartment of leg</code_meaning>
+<code_value>RID2931</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_224">
+<term>
+<code_meaning>anterior tibial muscle tendon</code_meaning>
+<code_value>RID3189</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_225">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_226">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_227">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_228">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_229">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_230">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_231">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_232">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_233">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_234">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_235">
+<term>
+<code_meaning>extensor hallucis longus tendon</code_meaning>
+<code_value>RID3188</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>extensor hallucis longus muscle</code_meaning>
+<code_value>RID2914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_236">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_237">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_238">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_239">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_240">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_241">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_242">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_243">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_244">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_245">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_246">
+<term>
+<code_meaning>extensor digitorum longus muscle</code_meaning>
+<code_value>RID2913</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>extensor digitorum longus tendon</code_meaning>
+<code_value>RID3187</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_247">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_248">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_249">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_250">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_251">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_252">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_253">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_254">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_255">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_256">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_257">
+<term>
+<code_meaning>present</code_meaning>
+<code_value>RID28472</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>peroneus tertius</code_meaning>
+<code_value>RID2915</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_258">
+<term>
+<code_meaning>set of bones</code_meaning>
+<code_value>RID28569</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_259">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_260">
+<term>
+<code_meaning>musculature</code_meaning>
+<code_value>RID32753</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_261">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_263">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_265">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_267">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_270">
+<term>
+<code_meaning>hindfoot</code_meaning>
+<code_value>RID2945</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>valgus deformity</code_meaning>
+<code_value>RID4768</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_271">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_272">
+<term>
+<code_meaning>small</code_meaning>
+<code_value>RID5774</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_273">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_274">
+<term>
+<code_meaning>large</code_meaning>
+<code_value>RID5778</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_275">
+<term>
+<code_meaning>medial</code_meaning>
+<code_value>RID5820</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>compartment subdivision</code_meaning>
+<code_value>RID15776</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_276">
+<term>
+<code_meaning>medial malleolus</code_meaning>
+<code_value>RID2904</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_277">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_278">
+<term>
+<code_meaning>bone organ</code_meaning>
+<code_value>RID13197</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>edema</code_meaning>
+<code_value>RID4865</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_279">
+<term>
+<code_meaning>tendon of foot or ankle</code_meaning>
+<code_value>RID3183</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_280">
+<term>
+<code_meaning>posterior tibial tendon</code_meaning>
+<code_value>RID3194</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_281">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_282">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_283">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_284">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_285">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_286">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_287">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_288">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_289">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_290">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_291">
+<term>
+<code_meaning>flexor digitorum longus tendon</code_meaning>
+<code_value>RID3192</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_292">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_293">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_294">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_295">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_296">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_297">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_298">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_299">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_300">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_301">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_302">
+<term>
+<code_meaning>ligament of ankle joint</code_meaning>
+<code_value>RID3011</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_303">
+<term>
+<code_meaning>deltoid ligament of ankle</code_meaning>
+<code_value>RID3012</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_304">
+<term>
+<code_meaning>superficial deltoid ligament of ankle</code_meaning>
+<code_value>RID3017</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_305">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_306">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_307">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_311">
+<term>
+<code_meaning>deep deltoid ligament of ankle</code_meaning>
+<code_value>RID3014</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_312">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_313">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_314">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_318">
+<term>
+<code_meaning>spring ligament</code_meaning>
+<code_value>RID3052</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_319">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_320">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_321">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_325">
+<term>
+<code_meaning>laterality</code_meaning>
+<code_value>RID5821</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>compartment subdivision</code_meaning>
+<code_value>RID15776</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_326">
+<term>
+<code_meaning>lateral malleolus</code_meaning>
+<code_value>RID2883</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_327">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_328">
+<term>
+<code_meaning>bone organ</code_meaning>
+<code_value>RID13197</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>edema</code_meaning>
+<code_value>RID4865</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_329">
+<term>
+<code_meaning>medial malleolar sulcus</code_meaning>
+<code_value>RID2905</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_330">
+<term>
+<code_meaning>flat</code_meaning>
+<code_value>RID6277</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_333">
+<term>
+<code_meaning>tendon of foot or ankle</code_meaning>
+<code_value>RID3183</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_334">
+<term>
+<code_meaning>peroneal longus plantaris muscle tendon</code_meaning>
+<code_value>RID3198</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_335">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_336">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_337">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_338">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_339">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_340">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_341">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_342">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_343">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_344">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_345">
+<term>
+<code_meaning>tendon of peroneus brevis</code_meaning>
+<code_value>RID3197</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_346">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_347">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_348">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_349">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_350">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_351">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_352">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_353">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_354">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_355">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_356">
+<term>
+<code_meaning>deep peroneal retinaculum</code_meaning>
+<code_value>RID3215</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superficial peroneal retinaculum</code_meaning>
+<code_value>RID3214</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_357">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_358">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_359">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_360">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_361">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_362">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_363">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_364">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_365">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_366">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_368">
+<term>
+<code_meaning>ligament of ankle joint</code_meaning>
+<code_value>RID3011</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_369">
+<term>
+<code_meaning>fibrous joint</code_meaning>
+<code_value>RID6087</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_371">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_372">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_373">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_377">
+<term>
+<code_meaning>posterior</code_meaning>
+<code_value>RID5819</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>ligament organ</code_meaning>
+<code_value>RID6071</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_378">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_379">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_380">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_384">
+<term>
+<code_meaning>anterior talofibular ligament</code_meaning>
+<code_value>RID3022</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_385">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_386">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_387">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_391">
+<term>
+<code_meaning>calcaneofibular ligament</code_meaning>
+<code_value>RID3023</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_392">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_393">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_394">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_398">
+<term>
+<code_meaning>posterior talofibular ligament</code_meaning>
+<code_value>RID3024</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_399">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_400">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_401">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_405">
+<term>
+<code_meaning>posterior</code_meaning>
+<code_value>RID5819</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>compartment of foot</code_meaning>
+<code_value>RID3157</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_406">
+<term>
+<code_meaning>posterior</code_meaning>
+<code_value>RID5819</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>talus</code_meaning>
+<code_value>RID2949</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_407">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_410">
+<term>
+<code_meaning>bone organ</code_meaning>
+<code_value>RID13197</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>edema</code_meaning>
+<code_value>RID4865</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_411">
+<term>
+<code_meaning>flexor hallucis longus muscle</code_meaning>
+<code_value>RID2928</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>flexor hallucis longus tendon</code_meaning>
+<code_value>RID3193</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_412">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_413">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_414">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_415">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_416">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_417">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_418">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_419">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_420">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_421">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_422">
+<term>
+<code_meaning>ligament of ankle joint</code_meaning>
+<code_value>RID3011</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_423">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_424">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_425">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_429">
+<term>
+<code_meaning>Achilles tendon</code_meaning>
+<code_value>RID3184</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_430">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_431">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_432">
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_433">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_434">
+<term>
+<code_meaning>inflammation</code_meaning>
+<code_value>RID3382</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tendon</code_meaning>
+<code_value>RID6067</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_435">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_436">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_437">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_438">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_439">
+<term>
+<code_meaning>enthesophyte</code_meaning>
+<code_value>RID5072</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_440">
+<term>
+<code_meaning>plantar fascia</code_meaning>
+<code_value>RID3228</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_441">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_442">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_443">
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_444">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_445">
+<term>
+<code_meaning>inflammation</code_meaning>
+<code_value>RID3382</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>tendon</code_meaning>
+<code_value>RID6067</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_446">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_447">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_448">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_449">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_450">
+<term>
+<code_meaning>enthesophyte</code_meaning>
+<code_value>RID5072</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_451">
+<term>
+<code_meaning>articular surface of ankle joint</code_meaning>
+<code_value>RID3006</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_452">
+<term>
+<code_meaning>ankle joint</code_meaning>
+<code_value>RID3004</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_453">
+<term>
+<code_meaning>ankle joint</code_meaning>
+<code_value>RID3004</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_454">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_455">
+<term>
+<code_meaning>osteoarthritis</code_meaning>
+<code_value>RID3555</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_456">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_457">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_458">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_459">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_460">
+<term>
+<code_meaning>anterior</code_meaning>
+<code_value>RID5818</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>osteophyte</code_meaning>
+<code_value>RID5076</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_461">
+<term>
+<code_meaning>joint</code_meaning>
+<code_value>RID6122</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>effusion</code_meaning>
+<code_value>RID4872</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_462">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_463">
+<term>
+<code_meaning>small</code_meaning>
+<code_value>RID5774</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_464">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_465">
+<term>
+<code_meaning>large</code_meaning>
+<code_value>RID5778</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_467">
+<term>
+<code_meaning>subtalar joint</code_meaning>
+<code_value>RID3029</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_468">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_469">
+<term>
+<code_meaning>osteoarthritis</code_meaning>
+<code_value>RID3555</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_470">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_471">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_472">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_473">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_474">
+<term>
+<code_meaning>joint</code_meaning>
+<code_value>RID6122</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>effusion</code_meaning>
+<code_value>RID4872</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_475">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_476">
+<term>
+<code_meaning>small</code_meaning>
+<code_value>RID5774</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_477">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_478">
+<term>
+<code_meaning>large</code_meaning>
+<code_value>RID5778</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_480">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_481">
+<term>
+<code_meaning>anterior compartment of leg</code_meaning>
+<code_value>RID2931</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_482">
+<term>
+<code_meaning>anterior tibial muscle tendon</code_meaning>
+<code_value>RID3189</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_483">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_484">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_485">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_486">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_487">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_488">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_489">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_490">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_491">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_492">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_493">
+<term>
+<code_meaning>extensor hallucis longus tendon</code_meaning>
+<code_value>RID3188</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>extensor hallucis longus muscle</code_meaning>
+<code_value>RID2914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_494">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_495">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_496">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_497">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_498">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_499">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_500">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_501">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_502">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_503">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_504">
+<term>
+<code_meaning>extensor digitorum longus muscle</code_meaning>
+<code_value>RID2913</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>extensor digitorum longus tendon</code_meaning>
+<code_value>RID3187</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_505">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_506">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_507">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_508">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_509">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_510">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_511">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_512">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_513">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_514">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_515">
+<term>
+<code_meaning>present</code_meaning>
+<code_value>RID28472</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>peroneus tertius</code_meaning>
+<code_value>RID2915</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_516">
+<term>
+<code_meaning>ankle joint</code_meaning>
+<code_value>RID3004</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_517">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_518">
+<term>
+<code_meaning>osteoarthritis</code_meaning>
+<code_value>RID3555</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_519">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_520">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_521">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_522">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_523">
+<term>
+<code_meaning>anterior</code_meaning>
+<code_value>RID5818</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>osteophyte</code_meaning>
+<code_value>RID5076</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_524">
+<term>
+<code_meaning>joint</code_meaning>
+<code_value>RID6122</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>effusion</code_meaning>
+<code_value>RID4872</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_525">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_526">
+<term>
+<code_meaning>small</code_meaning>
+<code_value>RID5774</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_527">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_528">
+<term>
+<code_meaning>large</code_meaning>
+<code_value>RID5778</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_530">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_531">
+<term>
+<code_meaning>osteoarthritis</code_meaning>
+<code_value>RID3555</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_532">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_533">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_534">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_535">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_536">
+<term>
+<code_meaning>joint</code_meaning>
+<code_value>RID6122</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>effusion</code_meaning>
+<code_value>RID4872</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_537">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_538">
+<term>
+<code_meaning>small</code_meaning>
+<code_value>RID5774</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_539">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_540">
+<term>
+<code_meaning>large</code_meaning>
+<code_value>RID5778</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_541">
+<term>
+<code_meaning>set of bones</code_meaning>
+<code_value>RID28569</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_542">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_543">
+<term>
+<code_meaning>musculature</code_meaning>
+<code_value>RID32753</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_544">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_546">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_548">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_549">
+<term>
+<code_meaning>impression section</code_meaning>
+<code_value>RID13170</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_552">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_553">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_554">
+<term>
+<code_meaning>bone organ</code_meaning>
+<code_value>RID13197</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>edema</code_meaning>
+<code_value>RID4865</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_555">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_556">
+<term>
+<code_meaning>tendinosis</code_meaning>
+<code_value>RID5123</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_557">
+<term>
+<code_meaning>tear</code_meaning>
+<code_value>RID4714</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_558">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>partial</code_meaning>
+<code_value>RID5687</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_559">
+<term>
+<code_meaning>thickness descriptor</code_meaning>
+<code_value>RID28671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_560">
+<term>
+<code_meaning>tenosynovitis</code_meaning>
+<code_value>RID3651</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_561">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_562">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_563">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_564">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_565">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_566">
+<term>
+<code_meaning>thickened</code_meaning>
+<code_value>RID5914</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_567">
+<term>
+<code_meaning>sprain</code_meaning>
+<code_value>RID4731</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_571">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_572">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_573">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T41_574">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR Ankle</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR Ankle</header>
+<p>
+<label for="T41_4">Side:</label>
+<select id="T41_4" name="T41_4">
+<option id="T41_4_5" name="T41_4_5" value="Right">Right ankle</option>
+<option id="T41_4_6" name="T41_4_6" value="Left">Left ankle</option>
+</select>
+</p>
+<p>
+<textarea id="T41_2" name="Procedure"> </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T41_7" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T41_8" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T41_12">Alignment:</label>
+<input type="text" id="T41_12_text" name="T41_12_text" value="Normal. "/>
+</p>
+<section data-section-name="Medial compartment">
+<header class="level2">Medial compartment</header>
+<p>
+<label for="T41_18">Medial malleolus:</label>
+<input type="text" id="T41_18" name="T41_18" value="Normal. "/>
+</p>
+<p>
+<label for="T41_22">Posterior tibial tendon:</label>
+<input type="text" id="T41_22" name="T41_22" value="Normal. "/>
+</p>
+<p>
+<label for="T41_33">Flexor digitorum longus tendon:</label>
+<input type="text" id="T41_33" name="T41_33" value="Normal. "/>
+</p>
+<p>
+<label for="T41_45">Deltoid ligament complex (superficial):</label>
+<input type="text" id="T41_45" name="T41_45" value="Normal. "/>
+</p>
+<p>
+<label for="T41_53">Deltoid ligament complex (deep):</label>
+<input type="text" id="T41_53" name="T41_53" value="Normal. "/>
+</p>
+<p>
+<label for="T41_60">Spring ligament:</label>
+<input type="text" id="T41_60" name="T41_60" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Lateral compartment">
+<header class="level2">Lateral compartment</header>
+<p>
+<label for="T41_68">Lateral malleolus:</label>
+<input type="text" id="T41_68" name="T41_68" value="Normal. "/>
+</p>
+<p>
+<label for="T41_71">Retromalleolar groove:</label>
+<select id="T41_71" name="T41_71">
+<option id="T41_71_72" name="T41_71_72" value="Flat">Flat</option>
+<option id="T41_71_73" name="T41_71_73" value="Concave">Concave</option>
+<option id="T41_71_74" name="T41_71_74" value="Convex">Convex</option>
+</select>
+</p>
+<p>
+<label for="T41_76">Peroneus longus tendon:</label>
+<input type="text" id="T41_76" name="T41_76" value="Normal. "/>
+</p>
+<p>
+<label for="T41_87">Peroneus brevis tendon:</label>
+<input type="text" id="T41_87" name="T41_87" value="Normal. "/>
+</p>
+<p>
+<label for="T41_98">Peroneal retinaculum:</label>
+<input type="text" id="T41_98" name="T41_98" value="Normal. "/>
+</p>
+<p>
+<label for="T41_109">Peroneus quartus:</label>
+<input type="text" id="T41_109" name="T41_109" value="Absent. "/>
+</p>
+<p>
+<label for="T41_112">Anterior inferior tibiofibular ligament:</label>
+<input type="text" id="T41_112" name="T41_112" value="Normal. "/>
+</p>
+<p>
+<label for="T41_119">Posterior inferior tibiofibular ligament:</label>
+<input type="text" id="T41_119" name="T41_119" value="Normal. "/>
+</p>
+<p>
+<label for="T41_126">Anterior talofibular ligament:</label>
+<input type="text" id="T41_126" name="T41_126" value="Normal. "/>
+</p>
+<p>
+<label for="T41_133">Calcaneofibular ligament:</label>
+<input type="text" id="T41_133" name="T41_133" value="Normal. "/>
+</p>
+<p>
+<label for="T41_140">Posterior talofibular ligament</label>
+<input type="text" id="T41_140" name="T41_140" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Posterior compartment">
+<header class="level2">Posterior compartment</header>
+<p>
+<label for="T41_148">Posterior talus:</label>
+<input type="text" id="T41_148" name="T41_148" value="Normal. "/>
+</p>
+<p>
+<label for="T41_153">Flexor hallucis longus:</label>
+<input type="text" id="T41_153" name="T41_153" value="Normal. "/>
+</p>
+<p>
+<label for="T41_164">Intermalleolar ligament:</label>
+<input type="text" id="T41_164" name="T41_164" value="Normal. "/>
+</p>
+<p>
+<label for="T41_171">Achilles tendon:</label>
+<input type="text" id="T41_171" name="T41_171" value="Normal. "/>
+</p>
+<p>
+<label for="T41_182">Plantar fascia:</label>
+<input type="text" id="T41_182" name="T41_182" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Articulations">
+<header class="level2">Articulations</header>
+<p>
+<label for="T41_194">Tibiotalar joint:</label>
+<input type="text" id="T41_194" name="T41_194" value="Normal. "/>
+</p>
+<p>
+<label for="T41_209">Subtalar joint:</label>
+<input type="text" id="T41_209" name="T41_209" value="Normal. "/>
+</p>
+<p>
+<label for="T41_221">Tarsal joints:</label>
+<input type="text" id="T41_221" name="T41_221" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Anterior compartment">
+<header class="level2">Anterior compartment</header>
+<p>
+<label for="T41_224">Anterior tibial tendon:</label>
+<input type="text" id="T41_224" name="T41_224" value="Normal. "/>
+</p>
+<p>
+<label for="T41_235">Extensor hallucis longus:</label>
+<input type="text" id="T41_235" name="T41_235" value="Normal. "/>
+</p>
+<p>
+<label for="T41_246">Extensor digitorum longus:</label>
+<input type="text" id="T41_246" name="T41_246" value="Normal. "/>
+</p>
+<p>
+<label for="T41_257">Peroneus tertius:</label>
+<input type="text" id="T41_257" name="T41_257" value="Absent. "/>
+</p>
+</section>
+<section data-section-name="General findings">
+<header class="level2">General findings</header>
+<p>
+<label for="T41_258">Bones:</label>
+<input type="text" id="T41_258" name="T41_258" value="Normal. "/>
+</p>
+<p>
+<label for="T41_260">Muscles:</label>
+<input type="text" id="T41_260" name="T41_260" value="Normal. "/>
+</p>
+<p>
+<label for="T41_262">Tarsal tunnel:</label>
+<input type="text" id="T41_262" name="T41_262" value="Normal. "/>
+</p>
+<p>
+<label for="T41_264">Sinus tarsi:</label>
+<input type="text" id="T41_264" name="T41_264" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T41_549" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

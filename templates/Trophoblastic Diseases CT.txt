@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trophoblastic Diseases CT</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="9a4d05bf-61b4-4643-b65b-b338904b2fe3" />
+        <meta name="dcterms.title" content="Trophoblastic Diseases CT" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="ESR" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2017-10-06" />
+        <meta name="dcterms.creator" content="Teresa Margarida Cunha, MD" />
+        <meta name="dcterms.contributor" content="Rita Lucas, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="impression section" value="RID13170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476402896450">
+                        <term>
+                            <code meaning="clinical information section" value="RID13166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisonsText">
+                        <term>
+                            <code meaning="comparison" value="RID28483" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476402896453">
+                        <term>
+                            <code meaning="uterus" value="RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476402896474">
+                        <term>
+                            <code meaning="ascites" value="RID1541" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476402896467">
+                        <term>
+                            <code meaning="pelvic wall" value="RID30760" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476402896447">
+                        <term>
+                            <code meaning="procedure" value="RID1559" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476402896462">
+                        <term>
+                            <code meaning="set of ovaries" value="RID39537" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476402896447">Procedure Type:</label>
+                <select id="SELECTION_LIST_1476402896447" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Enhanced CT of the abdomen, thorax and pelvis">
+                    <option id="SELECTION_LIST_1476402896447_0" value="Enhanced CT of the abdomen, thorax and pelvis" name="SELECTION_LIST_1476402896447" selected="">Enhanced CT of the abdomen, thorax and pelvis</option>
+                    <option id="SELECTION_LIST_1476402896447_1" value="Unenhanced CT of the abdomen, thorax and pelvis" name="SELECTION_LIST_1476402896447">Unenhanced CT of the abdomen, thorax and pelvis</option>
+                </select>
+            </p>
+           <p title="">
+                <label for="TEXT_1476402896451">Technique:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896451" name="" data-field-type="TEXT" data-field-completion-action="NONE">Helical CT of the abdomen, thorax and pelvis Sagittal and coronal reconstructions.</textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1476402896450">Clinical Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896450" name="" data-field-type="TEXT" data-field-completion-action="NONE">Trophoblastic disease evaluation</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText">Comparison study:</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE">None available</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476402896453">Uterus:</label>
+                <select id="SELECTION_LIST_1476402896453" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Anteverted">
+                    <option id="SELECTION_LIST_1476402896453_0" value="Anteverted" name="SELECTION_LIST_1476402896453" selected="">Anteverted</option>
+                    <option id="SELECTION_LIST_1476402896453_1" value="Retroverted" name="SELECTION_LIST_1476402896453">Retroverted</option>
+                    <option id="SELECTION_LIST_1476402896453_2" value="Retroflexed" name="SELECTION_LIST_1476402896453">Retroflexed</option>
+                    <option id="SELECTION_LIST_1476402896453_3" value="Displaced to left" name="SELECTION_LIST_1476402896453">Displaced to left</option>
+                    <option id="SELECTION_LIST_1476402896453_4" value="Displaced to right" name="SELECTION_LIST_1476402896453">Displaced to right</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896460">Size:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896460" name="" data-field-type="TEXT" data-field-completion-action="NONE">Normal in size</textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476402896459">Measuring:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1476402896459" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896461">Cervix:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896461" name="" data-field-type="TEXT" data-field-completion-action="NONE">Unremarkable</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896462">Ovaries:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896462" name="" data-field-type="TEXT" data-field-completion-action="NONE">Unremarkable</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896463">Vagina:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896463" name="" data-field-type="TEXT" data-field-completion-action="NONE">Unremarkable</textarea>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476402896464">Tumour:</label>
+                <select id="SELECTION_LIST_1476402896464" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Visible">
+                    <option id="SELECTION_LIST_1476402896464_0" value="Visible" name="SELECTION_LIST_1476402896464" selected="">Visible</option>
+                    <option id="SELECTION_LIST_1476402896464_1" value="Not visible confined to the uterus/ extending outside the uterus limited to the genital organs (adnexa, vagina, broad ligament)." name="SELECTION_LIST_1476402896464">Not visible confined to the uterus/ extending outside the uterus limited to the genital organs (adnexa, vagina, broad ligament).</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476402896467">Pelvic wall:</label>
+                <select id="SELECTION_LIST_1476402896467" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Invaded">
+                    <option id="SELECTION_LIST_1476402896467_0" value="Invaded" name="SELECTION_LIST_1476402896467" selected="">Invaded</option>
+                    <option id="SELECTION_LIST_1476402896467_1" value="Not invaded" name="SELECTION_LIST_1476402896467">Not invaded</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476402896470">Lymph nodes:</label>
+                <select id="SELECTION_LIST_1476402896470" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal in size">
+                    <option id="SELECTION_LIST_1476402896470_0" value="Normal in size" name="SELECTION_LIST_1476402896470" selected="">Normal in size</option>
+                    <option id="SELECTION_LIST_1476402896470_1" value="Enlarged; probably reactive" name="SELECTION_LIST_1476402896470">Enlarged; probably reactive</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896473">Physiologic pelvic fluid:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896473" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no physiologic pelvic fluid.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896474">Ascites:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896474" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no ascites.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896475">Liver metastasis:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896475" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no liver metastasis.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896476">Lung metastasis:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896476" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no lung metastasis.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896477">Pleural metastasis:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896477" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no pleural metastasis.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896478">Distant metastasis:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896478" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no distant metastasis.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476402896479">Other findings:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476402896479" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText">Impression:</label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vaginal Cancer MRI</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="0e3a89cb-cc80-4ec7-9189-1d5d27e1949e" />
+        <meta name="dcterms.title" content="Vaginal Cancer MRI" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="ESR" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2017-10-06" />
+        <meta name="dcterms.creator" content="Teresa Margarida Cunha, MD" />
+        <meta name="dcterms.contributor" content="Rita Lucas, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="SELECTION_LIST_1476404765878">
+                        <term>
+                            <code meaning="wall of rectum" value="RID32936" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476404765870">
+                        <term>
+                            <code meaning="vagina" value="RID325" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476404765875">
+                        <term>
+                            <code meaning="left side of pelvic wall" value="RID32629" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="impression section" value="RID13170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476404765840">
+                        <term>
+                            <code meaning="clinical information section" value="RID13166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisonsText">
+                        <term>
+                            <code meaning="comparison" value="RID28483" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476404765855">
+                        <term>
+                            <code meaning="uterus" value="RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476404765881">
+                        <term>
+                            <code meaning="wall of urinary bladder" value="RID30135" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476404765862">
+                        <term>
+                            <code meaning="endometrium" value="RID30958" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765837">Procedure Type:</label>
+                <select id="SELECTION_LIST_1476404765837" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Enhanced MRI Pelvis [Vaginal opacification with ultrasound gel].">
+                    <option id="SELECTION_LIST_1476404765837_0" value="Enhanced MRI Pelvis [Vaginal opacification with ultrasound gel]." name="SELECTION_LIST_1476404765837" selected="">Enhanced MRI Pelvis [Vaginal opacification with ultrasound gel].</option>
+                    <option id="SELECTION_LIST_1476404765837_1" value="Unenhanced MRI Pelvis [Vaginal opacification with ultrasound gel]." name="SELECTION_LIST_1476404765837">Unenhanced MRI Pelvis [Vaginal opacification with ultrasound gel].</option>
+                </select>
+            </p>
+<p title="">
+                <label for="SELECTION_LIST_1476404765841">Technique:</label>
+                <select multiple="multiple" id="SELECTION_LIST_1476404765841" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="T2-weighted images of the pelvis in axial, sagittal planes and coronal oblique (perpendicular o the long axis of the vagina) T1-weighted images of the pelvis in axial plane">
+                    <option id="SELECTION_LIST_1476404765841_0" value="T2-weighted images of the pelvis in axial, sagittal planes and coronal oblique (perpendicular o the long axis of the vagina) T1-weighted images of the pelvis in axial plane" name="SELECTION_LIST_1476404765841" selected="">T2-weighted images of the pelvis in axial, sagittal planes and coronal oblique (perpendicular o the long axis of the vagina) T1-weighted images of the pelvis in axial plane</option>
+                    <option id="SELECTION_LIST_1476404765841_1" value="Axial T2-weighted images of the abdomen were also obtained from the renal hilum to the iliac crests." name="SELECTION_LIST_1476404765841">Axial T2-weighted images of the abdomen were also obtained from the renal hilum to the iliac crests.</option>
+                    <option id="SELECTION_LIST_1476404765841_2" value="Axial DW-MRI study was also performed in the pelvis and in the abdomen from the renal hilum to the iliac crests.]" name="SELECTION_LIST_1476404765841">Axial DW-MRI study was also performed in the pelvis and in the abdomen from the renal hilum to the iliac crests.]</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765845">Type of pre and post contrast imaging of the pelvis in the sagittal plane and in axial plane in late phase:</label>
+                <select id="SELECTION_LIST_1476404765845" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Dynamic">
+                    <option id="SELECTION_LIST_1476404765845_0" value="Dynamic" name="SELECTION_LIST_1476404765845" selected="">Dynamic</option>
+                    <option id="SELECTION_LIST_1476404765845_1" value="Non-dynamic" name="SELECTION_LIST_1476404765845">Non-dynamic</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476404765848">Strength of Tesla scanner:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="" id="NUMBER_1476404765848" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1476404765849">Contrast type:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476404765849" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476404765850">Contrast dose administered before and after fat suppressed T1-weighted imaging:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mL" id="NUMBER_1476404765850" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mL
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765851">Image quality:</label>
+                <select id="SELECTION_LIST_1476404765851" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Satisfactory">
+                    <option id="SELECTION_LIST_1476404765851_0" value="Satisfactory" name="SELECTION_LIST_1476404765851" selected="">Satisfactory</option>
+                    <option id="SELECTION_LIST_1476404765851_1" value="Degarded by motion/etc." name="SELECTION_LIST_1476404765851">Degarded by motion/etc.</option>
+                </select>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1476404765840">Clinical Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476404765840" name="" data-field-type="TEXT" data-field-completion-action="NONE">Vaginal Cancer Staging</textarea>
+            </p>
+                    </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText">Comparison study:</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE">None available</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765855">Uterus:</label>
+                <select id="SELECTION_LIST_1476404765855" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Anteverted">
+                    <option id="SELECTION_LIST_1476404765855_0" value="Anteverted" name="SELECTION_LIST_1476404765855" selected="">Anteverted</option>
+                    <option id="SELECTION_LIST_1476404765855_1" value="Retroverted" name="SELECTION_LIST_1476404765855">Retroverted</option>
+                    <option id="SELECTION_LIST_1476404765855_2" value="Retroflexed" name="SELECTION_LIST_1476404765855">Retroflexed</option>
+                    <option id="SELECTION_LIST_1476404765855_3" value="Displaced to left" name="SELECTION_LIST_1476404765855">Displaced to left</option>
+                    <option id="SELECTION_LIST_1476404765855_4" value="Displaced to right" name="SELECTION_LIST_1476404765855">Displaced to right</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="findingsText">Size:</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXT" data-field-completion-action="NONE">Normal in size</textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476404765861">Measuring:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1476404765861" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765862">Endometrium:</label>
+                <select id="SELECTION_LIST_1476404765862" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal">
+                    <option id="SELECTION_LIST_1476404765862_0" value="Normal" name="SELECTION_LIST_1476404765862" selected="">Normal</option>
+                    <option id="SELECTION_LIST_1476404765862_1" value="Abnormal" name="SELECTION_LIST_1476404765862">Abnormal</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476404765868">The maximum width of the endometrium is:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1476404765868" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mm
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1476404765869">Cervix:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476404765869" name="" data-field-type="TEXT" data-field-completion-action="NONE">Unremarkable</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476404765870">Vagina:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476404765870" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476404765874">Tumour measurement (of larger axis):</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1476404765874" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765871">Tumour:</label>
+                <select id="SELECTION_LIST_1476404765871" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Confined to the vagina ">
+                    <option id="SELECTION_LIST_1476404765871_0" value="Confined to the vagina" name="SELECTION_LIST_1476404765871">Confined to the vagina</option>
+                    <option id="SELECTION_LIST_1476404765871_1" value="Invading paravaginal tissues" name="SELECTION_LIST_1476404765871">Invading paravaginal tissues</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765875">Pelvic wall:</label>
+                <select id="SELECTION_LIST_1476404765875" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Invaded">
+                    <option id="SELECTION_LIST_1476404765875_0" value="Invaded" name="SELECTION_LIST_1476404765875" selected="">Invaded</option>
+                    <option id="SELECTION_LIST_1476404765875_1" value="Not invaded" name="SELECTION_LIST_1476404765875">Not invaded</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765881">Bladder wall:</label>
+                <select id="SELECTION_LIST_1476404765881" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Invaded">
+                    <option id="SELECTION_LIST_1476404765881_0" value="Invaded" name="SELECTION_LIST_1476404765881" selected="">Invaded</option>
+                    <option id="SELECTION_LIST_1476404765881_1" value="Not invaded" name="SELECTION_LIST_1476404765881">Not invaded</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765878">Rectal wall:</label>
+                <select id="SELECTION_LIST_1476404765878" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Invaded">
+                    <option id="SELECTION_LIST_1476404765878_0" value="Invaded" name="SELECTION_LIST_1476404765878" selected="">Invaded</option>
+                    <option id="SELECTION_LIST_1476404765878_1" value="Not invaded" name="SELECTION_LIST_1476404765878">Not invaded</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765884">Regional lymph nodes:</label>
+                <select id="SELECTION_LIST_1476404765884" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal in size">
+                    <option id="SELECTION_LIST_1476404765884_0" value="Normal in size" name="SELECTION_LIST_1476404765884" selected="">Normal in size</option>
+                    <option id="SELECTION_LIST_1476404765884_1" value="Enlarged; probably reactive" name="SELECTION_LIST_1476404765884">Enlarged; probably reactive</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476404765887">Pelvic or inguinal lymph nodes:</label>
+                <select id="SELECTION_LIST_1476404765887" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal in size">
+                    <option id="SELECTION_LIST_1476404765887_0" value="Normal in size" name="SELECTION_LIST_1476404765887" selected="">Normal in size</option>
+                    <option id="SELECTION_LIST_1476404765887_1" value="Enlarged; probably reactive" name="SELECTION_LIST_1476404765887">Enlarged; probably reactive</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1476404765890">Distant metastasis:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476404765890" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no distant metastasis.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476404765891">Physiologic pelvic fluid:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476404765891" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no physiologic pelvic fluid.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476404765892">Other findings:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476404765892" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText">Impression:</label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

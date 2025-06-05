@@ -1,0 +1,24 @@
+Indication: [ ].
+
+Comparison: []
+
+Technique: [] MCi Tc 99m mebrofenin were administered intravenously and serial images were obtained over the anterior abdomen till the gallbladder was full and there was small bowel activity. 
+
+[The the patient consumed a fatty meal and the gall bladder ejection fraction was determined at 30 mins. [and 60 mins.] ]
+
+Findings: 
+At [] minutes, there is uniform uptake by the liver.
+
+At [] minutes, activity is seen in the bile ducts
+
+By [] minutes, [] activity is seen in the gallbladder. 
+
+By [] minutes, [] radioactivity is present in the small bowel.
+
+[ Gallbladder ejection fraction is []% at [] mins, [within normal limits].
+Normal value is 35% at 60 minutes post fatty meal. ]
+
+Impression:
+1. [No scintigraphic evidence of cystic or common bile duct obstruction].
+
+2. [Normal gallbladder ejection fraction.]

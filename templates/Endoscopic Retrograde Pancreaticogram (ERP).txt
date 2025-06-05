@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Endoscopic Retrograde Pancreaticogram (ERP)" name="dcterms.title"/>
+<meta content="Endoscopic Retrograde Pancreaticogram (ERP) template :: Authored by Marn CE" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000254" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-12-10" name="dcterms.date"/>
+<meta content="Marn CE" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="pancreatic duct" value="RID176" scheme="RadLex">
+</term>
+<term>
+ <code meaning="projection radiography" value="RID10345" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T254_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T254_3">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T254_4">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T254_6">
+  <term>
+  <code meaning="Radiology Study observation (narrative)" value="18782-3" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T254_7">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Endoscopic Retrograde Pancreaticogram (ERP)</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Endoscopic Retrograde Pancreaticogram (ERP)</header>
+<p>
+<textarea id="T254_2" name="Procedure">Images are submitted for review from endoscopic retrograde pancreaticogram (ERP) performed by the GI lab. Endoscope is passed in an antegrade fashion, and the tip of the endoscope lies in the second portion of the duodenum. The distal pancreatic duct is cannulated, and contrast injected in retrograde fashion. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T254_3" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T254_4" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<textarea id="T254_6" name="Findings"></textarea>
+</p>
+<p>
+<label for="X1">Fluoroscopy time:</label>
+<input type="number" name="Fluoroscopy time" id="X1" min="" step="0.1" data-field-units="minutes" /> minutes
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T254_7" name="Impression"> </textarea>
+</p>
+<p>Please see the GI procedure note for further details.</p>
+</section>
+</body>
+</html>

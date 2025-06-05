@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CT Abdomen and Pelvis</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="ed50f469-c0b9-47b7-809f-1fd24045183a" />
+        <meta name="dcterms.title" content="CT Abdomen and Pelvis" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="University of Utah" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2018-05-20" />
+        <meta name="dcterms.creator" content="Thomas Winter" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="TEXT_1458325729093">
+                        <term>
+                            <code meaning="gallbladder" value="RID187" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729094">
+                        <term>
+                            <code meaning="kidney" value="RID205" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1458325729116">
+                        <term>
+                            <code meaning="lung" value="RID1301" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729095">
+                        <term>
+                            <code meaning="adrenal region" value="RID28722" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729097">
+                        <term>
+                            <code meaning="spleen" value="RID86" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729098">
+                        <term>
+                            <code meaning="pancreas" value="RID170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458750154245">
+                        <term>
+                            <code meaning="appendix" value="RID168" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729099">
+                        <term>
+                            <code meaning="stomach" value="RID114" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729111">
+                        <term>
+                            <code meaning="abdominal lymph node group" value="RID28854" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729112">
+                        <term>
+                            <code meaning="musculoskeletal system" value="RID13209" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729113">
+                        <term>
+                            <code meaning="vasculature" value="RID15989" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729114">
+                        <term>
+                            <code meaning="fluid" value="RID1547" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729115">
+                        <term>
+                            <code meaning="portion of soft tissue" value="RID35730" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729086">
+                        <term>
+                            <code meaning="clinical information section" value="RID13166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1458325729101">
+                        <term>
+                            <code meaning="pelvis" value="RID2507" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1458325729087">
+                        <term>
+                            <code meaning="technique effectiveness" value="RID11502" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findingsText">
+                        <term>
+                            <code meaning="liver" value="RID58" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1458325729106">
+                        <term>
+                            <code meaning="peritoneum" value="RID410" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1458325729087">Technique:</label>
+                <select id="SELECTION_LIST_1458325729087" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Helical images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and positive oral contrast material. No complications were reported.">
+                    <option id="SELECTION_LIST_1458325729087_0" value="Helical images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and positive oral contrast material. No complications were reported." name="SELECTION_LIST_1458325729087" selected="">Helical images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and positive oral contrast material. No complications were reported.</option>
+                    <option id="SELECTION_LIST_1458325729087_1" value="Helical images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material. Since no oral contrast was administered, the sensitivity of this exam for evaluating the bowels, retroperitoneum, and any potential intraabdominal fluid collections is limited. No complications were reported" name="SELECTION_LIST_1458325729087">Helical images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material. Since no oral contrast was administered, the sensitivity of this exam for evaluating the bowels, retroperitoneum, and any potential intraabdominal fluid collections is limited. No complications were reported</option>
+                    <option id="SELECTION_LIST_1458325729087_2" value="Helical images were obtained through the abdomen and pelvis following the protocol administration of positive oral contrast material. IV contrast was not administered, limiting the sensitivity of this exam for solid visceral organs, vascular structures, and retroperitoneum. No complications were reported." name="SELECTION_LIST_1458325729087">Helical images were obtained through the abdomen and pelvis following the protocol administration of positive oral contrast material. IV contrast was not administered, limiting the sensitivity of this exam for solid visceral organs, vascular structures, and retroperitoneum. No complications were reported.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1459376805556"></label>
+                <select id="SELECTION_LIST_1459376805556" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Because of the provided clinical history late arterial (&quot;pancreatic&quot;) phase images were obtained in addition to the standard portal venous phase images.">
+                    <option id="SELECTION_LIST_1459376805556_0" value="Because of the provided clinical history late arterial (&quot;pancreatic&quot;) phase images were obtained in addition to the standard portal venous phase images." name="SELECTION_LIST_1459376805556" selected="">Because of the provided clinical history late arterial (&quot;pancreatic&quot;) phase images were obtained in addition to the standard portal venous phase images.</option>
+                    <option id="SELECTION_LIST_1459376805556_1" value="Because of the provided clinical history, late arterial and 5 minute delayed images were obtained in addition to the standard portal venous phase images." name="SELECTION_LIST_1459376805556">Because of the provided clinical history, late arterial and 5 minute delayed images were obtained in addition to the standard portal venous phase images.</option>
+                    <option id="SELECTION_LIST_1459376805556_2" value="Becaused of the provided clincal history, late arterial phase images were obtained in addition to the standard portal venous phase images." name="SELECTION_LIST_1459376805556">Becaused of the provided clincal history, late arterial phase images were obtained in addition to the standard portal venous phase images.</option>
+                    <option id="SELECTION_LIST_1459376805556_3" value="Contrast material delivery was optimized for assessment of the arterial system, thus limiting evaluation of the solid visceral organs and venous structures." name="SELECTION_LIST_1459376805556">Contrast material delivery was optimized for assessment of the arterial system, thus limiting evaluation of the solid visceral organs and venous structures.</option>
+                </select>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1458325729086">Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729086" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="TEXT_1476455533733"></label>
+                <textarea rows="3" cols="100" id="TEXT_1476455533733" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="findingsText">Liver:</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729093">Gallbladder and Bile Ducts:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729093" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729094">Kidneys:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729094" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729095">Adrenals:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729095" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729097">Spleen:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729097" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729098">Pancreas:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729098" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729099">Bowel and Stomach:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729099" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The stomach and visualized loops of large and small bowel are unremarkable.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458750154245">Appendix:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458750154245" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Incidental note made of normal appearance to the appendix.</textarea>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1458325729101">Pelvis:</label>
+                <select id="SELECTION_LIST_1458325729101" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="The prostate and seminal vesicles are unremarkable.">
+                    <option id="SELECTION_LIST_1458325729101_0" value="The prostate and seminal vesicles are unremarkable." name="SELECTION_LIST_1458325729101" selected="">The prostate and seminal vesicles are unremarkable.</option>
+                    <option id="SELECTION_LIST_1458325729101_1" value="The uterus is unremarkable. No abnormal adnexal masses." name="SELECTION_LIST_1458325729101">The uterus is unremarkable. No abnormal adnexal masses.</option>
+                    <option id="SELECTION_LIST_1458325729101_2" value="The prostate is enlarged, a nonspecific finding but one that is typically secondary to BPH." name="SELECTION_LIST_1458325729101">The prostate is enlarged, a nonspecific finding but one that is typically secondary to BPH.</option>
+                    <option id="SELECTION_LIST_1458325729101_3" value="The uterus is not visualized, consistent with a hysterectomy. No abnormal adnexal masses." name="SELECTION_LIST_1458325729101">The uterus is not visualized, consistent with a hysterectomy. No abnormal adnexal masses.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729106">Mesentery/Peritoneum:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729106" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729111">Nodes:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729111" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Scattered small nodes but no adenopathy.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729113">Vasculature:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729113" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Scattered atherosclerotic vasculature changes.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729112">Bone Windows:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729112" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Degenerative changes but no aggressive osseous abnormalities.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729114">Fluid:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729114" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No ascites and no abnormal focal fluid collections.</textarea>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1458325729116">Lung windows through the lung bases:</label>
+                <select id="SELECTION_LIST_1458325729116" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal.">
+                    <option id="SELECTION_LIST_1458325729116_0" value="Normal." name="SELECTION_LIST_1458325729116" selected="">Normal.</option>
+                    <option id="SELECTION_LIST_1458325729116_1" value="Please see separately dictated but concurrently performed thoracic CT." name="SELECTION_LIST_1458325729116">Please see separately dictated but concurrently performed thoracic CT.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1458325729115">Soft tissues:</label>
+                <textarea rows="3" cols="100" id="TEXT_1458325729115" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476455533736">Other findings:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476455533736" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

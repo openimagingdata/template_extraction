@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CTA AP with Runoff</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="31b19e81-9b54-4776-963b-1e7d6e7dab7f" />
+        <meta name="dcterms.title" content="CTA AP with Runoff" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="University of Utah" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2018-02-20" />
+        <meta name="dcterms.creator" content="Marta E. Heilbrun, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="NUMBER_1459557754072">
+                        <term>
+                            <code meaning="aorta" value="RID480" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754093">
+                        <term>
+                            <code meaning="femoral artery" value="RID38761" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754094">
+                        <term>
+                            <code meaning="superficial femoral artery" value="RID961" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754092">
+                        <term>
+                            <code meaning="common femoral artery" value="RID958" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459559313828">
+                        <term>
+                            <code meaning="indication" value="RID49442" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459559313828_1">
+                        <term>
+                            <code meaning="peripheral vascular disease" value="RID3302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754098">
+                        <term>
+                            <code meaning="common femoral artery" value="RID958" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754095">
+                        <term>
+                            <code meaning="popliteal artery" value="RID962" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754099">
+                        <term>
+                            <code meaning="femoral artery" value="RID38761" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459559313822">
+                        <term>
+                            <code meaning="musculoskeletal system" value="RID13209" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459559313822_0">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459559313819">
+                        <term>
+                            <code meaning="kidney" value="RID205" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459559313818">
+                        <term>
+                            <code meaning="adrenal region" value="RID28722" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459559313817">
+                        <term>
+                            <code meaning="pancreas" value="RID170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459559313837_0">
+                        <term>
+                            <code meaning="routine" value="RID10392" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459559313837_1">
+                        <term>
+                            <code meaning="read outside image" value="RID35970" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754101">
+                        <term>
+                            <code meaning="popliteal artery" value="RID962" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459557754106">
+                        <term>
+                            <code meaning="gallbladder" value="RID187" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459557754106_0">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1459557754106_1">
+                        <term>
+                            <code meaning="absent" value="RID28473" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754100">
+                        <term>
+                            <code meaning="superficial femoral artery" value="RID961" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754105">
+                        <term>
+                            <code meaning="liver" value="RID58" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754104">
+                        <term>
+                            <code meaning="lung" value="RID1301" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459559313821">
+                        <term>
+                            <code meaning="pelvic cavity" value="RID2617" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459559313820">
+                        <term>
+                            <code meaning="proximal superior mesenteric lymph node group" value="RID31970" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754075">
+                        <term>
+                            <code meaning="inferior mesenteric artery" value="RID939" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754076">
+                        <term>
+                            <code meaning="ureteric segment of right renal artery" value="RID38168" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754073">
+                        <term>
+                            <code meaning="celiac artery" value="RID906" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754074">
+                        <term>
+                            <code meaning="superior mesenteric artery" value="RID927" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754077">
+                        <term>
+                            <code meaning="left renal artery" value="RID37860" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754110">
+                        <term>
+                            <code meaning="spleen" value="RID86" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1459559313825">
+                        <term>
+                            <code meaning="normal" value="RID13173" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754082">
+                        <term>
+                            <code meaning="common iliac artery" value="RID944" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754083">
+                        <term>
+                            <code meaning="internal iliac artery" value="RID945" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754086">
+                        <term>
+                            <code meaning="common iliac artery" value="RID944" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754087">
+                        <term>
+                            <code meaning="internal iliac artery" value="RID945" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754084">
+                        <term>
+                            <code meaning="external iliac artery" value="RID957" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1459557754088">
+                        <term>
+                            <code meaning="external iliac artery" value="RID957" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1459557754071">
+                        <term>
+                            <code meaning="abdominal aorta" value="RID905" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1459559313837">Technique:</label>
+                <select id="SELECTION_LIST_1459559313837" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and postive oral contrast material. Coronal and sagittal images were created at the CT scanner.">
+                    <option id="SELECTION_LIST_1459559313837_0" value="Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and postive oral contrast material. Coronal and sagittal images were created at the CT scanner." name="SELECTION_LIST_1459559313837" selected="">Helical scan mode images were obtained through the abdomen and pelvis following the protocol administration of nonionic intravenous contrast material and postive oral contrast material. Coronal and sagittal images were created at the CT scanner.</option>
+                    <option id="SELECTION_LIST_1459559313837_1" value="CT of the abdomen and pelvis was performed at an outside institution. Study is performed on initial. Over read is provided on followup." name="SELECTION_LIST_1459559313837">CT of the abdomen and pelvis was performed at an outside institution. Study is performed on initial. Over read is provided on followup.</option>
+                    <option id="SELECTION_LIST_1459559313837_2" value="Thin slice helical scan mode CTA of the abdomen and pelvis with bilateral lower extremity runoff was performed according to protocol. Multiplanar and 3-D reformatted images were created." name="SELECTION_LIST_1459559313837">Thin slice helical scan mode CTA of the abdomen and pelvis with bilateral lower extremity runoff was performed according to protocol. Multiplanar and 3-D reformatted images were created.</option>
+                    <option id="SELECTION_LIST_1459559313837_3" value="Thin slice helical scan mode CTA of the abdomen and pelvis was performed according to protocol. Multiplanar and 3-D reformatted images were created." name="SELECTION_LIST_1459559313837">Thin slice helical scan mode CTA of the abdomen and pelvis was performed according to protocol. Multiplanar and 3-D reformatted images were created.</option>
+                </select>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1459559313828">Indication:</label>
+                <select id="SELECTION_LIST_1459559313828" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Free flap.">
+                    <option id="SELECTION_LIST_1459559313828_0" value="Free flap." name="SELECTION_LIST_1459559313828" selected="">Free flap.</option>
+                    <option id="SELECTION_LIST_1459559313828_1" value="Peripheral vascular disease." name="SELECTION_LIST_1459559313828">Peripheral vascular disease.</option>
+                </select>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <section id="SECTION_HEADER_1459557754069" class="level2" data-section-name="Vascular:">
+                <header class="level2">
+                    Vascular:
+                </header>
+            </section>
+            <section id="SECTION_HEADER_1459557754070" class="level2" data-section-name="Abdominal Station:">
+                <header class="level2">
+                    Abdominal Station:
+                </header>
+                <section id="SECTION_HEADER_1459557754071" class="level2" data-section-name="Abdominal Aorta:">
+                    <header class="level2">
+                        Abdominal Aorta:
+                    </header>
+                    <p title="">
+                        <label for="NUMBER_1459557754072">Maximum diameter of the aorta:</label>
+                        <span>
+                            <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1459557754072" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                            cm
+                        </span>
+                    </p>
+                </section>
+                <p title="">
+                    <label for="TEXT_1459557754073">Celiac:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459557754073" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No significant stenosis.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459557754074">SMA:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459557754074" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No significant stenosis.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459557754075">IMA:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459557754075" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Patent with flow.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459557754076">Right Renal artery:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459557754076" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Patent without significant ostial or flow-limiting stenosis.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459557754077">Left Renal artery:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459557754077" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Patent without significant ostial or flow-limiting stenosis.</textarea>
+                </p>
+            </section>
+            <section id="SECTION_HEADER_1459557754078" class="level2" data-section-name="Pelvic Station:">
+                <header class="level2">
+                    Pelvic Station:
+                </header>
+                <section id="SECTION_HEADER_1459557754081" class="level2" data-section-name="Right Iliac:">
+                    <header class="level2">
+                        Right Iliac:
+                    </header>
+                    <p title="">
+                        <label for="TEXT_1459557754082">Common iliac artery:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754082" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The common iliac artery is patent without aneurysm.</textarea>
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754083">Internal iliac artery:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754083" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">There is flow within the internal iliac artery.</textarea>
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754084">External iliac artery:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754084" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">There is flow within the external iliac artery.</textarea>
+                    </p>
+                </section>
+                <section id="SECTION_HEADER_1459557754085" class="level2" data-section-name="Left Iliac:">
+                    <header class="level2">
+                        Left Iliac:
+                    </header>
+                    <p title="">
+                        <label for="TEXT_1459557754086">Common iliac artery:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754086" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The common iliac artery is patent without aneurysm.</textarea>
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754087">Internal iliac artery:</label>
+                        <input type="text" id="TEXT_1459557754087" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="There is flow within the internal iliac artery." />
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754088">External iliac artery:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754088" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">There is flow within the external iliac artery.</textarea>
+                    </p>
+                </section>
+            </section>
+            <section id="SECTION_HEADER_1459557754089" class="level2" data-section-name="Lower Extremity:">
+                <header class="level2">
+                    Lower Extremity:
+                </header>
+                <section id="SECTION_HEADER_1459557754091" class="level2" data-section-name="Right:">
+                    <header class="level2">
+                        Right:
+                    </header>
+                    <p title="">
+                        <label for="TEXT_1459557754092">Common femoral artery:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754092" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The common femoral artery is patent with some atherosclerotic plaque but not apparent flow-limiting stenosis.</textarea>
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754093">Profunda femoral artery:</label>
+                        <input type="text" id="TEXT_1459557754093" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="The profunda femoral artery is patent with some atherosclerotic plaque but not apparent flow-limiting stenosis." />
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754094">Superficial femoral artery:</label>
+                        <input type="text" id="TEXT_1459557754094" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="The superficial femoral artery is patent without flow-limiting stenosis." />
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754095">Popliteal artery:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754095" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Popliteal artery is patent without flow-limiting stenosis or aneurysm.</textarea>
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754096">Tibioperoneal trunk</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754096" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The tibioperoneal trunk is patent.</textarea>
+                    </p>
+                </section>
+                <section id="SECTION_HEADER_1459557754097" class="level2" data-section-name="Left:">
+                    <header class="level2">
+                        Left:
+                    </header>
+                    <p title="">
+                        <label for="TEXT_1459557754098">Common femoral artery:</label>
+                        <input type="text" id="TEXT_1459557754098" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="The common femoral artery is patent with some atherosclerotic plaque but not apparent flow-limiting stenosis." />
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754099">Profunda femoral artery:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754099" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The profunda femoral artery is patent with some atherosclerotic plaque but not apparent flow-limiting stenosis.</textarea>
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754100">Superficial femoral artery:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754100" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The superficial femoral artery is patent without flow-limiting stenosis.</textarea>
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754101">Popliteal artery:</label>
+                        <input type="text" id="TEXT_1459557754101" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="Popliteal artery is patent without flow-limiting stenosis or aneurysm." />
+                    </p>
+                    <p title="">
+                        <label for="TEXT_1459557754102">Tibioperoneal trunk:</label>
+                        <textarea rows="3" cols="100" id="TEXT_1459557754102" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The tibioperoneal trunk is patent.</textarea>
+                    </p>
+                </section>
+            </section>
+            <section id="SECTION_HEADER_1459557754103" class="level2" data-section-name="Nonvascular:">
+                <header class="level2">
+                    Nonvascular:
+                </header>
+                <p title="">
+                    <label for="TEXT_1459557754104">Lung bases:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459557754104" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Clear, without airspace disease.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459557754105">Liver:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459557754105" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No focal mass lesions. No intrahepatic biliary ductal dilatation.</textarea>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1459557754106">Gallbladder:</label>
+                    <select id="SELECTION_LIST_1459557754106" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="The CT appearance is normal.">
+                        <option id="SELECTION_LIST_1459557754106_0" value="The CT appearance is normal." name="SELECTION_LIST_1459557754106" selected="">The CT appearance is normal.</option>
+                        <option id="SELECTION_LIST_1459557754106_1" value="Surgically absent." name="SELECTION_LIST_1459557754106">Surgically absent.</option>
+                        <option id="SELECTION_LIST_1459557754106_2" value="Cholelithiasis without cholecystitis" name="SELECTION_LIST_1459557754106">Cholelithiasis without cholecystitis</option>
+                    </select>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459557754110">Spleen:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459557754110" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459559313817">Pancreas:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459559313817" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal CT appearance.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459559313818">Adrenals:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459559313818" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No nodules.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459559313819">Kidneys:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459559313819" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No solid lesions. No calculi. No hydroureteronephrosis.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459559313820">Nodes:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459559313820" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Scattered small abdominal nodes, none meeting CT criteria for pathologic enlargement.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459559313821">Bowel, bladder, and pelvic organs:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459559313821" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">The visualized bowel, bladder and pelvic organs are without significant abnormality.</textarea>
+                </p>
+                <p title="">
+                    <label for="SELECTION_LIST_1459559313822">Musculoskeletal:</label>
+                    <select id="SELECTION_LIST_1459559313822" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal.">
+                        <option id="SELECTION_LIST_1459559313822_0" value="Normal." name="SELECTION_LIST_1459559313822" selected="">Normal.</option>
+                        <option id="SELECTION_LIST_1459559313822_1" value="No osseous regions. Specifically, no traumatic or other abnormality of either fibula." name="SELECTION_LIST_1459559313822">No osseous regions. Specifically, no traumatic or other abnormality of either fibula.</option>
+                    </select>
+                </p>
+            </section>
+            <p title="">
+                <label for="TEXT_1476470020630">Additional findings:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476470020630" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">None.</textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <section id="SECTION_HEADER_1459559313825" class="level2" data-section-name="">
+                <header class="level2">
+                </header>
+                <p title="">
+                    <label for="TEXT_1459559313826">Right leg:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459559313826" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No significant stenosis with three-vessel runoff.</textarea>
+                </p>
+                <p title="">
+                    <label for="TEXT_1459559313827">Left leg:</label>
+                    <textarea rows="3" cols="100" id="TEXT_1459559313827" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No significant stenosis with three-vessel runoff.</textarea>
+                </p>
+            </section>
+        </section>
+    </body>
+</html>

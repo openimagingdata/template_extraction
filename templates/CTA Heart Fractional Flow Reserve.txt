@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CTA Heart Fractional Flow Reserve</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="0f7f1a76-fc75-4afe-92ea-db9e8dab9ea2" />
+        <meta name="dcterms.title" content="CTA Heart Fractional Flow Reserve" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2022-01-11" />
+        <meta name="dcterms.creator" content="Rajiah" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="procedureInformationText">
+                        <term>
+                            <code meaning="imaging procedure" value="http://radlex.org/RID/RID13060" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1639150690193_0">
+                        <term>
+                            <code meaning="low" value="http://radlex.org/RID/RID46059" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1639150690193_2">
+                        <term>
+                            <code meaning="high" value="http://radlex.org/RID/RID46060" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1641926064343_0">
+                        <term>
+                            <code meaning="low" value="http://radlex.org/RID/RID46059" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1641926064343_2">
+                        <term>
+                            <code meaning="high" value="http://radlex.org/RID/RID46060" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1639150690192">
+                        <term>
+                            <code meaning="left coronary artery" value="http://radlex.org/RID/RID486" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1639150690189">
+                        <term>
+                            <code meaning="chest pain" value="http://radlex.org/RID/RID45774" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1639150690189_0">
+                        <term>
+                            <code meaning="stable" value="http://radlex.org/RID/RID5734" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1639150690189_1">
+                        <term>
+                            <code meaning="acute" value="http://radlex.org/RID/RID5718" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SECTION_HEADER_1641926064355">
+                        <term>
+                            <code meaning="right coronary artery" value="http://radlex.org/RID/RID544" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="impression" value="http://radlex.org/RID/RID49895" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisonsText">
+                        <term>
+                            <code meaning="computed tomography" value="http://radlex.org/RID/RID10321" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1641926064334_0">
+                        <term>
+                            <code meaning="low" value="http://radlex.org/RID/RID46059" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1641926064334_2">
+                        <term>
+                            <code meaning="high" value="http://radlex.org/RID/RID46060" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1641926064356_0">
+                        <term>
+                            <code meaning="low" value="http://radlex.org/RID/RID46059" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="RADIO_1641926064356_2">
+                        <term>
+                            <code meaning="high" value="http://radlex.org/RID/RID46060" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="procedureInformationText"></label>
+                <textarea rows="3" cols="100" id="procedureInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="RADIO_1639150690189">Chest pain</label>
+                <span id="RADIO_1639150690189" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1639150690189_0" type="radio" name="RADIO_1639150690189" value="stable" checked="">stable</input>
+                    <br />
+                    <input id="RADIO_1639150690189_1" type="radio" name="RADIO_1639150690189" value="acute">acute</input>
+                </span>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText">Coronary CTA</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <section id="SECTION_HEADER_1639150690192" class="level2" data-section-name="&nbsp;Left main coronary artery">
+                <header class="level2">
+                    &nbsp;Left main coronary artery
+                </header>
+            </section>
+            <p title="">
+                <label for="RADIO_1639150690193">Likelihood of flow-limiting lesion</label>
+                <span id="RADIO_1639150690193" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1639150690193_0" type="radio" name="RADIO_1639150690193" value="low" checked="">low</input>
+                    <br />
+                    <input id="RADIO_1639150690193_1" type="radio" name="RADIO_1639150690193" value="borderline">borderline</input>
+                    <br />
+                    <input id="RADIO_1639150690193_2" type="radio" name="RADIO_1639150690193" value="high">high</input>
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1641926064328" class="level2" data-section-name="Fractional flow reserve CT (FFRCT)">
+                <header class="level2">
+                    Fractional flow reserve CT (FFRCT)
+                </header>
+            </section>
+            <p title="">
+                <label for="NUMBER_1641926064329">2 cm distal to stenosis</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064329" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1641926064330">Proximal vessel in abnormal vessel</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064330" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1641926064331">Distal most vessel in normal vessel</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064331" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1641926064333" class="level2" data-section-name="Left anterior descending artery">
+                <header class="level2">
+                    Left anterior descending artery
+                </header>
+            </section>
+            <p title="">
+                <label for="RADIO_1641926064334">Likelihood of flow-limiting lesion</label>
+                <span id="RADIO_1641926064334" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1641926064334_0" type="radio" name="RADIO_1641926064334" value="low" checked="">low</input>
+                    <br />
+                    <input id="RADIO_1641926064334_1" type="radio" name="RADIO_1641926064334" value="borderline">borderline</input>
+                    <br />
+                    <input id="RADIO_1641926064334_2" type="radio" name="RADIO_1641926064334" value="high">high</input>
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1641926064338" class="level2" data-section-name="Fractional flow reserve CT (FFRCT)">
+                <header class="level2">
+                    Fractional flow reserve CT (FFRCT)
+                </header>
+            </section>
+            <p title="">
+                <label for="NUMBER_1641926064339">2 cm distal to stenosis</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064339" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1641926064340">Proximal vessel in abnormal vessel</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064340" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1641926064341">Distal most vessel in normal vessel</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064341" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1641926064342" class="level2" data-section-name="Left circumflex artery">
+                <header class="level2">
+                    Left circumflex artery
+                </header>
+            </section>
+            <p title="">
+                <label for="RADIO_1641926064343">Likelihood of flow-limiting lesion</label>
+                <span id="RADIO_1641926064343" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1641926064343_0" type="radio" name="RADIO_1641926064343" value="low" checked="">low</input>
+                    <br />
+                    <input id="RADIO_1641926064343_1" type="radio" name="RADIO_1641926064343" value="borderline">borderline</input>
+                    <br />
+                    <input id="RADIO_1641926064343_2" type="radio" name="RADIO_1641926064343" value="high">high</input>
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1641926064350" class="level2" data-section-name="Fractional flow reserve CT (FFRCT)">
+                <header class="level2">
+                    Fractional flow reserve CT (FFRCT)
+                </header>
+            </section>
+            <p title="">
+                <label for="NUMBER_1641926064351">2 cm distal to stenosis</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064351" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1641926064352">Proximal vessel in abnormal vessel</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064352" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1641926064353">Distal most vessel in normal vessel</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064353" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1641926064355" class="level2" data-section-name="Right coronary artery">
+                <header class="level2">
+                    Right coronary artery
+                </header>
+            </section>
+            <p title="">
+                <label for="RADIO_1641926064356">Likelihood of flow-limiting lesion</label>
+                <span id="RADIO_1641926064356" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="RADIO_1641926064356_0" type="radio" name="RADIO_1641926064356" value="low" checked="">low</input>
+                    <br />
+                    <input id="RADIO_1641926064356_1" type="radio" name="RADIO_1641926064356" value="borderline">borderline</input>
+                    <br />
+                    <input id="RADIO_1641926064356_2" type="radio" name="RADIO_1641926064356" value="high">high</input>
+                </span>
+            </p>
+            <section id="SECTION_HEADER_1641926064360" class="level2" data-section-name="Fractional flow reserve CT (FFRCT)">
+                <header class="level2">
+                    Fractional flow reserve CT (FFRCT)
+                </header>
+            </section>
+            <p title="">
+                <label for="NUMBER_1641926064361">2 cm distal to stenosis</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064361" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1641926064362">Proximal vessel in abnormal vessel</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064362" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="NUMBER_1641926064363">Distal most vessel in normal vessel</label>
+                <span>
+                    <input type="number" step="2.0" data-field-units="" id="NUMBER_1641926064363" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Abdomen Xray" name="dcterms.title"/>
+<meta content="Abdomen Xray template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000099" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-03-28" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="abdomen" value="RID56" scheme="RadLex">
+</term>
+<term>
+ <code meaning="projection radiography" value="RID10345" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T99_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_5">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_6">
+ <term>
+  <code meaning="abdomen" value="RID56" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="pain" value="RID28803" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_7">
+ <term>
+  <code meaning="distended" value="RID5787" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="abdomen" value="RID56" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_8">
+ <term>
+  <code meaning="placement" value="RID28707" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="nasogastric tube" value="RID5566" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_9">
+ <term>
+  <code meaning="postoperative" value="RID5729" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_10">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_15">
+ <term>
+  <code meaning="abnormal" value="RID28453" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="calcifications" value="RID34642" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_17">
+ <term>
+  <code meaning="set of bones" value="RID28569" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_18">
+ <term>
+  <code meaning="normal" value="RID13173" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T99_19">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Abdomen Xray</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Abdomen Radiography</header>
+<p>
+<label for="T99_2">Procedure</label>
+<select id="T99_2" name="Procedure">
+<option id="T99_2.1" name="Abdomen 1 View" value="Abdomen 1 View">Abdomen 1 View</option>
+<option id="T99_2.2" name="Acute Abdominal Series" value="Acute Abdominal Series">Acute Abdominal Series</option>
+<option id="T99_2.3" name="Upright and Supine Abdomen" value="Upright and Supine Abdomen">Upright and Supine Abdomen</option>
+<option id="T99_2.4" name="Other" value="Other">Other</option>
+</select>
+<label for="T99_3">Other</label>
+<input type="text" id="T99_3" name="Other"/>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<label for="T99_5">Clinical information</label>
+<select id="T99_5" name="Clinical information">
+<option id="T99_6" name="Abdominal pain" value="Abdominal pain">Abdominal pain</option>
+<option id="T99_7" name="Distended abdomen" value="Distended abdomen">Distended abdomen</option>
+<option id="T99_8" name="Nasogastric tube placement" value="Nasogastric tube placement">Nasogastric tube placement</option>
+<option id="T99_9" name="Post-operative examination" value="Post-operative examination">Post-operative examination</option>
+<option id="T99_5.1" name="Other" value="Other">Other</option>
+</select>
+<label for="T99_5.2">Other</label>
+<input type="text" id="T99_5.2" name="Other"/>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<input type="text" id="T99_10" name="Comparison" value="None"/>
+</p>
+</section>
+<section data-section-name="Observations">
+<header class="level1">Observations</header>
+<p>
+<label for="T99_13">Bowel gas pattern</label>
+<input type="text" id="T99_13" name="Bowel gas pattern" value="Normal"/>
+</p>
+<p>
+<label for="T99_15">Abnormal calcifications</label>
+<input type="text" id="T99_15" name="Abnormal calcifications" value="None"/>
+</p>
+<p>
+<label for="T99_17">Bones</label>
+<input type="text" id="T99_17" name="Bones" value="Normal"/>
+</p>
+<p>
+<label for="T99_18">Other</label>
+<input type="text" id="T99_18" name="Other" value="None"/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<input type="text" id="T99_19" name="Impression" value="Normal"/>
+</p>
+</section>
+</body>
+</html>

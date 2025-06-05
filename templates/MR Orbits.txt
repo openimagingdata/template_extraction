@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="MR Orbits" name="dcterms.title"/>
+<meta content="MR Orbits template :: Authored by Phillips CD, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000065" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-05-31" name="dcterms.date"/>
+<meta content="Phillips CD, et al." name="dcterms.creator"/>
+<meta content="Hong Y [coder]" name="dcterms.contributor"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="American Society of Neuroradiology (ASNR)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="magnetic resonance imaging" value="RID10312" scheme="RadLex">
+</term>
+<term>
+ <code meaning="orbit" value="RID9573" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T65_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_5">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_6">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_14">
+ <term>
+  <code meaning="mass" value="RID3874" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_16">
+ <term>
+  <code meaning="globe" value="RID9592" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_18">
+ <term>
+  <code meaning="skull" value="RID9196" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="orbit" value="RID9573" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_22">
+ <term>
+  <code meaning="optic nerve-tract complex" value="RID13473" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="set of optic nerves" value="RID16429" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_24">
+ <term>
+  <code meaning="extraocular muscle" value="RID9699" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_26">
+ <term>
+  <code meaning="lacrimal apparatus" value="RID9760" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_28">
+ <term>
+  <code meaning="orbit" value="RID9573" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="apex" value="RID5946" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_32">
+ <term>
+  <code meaning="mass" value="RID3874" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_34">
+ <term>
+  <code meaning="globe" value="RID9592" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_36">
+ <term>
+  <code meaning="skull" value="RID9196" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="orbit" value="RID9573" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_40">
+ <term>
+  <code meaning="optic nerve-tract complex" value="RID13473" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="set of optic nerves" value="RID16429" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_42">
+ <term>
+  <code meaning="extraocular muscle" value="RID9699" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_44">
+ <term>
+  <code meaning="lacrimal apparatus" value="RID9760" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_46">
+ <term>
+  <code meaning="orbit" value="RID9573" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="apex" value="RID5946" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_48">
+ <term>
+  <code meaning="brain" value="RID6434" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_50">
+ <term>
+  <code meaning="cavernous sinus" value="RID1094" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="multiple" value="RID5765" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T65_52">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>MR Orbits</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">MR Orbits</header>
+<p>
+<textarea id="T65_2" name="Procedure"> </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T65_5" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T65_6" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Right orbit">
+<header class="level2">Right orbit</header>
+<p>
+<label for="T65_14">Mass:</label>
+<input type="text" id="T65_14" name="Mass" value="None."/>
+</p>
+<p>
+<label for="T65_16">Globe:</label>
+<input type="text" id="T65_16" name="Globe" value="Normal. "/>
+</p>
+<p>
+<label for="T65_18">Bony orbit:</label>
+<input type="text" id="T65_18" name="Bony orbit" value="Normal. "/>
+</p>
+<p>
+<label for="T65_20">Pre-septal soft tissues:</label>
+<input type="text" id="T65_20" name="Pre-septal soft tissues" value="Normal. "/>
+</p>
+<p>
+<label for="T65_22">Optic nerves and complex:</label>
+<input type="text" id="T65_22" name="Optic nerves and complex" value="Normal. "/>
+</p>
+<p>
+<label for="T65_24">Extraocular muscles:</label>
+<input type="text" id="T65_24" name="Extraocular muscles" value="Normal. "/>
+</p>
+<p>
+<label for="T65_26">Lacrimal apparatus:</label>
+<input type="text" id="T65_26" name="Lacrimal apparatus" value="Normal. "/>
+</p>
+<p>
+<label for="T65_28">Orbital apex:</label>
+<input type="text" id="T65_28" name="Orbital apex" value="Normal. "/>
+</p>
+</section>
+
+<section data-section-name="Left orbit">
+<header class="level2">Left orbit</header>
+<p>
+<label for="T65_32">Mass:</label>
+<input type="text" id="T65_32" name="Mass" value="None"/>
+</p>
+<p>
+<label for="T65_34">Globe:</label>
+<input type="text" id="T65_34" name="Globe" value="Normal. "/>
+</p>
+<p>
+<label for="T65_36">Bony orbit:</label>
+<input type="text" id="T65_36" name="Bony orbit" value="Normal. "/>
+</p>
+<p>
+<label for="T65_38">Pre-septal soft tissues:</label>
+<input type="text" id="T65_38" name="Pre-septal soft tissues" value="Normal. "/>
+</p>
+<p>
+<label for="T65_40">Optic nerves and complex:</label>
+<input type="text" id="T65_40" name="Optic nerves and complex" value="Normal. "/>
+</p>
+<p>
+<label for="T65_42">Extraocular muscles:</label>
+<input type="text" id="T65_42" name="Extraocular muscles" value="Normal. "/>
+</p>
+<p>
+<label for="T65_44">Lacrimal apparatus:</label>
+<input type="text" id="T65_44" name="Lacrimal apparatus" value="Normal. "/>
+</p>
+<p>
+<label for="T65_46">Orbital apex:</label>
+<input type="text" id="T65_46" name="Orbital apex" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<label for="T65_48">Brain:</label>
+<input type="text" id="T65_48" name="Brain" value="Normal. "/>
+</p>
+<p>
+<label for="T65_50">Cavernous sinuses:</label>
+<input type="text" id="T65_50" name="Cavernous sinuses" value="Normal. "/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T65_52" name="Impression">Normal. </textarea>
+</p>
+</section>
+</body>
+</html>

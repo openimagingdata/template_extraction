@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head><meta content="Joubert Cordeiro [translator]" name="dcterms.contributor"/>
+<meta charset="UTF-8"/>
+<meta content="CT Chest" name="dcterms.title"/>
+<meta content="CT Chest template :: Authored by Lakhani P" name="dcterms.description"/>
+<meta content="http://open.radreport.org/template/0050202" name="dcterms.identifier"/>
+<meta content="pt" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2016-06-17" name="dcterms.date"/>
+<meta content="Lakhani P" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Thomas Jefferson University (TJU)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="computed tomography" value="RID10321" scheme="RadLex">
+</term>
+<term>
+ <code meaning="thorax" value="RID1243" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T236_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T236_8">
+  <term>
+  <code meaning="Clinical information" value="55752-0" scheme="LOINC">
+ </term>
+</entry>
+<entry ORIGTXT="T236_9">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T236_23">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>CT Chest</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1" data-english="CT Chest">CT Chest</header>
+<p>
+<textarea id="T236_2" name="Procedimento" data-english-name="Procedure" data-english-innertext=" "></textarea>
+</p>
+<p>
+<label for="T236_3" data-english="Oral contrast">contraste oral</label>
+<input type="text" id="T236_3" name="contraste oral" value="contraste oral foi administrado." data-english-value="Oral contrast was administered." data-english-name="Oral contrast"/>
+</p>
+<p>
+<label for="T236_4" data-english="IV contrast:">contraste IV:</label>
+<input type="text" id="T236_4" name="contraste IV" value="" data-english-value="" data-english-name="IV contrast"/>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1" data-english="Clinical information">As informações clínicas</header>
+<p>
+<textarea id="T236_8" name="As informa&ccedil;&otilde;es cl&iacute;nicas" data-english-name="Clinical information" data-english-innertext=" "></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1" data-english="Comparison">Comparação</header>
+<p>
+<textarea id="T236_9" name="Compara&ccedil;&atilde;o" data-english-name="Comparison" data-english-innertext="None. ">Nenhum.</textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1" data-english="Findings">achados</header>
+<p>
+<label for="T236_13" data-english="Lungs and large airways">Pulmões e grandes vias aéreas</label>
+<input type="text" id="T236_13" name="Pulm&otilde;es e grandes vias a&eacute;reas" value="Normal." data-english-value="Normal. " data-english-name="Lungs and large airways"/>
+</p>
+<p>
+<label for="T236_14" data-english="Pleura: ">Pleura:</label>
+<input type="text" id="T236_14" name="Pleura" value="Normal. N&atilde;o derrame pleural ou espessamento." data-english-value="Normal. No pleural effusion or thickening. " data-english-name="Pleura"/>
+</p>
+<p>
+<label for="T236_17" data-english="Heart and pericardium: ">Coração e pericárdio:</label>
+<input type="text" id="T236_17" name="Cora&ccedil;&atilde;o e peric&aacute;rdio" value="tamanho do cora&ccedil;&atilde;o &eacute; normal. N&atilde;o derrame peric&aacute;rdico." data-english-value="Heart size is normal. No pericardial effusion. " data-english-name="Heart and pericardium"/>
+</p>
+<p>
+<label for="T236_19" data-english="Mediastium and hila: ">Mediastino e hila:</label>
+<input type="text" id="T236_19" name="Mediastino e hila" value="Normal." data-english-value="Normal. " data-english-name="Mediastium and hila"/>
+</p>
+<p>
+<label for="T236_20" data-english="Chest wall and lower neck: ">parede torácica e pescoço inferior:</label>
+<input type="text" id="T236_20" name="parede tor&aacute;cica e pesco&ccedil;o menor" value="Normal." data-english-value="Normal. " data-english-name="Chest wall and lower neck"/>
+</p>
+<p>
+<label for="T236_21" data-english="Vessels: ">Embarcações:</label>
+<input type="text" id="T236_21" name="Embarca&ccedil;&otilde;es" value="altera&ccedil;&otilde;es ateroscler&oacute;ticas na aorta e art&eacute;rias coron&aacute;rias." data-english-value="Atherosclerotic changes in the aorta and coronary arteries." data-english-name="Vessels"/>
+</p>
+<p>
+<label for="T236_22" data-english="Bones: ">Ossos:</label>
+<input type="text" id="T236_22" name="Ossos" value="Normal." data-english-value="Normal." data-english-name="Bones"/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1" data-english="Impression">Impressão</header>
+<p>
+<textarea id="T236_23" name="Impress&atilde;o" data-english-name="Impression" data-english-innertext=" "></textarea>
+</p>
+</section>
+</body>
+</html>

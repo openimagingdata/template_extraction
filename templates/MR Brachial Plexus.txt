@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MRI Brachial Plexus</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="586a84db-b103-41ed-9011-e09b828eb749" />
+        <meta name="dcterms.title" content="MRI Brachial Plexus" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2020-06-23" />
+        <meta name="dcterms.creator" content="Brian Gilcrease-Garcia" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                        <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="SECTION_HEADER_1587053151573">
+                        <term>
+                            <code meaning="brachial plexus" value="http://radlex.org/RID/RID7202" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findings">
+                        <term>
+                            <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151581">
+                        <term>
+                            <code meaning="shoulder girdle" value="http://radlex.org/RID/RID1852" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151580">
+                        <term>
+                            <code meaning="scalene muscle" value="http://radlex.org/RID/RID7495" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151585">
+                        <term>
+                            <code meaning="spine" value="http://radlex.org/RID/RID7741" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151583">
+                        <term>
+                            <code meaning="costovertebral joint" value="http://radlex.org/RID/RID2478" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151584">
+                        <term>
+                            <code meaning="clavicle" value="http://radlex.org/RID/RID1854" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151578">
+                        <term>
+                            <code meaning="branch of brachial artery" value="http://radlex.org/RID/RID35875" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151577">
+                        <term>
+                            <code meaning="set of cords of brachial nerve plexus" value="http://radlex.org/RID/RID16503" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1588611066117">
+                        <term>
+                            <code meaning="laterality" value="http://radlex.org/RID/RID5821" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1588611066117_0">
+                        <term>
+                            <code meaning="left" value="http://radlex.org/RID/RID5824" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1588611066117_1">
+                        <term>
+                            <code meaning="right" value="http://radlex.org/RID/RID5825" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="impression" value="http://radlex.org/RID/RID49895" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151571">
+                        <term>
+                            <code meaning="intravenous contrast" value="http://radlex.org/RID/RID49553" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformationText">
+                        <term>
+                            <code meaning="indication" value="http://radlex.org/RID/RID49442" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151574">
+                        <term>
+                            <code meaning="trunk of brachial nerve plexus" value="http://radlex.org/RID/RID7207" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151572">
+                        <term>
+                            <code meaning="brachial plexus" value="http://radlex.org/RID/RID7202" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="findingsText">
+                        <term>
+                            <code meaning="spinal cord" value="http://radlex.org/RID/RID7361" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1587053151587">
+                        <term>
+                            <code meaning="incidental imaging finding" value="http://radlex.org/RID/RID50142" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="procedureInformation">
+                        <term>
+                            <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisons">
+                        <term>
+                            <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impression">
+                        <term>
+                            <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="clinicalInformation">
+                        <term>
+                            <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1588611066120">
+                        <term>
+                            <code meaning="laterality" value="http://radlex.org/RID/RID5821" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1588611066120_0">
+                        <term>
+                            <code meaning="left" value="http://radlex.org/RID/RID5824" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="CHECKBOX_1588611066120_1">
+                        <term>
+                            <code meaning="right" value="http://radlex.org/RID/RID5825" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="procedureInformationText">Exam</label>
+                <textarea rows="3" cols="100" id="procedureInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">MRI brachial plexus without and with contrast, left or right</textarea>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1588611066117">Exam laterality</label>
+                <span id="CHECKBOX_1588611066117" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1588611066117_0" type="checkbox" name="CHECKBOX_1588611066117" value="left" checked="">left</input>
+                    <br />
+                    <input id="CHECKBOX_1588611066117_1" type="checkbox" name="CHECKBOX_1588611066117" value="right">right</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151570">Technique</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151570" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">MRI examination of the brachial plexus was performed according to a brachial plexus protocol which included multiplanar anatomic and 3-D fluid-sensitive sequences. </textarea>
+            </p>
+            <p title="">
+                <label for="CHECKBOX_1588611066120">Technique laterality</label>
+                <span id="CHECKBOX_1588611066120" name="" data-field-type="CHECKBOX" data-field-completion-action="NONE" value="">
+                    <br />
+                    <input id="CHECKBOX_1588611066120_0" type="checkbox" name="CHECKBOX_1588611066120" value="left" checked="">left</input>
+                    <br />
+                    <input id="CHECKBOX_1588611066120_1" type="checkbox" name="CHECKBOX_1588611066120" value="right">right</input>
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151571">IV Contrast</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151571" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="clinicalInformationText">Indication</label>
+                <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText"></label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="findingsText">Spinal cord</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal caliber and signal of the visualized cord.</textarea>
+            </p>
+            <section id="SECTION_HEADER_1587053151573" class="level2" data-section-name="Brachial plexus">
+                <header class="level2">
+                    Brachial plexus
+                </header>
+            </section>
+            <p title="">
+                <label for="TEXT_1587053151572">Roots</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151572" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151574">Trunks</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151574" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151576">Divisions</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151576" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151577">Cords</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151577" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151578">Branches</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151578" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal</textarea>
+            </p>
+            <section id="SECTION_HEADER_1587053151579" class="level2" data-section-name="Muscles">
+                <header class="level2">
+                    Muscles
+                </header>
+            </section>
+            <p title="">
+                <label for="TEXT_1587053151580">Scalenes</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151580" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151581">Shoulder girdle</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151581" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Visualized portions of rotator cuff muscles and chest wall are normal.</textarea>
+            </p>
+            <section id="SECTION_HEADER_1587053151582" class="level2" data-section-name="Bones">
+                <header class="level2">
+                    Bones
+                </header>
+            </section>
+            <p title="">
+                <label for="TEXT_1587053151583">Costovertebral anomaly</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151583" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No cervical rib, anomalous first rib, or elongated C7 transverse process.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151584">Clavicle</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151584" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151585">Spine</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151585" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Limited view of the cervicothoracic spine is unremarkable.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151586">Thoracic outlet</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151586" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal scalene triangle, costoclavicular space, and pectoralis minor space. No evidence of fibrous band or mass lesion.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1587053151587">Other findings</label>
+                <textarea rows="3" cols="100" id="TEXT_1587053151587" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">No evidence of vascular abnormality. Limited view of the upper thorax is unremarkable.</textarea>
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText"></label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">Normal appearance of the brachial plexus.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

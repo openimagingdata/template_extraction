@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Abdomen Series" name="dcterms.title"/>
+<meta content="Abdomen Series template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000100" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-03-01" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="abdomen" value="RID56" scheme="RadLex">
+</term>
+<term>
+ <code meaning="intestine" value="RID130" scheme="RadLex">
+</term>
+<term>
+ <code meaning="pneumoperitoneum" value="RID4803" scheme="RadLex">
+</term>
+<term>
+ <code meaning="projection radiography" value="RID10345" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T100_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T100_8">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T100_13">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T100_18">
+ <term>
+  <code meaning="pneumoperitoneum" value="RID4803" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T100_21">
+ <term>
+  <code meaning="abnormal" value="RID28453" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="calcifications" value="RID34642" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T100_23">
+ <term>
+  <code meaning="set of bones" value="RID28569" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T100_25">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Abdomen Series</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Abdomen Series</header>
+<p>
+<textarea id="T100_2" name="Procedure">Supine and upright views of the abdomen. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T100_8" name="Clinical information"></textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T100_13" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T100_16">Bowel gas pattern: </label>
+<input type="text" id="T100_16" name="Bowel gas pattern" value="Normal. "/>
+</p>
+<p>
+<label for="T100_18">Free air: </label>
+<input type="text" id="T100_18" name="Free air" value="None. "/>
+</p>
+<p>
+<label for="T100_21">Abnormal calcifications: </label>
+<input type="text" id="T100_21" name="Abnormal calcifications" value="None. "/>
+</p>
+<p>
+<label for="T100_23">Bones: </label>
+<input type="text" id="T100_23" name="Bones" value="Normal. "/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T100_25" name="Impression">Normal. No free air.</textarea>
+</p>
+</section>
+</body>
+</html>

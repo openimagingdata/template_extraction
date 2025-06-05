@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trophoblastic Diseases MRI</title>
+        <meta charset="UTF-8" />
+        <meta name="dcterms.identifier" content="9d78c42b-6272-4f56-b65a-5ee5faa016e2" />
+        <meta name="dcterms.title" content="Trophoblastic Diseases MRI" />
+        <meta name="dcterms.description" content="" />
+        <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+        <meta name="dcterms.language" content="en" />
+        <meta name="dcterms.publisher" content="ESR" />
+        <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+        <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+        <meta name="dcterms.date" content="2017-10-06" />
+        <meta name="dcterms.creator" content="Teresa Margarida Cunha, MD" />
+        <meta name="dcterms.contributor" content="Rita Lucas, MD" />
+        <script type="text/xml">
+            <template_attributes>
+                <coded_content>
+                    <coding_schemes>
+                        <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                    </coding_schemes>
+                    <entry origtxt="SELECTION_LIST_1476403470314">
+                        <term>
+                            <code meaning="uterus" value="RID302" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="SELECTION_LIST_1476403470296">
+                        <term>
+                            <code meaning="procedure" value="RID1559" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="impressionText">
+                        <term>
+                            <code meaning="impression section" value="RID13170" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="comparisonsText">
+                        <term>
+                            <code meaning="comparison" value="RID28483" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476403470299">
+                        <term>
+                            <code meaning="clinical information section" value="RID13166" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                    <entry origtxt="TEXT_1476403470328">
+                        <term>
+                            <code meaning="ascites" value="RID1541" scheme="RADLEX"></code>
+                        </term>
+                    </entry>
+                </coded_content>
+            </template_attributes>
+        </script>
+    </head>
+    <body>
+        <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+            <header class="level1">
+                Procedure Information
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476403470296">Procedure Type:</label>
+                <select id="SELECTION_LIST_1476403470296" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Enhanced MRI pelvis">
+                    <option id="SELECTION_LIST_1476403470296_0" value="Enhanced MRI pelvis" name="SELECTION_LIST_1476403470296" selected="">Enhanced MRI pelvis</option>
+                    <option id="SELECTION_LIST_1476403470296_1" value="Unenhanced MRI pelvis" name="SELECTION_LIST_1476403470296">Unenhanced MRI pelvis</option>
+                </select>
+            </p>
+  <p title="">
+                <label for="SELECTION_LIST_1476403470301">Technique:</label>
+                <select multiple="multiple" id="SELECTION_LIST_1476403470301" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="T2-weighted images axial, sagittal and in oblique planes were obtained in long and short axis relative to the uterine body.">
+                    <option id="SELECTION_LIST_1476403470301_0" value="T2-weighted images axial, sagittal and in oblique planes were obtained in long and short axis relative to the uterine body." name="SELECTION_LIST_1476403470301" selected="">T2-weighted images axial, sagittal and in oblique planes were obtained in long and short axis relative to the uterine body.</option>
+                    <option id="SELECTION_LIST_1476403470301_1" value="Axial DW-MRI study was also performed." name="SELECTION_LIST_1476403470301">Axial DW-MRI study was also performed.</option>
+                    <option id="SELECTION_LIST_1476403470301_2" value="Survey images that include the region of the kidneys were also obtained." name="SELECTION_LIST_1476403470301">Survey images that include the region of the kidneys were also obtained.</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403470305">Type of pre and post contrast imaging of the pelvis in the sagittal plane and in axial plane in late phase:</label>
+                <select id="SELECTION_LIST_1476403470305" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Dynamic">
+                    <option id="SELECTION_LIST_1476403470305_0" value="Dynamic" name="SELECTION_LIST_1476403470305" selected="">Dynamic</option>
+                    <option id="SELECTION_LIST_1476403470305_1" value="Non-dynamic" name="SELECTION_LIST_1476403470305">Non-dynamic</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403470308">Strength of Tesla scanner:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="" id="NUMBER_1476403470308" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                </span>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403470309">Contrast type:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403470309" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403470310">Contrast dose was administered before and after fat suppressed T1-weighted imaging:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="mL" id="NUMBER_1476403470310" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    mL
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403470311">Image quality:</label>
+                <select id="SELECTION_LIST_1476403470311" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Satisfactory">
+                    <option id="SELECTION_LIST_1476403470311_0" value="Satisfactory" name="SELECTION_LIST_1476403470311" selected="">Satisfactory</option>
+                    <option id="SELECTION_LIST_1476403470311_1" value="Degraded by motion/etc." name="SELECTION_LIST_1476403470311">Degraded by motion/etc.</option>
+                </select>
+            </p>
+        </section>
+        <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+            <header class="level1">
+                Clinical Information
+            </header>
+            <p title="">
+                <label for="TEXT_1476403470299">Clinical Indication:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403470299" name="" data-field-type="TEXT" data-field-completion-action="NONE">Trophoblastic disease evaluation</textarea>
+            </p>
+                  </section>
+        <section id="comparisons" class="level1" data-section-name="Comparison">
+            <header class="level1">
+                Comparison
+            </header>
+            <p title="">
+                <label for="comparisonsText">Comparison study:</label>
+                <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXT" data-field-completion-action="NONE">None available</textarea>
+            </p>
+        </section>
+        <section id="findings" class="level1" data-section-name="Findings">
+            <header class="level1">
+                Findings
+            </header>
+            <p title="">
+                <label for="SELECTION_LIST_1476403470314">Uterus:</label>
+                <select id="SELECTION_LIST_1476403470314" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Anteverted">
+                    <option id="SELECTION_LIST_1476403470314_0" value="Anteverted" name="SELECTION_LIST_1476403470314" selected="">Anteverted</option>
+                    <option id="SELECTION_LIST_1476403470314_1" value="Retroverted" name="SELECTION_LIST_1476403470314">Retroverted</option>
+                    <option id="SELECTION_LIST_1476403470314_2" value="Retroflexed" name="SELECTION_LIST_1476403470314">Retroflexed</option>
+                    <option id="SELECTION_LIST_1476403470314_3" value="Displaced to left" name="SELECTION_LIST_1476403470314">Displaced to left</option>
+                    <option id="SELECTION_LIST_1476403470314_4" value="Displaced to right" name="SELECTION_LIST_1476403470314">Displaced to right</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="findingsText">Size:</label>
+                <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXT" data-field-completion-action="NONE">Normal in size</textarea>
+            </p>
+            <p title="">
+                <label for="NUMBER_1476403470320">Measuring:</label>
+                <span>
+                    <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1476403470320" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                    cm
+                </span>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403470321">Tumour:</label>
+                <select id="SELECTION_LIST_1476403470321" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Visible">
+                    <option id="SELECTION_LIST_1476403470321_0" value="Visible" name="SELECTION_LIST_1476403470321" selected="">Visible</option>
+                    <option id="SELECTION_LIST_1476403470321_1" value="Not visible confined to the uterus/ extending outside the uterus limited to the genital organs (adnexa, vagina, broad ligament)." name="SELECTION_LIST_1476403470321">Not visible confined to the uterus/ extending outside the uterus limited to the genital organs (adnexa, vagina, broad ligament).</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="SELECTION_LIST_1476403470324">Lymph nodes:</label>
+                <select id="SELECTION_LIST_1476403470324" name="" data-field-type="SELECTION_LIST" data-field-completion-action="NONE" value="Normal in size">
+                    <option id="SELECTION_LIST_1476403470324_0" value="Normal in size" name="SELECTION_LIST_1476403470324" selected="">Normal in size</option>
+                    <option id="SELECTION_LIST_1476403470324_1" value="Enlarged; probably reactive" name="SELECTION_LIST_1476403470324">Enlarged; probably reactive</option>
+                </select>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403470327">Physiologic pelvic fluid:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403470327" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no physiologic pelvic fluid.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403470328">Ascites:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403470328" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no ascites.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403470329">Pulmonary lesions:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403470329" name="" data-field-type="TEXT" data-field-completion-action="NONE">There are no pulmonary lesions.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1476403470330">Distant mestastasis:</label>
+                <textarea rows="3" cols="100" id="TEXT_1476403470330" name="" data-field-type="TEXT" data-field-completion-action="NONE">There is no distant metastasis.</textarea>
+            </p>
+            <p title="">
+                <label for="TEXT_1506699365996">Other findings:</label>
+                <input type="text" id="TEXT_1506699365996" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+            </p>
+        </section>
+        <section id="impression" class="level1" data-section-name="Impression">
+            <header class="level1">
+                Impression
+            </header>
+            <p title="">
+                <label for="impressionText">Impression:</label>
+                <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXT" data-field-completion-action="NONE"></textarea>
+            </p>
+        </section>
+    </body>
+</html>

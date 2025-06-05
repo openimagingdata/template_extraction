@@ -1,0 +1,42 @@
+The original text template is provided below. The XML version has been translated. 
+
+PROCEDURE:[ Enhanced , Unenhanced ] MRI Pelvis
+
+CLINICAL INDICATION: [Prostate cancer]. 
+
+
+TECHNIQUE: 
+Using a phased array coil [with an endorectal coil] small field-of-view imaging of the prostate was performed using the following sequences; [axial T1-weighted, axial T2-weighted, sagittal T2-weighted,oblique coronal T2-weighted, diffusion-weighted]. 
+
+Axial T1-weighted images [with fat suppression] through the prostate were obtained before and [dynamically] after the intravenous administration of [  ] ml of [name of contrast agent].
+
+Using a large field-of-view, the entire pelvis to the level of the aortic bifurcation was imaged with the following sequences;(post-contrast fat suppressed T1-weighted, diffusion weighted, fat suppressed T2-weighted, STIR]
+
+COMPARISON: [date , None].
+
+
+FINDINGS:
+
+Image quality is [satisfactory/degraded by motion/etc].
+
+Prostate
+	Size: [# x # x # cm]
+	Volume [   cc]
+
+Central Gland: [ Normal, BPH , Ill-defined low signal on T2-weighted images, hemorrhage , early enhancement with washout, area of restricted diffusion]
+
+Peripheral Zone: [Normal, low signal on T2-weighted images, hemorrhage, early enhancement with washout, area of restricted diffusion] measuring [  mm] in the [right, left, center, bilateral] [apex, midgland, base]
+
+Seminal vesicles; [Normal, low signal on T2-weighted images, hemorrhage, abnormal enhancement] measuring [mm] in the [right, left, center, bilateral] 
+
+Extracapsular extension; [none, present] [right, left, central] [rectoprostatic angle, neurovascular bundle,prostatic capsule] 
+
+	Bladder: [normal, trabeluated] [ invasion]
+
+Lymph nodes: [Normal size][Enlarged]  [right,left] [internal iliac, external iliac, femoral, common iliac, para-aortic] 
+
+	Bones: [no aggressive lesions, metastasis, indeterminate finding]
+
+	Impression: 
+
+

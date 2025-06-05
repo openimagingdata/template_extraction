@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Neonatal Enema" name="dcterms.title"/>
+<meta content="Neonatal Enema template :: Authored by Meyer JS, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000107" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-16" name="dcterms.date"/>
+<meta content="Meyer JS, et al." name="dcterms.creator"/>
+<meta content="Society for Pediatric Radiology (SPR)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="colon" value="RID31011" scheme="RadLex">
+</term>
+<term>
+ <code meaning="fluoroscopy" value="RID10361" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T107_2">
+ <term>
+  <code meaning="procedure" value="RID1559" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T107_6">
+ <term>
+  <code meaning="contrast agent" value="RID11582" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T107_7">
+ <term>
+  <code meaning="fluoroscopy" value="RID10361" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T107_8">
+ <term>
+  <code meaning="radiation exposure measure" value="RID10544" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T107_10">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T107_21">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T107_28">
+ <term>
+  <code meaning="intestine" value="RID130" scheme="RadLex">
+ </term>
+ <term>
+  <code meaning="caliber" value="RID13440" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T107_32">
+ <term>
+  <code meaning="cecum" value="RID154" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T107_37">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Neonatal Enema</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Neonatal Enema</header>
+<p>
+<textarea id="T107_2" name="Procedure">The contrast enema was performed according to the guideline of the American College of Radiology. A soft rectal tube was inserted into the rectum and contrast was administered via gravity in a retrograde fashion. Last image hold images were saved to document anatomy and filling. Image of the contrast-filled colon and a post-evacuation image of the colon were obtained.
+ </textarea>
+</p>
+<p>
+<label for="T107_6">Contrast media:</label>
+<input type="text" id="T107_6" name="Contrast media" value=""/>
+</p>
+<p>
+<label for="T107_7">Fluoroscopy time:</label>
+<input type="number" id="T107_7" name="Fluoroscopy time" data-field-units="minutes" min="0" max=""/> <label for="T107_7">minutes</label>
+</p>
+<p>
+<label for="T107_8">Radiation exposure:</label>
+<input type="number" id="T107_8" name="Radiation exposure" data-field-units="dGy cm2" min="" max=""/> <label for="T107_8">dGy cm2</label>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T107_10" name="Clinical information"> </textarea>
+</p>
+<p>
+<label for="T107_11">Gestation:</label>
+<select id="T107_11" name="Gestation">
+<option id="T107_11_12" name="Premature" value="Premature">Premature</option>
+<option id="T107_11_13" name="Full-term" value="Full-term">Full-term</option>
+</select>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T107_21" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T107_28">Bowel caliber and position:</label>
+<input type="text" id="T107_28" name="Bowel caliber and position" value="Normal."/>
+</p>
+<p>
+<label for="T107_30">Recto-sigmoid relationship:</label>
+<input type="text" id="T107_30" name="Recto-sigmoid relationship" value="Normal."/>
+</p>
+<p>
+<label for="T107_32">Cecum:</label>
+<input type="text" id="T107_32" name="Cecum" value="Located in right lower quadrant. "/>
+</p>
+<p>
+<label for="T107_34">Post-evacuation image:</label>
+<input type="text" id="T107_34" name="Post-evacuation image" value="Normal."/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T107_37" name="Impression">Normal. No evidence of Hirschsprung disease, meconium ileus, meconium plug-small left colon syndrome, ileal atresia, or colonic stricture.</textarea>
+</p>
+</section>
+</body>
+</html>

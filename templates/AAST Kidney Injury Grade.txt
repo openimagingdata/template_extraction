@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="AAST Kidney Injury Grade" name="dcterms.title"/>
+<meta content="AAST Kidney Injury Grade report module" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000264" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2013-12-27" name="dcterms.date"/>
+<meta content="Tolat P, Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>false</top-level-flag>
+<status>ACTIVE</status>
+<coded_content>
+<entry ORIGTXT="T264_1">
+     <term>
+  <code meaning="kidney" value="RID205" scheme="RadLex">
+ </term>
+  </entry>
+<entry ORIGTXT="T264_1">
+     <term>
+  <code meaning="injury" value="RID4628" scheme="RadLex">
+ </term>
+  </entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>AAST Kidney Injury Grade</title>
+</head>
+<body>
+<section data-section-name="AAST Kidney Injury Grade">
+<header class="level1">+ AAST Kidney Injury Grade</header>
+<p>
+<select id="T264_1" name="AAST Kidney Injury Grade">
+<option id="T264_2" name="AAST Kidney Injury Grade" value="0">0.
+    No kidney injury. </option>
+<option id="T264_3" name="AAST Kidney Injury Grade" value="1">1.
+    Contusion (microscopic or gross hematuria, urologic studies normal), or Subcapsular hematoma (nonexpanding without parenchymal laceration). </option>
+<option id="T264_4" name="AAST Kidney Injury Grade" value="2">2.
+    Hematoma (nonexpanding perirenal hematoma confined to renal retroperitoneum), Laceration (&lt;1.0 cm parenchymal depth of renal cortex without urinary extravasation), or Multiple "Grade 1" injuries. </option>
+<option id="T264_5" name="AAST Kidney Injury Grade" value="3">3.
+    Laceration (&lt;1.0 cm parenchymal depth of renal cortex without collecting system rupture or urinary extravasation), or Multiple "Grade 2" injuries. </option>
+<option id="T264_6" name="AAST Kidney Injury Grade" value="4">4.
+    Parenchymal laceration (extending through renal cortex, medulla, and collecting system), or Main renal artery or vein injury with contained hemorrhage. </option>
+<option id="T264_7" name="AAST Kidney Injury Grade" value="5">5.
+    Completely shattered kidney, or Avulsion of renal hilum which devascularizes kidney. </option>
+</select>
+</p>
+</section>
+</body>
+</html>

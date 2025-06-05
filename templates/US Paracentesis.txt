@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8"/>
+		<meta content="US Paracentesis" name="dcterms.title"/>
+		<meta content="US Paracentesis template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+		<meta content="http://www.radreport.org/template/0000276" name="dcterms.identifier"/>
+		<meta content="en" name="dcterms.language"/>
+		<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+		<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+		<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+		<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+		<meta content="2013-12-10" name="dcterms.date"/>
+		<meta content="Tolat P" name="dcterms.creator"/>
+		<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+		<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+        <link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+		<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+        <script type="text/xml">
+			<!--
+			<template_attributes>
+			<top-level-flag>true</top-level-flag>
+			<status>ACTIVE</status>
+			<coded_content>
+</coded_content>
+			</template_attributes>
+			-->
+        </script>
+        <title>US Paracentesis</title>
+    </head>
+    <body>
+        <section data-section-name="Procedure">
+            <header class="level1">Ultrasound-guided paracentesis</header>
+        </section>
+
+        <section data-section-name="Clinical information">
+            <header class="level1">Clinical information</header>
+            <p>
+                <textarea id="T276_1" name="Clinical information">Ascites.</textarea>
+            </p>
+        </section>
+        <section data-section-name="Comparison">
+            <header class="level1">Comparison</header>
+            <p>
+                <textarea id="T276_2" name="Comparison">None.</textarea>
+            </p>
+        </section>
+
+        <section data-section-name="Findings">
+            <header class="level1">Procedure</header>
+
+            <section data-section-name="Informed consent">
+                <header class="level2">Informed consent</header>
+                <p>
+                    <select id="T276_3" name="Consent">
+                        <option id="T276_4" name="Consent yes" value="yes" selected>The risks, benefits, and alternatives of the procedure were discussed with the patient. Verbal and written consent was obtained. </option>
+                        <option id="T276_5" name="Consent POA" value="POA">The risks, benefits, and alternatives of the procedure were discussed with the patient's Power of Attorney. Verbal and written consent was obtained.</option>
+                        <option id="T276_6" name="Consent no" value="no">Consent was not obtained.</option>
+                    </select>
+                </p>
+            </section>
+
+            <section data-section-name="Time-out">
+                <header class="level2">Time-out</header>
+                <p>
+                    <select id="T276_7" name="Time-Out">
+                        <option id="T276_8" name="Time-Out yes" value="yes" selected>Time-out was performed to confirm the correct patient, procedure, and site. </option>
+                        <option id="T276_9" name="Time-Out no" value="no">Not performed. </option>
+                    </select>
+                </p>
+            </section>
+
+            <section data-section-name="Preparation">
+                <header class="level2">Preparation</header>
+                <p>
+                    <textarea id="T276_10" name="Preparation">A suitable skin site was identified. The patient was prepped and draped in usual sterile fashion. Lidocaine 1% was used for local anaesthesia. </textarea>
+                </p>
+            </section>
+
+            <section data-section-name="Catheter">
+                <header class="level2">Catheter</header>
+                <p>
+                    <input type="text" id="T276_11" name="Catheter" value="4 French One-Step catheter." />
+                </p>
+            </section>
+
+            <section data-section-name="Site">
+                <header class="level2">Site</header>
+                <p>
+                    <input type="text" id="T276_12" name="Site" value="Right lower quadrant." />
+                </p>
+            </section>
+
+            <section data-section-name="Fluid">
+                <header class="level2">Fluid</header>
+                <p>
+                    <label for="T276_13">Volume:</label>
+                    <input type="number" id="T276_13" name="Volume" value="" /> <label for="T276_13">ml.</label> </p>
+                <p>
+                    <label>Color:</label>
+                    <input type="text" id="T276_14" name="Color" value="" />
+                </p>
+                <p>
+                    <label>Disposition:</label>
+                    <select id="T276_15" name="Disposition">
+                        <option id="T276_16" name="discarded" value="discarded">Discarded safely.</option>
+                        <option id="T276_17" name="labs" value="labs">Sent to the laboratory for analysis.
+                        </option>
+                    </select>
+                </p>
+            </section>
+
+            <section data-section-name="Complications">
+                <header class="level2">Complications</header>
+                <p>
+                    <input type="text" id="T276_18" name="Complications" value="None." />
+                </p>
+            </section>
+
+            <section data-section-name="Patient disposition">
+                <header class="level2">Patient disposition</header>
+                <p>
+                    <input type="text" id="T276_19" name="Patient" value="Discharged from the department in stable condition." />
+                </p>
+            </section>
+        </section>
+
+        <section data-section-name="Impression">
+            <header class="level1">Impression</header>
+            <p>
+                <textarea id="T276_20" name="Impression">Ultrasound-guided paracentesis.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

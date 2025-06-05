@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <title>MRI Pelvis - Cervical Cancer</title>
+         <meta charset="UTF-8" />
+         <meta name="dcterms.identifier" content="aeb373b4-f0e3-4d4b-8ee5-01a5e09ae42d" />
+         <meta name="dcterms.title" content="MRI Pelvis - Cervical Cancer" />
+         <meta name="dcterms.description" content="" />
+         <meta name="dcterms.type" content="IMAGE_REPORT_TEMPLATE" />
+         <meta name="dcterms.language" content="en" />
+         <meta name="dcterms.publisher" content="" />
+         <meta name="dcterms.rights" content="May be used freely, subject to license agreement" />
+         <meta name="dcterms.license" content="http://www.radreport.org/license.pdf" />
+         <meta name="dcterms.date" content="2020-06-02" />
+         <meta name="dcterms.creator" content="Miriam Salib" />
+         <script type="text/xml">
+             <template_attributes>
+                 <coded_content>
+                     <coding_schemes>
+                         <coding_scheme name="RADLEX" designator="2.16.840.1.113883.6.256"></coding_scheme>
+                         <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1"></coding_scheme>
+                     </coding_schemes>
+                     <entry origtxt="NUMBER_1587740425486">
+                         <term>
+                             <code meaning="right ovary" value="http://radlex.org/RID/RID32829" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="NUMBER_1587740425487">
+                         <term>
+                             <code meaning="right ovary" value="http://radlex.org/RID/RID32829" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="findings">
+                         <term>
+                             <code meaning="Procedure Findings" value="59776-5" scheme="LOINC"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="NUMBER_1587740425488">
+                         <term>
+                             <code meaning="right ovary" value="http://radlex.org/RID/RID32829" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054785_0">
+                         <term>
+                             <code meaning="unknown" value="http://radlex.org/RID/RID5655" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054785_1">
+                         <term>
+                             <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054785_2">
+                         <term>
+                             <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="NUMBER_1587048054839">
+                         <term>
+                             <code meaning="endometrium" value="http://radlex.org/RID/RID30958" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="NUMBER_1587048054836">
+                         <term>
+                             <code meaning="uterus" value="http://radlex.org/RID/RID302" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054799_0">
+                         <term>
+                             <code meaning="unknown" value="http://radlex.org/RID/RID5655" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054799_1">
+                         <term>
+                             <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054799_2">
+                         <term>
+                             <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="clinicalInformationText">
+                         <term>
+                             <code meaning="indication" value="http://radlex.org/RID/RID49442" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054794">
+                         <term>
+                             <code meaning="vaginal" value="http://radlex.org/RID/RID11200" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054794_0">
+                         <term>
+                             <code meaning="unknown" value="http://radlex.org/RID/RID5655" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054794_1">
+                         <term>
+                             <code meaning="none" value="http://radlex.org/RID/RID28454" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054794_2">
+                         <term>
+                             <code meaning="vagina" value="http://radlex.org/RID/RID325" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054794_3">
+                         <term>
+                             <code meaning="vagina" value="http://radlex.org/RID/RID325" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425495_0">
+                         <term>
+                             <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425495_1">
+                         <term>
+                             <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="TEXT_1587048054828">
+                         <term>
+                             <code meaning="lymph node of pelvis" value="http://radlex.org/RID/RID32116" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="NUMBER_1587048054829">
+                         <term>
+                             <code meaning="lymph node of pelvis" value="http://radlex.org/RID/RID32116" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="procedureInformation">
+                         <term>
+                             <code meaning="Current Imaging Procedure Description" value="55111-9" scheme="LOINC"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="comparisons">
+                         <term>
+                             <code meaning="Radiology Comparison Study" value="18834-2" scheme="LOINC"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="impression">
+                         <term>
+                             <code meaning="Impressions" value="19005-8" scheme="LOINC"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="procedureInformationText">
+                         <term>
+                             <code meaning="imaging procedure" value="http://radlex.org/RID/RID13060" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054809">
+                         <term>
+                             <code meaning="lymph node of pelvis" value="http://radlex.org/RID/RID32116" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054809_0">
+                         <term>
+                             <code meaning="none" value="http://radlex.org/RID/RID28454" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054809_1">
+                         <term>
+                             <code meaning="few" value="http://radlex.org/RID/RID5763" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054846">
+                         <term>
+                             <code meaning="cervical cancer" value="http://radlex.org/RID/RID45683" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054846_0">
+                         <term>
+                             <code meaning="unknown" value="http://radlex.org/RID/RID5655" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054846_1">
+                         <term>
+                             <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054846_2">
+                         <term>
+                             <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054805_0">
+                         <term>
+                             <code meaning="none" value="http://radlex.org/RID/RID28454" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054805_1">
+                         <term>
+                             <code meaning="pelvic wall" value="http://radlex.org/RID/RID30760" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054805_2">
+                         <term>
+                             <code meaning="pelvic wall" value="http://radlex.org/RID/RID30760" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054805_3">
+                         <term>
+                             <code meaning="right ureter" value="http://radlex.org/RID/RID30844" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054805_4">
+                         <term>
+                             <code meaning="left ureter" value="http://radlex.org/RID/RID30845" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054805_5">
+                         <term>
+                             <code meaning="urinary bladder" value="http://radlex.org/RID/RID237" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587048054805_6">
+                         <term>
+                             <code meaning="rectum" value="http://radlex.org/RID/RID163" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="NUMBER_1587740425468">
+                         <term>
+                             <code meaning="uterus" value="http://radlex.org/RID/RID302" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="NUMBER_1587740425469">
+                         <term>
+                             <code meaning="uterus" value="http://radlex.org/RID/RID302" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="TEXT_1587740425485">
+                         <term>
+                             <code meaning="right ovary" value="http://radlex.org/RID/RID32829" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="TEXT_1587048054837">
+                         <term>
+                             <code meaning="uterus" value="http://radlex.org/RID/RID302" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425482">
+                         <term>
+                             <code meaning="right ovary" value="http://radlex.org/RID/RID32829" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425482_0">
+                         <term>
+                             <code meaning="normal" value="http://radlex.org/RID/RID13173" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425482_1">
+                         <term>
+                             <code meaning="abnormal" value="http://radlex.org/RID/RID28453" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425489_0">
+                         <term>
+                             <code meaning="present" value="http://radlex.org/RID/RID28472" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425489_1">
+                         <term>
+                             <code meaning="absent" value="http://radlex.org/RID/RID28473" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="NUMBER_1587740425477">
+                         <term>
+                             <code meaning="left ovary" value="http://radlex.org/RID/RID32830" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="NUMBER_1587740425478">
+                         <term>
+                             <code meaning="left ovary" value="http://radlex.org/RID/RID32830" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425473_0">
+                         <term>
+                             <code meaning="normal" value="http://radlex.org/RID/RID13173" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425473_1">
+                         <term>
+                             <code meaning="abnormal" value="http://radlex.org/RID/RID28453" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="TEXT_1587048054844">
+                         <term>
+                             <code meaning="bone of pelvis" value="http://radlex.org/RID/RID2508" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425470">
+                         <term>
+                             <code meaning="left ovary" value="http://radlex.org/RID/RID32830" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425470_1">
+                         <term>
+                             <code meaning="not seen" value="http://radlex.org/RID/RID38584" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="TEXT_1587048054840">
+                         <term>
+                             <code meaning="endometrium" value="http://radlex.org/RID/RID30958" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="TEXT_1587048054841">
+                         <term>
+                             <code meaning="ovary" value="http://radlex.org/RID/RID290" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="clinicalInformation">
+                         <term>
+                             <code meaning="Clinical Information" value="55752-0" scheme="LOINC"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="TEXT_1587048054842">
+                         <term>
+                             <code meaning="fluid" value="http://radlex.org/RID/RID1547" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425479">
+                         <term>
+                             <code meaning="right ovary" value="http://radlex.org/RID/RID32829" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                     <entry origtxt="RADIO_1587740425479_1">
+                         <term>
+                             <code meaning="not seen" value="http://radlex.org/RID/RID38584" scheme="RADLEX"></code>
+                         </term>
+                     </entry>
+                 </coded_content>
+             </template_attributes>
+         </script>
+     </head>
+     <body>
+         <section id="procedureInformation" class="level1" data-section-name="Procedure Information">
+             <header class="level1">
+                 Procedure Information
+             </header>
+             <p title="">
+                 <label for="procedureInformationText">Exam</label>
+                 <textarea rows="3" cols="100" id="procedureInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">MRI pelvis for cervical cancer staging as per 2018 FIGO classification.</textarea>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054784">Technique</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054784" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE">T1 and T2 -weighted images in multiple planes in addition to axial diffusion-weighted images were obtained through the pelvis.</textarea>
+             </p>
+         </section>
+         <section id="clinicalInformation" class="level1" data-section-name="Clinical Information">
+             <header class="level1">
+                 Clinical Information
+             </header>
+             <p title="">
+                 <label for="clinicalInformationText">Indication</label>
+                 <textarea rows="3" cols="100" id="clinicalInformationText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+         </section>
+         <section id="comparisons" class="level1" data-section-name="Comparison">
+             <header class="level1">
+                 Comparison
+             </header>
+             <p title="">
+                 <label for="comparisonsText"></label>
+                 <textarea rows="3" cols="100" id="comparisonsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+         </section>
+         <section id="findings" class="level1" data-section-name="Findings">
+             <header class="level1">
+                 Findings
+             </header>
+             <p title="">
+                 <label for="RADIO_1587048054785">Presence of tumor</label>
+                 <span id="RADIO_1587048054785" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587048054785_0" type="radio" name="RADIO_1587048054785" value="Unknown" checked="">Unknown</input>
+                     <br />
+                     <input id="RADIO_1587048054785_1" type="radio" name="RADIO_1587048054785" value="Absent">Absent</input>
+                     <br />
+                     <input id="RADIO_1587048054785_2" type="radio" name="RADIO_1587048054785" value="Present">Present</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="findingsText">Tumor site</label>
+                 <textarea rows="3" cols="100" id="findingsText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425442">Tumor height</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425442" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425443">Tumor length</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425443" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587048054789">Tumor width</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587048054789" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587048054790">Tumor size classification</label>
+                 <span id="RADIO_1587048054790" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587048054790_0" type="radio" name="RADIO_1587048054790" value="Less than 2 cm maximum diameter" checked="">Less than 2 cm maximum diameter</input>
+                     <br />
+                     <input id="RADIO_1587048054790_1" type="radio" name="RADIO_1587048054790" value="Greater than or equal to 2 cm and less than 4 cm maximum diameter">Greater than or equal to 2 cm and less than 4 cm maximum diameter</input>
+                     <br />
+                     <input id="RADIO_1587048054790_2" type="radio" name="RADIO_1587048054790" value="Greater than or equal to 4 cm maximum diameter">Greater than or equal to 4 cm maximum diameter</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587048054799">Uterine invasion</label>
+                 <span id="RADIO_1587048054799" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587048054799_0" type="radio" name="RADIO_1587048054799" value="Unknown" checked="">Unknown</input>
+                     <br />
+                     <input id="RADIO_1587048054799_1" type="radio" name="RADIO_1587048054799" value="Absent">Absent</input>
+                     <br />
+                     <input id="RADIO_1587048054799_2" type="radio" name="RADIO_1587048054799" value="Present">Present</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587048054794">Vaginal invasion</label>
+                 <span id="RADIO_1587048054794" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587048054794_0" type="radio" name="RADIO_1587048054794" value="Unknown" checked="">Unknown</input>
+                     <br />
+                     <input id="RADIO_1587048054794_1" type="radio" name="RADIO_1587048054794" value="None">None</input>
+                     <br />
+                     <input id="RADIO_1587048054794_2" type="radio" name="RADIO_1587048054794" value="Upper two thirds of vagina">Upper two thirds of vagina</input>
+                     <br />
+                     <input id="RADIO_1587048054794_3" type="radio" name="RADIO_1587048054794" value="Lower one third of vagina">Lower one third of vagina</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587048054802">Parametrial invasion</label>
+                 <span id="RADIO_1587048054802" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587048054802_0" type="radio" name="RADIO_1587048054802" value="Unknown" checked="">Unknown</input>
+                     <br />
+                     <input id="RADIO_1587048054802_1" type="radio" name="RADIO_1587048054802" value="Present">Present</input>
+                     <br />
+                     <input id="RADIO_1587048054802_2" type="radio" name="RADIO_1587048054802" value="Absent">Absent</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587048054805">Tumor extension</label>
+                 <span id="RADIO_1587048054805" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587048054805_0" type="radio" name="RADIO_1587048054805" value="None" checked="">None</input>
+                     <br />
+                     <input id="RADIO_1587048054805_1" type="radio" name="RADIO_1587048054805" value="Right pelvic sidewall">Right pelvic sidewall</input>
+                     <br />
+                     <input id="RADIO_1587048054805_2" type="radio" name="RADIO_1587048054805" value="Left pelvic sidewall">Left pelvic sidewall</input>
+                     <br />
+                     <input id="RADIO_1587048054805_3" type="radio" name="RADIO_1587048054805" value="Right ureter">Right ureter</input>
+                     <br />
+                     <input id="RADIO_1587048054805_4" type="radio" name="RADIO_1587048054805" value="Left ureter">Left ureter</input>
+                     <br />
+                     <input id="RADIO_1587048054805_5" type="radio" name="RADIO_1587048054805" value="Bladder">Bladder</input>
+                     <br />
+                     <input id="RADIO_1587048054805_6" type="radio" name="RADIO_1587048054805" value="Rectum">Rectum</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054808">Additional tumor comment</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054808" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587048054809">Pelvic lymph node</label>
+                 <span id="RADIO_1587048054809" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587048054809_0" type="radio" name="RADIO_1587048054809" value="None" checked="">None</input>
+                     <br />
+                     <input id="RADIO_1587048054809_1" type="radio" name="RADIO_1587048054809" value="Few">Few</input>
+                     <br />
+                     <input id="RADIO_1587048054809_2" type="radio" name="RADIO_1587048054809" value="Many">Many</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054828">Pelvic lymph node location</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054828" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587048054829">Largest pelvic lymph node size</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587048054829" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587048054830">Para-aortic lymph node</label>
+                 <span id="RADIO_1587048054830" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587048054830_0" type="radio" name="RADIO_1587048054830" value="None" checked="">None</input>
+                     <br />
+                     <input id="RADIO_1587048054830_1" type="radio" name="RADIO_1587048054830" value="Few">Few</input>
+                     <br />
+                     <input id="RADIO_1587048054830_2" type="radio" name="RADIO_1587048054830" value="Many">Many</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054834">Para-aortic lymph node location</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054834" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587048054835">Largest para-aortic lymph node size</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587048054835" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425468">Uterus height</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1587740425468" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     cm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587048054836">Uterus length</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1587048054836" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     cm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425469">Uterus width</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="cm" id="NUMBER_1587740425469" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     cm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054837">Uterus position</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054837" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054838">Uterus benign pathology</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054838" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587048054839">Endometrium maximum thickness</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587048054839" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054840">Other endometrial finding</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054840" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587740425470">Left ovary visible</label>
+                 <span id="RADIO_1587740425470" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587740425470_0" type="radio" name="RADIO_1587740425470" value="Seen" checked="">Seen</input>
+                     <br />
+                     <input id="RADIO_1587740425470_1" type="radio" name="RADIO_1587740425470" value="Not seen">Not seen</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587740425473">Left ovary appearance</label>
+                 <span id="RADIO_1587740425473" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587740425473_0" type="radio" name="RADIO_1587740425473" value="Normal in appearance" checked="">Normal in appearance</input>
+                     <br />
+                     <input id="RADIO_1587740425473_1" type="radio" name="RADIO_1587740425473" value="Abnormal">Abnormal</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054841">Left ovary abnormalty description</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054841" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425476">Left ovary height</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425476" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425477">Left ovary length</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425477" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425478">Left ovary width</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425478" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587740425479">Right ovary visible</label>
+                 <span id="RADIO_1587740425479" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587740425479_0" type="radio" name="RADIO_1587740425479" value="Seen" checked="">Seen</input>
+                     <br />
+                     <input id="RADIO_1587740425479_1" type="radio" name="RADIO_1587740425479" value="Not seen">Not seen</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587740425482">Right ovary appearance</label>
+                 <span id="RADIO_1587740425482" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587740425482_0" type="radio" name="RADIO_1587740425482" value="Normal in appearance" checked="">Normal in appearance</input>
+                     <br />
+                     <input id="RADIO_1587740425482_1" type="radio" name="RADIO_1587740425482" value="Abnormal">Abnormal</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587740425485">Right ovary abnormalty description</label>
+                 <input type="text" id="TEXT_1587740425485" name="" data-field-type="TEXT" data-field-completion-action="NONE" value="" />
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425486">Right ovary height</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425486" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425487">Right ovary length</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425487" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425488">Right ovary width</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425488" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054842">Free fluid</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054842" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587740425495">Pelvic peritoneal disease</label>
+                 <span id="RADIO_1587740425495" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587740425495_0" type="radio" name="RADIO_1587740425495" value="present" checked="">present</input>
+                     <br />
+                     <input id="RADIO_1587740425495_1" type="radio" name="RADIO_1587740425495" value="absent">absent</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="RADIO_1587740425489">Suspicious bone lesion</label>
+                 <span id="RADIO_1587740425489" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587740425489_0" type="radio" name="RADIO_1587740425489" value="present" checked="">present</input>
+                     <br />
+                     <input id="RADIO_1587740425489_1" type="radio" name="RADIO_1587740425489" value="absent">absent</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054844">Suspicious bone lesion location</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054844" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425492">Suspicious bone lesion height</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425492" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425493">Suspicious bone lesion length</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425493" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="NUMBER_1587740425494">Suspicious bone lesion width</label>
+                 <span>
+                     <input type="number" step="1.0" data-field-units="mm" id="NUMBER_1587740425494" name="" data-field-type="NUMBER" data-field-completion-action="NONE" value="" />
+                     mm
+                 </span>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054845">Additional comment</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054845" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+         </section>
+         <section id="impression" class="level1" data-section-name="Impression">
+             <header class="level1">
+                 Impression
+             </header>
+             <p title="">
+                 <label for="RADIO_1587048054846">Cervical cancer detection</label>
+                 <span id="RADIO_1587048054846" name="" data-field-type="RADIO" data-field-completion-action="NONE" value="">
+                     <br />
+                     <input id="RADIO_1587048054846_0" type="radio" name="RADIO_1587048054846" value="Unknown" checked="">Unknown</input>
+                     <br />
+                     <input id="RADIO_1587048054846_1" type="radio" name="RADIO_1587048054846" value="Absent">Absent</input>
+                     <br />
+                     <input id="RADIO_1587048054846_2" type="radio" name="RADIO_1587048054846" value="Present">Present</input>
+                 </span>
+             </p>
+             <p title="">
+                 <label for="impressionText">Additional information</label>
+                 <textarea rows="3" cols="100" id="impressionText" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+             <p title="">
+                 <label for="TEXT_1587048054850">Provisional International Federation of Gynecology and Obstetrics (FIGO) 2018 Stage</label>
+                 <textarea rows="3" cols="100" id="TEXT_1587048054850" name="" data-field-type="TEXTAREA" data-field-completion-action="NONE"></textarea>
+             </p>
+         </section>
+     </body>
+ </html>
+ 

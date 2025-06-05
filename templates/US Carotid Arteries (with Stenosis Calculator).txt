@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8"/>
+	<meta content="US Carotid" name="dcterms.title"/>
+	<meta content="Carotid Artery Ultrasound template with Javascript :: Authored by Kahn CE Jr" name="dcterms.description"/>
+	<meta content="http://www.radreport.org/template/0000283" name="dcterms.identifier"/>
+	<meta content="en" name="dcterms.language"/>
+	<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+	<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+	<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+	<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+	<meta content="2014-01-17" name="dcterms.date"/>
+	<meta content="Kahn CE Jr" name="dcterms.creator"/>
+	
+	<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+	<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+    <title>US Carotid</title>
+    <link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+	<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+	<script type="text/xml">
+<!--
+<template_attributes>
+	<top-level-flag>true</top-level-flag>
+	<status>ACTIVE</status>
+	<coded_content>
+</coded_content>
+	</template_attributes>
+-->
+</script>	
+  </head>
+  <body>
+	<section data-section-name="Procedure">
+		<header class="level1">Carotid Artery Ultrasound Examination</header>
+	</section>
+	<section data-section-name="Clinical information">
+		<header class="level1">Clinical information</header>
+		<p>
+			<textarea id="T283_5" name="Clinical information"> </textarea>
+		</p>
+	</section>
+	<section data-section-name="Comparison">
+		<header class="level1">Comparison</header>
+		<p>
+			<textarea id="T283_7" name="Comparison">None. </textarea>
+		</p>
+	</section>
+    <section id="T008" data-section-name="Findings">
+    <header class="level1">Findings</header>
+		<section id="T009" class="level2" data-section-name="Right Carotid Artery System">
+        <header class="level2">RIGHT SIDE</header>
+				<table>
+					<tr>
+						<th></th>
+						<th><label>Peak systolic velocity</label></th>
+						<th><label>End diastolic velocity</label></th>
+						<th>&nbsp;</th>
+					</tr>
+					<tr>
+						<td>
+							<label for="rcca">RCCA - Common carotid artery</label>
+						</td>
+						<td>
+							<input id="rcca_psv" style="width:5em;" name="Right CCA peak systolic" data-field-type="NUMBER" type="number" title="Right common systolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<input id="rcca_edv" style="width:5em;" name="Right CCA end diastolic" data-field-type="NUMBER" type="number" title="Right common diastolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<select id="rcca_plaque" name="Right CCA plaque" title="Right common plaque" onchange="impression();"> 
+								<option id="T013-0rcca" name="No plaque" value="0">No plaque</option>
+								<option id="T013-1rcca" name="Wall thickening" value="1">Wall thickening</option>
+								<option id="T013-2rcca" name="less than 50% diameter narrowing" value="2">&lt; 50% diameter narrowing</option>
+								<option id="T013-3rcca" name="greater than 50% diameter narrowing" value="3">&gt; 50% diameter narrowing</option>
+								<option id="T013-4rcca" name="Near occlusion" value="near">Near occlusion</option>
+								<option id="T013-5rcca" name="Total occlusion" value="total">Total occlusion</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="rica">RICA - Internal carotid artery</label>
+						</td>
+						<td>
+							<input id="rica_psv" style="width:5em;" name="Right ICA peak systolic" data-field-type="NUMBER" type="number" title="Right internal systolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<input id="rica_edv" style="width:5em;" name="Right ICA end diastolic" data-field-type="NUMBER" type="number" title="Right internal diastolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<select id="rica_plaque" name="Right ICA plaque" title="Right ICA plaque" onchange="impression();"> 
+								<option id="T013-0rica" name="No plaque" value="0">No plaque</option>
+								<option id="T013-1rica" name="Wall thickening" value="1">Wall thickening</option>
+								<option id="T013-2rica" name="less than 50% diameter narrowing" value="2">&lt; 50% diameter narrowing</option>
+								<option id="T013-3rica" name="greater than 50% diameter narrowing" value="3">&gt; 50% diameter narrowing</option>
+								<option id="T013-4rica" name="Near occlusion" value="near">Near occlusion</option>
+								<option id="T013-5rica" name="Total occlusion" value="total">Total occlusion</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="reca">RECA - External carotid artery</label>
+						</td>
+						<td>
+							<input id="reca_psv" style="width:5em;" name="Right ECA peak systolic" data-field-type="NUMBER" type="number" title="Right external systolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<input id="reca_edv" style="width:5em;" name="Right ECA end diastolic" data-field-type="NUMBER" type="number" title="Right external diastolic" onchange="impression();" /> <label>cm/s</label>	
+						</td>
+						<td>
+							<select id="reca_plaque" name="Right ECA plaque" title="Right external plaque" onchange="impression();"> 
+								<option id="T013-0reca" name="No plaque" value="0">No plaque</option>
+								<option id="T013-1reca" name="Wall thickening" value="1">Wall thickening</option>
+								<option id="T013-2reca" name="less than 50% diameter narrowing" value="2">&lt; 50% diameter narrowing</option>
+								<option id="T013-3reca" name="greater than 50% diameter narrowing" value="3">&gt; 50% diameter narrowing</option>
+								<option id="T013-4reca" name="Near occlusion" value="near">Near occlusion</option>
+								<option id="T013-5reca" name="Total occlusion" value="total">Total occlusion</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="rva">RVA - Vertebral artery</label>
+						</td>
+						<td>
+							<input id="rva_psv" style="width:5em;" name="Right vertebral systolic" data-field-type="NUMBER" type="number" title="Right vertebral systolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<input id="rva_edv" style="width:5em;" name="Right vertebral end diastolic" data-field-type="NUMBER" type="number" title="Right vertebral diastolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<select id="rva_direction" name="Right vertebral direction" title="Right vertebral direction" onchange="impression();"> 
+								<option id="T013-0r" name="Antegrade flow" value="Antegrade flow">Antegrade flow</option>
+								<option id="T013-1r" name="No flow" value="No flow">No flow</option>
+								<option id="T013-2r" name="Retrograde flow" value="Retrograde flow">Retrograde flow</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+		</section>
+		<section id="T010" class="level2" data-section-name="Left Carotid Artery System" >
+        <header class="level2">LEFT SIDE</header>
+
+				<table>
+					<tr>
+						<th></th>
+						<th><label>Peak systolic velocity</label></th>
+						<th><label>End diastolic velocity</label></th>
+						<th>&nbsp;</th>
+					</tr>					
+					<tr>
+						<td>
+							<label for="lcca">LCCA - Common carotid artery</label>
+						</td>
+						<td>
+							<input id="lcca_psv" style="width:5em;" name="Left CCA peak systolic" data-field-type="NUMBER" type="number" title="Left common systolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<input id="lcca_edv" style="width:5em;" name="Left CCA end diastolic" data-field-type="NUMBER" type="number" title="Left common diastolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<select id="lcca_plaque" name="Left CCA plaque" title="Left common plaque" onchange="impression();"> 
+								<option id="T013-0lcca" name="No plaque" value="0">No plaque</option>
+								<option id="T013-1lcca" name="Wall thickening" value="1">Wall thickening</option>
+								<option id="T013-2lcca" name="less than 50% diameter narrowing" value="2">&lt; 50% diameter narrowing</option>
+								<option id="T013-3lcca" name="greater than 50% diameter narrowing" value="3">&gt; 50% diameter narrowing</option>
+								<option id="T013-4lcca" name="Near occlusion" value="near">Near occlusion</option>
+								<option id="T013-5lcca" name="Total occlusion" value="total">Total occlusion</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="lica">LICA - Internal carotid artery</label>
+						</td>
+						<td>
+							<input id="lica_psv" style="width:5em;" name="Right ICA peak systolic" data-field-type="NUMBER" type="number" title="Left internal systolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<input id="lica_edv" style="width:5em;" name="Left ICA end diastolic" data-field-type="NUMBER" type="number" title="Left internal diastolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<select id="lica_plaque" name="Left ICA plaque" title="Left ICA plaque" onchange="impression();"> 
+								<option id="T013-0lica" name="No plaque" value="0">No plaque</option>
+								<option id="T013-1lica" name="Wall thickening" value="1">Wall thickening</option>
+								<option id="T013-2lica" name="less than 50% diameter narrowing" value="2">&lt; 50% diameter narrowing</option>
+								<option id="T013-3lica" name="greater than 50% diameter narrowing" value="3">&gt; 50% diameter narrowing</option>
+								<option id="T013-4lica" name="Near occlusion" value="near">Near occlusion</option>
+								<option id="T013-5lica" name="Total occlusion" value="total">Total occlusion</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="leca">LECA - External carotid artery</label>
+						</td>
+						<td>
+							<input id="leca_psv" style="width:5em;" name="Left ECA peak systolic" data-field-type="NUMBER" type="number" title="Left external systolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<input id="leca_edv" style="width:5em;" name="Left ECA end diastolic" data-field-type="NUMBER" type="number" title="Left external diastolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<select id="leca_plaque" name="Left ECA plaque" title="Left external plaque" onchange="impression();"> 
+								<option id="T013-0leca" name="No plaque" value="0">No plaque</option>
+								<option id="T013-1leca" name="Wall thickening" value="1">Wall thickening</option>
+								<option id="T013-2leca" name="less than 50% diameter narrowing" value="2">&lt; 50% diameter narrowing</option>
+								<option id="T013-3leca" name="greater than 50% diameter narrowing" value="3">&gt; 50% diameter narrowing</option>
+								<option id="T013-4leca" name="Near occlusion" value="near">Near occlusion</option>
+								<option id="T013-5leca" name="Total occlusion" value="total">Total occlusion</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="lva">LVA - Vertebral artery</label>
+						</td>
+						<td>
+							<input id="lva_psv" style="width:5em;" name="Left vertebral systolic" data-field-type="NUMBER" type="number" title="Left vertebral systolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<input id="lva_edv" style="width:5em;" name="Left vertebral end diastolic" data-field-type="NUMBER" type="number" title="Left vertebral diastolic" onchange="impression();" /> <label>cm/s</label>
+						</td>
+						<td>
+							<select id="lva_direction" name="Left vertebral direction" title="Left vertebral direction" onchange="impression();"> 
+								<option id="T013-0l" name="Antegrade flow" value="Antegrade flow">Antegrade flow</option>
+								<option id="T013-1l" name="No flow" value="No flow">No flow</option>
+								<option id="T013-2l" name="Retrograde flow" value="Retrograde flow">Retrograde flow</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+
+		</section>
+				
+		<p>Society of Radiologists in Ultrasound (SRU) consensus statement (Radiology 2003; 229:340-346.  DOI 10.1148/radiol.2292030516) was used to estimate internal carotid artery stenosis.</p>
+    </section>
+
+	<section id="T283_301" data-section-name="Impression">
+		<header class="level1">Impression:</header>
+			<p>
+				<label for="T283__302">Right internal carotid artery:</label>
+				<select id="T283_302" name="RICA_stenosis">
+					<option id="T283_302.1" name="No stenosis" value="0">No stenosis</option>
+					<option id="T283_302.2" name="less than 50% stenosis" value="1">&lt; 50% stenosis</option>
+					<option id="T283_302.3" name="50% to 69% stenosis" value="2">50% to 69% stenosis</option>
+					<option id="T283_302.4" name="greater than 70% stenosis to near occlusion" value="3">&gt; 70% stenosis to near occlusion</option>
+					<option id="T283_302.5" name="Near occlusion" value="near">Near occlusion</option>
+					<option id="T283_302.6" name="Total occlusion" value="total">Total occlusion</option>
+				</select>
+
+				<label for="T283_303">Left internal carotid artery:</label>
+				<select id="T283_303" name="LICA_stenosis">
+					<option id="T283_303.1" name="No stenosis" value="0">No stenosis</option>
+					<option id="T283_303.2" name="less than 50% stenosis" value="1">&lt; 50% stenosis</option>
+					<option id="T283_303.3" name="50% to 69% stenosis" value="2">50% to 69% stenosis</option>
+					<option id="T283_303.4" name="greater than 70% stenosis to near occlusion" value="3">&gt; 70% stenosis to near occlusion</option>
+					<option id="T283_303.5" name="Near occlusion" value="near">Near occlusion</option>
+					<option id="T283_303.6" name="Total occlusion" value="total">Total occlusion</option>
+				</select>
+
+				<label for="Vertebrals arteries">Vertebral arteries:</label>
+				<input id="T283_304" name="Vertebral arteries" data-field-type="TEXT" type="text" title="Vertebrals" value="Antegrade flow with normal waveforms." /> 
+
+
+				<textarea id="T283_400" name="impression-text" rows="2" cols="50" title="Impression text" ></textarea>
+			</p>
+	</section>
+    <script type="text/javascript">
+    function impression() {
+			
+        var ris = document.getElementById('rica_psv').value;  // R Internal Systolic
+		var ris = Number(ris);
+		var rid = document.getElementById('rica_edv').value;	//            Diastolic
+		var rid = Number(rid);
+		var rcs = document.getElementById('rcca_psv').value;	//   Common   Systolic
+		var rcs = Number(rcs);
+		var rcd = document.getElementById('rcca_edv').value;	//            Diastolic 
+		var rcd = Number(rcd);
+		var rip = document.getElementById('rica_plaque').value;				// RICA plaque
+
+		//var rr  = Math.floor (10 * ris / rcs + 0.5) / 10;							// R ICA/CCA  Ratio
+				
+		// document.getElementById('imp').value = "RIGHT: " + ris + "/" + rid + " " + rip + " " + rr;
+		if (rip == "total")
+			document.getElementById('T283_302.6').selected = true;
+		else if (rip == "near")
+			document.getElementById('T283_302.5').selected = true;
+        else if (ris &lt; 125 && rip == "0") 
+			document.getElementById('T283_302.1').selected = true;
+		else if (ris < 125 && rip != "0") 
+			document.getElementById('T283_302.2').selected = true;
+		else if (ris >= 125 && ris <= 230) 
+			document.getElementById('T283_302.3').selected = true;
+		else if (ris >= 230)
+			document.getElementById('T283_302.4').selected = true;
+					
+		var lis = document.getElementById('lica_psv').value;  // L Internal Systolic
+		var lis = Number(lis);
+		var lid = document.getElementById('lica_edv').value;	//            Diastolic
+		var lid = Number(lid);
+		var lcs = document.getElementById('lcca_psv').value;	//   Common   Systolic
+		var lcs = Number(lcs);
+		var lcd = document.getElementById('lcca_edv').value;	//            Diastolic 
+		var lcd = Number(lcd);
+		var lip = document.getElementById('lica_plaque').value;				// LICA plaque
+		//var lr  = Math.floor (10 * lis / lcs + 0.5) / 10;							// L ICA/CCA  Ratio
+				
+		if (lip == "total")
+			document.getElementById('T283_303.6').selected = true;
+		else if (lip == "near")
+			document.getElementById('T283_303.5').selected = true;
+        else if (lis &lt; 125 && lip == "0") 
+			document.getElementById('T283_303.1').selected = true;
+		else if (lis < 125 && lip != "0") 
+			document.getElementById('T283_303.2').selected = true;
+		else if (lis >= 125 && lis <= 230) 
+			document.getElementById('T283_303.3').selected = true;
+		else if (lis >= 230)
+			document.getElementById('T283_303.4').selected = true;
+		
+		var rva_direction = document.getElementById("T013-0r").selected;
+		var lva_direction = document.getElementById("T013-0l").selected;
+		
+		if (rva_direction == true && lva_direction == true)
+			document.getElementById('T283_304').value = 'Antegrade flow bilaterally';
+		else
+			document.getElementById('T283_304').value = '';
+	}
+    </script>	
+  </body>
+</html>
