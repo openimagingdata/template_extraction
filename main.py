@@ -4,6 +4,8 @@ import pathlib
 from dotenv import load_dotenv
 import pydantic_ai
 
+TEMPLATES_DIR = pathlib.Path(__file__).parent / "templates"
+
 def main():
     load_dotenv()
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
