@@ -5,10 +5,8 @@ from dotenv import load_dotenv
 import pydantic_ai
 from pathlib import Path
 
-def read_in_txt(txtfile):
-    health_file = Path(txtfile) #fill in text file
-    contents =  health_file.read_txt()
-    return contents
+TEMPLATES_DIR = pathlib.Path(__file__).parent / "templates"
+
 def main():
     load_dotenv()
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
