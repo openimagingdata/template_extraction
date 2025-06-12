@@ -17,10 +17,6 @@ class ResponseModel(pydantic_ai.BaseModel):
     previous_info_exists: bool
     follow_up_required: bool
     impression: str = pydantic.Field(description="clinical report impression")
-
-
-    pass
-
 def main():
     load_dotenv()
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
