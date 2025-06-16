@@ -34,7 +34,7 @@ def main():
         system_prompt="""You are a helpful assistant to a radiologist. Answer the user's questions and do it in a structured response as indicated.""", #dont feed txt file here, just basic instructions
     )
 
-    with open(os.path.join(TEMPLATES_DIR, "AAST Kidney Injury Grade.txt"), 'r') as f:
+    with open(os.path.join(TEMPLATES_DIR, "AAST Liver Injury Grade.txt"), 'r') as f:
         txt_info = f.read()
         response = agent.run_sync(f"Extract relevant info from this text {txt_info}?")
     print(response.output)
